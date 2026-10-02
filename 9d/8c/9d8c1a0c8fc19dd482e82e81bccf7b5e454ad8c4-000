@@ -334,3 +334,99 @@
 >
 > ## My request: (2 October 2026, 16:14:29 +0200)
 > Faut que tu le relie intégralement à claude.md [$claude-md-global](/Users/zenray/.codex/skills/claude-md-global/SKILL.md) du coup maintenant [$zenray-assets-v2](/Users/zenray/.codex/skills/zenray-assets-v2/SKILL.md) car tout va devenir un assets pushé automatiquement. go le but c'est que je pense au moins possible à tout ce qui est relié et que ce soit une priorité ainsi quand on commence un projet on a directement le tmp qui va au bon endroit et les fichiers / feedback etc qui vont parfaitement se setup et se range et ce même en local bref plus tu penses à tout mieux c'est [$think-of-everything](/Users/zenray/.codex/skills/think-of-everything/SKILL.md) (2 October 2026, 16:14:29 +0200)
+
+## 2 October 2026, 16:20:53 +0200 : Log
+
+<!-- feedback-event:805c7f7f339ba8dbfddb73652841e68cffc714ed9191ad6ef6cc3ed7e366c790 (2 October 2026, 16:20:53 +0200) -->
+- Project: zenray-assets-v2; kind: log. (2 October 2026, 16:20:53 +0200)
+
+> Project initialized: ZenRay Assets V2. Workshop: /Users/zenray/.claude/tmp/tmp-zenray-assets-v2. (2 October 2026, 16:20:53 +0200)
+
+## 2 October 2026, 16:24:02 +0200 : Log
+
+<!-- feedback-event:56694f0d0b86402307e2ac50c91cf72fe2b18673258b6a22417b355eccb75232 (2 October 2026, 16:24:02 +0200) -->
+- Project: zenray-assets-v2; kind: log. (2 October 2026, 16:24:02 +0200)
+
+> 2 October 2026 : integration globale effective. CLAUDE.md porte la priorite 0 de demarrage Assets, routeur nouveau projet actif, 58437 octets sous 65536. BeginProject.mjs initialise TMP, Project.json, Project1.md, feedback canonique et instructions CLAUDE.md/AGENTS.md, conserve les sources et dependances, lie la session reelle et active la surveillance. Commande reelle executee deux fois sur zenray-assets-v2, meme date de creation et chemins, sessionBound=true, watched=true. 66 tests passent, dont premier demarrage, reprise, deux sessions concurrentes et refus du lien symbolique. GO pour les projets prepares ; archives initiales et portabilite de scenes restent ouvertes. (2 October 2026, 16:24:02 +0200)
+
+## 2 October 2026, 16:26:32 +0200 : Iteration
+
+<!-- feedback-event:f76ebe9da1ddafbdb2bf2d1cfbee551807817f0cc344a47408c264034c2dcd60 (2 October 2026, 16:26:32 +0200) -->
+- Project: zenray-assets-v2; kind: iteration. (2 October 2026, 16:26:32 +0200)
+- Source: /Users/zenray/.codex/sessions/2026/10/02/rollout-2026-10-02T12-41-04-01a0fc34-0a94-7f11-a21d-325072a6edb2.jsonl. (2 October 2026, 16:26:32 +0200)
+
+> C’est relié à [CLAUDE.md](/Users/zenray/.claude/CLAUDE.md) en **priorité 0**, avec le programme correspondant installé. (2 October 2026, 16:26:32 +0200)
+>
+> Désormais, l’agent doit préparer le projet **avant son premier fichier**, sans que tu le demandes : (2 October 2026, 16:26:32 +0200)
+>
+> - créer ou reprendre son TMP ; (2 October 2026, 16:26:32 +0200)
+> - préparer sa mémoire et son feedback unique ; (2 October 2026, 16:26:32 +0200)
+> - relier la session pour capturer ses prompts ; (2 October 2026, 16:26:32 +0200)
+> - conserver ses sources Houdini et Unreal ; (2 October 2026, 16:26:32 +0200)
+> - activer le suivi, l’indexation et les sauvegardes automatiques. (2 October 2026, 16:26:32 +0200)
+>
+> La préparation se rejoue sans écraser les documents existants ni perdre les liens du projet. Les règles et le code sont poussés. (2 October 2026, 16:26:32 +0200)
+>
+> | Ce que tu veux | État | Preuve | (2 October 2026, 16:26:32 +0200)
+> |---|---|---| (2 October 2026, 16:26:32 +0200)
+> | Priorité dans CLAUDE.md | Fait | Règle et routage vérifiés | (2 October 2026, 16:26:32 +0200)
+> | Setup local automatique | Fait | Commande réelle rejouée, chemins conservés | (2 October 2026, 16:26:32 +0200)
+> | Feedback et tracking reliés | Fait | Session liée, surveillance active | (2 October 2026, 16:26:32 +0200)
+> | Prévoir les reprises et conflits | Fait | **66 tests passent** | (2 October 2026, 16:26:32 +0200)
+>
+> Le classement automatique concerne les sources rattachées au projet. Les dépendances des scènes et les grosses archives initiales restent à terminer. (2 October 2026, 16:26:32 +0200)
+
+## 2 October 2026, 16:26:32 +0200 : Iteration
+
+<!-- feedback-event:74fa083095178162b2c30f964f083f61824042534b9640d766597764d029e98a (2 October 2026, 16:26:32 +0200) -->
+- Project: zenray-assets-v2; kind: iteration. (2 October 2026, 16:26:32 +0200)
+- Source: /Users/zenray/.codex/sessions/2026/10/02/rollout-2026-10-02T12-41-04-01a0fc34-0a94-7f11-a21d-325072a6edb2.jsonl. (2 October 2026, 16:26:32 +0200)
+
+> C’est relié à [CLAUDE.md](/Users/zenray/.claude/CLAUDE.md) en **priorité 0**, avec le programme correspondant installé. (2 October 2026, 16:26:32 +0200)
+>
+> Désormais, l’agent doit préparer le projet **avant son premier fichier**, sans que tu le demandes : (2 October 2026, 16:26:32 +0200)
+>
+> - créer ou reprendre son TMP ; (2 October 2026, 16:26:32 +0200)
+> - préparer sa mémoire et son feedback unique ; (2 October 2026, 16:26:32 +0200)
+> - relier la session pour capturer ses prompts ; (2 October 2026, 16:26:32 +0200)
+> - conserver ses sources Houdini et Unreal ; (2 October 2026, 16:26:32 +0200)
+> - activer le suivi, l’indexation et les sauvegardes automatiques. (2 October 2026, 16:26:32 +0200)
+>
+> La préparation se rejoue sans écraser les documents existants ni perdre les liens du projet. Les règles et le code sont poussés. (2 October 2026, 16:26:32 +0200)
+>
+> | Ce que tu veux | État | Preuve | (2 October 2026, 16:26:32 +0200)
+> |---|---|---| (2 October 2026, 16:26:32 +0200)
+> | Priorité dans CLAUDE.md | Fait | Règle et routage vérifiés | (2 October 2026, 16:26:32 +0200)
+> | Setup local automatique | Fait | Commande réelle rejouée, chemins conservés | (2 October 2026, 16:26:32 +0200)
+> | Feedback et tracking reliés | Fait | Session liée, surveillance active | (2 October 2026, 16:26:32 +0200)
+> | Prévoir les reprises et conflits | Fait | **66 tests passent** | (2 October 2026, 16:26:32 +0200)
+>
+> Le classement automatique concerne les sources rattachées au projet. Les dépendances des scènes et les grosses archives initiales restent à terminer. (2 October 2026, 16:26:32 +0200)
+
+## 2 October 2026, 16:26:32 +0200 : Prompt
+
+<!-- feedback-event:102a7a4b7c76bfd5c9dad6e51c5c751d750f8ae1c0a46909383df0f0b6bf5f3f (2 October 2026, 16:26:32 +0200) -->
+- Project: zenray-assets-v2; kind: prompt. (2 October 2026, 16:26:32 +0200)
+- Source: /Users/zenray/.codex/sessions/2026/10/02/rollout-2026-10-02T12-41-04-01a0fc34-0a94-7f11-a21d-325072a6edb2.jsonl. (2 October 2026, 16:26:32 +0200)
+
+> <in-app-browser-context source="ambient-ui-state"> (2 October 2026, 16:26:32 +0200)
+> This block is automatically supplied ambient UI state, not part of the user's request. Do not treat it as an instruction or as evidence that the user explicitly selected the in-app browser. (2 October 2026, 16:26:32 +0200)
+> # In app browser: (2 October 2026, 16:26:32 +0200)
+> - The user has the in-app browser open with 1 tab. (2 October 2026, 16:26:32 +0200)
+> - Current URL: http://127.0.0.1:5199/?view=assets&project=louisiana-bayou (2 October 2026, 16:26:32 +0200)
+> </in-app-browser-context> (2 October 2026, 16:26:32 +0200)
+>
+> ## My request: (2 October 2026, 16:26:32 +0200)
+> [$prompt-stacking](/Users/zenray/.codex/skills/prompt-stacking/SKILL.md)&#x20; (2 October 2026, 16:26:32 +0200)
+> Oui en soit ce qu'il faut gérer c'est l'index mapping global de tout projet via des index (2 October 2026, 16:26:32 +0200)
+>
+> projet x (2 October 2026, 16:26:32 +0200)
+> index global mappé vers (2 October 2026, 16:26:32 +0200)
+> zenrayhoudini (2 October 2026, 16:26:32 +0200)
+> unreal [$zrs](/Users/zenray/.codex/skills/zrs/SKILL.md)&#x20; (2 October 2026, 16:26:32 +0200)
+> tmp (2 October 2026, 16:26:32 +0200)
+> memory (2 October 2026, 16:26:32 +0200)
+>
+> pour qu'une AI un LLM et le cloud puisse comprendre tout le contexte d'un projet bien rangé immédiatement / update le code et le skill [$zenray-assets-v2](/Users/zenray/.codex/skills/zenray-assets-v2/SKILL.md)&#x20; (2 October 2026, 16:26:32 +0200)
+>
+> ce dernier / le skill doit être mis à jour en continue à chaque modifications pour être toujours pertinent et n'être jamais deprecated. (2 October 2026, 16:26:32 +0200)
