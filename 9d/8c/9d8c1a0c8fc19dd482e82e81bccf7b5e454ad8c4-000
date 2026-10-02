@@ -120,3 +120,122 @@
 >
 > ## My request: (2 October 2026, 14:17:12 +0200)
 > La question c'est aussi comment le protocol / programme / algo track chaque fichier qui seront ajoutés dans tmp pour l'index au projet puis le pousser l'architecture doit être simple et parfaite (2 October 2026, 14:17:12 +0200)
+
+## 2 October 2026, 14:44:59 +0200 : Prompt
+
+<!-- feedback-event:2e51d3645c22014c898363a73a1236f7f96f3a8c42ace1c737da72393b8add2c (2 October 2026, 14:44:59 +0200) -->
+- Project: zenray-assets-v2; kind: prompt. (2 October 2026, 14:44:59 +0200)
+- Source: /Users/zenray/.codex/sessions/2026/10/02/rollout-2026-10-02T12-41-04-01a0fc34-0a94-7f11-a21d-325072a6edb2.jsonl. (2 October 2026, 14:44:59 +0200)
+
+> <in-app-browser-context source="ambient-ui-state"> (2 October 2026, 14:44:59 +0200)
+> This block is automatically supplied ambient UI state, not part of the user's request. Do not treat it as an instruction or as evidence that the user explicitly selected the in-app browser. (2 October 2026, 14:44:59 +0200)
+> # In app browser: (2 October 2026, 14:44:59 +0200)
+> - The user has the in-app browser open with 1 tab. (2 October 2026, 14:44:59 +0200)
+> - Current URL: http://127.0.0.1:5199/?view=assets&project=zenray-assets-v2 (2 October 2026, 14:44:59 +0200)
+> </in-app-browser-context> (2 October 2026, 14:44:59 +0200)
+>
+> ## My request: (2 October 2026, 14:44:59 +0200)
+> EST CE QUE TU PEUX ME DONNER un .md qui recense tout ce qu'est et n'est pas pas ZenRayAssetsV2 ? go (2 October 2026, 14:44:59 +0200)
+
+## 2 October 2026, 14:52:23 +0200 : Log
+
+<!-- feedback-event:d4e786033cc49cd578edfb9ed2630f05f5c809b30da28faee187058c952e1c78 (2 October 2026, 14:52:23 +0200) -->
+- Project: zenray-assets-v2; kind: log. (2 October 2026, 14:52:23 +0200)
+
+> Document de périmètre créé : Memory1/Projects/zenray-assets-v2/ZenRayAssetsV2.md, 236 lignes. Il distingue produit cible, protocole quotidien, quatre sources, suivi TMP, exception Unreal, feedback append only, architecture, preuves et limites. UNLOAD effectif, dépendances exécutables et tri sémantique restent explicitement incomplets. (2 October 2026) (2 October 2026, 14:52:23 +0200)
+
+## 2 October 2026, 14:52:38 +0200 : Iteration
+
+<!-- feedback-event:5c62707a2ae02e1e057dbfb1789a76dbb6a59299c398501ac4abffd92eba53a4 (2 October 2026, 14:52:38 +0200) -->
+- Project: zenray-assets-v2; kind: iteration. (2 October 2026, 14:52:38 +0200)
+- Source: /Users/zenray/.codex/sessions/2026/10/02/rollout-2026-10-02T12-41-04-01a0fc34-0a94-7f11-a21d-325072a6edb2.jsonl. (2 October 2026, 14:52:38 +0200)
+
+> Voici [ZenRayAssetsV2.md](/Users/zenray/.claude/Memory1/Projects/zenray-assets-v2/ZenRayAssetsV2.md), avec le périmètre complet, le protocole quotidien, l’architecture et les limites actuelles. (2 October 2026, 14:52:38 +0200)
+>
+> | Ce que tu voulais | État | Preuve | (2 October 2026, 14:52:38 +0200)
+> | --- | --- | --- | (2 October 2026, 14:52:38 +0200)
+> | Tout ce qu’est et n’est pas Assets V2 | Fait | 16 sections, 236 lignes | (2 October 2026, 14:52:38 +0200)
+> | Distinguer l’existant de la cible | Fait | Fonctionnalités vérifiées et parties à construire séparées | (2 October 2026, 14:52:38 +0200)
+> | Conserver le document | Fait | Enregistré dans Memory et poussé sur GitHub | (2 October 2026, 14:52:38 +0200)
+
+## 2 October 2026, 14:52:39 +0200 : Iteration
+
+<!-- feedback-event:654779a7800e5f08ac1d29e6bbbc81febc309a8a4001f64f613c7d370a604c68 (2 October 2026, 14:52:39 +0200) -->
+- Project: zenray-assets-v2; kind: iteration. (2 October 2026, 14:52:39 +0200)
+- Source: /Users/zenray/.codex/sessions/2026/10/02/rollout-2026-10-02T12-41-04-01a0fc34-0a94-7f11-a21d-325072a6edb2.jsonl. (2 October 2026, 14:52:39 +0200)
+
+> Voici [ZenRayAssetsV2.md](/Users/zenray/.claude/Memory1/Projects/zenray-assets-v2/ZenRayAssetsV2.md), avec le périmètre complet, le protocole quotidien, l’architecture et les limites actuelles. (2 October 2026, 14:52:39 +0200)
+>
+> | Ce que tu voulais | État | Preuve | (2 October 2026, 14:52:39 +0200)
+> | --- | --- | --- | (2 October 2026, 14:52:39 +0200)
+> | Tout ce qu’est et n’est pas Assets V2 | Fait | 16 sections, 236 lignes | (2 October 2026, 14:52:39 +0200)
+> | Distinguer l’existant de la cible | Fait | Fonctionnalités vérifiées et parties à construire séparées | (2 October 2026, 14:52:39 +0200)
+> | Conserver le document | Fait | Enregistré dans Memory et poussé sur GitHub | (2 October 2026, 14:52:39 +0200)
+
+## 2 October 2026, 14:52:39 +0200 : Prompt
+
+<!-- feedback-event:6d5a3484912e1ec71e8ecda8dbd00039915df634b1070241441fed9c743ddb5b (2 October 2026, 14:52:39 +0200) -->
+- Project: zenray-assets-v2; kind: prompt. (2 October 2026, 14:52:39 +0200)
+- Source: /Users/zenray/.codex/sessions/2026/10/02/rollout-2026-10-02T12-41-04-01a0fc34-0a94-7f11-a21d-325072a6edb2.jsonl. (2 October 2026, 14:52:39 +0200)
+
+> <in-app-browser-context source="ambient-ui-state"> (2 October 2026, 14:52:39 +0200)
+> This block is automatically supplied ambient UI state, not part of the user's request. Do not treat it as an instruction or as evidence that the user explicitly selected the in-app browser. (2 October 2026, 14:52:39 +0200)
+> # In app browser: (2 October 2026, 14:52:39 +0200)
+> - The user has the in-app browser open with 1 tab. (2 October 2026, 14:52:39 +0200)
+> - Current URL: http://127.0.0.1:5199/?view=assets&project=zenray-assets-v2 (2 October 2026, 14:52:39 +0200)
+> </in-app-browser-context> (2 October 2026, 14:52:39 +0200)
+>
+> ## My request: (2 October 2026, 14:52:39 +0200)
+> Puis continue de coder (2 October 2026, 14:52:39 +0200)
+
+## 2 October 2026, 14:53:46 +0200 : Prompt
+
+<!-- feedback-event:1cc408a1b44e4098196fc0f2a5c9edf388f8f236db1dc85a41d4131309988c86 (2 October 2026, 14:53:46 +0200) -->
+- Project: zenray-assets-v2; kind: prompt. (2 October 2026, 14:53:46 +0200)
+- Source: /Users/zenray/.codex/sessions/2026/10/02/rollout-2026-10-02T12-41-04-01a0fc34-0a94-7f11-a21d-325072a6edb2.jsonl. (2 October 2026, 14:53:46 +0200)
+
+> <external_codex_apps_open_page>{"page_id":null}</external_codex_apps_open_page> (2 October 2026, 14:53:46 +0200)
+
+## 2 October 2026, 14:53:46 +0200 : Prompt
+
+<!-- feedback-event:83970b5f2821d3560fd65eb61876ec7ebf7a7a05b15b2c6e819e2ad1e0f5fc98 (2 October 2026, 14:53:46 +0200) -->
+- Project: zenray-assets-v2; kind: prompt. (2 October 2026, 14:53:46 +0200)
+- Source: /Users/zenray/.codex/sessions/2026/10/02/rollout-2026-10-02T12-41-04-01a0fc34-0a94-7f11-a21d-325072a6edb2.jsonl. (2 October 2026, 14:53:46 +0200)
+
+> Mais t'es trop con transforme le en skill tout simplement : # ZenRay Assets V2 : ce que le projet est, ce qu’il n’est pas (2 October 2026)\ (2 October 2026, 14:53:46 +0200)
+> ce doc en skill [$skill-sync](/Users/zenray/.codex/skills/skill-sync/SKILL.md) (2 October 2026, 14:53:46 +0200)
+
+## 2 October 2026, 14:54:46 +0200 : Log
+
+<!-- feedback-event:06bca9d88eca4184db79ce4e00cafe706898ed8e9c1c2898bc854bdd6ac0cd6b (2 October 2026, 14:54:46 +0200) -->
+- Project: zenray-assets-v2; kind: log. (2 October 2026, 14:54:46 +0200)
+
+> Le document intégral ZenRayAssetsV2.md est devenu le skill zenray-assets-v2 avec frontmatter et consignes de reprise. Validation réussie ; quatre empreintes SHA256 identiques après skill-sync. Le document initial reste intact avec une référence ajoutée vers le skill canonique. (2 October 2026) (2 October 2026, 14:54:46 +0200)
+
+## 2 October 2026, 14:55:32 +0200 : Iteration
+
+<!-- feedback-event:edde96018774c72042bbd88b94dc8d777b582c73519317e27b4cff2f700cb5f6 (2 October 2026, 14:55:32 +0200) -->
+- Project: zenray-assets-v2; kind: iteration. (2 October 2026, 14:55:32 +0200)
+- Source: /Users/zenray/.codex/sessions/2026/10/02/rollout-2026-10-02T12-41-04-01a0fc34-0a94-7f11-a21d-325072a6edb2.jsonl. (2 October 2026, 14:55:32 +0200)
+
+> Le document intégral devient le skill [zenray-assets-v2](/Users/zenray/.claude/skills/zenray-assets-v2/SKILL.md), avec les consignes pour reprendre le chantier. (2 October 2026, 14:55:32 +0200)
+>
+> Validation réussie, copies identiques via `skill-sync`, et sauvegarde poussée sur GitHub. (2 October 2026, 14:55:32 +0200)
+
+## 2 October 2026, 14:55:32 +0200 : Iteration
+
+<!-- feedback-event:1175615d5aaece900591f2b30f30b9e01f764072a6108b09266c6c05dff2e5f4 (2 October 2026, 14:55:32 +0200) -->
+- Project: zenray-assets-v2; kind: iteration. (2 October 2026, 14:55:32 +0200)
+- Source: /Users/zenray/.codex/sessions/2026/10/02/rollout-2026-10-02T12-41-04-01a0fc34-0a94-7f11-a21d-325072a6edb2.jsonl. (2 October 2026, 14:55:32 +0200)
+
+> Le document intégral devient le skill [zenray-assets-v2](/Users/zenray/.claude/skills/zenray-assets-v2/SKILL.md), avec les consignes pour reprendre le chantier. (2 October 2026, 14:55:32 +0200)
+>
+> Validation réussie, copies identiques via `skill-sync`, et sauvegarde poussée sur GitHub. (2 October 2026, 14:55:32 +0200)
+
+## 2 October 2026, 14:58:06 +0200 : Prompt
+
+<!-- feedback-event:60f70990bd7db9a7fd45279eabec5663dab4f3f8ea6b37030496141ad0f59963 (2 October 2026, 14:58:06 +0200) -->
+- Project: zenray-assets-v2; kind: prompt. (2 October 2026, 14:58:06 +0200)
+- Source: /Users/zenray/.codex/sessions/2026/10/02/rollout-2026-10-02T12-41-04-01a0fc34-0a94-7f11-a21d-325072a6edb2.jsonl. (2 October 2026, 14:58:06 +0200)
+
+> Ok mais continue de coder en accord avec le skill du coup [$zenray-assets-v2](/Users/zenray/.codex/skills/zenray-assets-v2/SKILL.md) [$dont-stop](/Users/zenray/.codex/skills/dont-stop/SKILL.md) (2 October 2026, 14:58:06 +0200)

@@ -1,0 +1,240 @@
+# ZenRay Assets V2 : ce que le projet est, ce qu’il n’est pas (2 October 2026)
+
+## 1. La demande qui gouverne le projet (2 October 2026)
+
+Le but est de créer le protocole réutilisable de tous les projets de Matthieu, d’abord 3D et jeu, plutôt que de ranger ses fichiers une seule fois. (2 October 2026)
+
+Ses exigences structurantes sont : « pas besoin de ranger en local mais le cloud doit être parfaitement rangé », « LES FICHIERS DU PROJET », « L’HISTORIQUE DU PROJET ET SA CHRONOLOGIE », « TOUT LES FEEDBACKS / PROMPTS » et, à terme, « LOAD UNLOAD UN PROJET COMME SUR GITHUB ». (2 October 2026)
+
+La simplicité attendue concerne l’usage quotidien : nommer le projet une fois, travailler, retrouver immédiatement ce qui existe, savoir ce qui est sauvegardé, puis reprendre ailleurs sans perdre les consignes ni les fichiers. (2 October 2026)
+
+Ce document distingue la définition du produit, le fonctionnement construit et les parties encore incomplètes. Il décrit un état daté, auquel les corrections futures s’ajoutent sans effacer le passé. (2 October 2026)
+
+## 2. Ce qu’est ZenRay Assets V2 (2 October 2026)
+
+ZenRay Assets V2 est l’espace des projets de ZenRayProgress et son protocole de continuité entre travail local, archive cloud, historique et mémoire. (2 October 2026)
+
+Un projet possède une identité stable, plusieurs emplacements locaux, un classement cloud et un feedback canonique. Ces éléments décrivent le même projet, même lorsque leurs fichiers résident dans quatre dossiers différents. (2 October 2026)
+
+Un « asset » y désigne aussi bien une texture qu’une scène, un document, une référence, un post ou une séquence. Le projet est l’unité principale ; les assets sont ses éléments. (2 October 2026)
+
+La page doit permettre de répondre immédiatement à quatre questions : où sont mes fichiers, que s’est-il passé, quelles consignes faut-il conserver et que puis-je charger maintenant ? (2 October 2026)
+
+Le produit appartient à ZenRayProgress. Il ne transforme pas automatiquement ZenRayWebsite ou ZenRayStudio et ne confond pas leurs dépôts. (2 October 2026)
+
+## 3. Les quatre sources locales (2 October 2026)
+
+| Source | Ce qu’elle contient | Son rôle (2 October 2026) |
+| --- | --- | --- |
+| TMP | Fichiers de travail, références, exports, essais, images, séquences, textures, posts, liens enregistrés et documents. | Atelier souple où commencer sans classement manuel par catégorie. (2 October 2026) |
+| Memory | Feedback canonique, consignes, décisions et connaissances durables du projet. | Mémoire qui survit aux sessions et évite de redemander les mêmes règles. (2 October 2026) |
+| ZenRayHoudini | Scènes .hiplc, graphes, HDA, ressources et exports présents dans les dossiers explicitement reliés. | Sources de production Houdini et leurs fichiers associés. (2 October 2026) |
+| ZRS / ZenRayShards | Contenu Unreal propre au projet et lien vers son hôte partagé. | Sources Unreal sélectionnées sans reprendre tout le jeu pour chaque projet. (2 October 2026) |
+
+Ces emplacements restent sur le disque là où le travail se fait. Les relier au même projet ne signifie ni déplacer tous leurs fichiers dans TMP ni créer quatre copies locales. (2 October 2026)
+
+L’atelier créé pour un nouveau projet suit `~/.claude/tmp/tmp-<project-id>`. Sa mémoire suit `~/.claude/Memory1/Projects/<project-id>/`. Des dossiers existants peuvent être reliés au lieu d’être renommés. (2 October 2026)
+
+Les formats ne déterminent pas à eux seuls le projet : une image et un .hiplc appartiennent au projet auquel leur dossier source est relié. (2 October 2026)
+
+## 4. L’expérience quotidienne attendue (2 October 2026)
+
+1. Créer ou relier un projet depuis Assets, avec son nom et ses sources. (2 October 2026)
+2. Travailler dans son atelier TMP, avec autant de sous-dossiers que nécessaire, sans enregistrer chaque fichier un par un dans le dashboard. (2 October 2026)
+3. Relier ses dossiers Houdini ou Unreal lorsqu’ils existent, en limitant Unreal au contenu réellement concerné. (2 October 2026)
+4. Laisser le service repérer les ajouts et modifications, préparer leur archive et afficher les états réels. (2 October 2026)
+5. Consulter les fichiers, les aperçus, les prompts et la chronologie depuis le même projet. (2 October 2026)
+6. Télécharger un fichier, une sélection ou tous les fichiers effectivement sauvegardés. (2 October 2026)
+7. Charger une copie vérifiée dans un espace de reprise distinct. (2 October 2026)
+8. À terme, libérer une copie locale récupérable lorsqu’une sauvegarde et une restauration ont été prouvées. Cette dernière opération n’est pas encore exécutée par le programme. (2 October 2026)
+
+L’automatisation s’applique à une frontière connue. Un fichier placé dans un dossier TMP non relié n’acquiert pas un projet parce qu’un onglet Assets est ouvert. (2 October 2026)
+
+## 5. Comment chaque nouveau fichier est suivi (2 October 2026)
+
+La chaîne construite est : dossier relié → événement disque → inventaire → copie stable → empreinte → archive vérifiée → manifeste → index de recherche → vue du projet. (2 October 2026)
+
+L’événement disque signale un changement ; l’inventaire établit ensuite quels fichiers existent réellement. Des scans de reprise et périodiques récupèrent les événements manqués pendant une veille ou un redémarrage. (2 October 2026)
+
+Le service attend actuellement 120 secondes de stabilisation avant de lancer le traitement automatique. Une grosse sauvegarde initiale peut ensuite retarder un petit ajout, puisque les écritures cloud passent par une file commune. (2 October 2026)
+
+Chaque fichier est identifié par sa source et son chemin relatif. Son empreinte SHA256, une signature de son contenu, et sa taille permettent de distinguer un fichier identique d’un fichier modifié et de vérifier une restauration. (2 October 2026)
+
+Le programme ne marque le fichier sauvegardé qu’après vérification de l’archive. La mise à jour de l’index possède une file persistante de reprise : un échec de publication n’oblige pas à renvoyer les octets déjà archivés. (2 October 2026)
+
+Les fichiers inchangés ne sont pas retransférés à chaque passage. Un fichier en cours d’écriture ne doit pas être archivé comme s’il était terminé. (2 October 2026)
+
+Les fichiers temporaires exclus, caches générés et liens symboliques ne deviennent pas automatiquement des archives. Les règles de sélection sont centralisées dans la configuration, et les périmètres restent explicitement définis. (2 October 2026)
+
+Une suppression locale ne supprime pas silencieusement l’historique cloud. L’archive n’est pas une synchronisation miroir destructrice. (2 October 2026)
+
+## 6. Ce que signifie « parfaitement rangé dans le cloud » (2 October 2026)
+
+Le classement actuellement construit est déterministe : `pages/ZenRayAssets/<project-id>/sources/<namespace>/<source-id>/<relative-path>`. (2 October 2026)
+
+Le projet constitue le premier niveau, puis viennent la famille de source, la source précise et le chemin relatif original. Deux fichiers homonymes issus de deux sources différentes ne doivent pas s’écraser. (2 October 2026)
+
+La structure originale sert à la restitution ; la page fournit la recherche, les filtres et les regroupements utiles pour retrouver les fichiers sans réorganiser le disque. (2 October 2026)
+
+Les quatre familles de source sont `tmp`, `memory`, `houdini` et `unreal`. Les noms et chemins relatifs des fichiers restent traçables. (2 October 2026)
+
+Le tri sémantique automatique de tous les fichiers mélangés dans TMP, par exemple « références », « rendus validés » et « essais abandonnés », n’est pas construit. Il appartient à la cible produit et ne doit pas être présenté comme déjà résolu. (2 October 2026)
+
+Les liens web sont conservés lorsqu’ils sont enregistrés dans un fichier ou un document relié. Le programme ne sauvegarde pas spontanément les pages web de tous les liens ni les onglets du navigateur personnel. (2 October 2026)
+
+## 7. L’exception Unreal et les 52 Go (2 October 2026)
+
+ZenRayShards est traité comme un hôte partagé. Sa configuration, ses plugins et son .uproject appartiennent au projet `zenray-shards-core` ; les projets créatifs relient cet hôte et sélectionnent leur propre contenu Unreal. (2 October 2026)
+
+Ceramic Tiles ne reprend donc pas systématiquement tout le dossier Unreal. Ses sources Unreal sélectionnées représentent environ 146,6 Mo lors de la mesure du chantier. (2 October 2026)
+
+Les quelque 52 Go affichés pour Ceramic Tiles proviennent surtout de ses sources Houdini : la mesure du dossier Houdini atteint environ 51,24 Go. Réduire le périmètre Unreal ne fait pas disparaître ces rendus et séquences existants. (2 October 2026)
+
+Cette séparation évite de recopier l’hôte dans chaque projet logique. Elle ne prouve pas que toutes les dépendances Unreal partagées sont recensées : la fermeture des dépendances reste à vérifier dans Unreal. (2 October 2026)
+
+Le contenu partagé du jeu ne se résume pas nécessairement à Config, Plugins et au .uproject. Une scène qui référence un autre asset commun exige également cet asset pour fonctionner. (2 October 2026)
+
+## 8. Feedback, prompts, mémoire et chronologie (2 October 2026)
+
+Chaque projet possède un fichier canonique `Memory1/Projects/<project-id>/FEEDBACK.md`. Les anciens feedbacks restent conservés et liés avec leur provenance plutôt que réécrits ou supprimés. (2 October 2026)
+
+Le principe append only signifie que toute correction ajoute une nouvelle entrée à la fin. Le passé reste lisible, y compris lorsqu’une règle ou une mesure devient obsolète. (2 October 2026)
+
+`feedback-stack` porte l’implémentation unique ; `feedback` conserve une porte d’entrée compatible vers le même écrivain. Le verrou évite l’entrelacement des écritures, et les identifiants stables évitent les doublons d’un même événement. (2 October 2026)
+
+Le service capture actuellement les prompts humains et les réponses finales réussies des sessions Codex et Claude reliées au projet. Le rattachement vient d’une liaison explicite de session ou d’un dossier de travail qui identifie sans ambiguïté un seul projet. (2 October 2026)
+
+Une session ambiguë n’est pas attribuée par intuition. Une conversation qui change de projet doit disposer du rattachement adapté ; l’automatisation ne justifie pas de mélanger toutes les conversations. (2 October 2026)
+
+Toutes les actions internes des outils, tous les essais non consignés dans une conversation et les sessions Antigravity ne sont pas intégralement capturés aujourd’hui. « Toutes les itérations » reste donc une exigence de couverture à compléter. (2 October 2026)
+
+Le feedback conserve la parole, les corrections et les preuves. La mémoire durable explique ce que le projet sait ; le journal global `~/.claude/PROGRESS.md` raconte quand et quoi à travers les projets. (2 October 2026)
+
+La chronologie Assets réunit les événements de transfert, les feedbacks et les entrées pertinentes du journal existant. Aucun second journal global n’est créé dans le projet. (2 October 2026)
+
+Les vieux dossiers mixtes peuvent contenir des feedbacks concernant plusieurs projets. Leur liaison ne constitue pas une séparation sémantique parfaite de chaque ancienne entrée. (2 October 2026)
+
+Un skill par projet peut servir de petit routeur vers sa mémoire, mais il n’est ni nécessaire à l’identité du projet ni déjà généré automatiquement. Le contenu durable reste dans Memory au lieu d’être recopié dans un gros skill. (2 October 2026)
+
+## 9. La vue construite (2 October 2026)
+
+La vraie page Assets contient une navigation entre projets et quatre vues : fichiers, chronologie, prompts et feedbacks, origines locales. (2 October 2026)
+
+Les fichiers disposent d’une recherche, de filtres par origine et état, d’une sélection multiple et d’actions de sauvegarde ou téléchargement. Les grandes listes sont paginées. (2 October 2026)
+
+Les états distinguent ce qui est présent localement, en attente, en cours, sauvegardé ou restauré avec vérification. Un fichier inconnu ou un service absent ne doit pas devenir artificiellement « sauvegardé ». (2 October 2026)
+
+Les images locales prises en charge disposent d’un aperçu. Les autres types n’ont pas tous un visualiseur local complet ; le chemin et les métadonnées restent consultables, et les visualiseurs cloud existants restent disponibles selon le format. (2 October 2026)
+
+Les collections historiques et leur consultation restent accessibles. La nouvelle vue ne doit pas rendre les anciennes archives introuvables. (2 October 2026)
+
+Les curseurs de développement modifient des variables CSS centrales sur la vraie page localhost, avec copie des valeurs pour le prompt. Ils ne sont pas inclus dans le build de production. (2 October 2026)
+
+L’identité visuelle suit les polices et jetons ZenRay existants. L’objectif reste une vue harmonieuse et immédiatement compréhensible, dont l’utilité prime sur l’ajout de panneaux. (2 October 2026)
+
+## 10. Télécharger, LOAD et UNLOAD (2 October 2026)
+
+Télécharger un original restitue ses octets, plutôt qu’une version vidéo transcodée destinée au streaming. Une sélection peut être téléchargée en ZIP en conservant la structure des sources. (2 October 2026)
+
+« Tous les fichiers » doit correspondre à tous les fichiers réellement disponibles. Une sélection contenant des éléments non sauvegardés ne doit pas produire une réussite trompeuse. (2 October 2026)
+
+LOAD restaure actuellement dans `~/Create/Build/AssetsWorkspaces/<project-id>/loads/<job-id>/`, avec les sources et chemins relatifs, puis vérifie indépendamment taille et SHA256. Il ne remplace pas les originaux de production. (2 October 2026)
+
+Une restauration identique ne prouve pas que Houdini retrouve ses chemins absolus, ni qu’une scène Unreal possède toutes ses dépendances. La portabilité exécutable reste une validation distincte. (2 October 2026)
+
+UNLOAD prépare actuellement un plan protégé. Il ne supprime pas les sources et ne libère pas encore effectivement de place sur le disque. (2 October 2026)
+
+Avant une future libération récupérable, le protocole exige une archive vérifiée et une restauration indépendante réussie. Les changements locaux postérieurs à la preuve doivent aussi être pris en compte. (2 October 2026)
+
+## 11. Ce que ZenRay Assets V2 n’est pas (2 October 2026)
+
+| Ce que ce n’est pas | La frontière exacte (2 October 2026) |
+| --- | --- |
+| Un rangement ponctuel de tout le Mac. | Le protocole doit continuer à suivre les projets à chaque session. (2 October 2026) |
+| Un dossier local unique obligatoire. | Quatre sources peuvent rester à leurs emplacements de production. (2 October 2026) |
+| Une simple galerie de textures. | Les documents, scènes, prompts et événements appartiennent aussi au projet. (2 October 2026) |
+| Un clone complet de GitHub. | Branches, fusion et résolution collaborative des conflits ne sont pas implémentées. (2 October 2026) |
+| Un Google Drive bidirectionnel complet. | La suppression locale ne détruit pas automatiquement l’archive cloud. (2 October 2026) |
+| Un classement intelligent déjà parfait de tout TMP. | Seuls les dossiers reliés et leurs périmètres sont déterminés ; le tri sémantique global reste à construire. (2 October 2026) |
+| Une duplication du jeu Unreal pour chaque texture. | L’hôte partagé et les sources propres aux projets sont séparés. (2 October 2026) |
+| Une preuve que toutes les scènes s’ouvrent ailleurs. | Les octets peuvent être identiques tandis que des dépendances ou chemins restent manquants. (2 October 2026) |
+| Une sauvegarde terminée parce qu’une ligne apparaît. | Le manifeste vérifié, l’index et l’état affiché doivent correspondre à une réussite réelle. (2 October 2026) |
+| Un archivage instantané de chaque frappe. | Stabilisation, copie et file de transfert prennent du temps. (2 October 2026) |
+| Un effacement du passé pour nettoyer le feedback. | Les corrections s’ajoutent et les anciennes entrées restent conservées. (2 October 2026) |
+| Une capture universelle de tout ce qui se passe sur le poste. | Les sessions reliées et les sources enregistrées définissent la couverture actuelle. (2 October 2026) |
+| Un service cloud capable de lire librement le Mac. | Un service local limité aux sources reliées assure le pont avec le disque. (2 October 2026) |
+| Un UNLOAD opérationnel aujourd’hui. | Le plan existe, la libération effective reste à construire. (2 October 2026) |
+| Une archive cloud déjà complète de tous les projets. | La sauvegarde initiale est encore en cours au moment de ce document. (2 October 2026) |
+
+## 12. Architecture et fonctionnement autonome (2 October 2026)
+
+La configuration source est `scripts/AssetsConfig.json` dans ZenRayProgress. Les projets ajoutés et l’état d’exécution persistent sous `~/Library/Application Support/ZenRayAssets/`. (2 October 2026)
+
+Le service local réutilise le watcher de ZenRayCloud et le moteur d’archive existant ; il conserve inventaires, empreintes, reprises de publication et événements. Le navigateur n’embarque pas le code d’accès au disque. (2 October 2026)
+
+Un LaunchAgent `com.zenray.assets` lance le service à la connexion. Le pont écoute sur `127.0.0.1:3100` ; la page de travail servie actuellement est sur `127.0.0.1:5199`. (2 October 2026)
+
+Les transferts utilisent l’infrastructure d’archive GitHub existante de ZenRayProgress, avec manifestes et stockage des originaux en fragments. Le mot « cloud » ne désigne pas un nouveau stockage R2 déjà migré. (2 October 2026)
+
+Les identifiants de stockage restent du côté du service. L’accès aux fichiers locaux reste limité aux sources autorisées, aux chemins réguliers et aux contrôles du pont local. (2 October 2026)
+
+Lorsque le Mac est éteint, les archives et instantanés publiés restent consultables dans le cloud ; le suivi des nouveaux fichiers locaux ne continue pas sur une machine arrêtée. (2 October 2026)
+
+La page est déployée sur [ZenRayProgress](https://zenray-progress.pages.dev). La surveillance et les sauvegardes initiales ne nécessitent pas que la conversation avec l’agent reste ouverte. (2 October 2026)
+
+## 13. Ce qui est prouvé et ce qui reste à prouver (2 October 2026)
+
+| Élément | État à cette date | Preuve ou limite (2 October 2026) |
+| --- | --- | --- |
+| Vue locale et page déployée. | Construit. | Vraie page ouverte dans le navigateur intégré ; build déployé sur Pages. (2 October 2026) |
+| Quatre sources et hôte Unreal partagé. | Construit. | Configuration explicite et tests des périmètres, sans reprise systématique de tout Unreal. (2 October 2026) |
+| Suivi automatique de nouveaux fichiers TMP. | Vérifié sur un cas réel. | `TrackingWitness.txt`, 70 octets, sauvegardé puis restauré identiquement ; SHA256 `dc07760a08c17d092947677d603a501322b9318c8405bbb8e328629158148a96`. (2 October 2026) |
+| Restauration indépendante d’originaux. | Vérifiée sur deux autres fichiers. | PNG de 625246 octets et document de 896 octets, mêmes tailles et empreintes après restauration. (2 October 2026) |
+| Cas positifs et échecs attendus. | Vérifiés. | 43 tests ciblés passent, dont changement de source, sélection, exclusion hors projet et reprise de l’index. (2 October 2026) |
+| Feedback strictement ajouté à la fin. | Vérifié. | Deux tests Python passent, dont 16 écritures concurrentes et conservation des octets initiaux. (2 October 2026) |
+| Sauvegarde de tous les projets. | En cours. | Les inventaires et la file montrent encore des fichiers à transférer. (2 October 2026) |
+| UNLOAD et récupération de place. | À construire. | L’action actuelle produit seulement un plan. (2 October 2026) |
+| Ouverture portable des scènes et du jeu. | À vérifier et compléter. | Les références Houdini et dépendances Unreal n’ont pas de preuve complète de fonctionnement après LOAD. (2 October 2026) |
+| Tri cloud sémantique et capture universelle des itérations. | Partiel. | Classement par projet/source construit ; catégories intelligentes et couverture totale non construites. (2 October 2026) |
+
+La restauration de trois fichiers réels valide ces exemples. Elle ne vaut pas preuve de restauration exhaustive des dizaines de gigaoctets inventoriés. (2 October 2026)
+
+## 14. Photographie des sauvegardes initiales (2 October 2026)
+
+État observé vers 14 h 47, heure de Paris. Ces nombres décrivent une photographie et peuvent évoluer pendant les transferts. (2 October 2026)
+
+| Projet | Fichiers inventoriés | Fichiers sauvegardés à cet instant (2 October 2026) |
+| --- | --- | --- |
+| Ceramic Tiles | 4 417, environ 51,96 Go. | 402 ; la suite est en file. (2 October 2026) |
+| Louisiana Bayou | 671, environ 1,34 Go. | 367 ; transfert en cours. (2 October 2026) |
+| Environnement japonais | 222, environ 259 Mo. | 222 ; le dossier Unreal optionnel attendu est absent et reste signalé. (2 October 2026) |
+| Hôte partagé ZenRayShards | 948, environ 5,38 Go. | 0 ; sauvegarde en file. (2 October 2026) |
+| Chantier ZenRay Assets V2 | 10, environ 3,24 Mo avant ajout de ce document. | 9 ; une modification est en attente. (2 October 2026) |
+
+« Sauvegardé » ne signifie pas « restauré et testé dans son logiciel ». Les fichiers présents, ceux exclus et les sources absentes doivent rester distingués. (2 October 2026)
+
+## 15. Les chantiers nécessaires pour atteindre la cible complète (2 October 2026)
+
+1. Achever et vérifier les archives initiales, avec des preuves de restauration représentatives des gros fichiers et des séquences. (2 October 2026)
+2. Construire la libération locale récupérable, avec contrôle des modifications récentes et état visible de la place réellement libérée. (2 October 2026)
+3. Vérifier les dépendances Unreal et les chemins Houdini afin que LOAD puisse mener à une scène utilisable, au-delà de fichiers identiques. (2 October 2026)
+4. Améliorer le classement utile du cloud et l’accueil des fichiers non attribués, sans inventer leur projet ni déplacer les originaux par surprise. (2 October 2026)
+5. Étendre la capture des itérations aux autres environnements et rendre explicite chaque changement de projet dans une session. (2 October 2026)
+6. Améliorer la priorité des petits changements quotidiens pendant une grosse sauvegarde initiale, sans perdre la reprise des transferts. (2 October 2026)
+7. Continuer à éprouver le design quotidien : trouver un fichier, lire une consigne, comprendre une attente et reprendre un projet doivent demander peu de gestes. (2 October 2026)
+
+Ces chantiers complètent le même produit. Ils ne justifient pas de recréer une deuxième mémoire, un deuxième moteur d’archive ou un deuxième dashboard parallèle. (2 October 2026)
+
+## 16. Où retrouver la définition et les preuves (2 October 2026)
+
+Ce document est la référence de périmètre dans la mémoire du projet. Les prochaines corrections et décisions s’ajoutent sous de nouvelles sections datées. (2 October 2026)
+
+Le [FEEDBACK.md canonique](/Users/zenray/.claude/Memory1/Projects/zenray-assets-v2/FEEDBACK.md) conserve les demandes et les corrections de Matthieu. (2 October 2026)
+
+La [documentation technique](/Users/zenray/Create/Build/Productions/GithubProductions/ZenRayProgress/docs/AssetsWorkspace.md) précise l’implémentation et les commandes ; la [configuration des sources](/Users/zenray/Create/Build/Productions/GithubProductions/ZenRayProgress/scripts/AssetsConfig.json) définit les périmètres. (2 October 2026)
+
+Le [journal global](/Users/zenray/.claude/PROGRESS.md) conserve les étapes, les preuves et la prochaine action. Il reste distinct de cette définition et du feedback. (2 October 2026)
+
+## Conversion en skill (2 October 2026)
+
+Ce document devient le skill [zenray-assets-v2](/Users/zenray/.claude/skills/zenray-assets-v2/SKILL.md), qui contient son texte intégral et les instructions de reprise. Cette copie reste une photographie historique ; les prochaines évolutions du protocole vont dans le skill canonique. (2 October 2026)
