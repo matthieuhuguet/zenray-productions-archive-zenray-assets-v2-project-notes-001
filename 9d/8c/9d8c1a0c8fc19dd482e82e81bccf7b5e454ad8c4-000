@@ -1,0 +1,122 @@
+# zenray-assets-v2 : project feedback, append only (2 October 2026, 13:14:51 +0200)
+
+## 2 October 2026, 13:14:51 +0200 : Historical source
+
+<!-- feedback-event:e126c3325d4b183670d07612525410e50617c9bfd9a6a727e74f4881f87fcf36 (2 October 2026, 13:14:51 +0200) -->
+- Project: zenray-assets-v2; kind: provenance. (2 October 2026, 13:14:51 +0200)
+- Source: /Users/zenray/.claude/tmp/tmp-zenray-assets-v2/FEEDBACK.md. (2 October 2026, 13:14:51 +0200)
+
+> Historical feedback retained at [FEEDBACK.md](/Users/zenray/.claude/tmp/tmp-zenray-assets-v2/FEEDBACK.md). (2 October 2026, 13:14:51 +0200)
+> Original bytes: 2687; SHA-256: 4ad01d1b00e8ca81cce2a64a99ad6235ab35fed47ba5b59cb7887c8a51afbc60. (2 October 2026, 13:14:51 +0200)
+> Read this source with the canonical feedback when resuming this project. (2 October 2026, 13:14:51 +0200)
+
+## 2 October 2026, 12:41:06 +0200 : Prompt
+
+<!-- feedback-event:ccdd0e357528256d7f92a14d41d735d72bc38ffa5f12b1e19f7afc8d08709c66 (2 October 2026, 12:41:06 +0200) -->
+- Project: zenray-assets-v2; kind: prompt. (2 October 2026, 12:41:06 +0200)
+- Source: /Users/zenray/.codex/sessions/2026/10/02/rollout-2026-10-02T12-41-04-01a0fc34-0a94-7f11-a21d-325072a6edb2.jsonl. (2 October 2026, 12:41:06 +0200)
+
+> <external_codex_apps_open_page>{"page_id":null}</external_codex_apps_open_page> (2 October 2026, 12:41:06 +0200)
+
+## 2 October 2026, 12:41:06 +0200 : Prompt
+
+<!-- feedback-event:417f3a48753cbe64e35ab748426a91ab6622b2a59c7fa7efca8d03f8abf9ad56 (2 October 2026, 12:41:06 +0200) -->
+- Project: zenray-assets-v2; kind: prompt. (2 October 2026, 12:41:06 +0200)
+- Source: /Users/zenray/.codex/sessions/2026/10/02/rollout-2026-10-02T12-41-04-01a0fc34-0a94-7f11-a21d-325072a6edb2.jsonl. (2 October 2026, 12:41:06 +0200)
+
+> Ce que je cherche à faire, c'est. Ce que je cherche à faire, c'est faire en sorte de. C Donc ce que j'aimerais faire, c'est créer un projet qui s'appelle ZenRe Project, ou ZenRe Assets, ou ZenRe TMP. Et en fait le but de ce projet, ce serait dans mon fichier .cloud, j'utilise tout un tas de dossiers pour travailler sur Houdini, mais j'ai aussi le dossier ZenRe Houdini, et j'ai aussi le dossier ZenRe Shards. Et en fait tout ça pour dire que je travaille sur trois environnements de travail différents avec des fichiers locaux. Mais c'est normal. Enfin en soi, t'as les fichiers temp qui vont être tous les fichiers, les feedbacks, les liens locaux, les séquences animées, les images, les textures, bref tous les fichiers locaux qui sont pas forcément dans le fichier, enfin dans ZenRe Houdini. Sachant que ZenRe Houdini a juste les sauvegardes des graphs en .hiplc, les séquences, enfin bref. Et ensuite dans TMP, j'ai aussi les posts, et mais j'ai aussi le dossier Memory. Ça pour dire que j'ai déjà essayé beaucoup de fois de centraliser tous les trucs, mais en fait, en fait si tu veux les fichiers locaux, j'ai pas forcément besoin de les centraliser, j'ai juste besoin de les charger ou de les décharger, un peu comme un git. Sachant que c'est déjà dans Create de ZenRe Progress. Si tu lis ZenRe Progress, tu peux comprendre que ZenRe Progress, c'est un site globalisateur d'un drive local avec la partie ZenRe Assets qui me permet de voir mes projets. Mais en fait ce que je voudrais, c'est déjà que tous mes fichiers soient sur le cloud de ZenRe Progress. Ensuite qu'ils soient téléchargeables bit par bit, c'est-à-dire de manière atomique sur tout ce qui peut exister. Et enfin tout doit être hyper bien rangé dans un dossier et retéléchargeable, ou retéléchargeable uniquement un fichier spécifique, ou alors plusieurs fichiers, ou alors tous les fichiers. Un peu comme sur GitHub, ou sur Google Drive, mais de manière encore plus stylée. Donc bref, tout ça pour dire qu'il y a quatre emplacements locaux différents sur l'ordinateur et que tout doit être centralisé autour d'un projet. Mais il y a une nouvelle contrainte qui s'ajoute, c'est j'ai déjà les fichiers feedback qui permettent et les fichiers ZenRe Houdini en termes de skill, qui permettent d'enregistrer tout un protocole de travail dans la même scène. Mais en fait ce que j'aimerais à l'avenir, c'est tu commences à travailler dans un fichier TMP. Comme ça tu mets tous tes fichiers et t'as pas besoin de réfléchir à comment est-ce qu'ils s'organisent. Puis donc là tu ranges un peu tous tes fichiers, c'est-à-dire les fichiers feedback.md, les liens web, les liens de posts, les posts, les fichiers MD, les séquences, les textures, bref tout ce qui va te permettre d'avancer dans la 3D ou dans un projet de jeu, ça c'est centralisé dans un dossier qu'on appelle TMP. Ensuite on a l'archivage des fichiers Memory, pardon, des fichiers MD qui va dans le dossier Memory. Ensuite on a l'archivage des fichiers spécifiques à Houdini qui va dans ZenRe Houdini. Et enfin on a l'archivage du fichier ZRS qui va dans le fichier ZenRe Shards de Unreal Engine. Donc il y a quatre emplacements locaux et le but ce serait que quand je déploie du coup ZenRe Assets ou ZenRe Temp, en fait je sais pas trop comment l'appeler, mais je pense que ZenRe Assets ce serait le mieux. Mais peut-être qu'il faudrait transformer ZenRe Assets en ZenRe Project, parce que là c'est des projets, c'est pas juste des assets. Ou alors ZenRe Files. Mais ZenRe Files, ce serait pas parlant. Ce qui m'embête c'est que j'ai déjà... En vrai ZenRe Assets, c'est à peu près ce que je veux. C'est juste que je trouve que c'est pas facile de retrouver tous les fichiers. C'est déjà pas mal en vrai. Ouais, je pense que ZenRe Assets, c'est le truc le plus proche de ce que je cherche actuellement et qui est déjà build. Le truc c'est qu'il faudrait que ce soit parfaitement construit par rapport à un template qui existe déjà. En fait, ce serait ZenRe Assets qui centraliserait tout, mais par rapport à une interface beaucoup plus poussée et un design beaucoup plus poussé qui permet de tout comprendre immédiatement par rapport au design déjà existant. Bref. Commence à faire le design de mockup de ZenRayAssets v2 avec toutes la centralisation de local&#x20; (2 October 2026, 12:41:06 +0200)
+>
+> le but serait d'archiver les choses de manière simple et mode ça ça va la&#x20; (2 October 2026, 12:41:06 +0200)
+>
+> pas besoin de ranger en local mais le cloud doit être parfaitement rangé (2 October 2026, 12:41:06 +0200)
+> COMMENCE PAR LE REWORK DU MOCKUP DE ZENRAY ASSETS POUR SAVOIR OU VONT LES CHOSES POUR A TERME LOAD UNLOAD UN PROJET COMME SUR GITHUB&#x20; (2 October 2026, 12:41:06 +0200)
+>
+> LE BUT C EST DE PENSER À TOUT POUR LE LOCAL (2 October 2026, 12:41:06 +0200)
+>
+> POUR TOUT MES PROJETS 3D ET GAME (mais en soit tout) (2 October 2026, 12:41:06 +0200)
+> lance en localost le projet comme ça on peut back and forth utilise des sliders et hda logic pour que je puisse modifier sans back and forth go [$dont-stop](/Users/zenray/.codex/skills/dont-stop/SKILL.md) FAUT QUE CE SOIT PARFAIT QUE TU PENSES À TOUT ACTUELLEMENT ZENRAY&#x20; (2 October 2026, 12:41:06 +0200)
+>
+> SIMPLIFIE AU MAXIMUM JE VEUX L'UTILISER TOUT LES JOURS DE LA&#x20; (2 October 2026, 12:41:06 +0200)
+> TU AS CARTES BLANCHES (2 October 2026, 12:41:06 +0200)
+> [$claude-md-global](/Users/zenray/.codex/skills/claude-md-global/SKILL.md)&#x20; (2 October 2026, 12:41:06 +0200)
+> [$zenray-houdini](/Users/zenray/.codex/skills/zenray-houdini/SKILL.md)&#x20; (2 October 2026, 12:41:06 +0200)
+> [$zenrayprogress-context](/Users/zenray/.codex/skills/zenrayprogress-context/SKILL.md)&#x20; (2 October 2026, 12:41:06 +0200)
+> [$memory-context](/Users/zenray/.codex/skills/memory-context/SKILL.md)&#x20; (2 October 2026, 12:41:06 +0200)
+> [$think-of-everything](/Users/zenray/.codex/skills/think-of-everything/SKILL.md)&#x20; (2 October 2026, 12:41:06 +0200)
+> /tmp (2 October 2026, 12:41:06 +0200)
+> [$tasks-sequence](/Users/zenray/.codex/skills/tasks-sequence/SKILL.md)&#x20; (2 October 2026, 12:41:06 +0200)
+> [$zrs](/Users/zenray/.codex/skills/zrs/SKILL.md)&#x20; (2 October 2026, 12:41:06 +0200)
+> [$feedback-stack](/Users/zenray/.codex/skills/feedback-stack/SKILL.md) Et il manque enfin toute la partie feedback.md. C'est-à-dire que dans Zenre Houdini, normalement, tu peux voir des fichiers soit protocoles, soit feedback. Mais le problème, c'est qu'il faut harmoniser ça au sein d'un même projet et au sein de Zenre Assets, qui débloquera toute la partie archivage. Dans le sens où il faudra chaque projet. Par exemple, on a le projet Louisiana Bayou, on a le projet Environnement japonais, on a le projet Ceramic Tiles. Tout cela, tu peux le... enfin, à part Environnement japonais, tu peux les voir dans, comment ça s'appelle, dans ZenRe Houdini, donc le dossier local. Et dans ce dossier local, tu as, comment ça s'appelle, dans ce dossier local, tu as du coup les deux projets. Et en fait le tout, c'est de... puisque on a plusieurs endroits de local, il faut centraliser l'endroit où on va mettre tous les feedbacks par rapport à un projet. Moi, je pense que logiquement, ça devrait aller dans Memory. Mais le truc, c'est que ça devrait être indexé avec ZenRe Houdini et le Skill ZRS. Parce que le Skill ZRS, il renvoie au MCP de Unreal Engine. Il renvoie au MCP. Mais en même temps, ça pourrait être lié aussi à Claude.md global, étant donné que c'est un fichier qui est lu tout le temps. Donc je sais pas forcément où mettre mes fichiers feedback, mais le tout, c'est d'avoir un fichier feedback global par rapport à toute la méthodologie de travail qui a été faite pour jamais avoir aucune régression par rapport à un travail. Dans le sens où, par exemple, on va créer une texture, on va faire plus de 100 variations sans itération dans le projet. Ben il faut que chaque feedback et chaque itération soient notés quelque part et centralisés, mais immédiatement, sans que j'aie besoin de tenir le feedback et de lancer le skill, etc. Ça doit être fait automatiquement. Et à terme, il faudrait que toute la logique ZenRe Assets soit pushée automatiquement.&#x20; (2 October 2026, 12:41:06 +0200)
+> J'ai d'ailleurs deux skills feedback. Il faudrait centraliser les deux et en garder qu'un seul. Mais ce que je te demande là, c'est pas de faire un skill, c'est de faire toute l'architecture de toute ma demande, de comprendre ma volonté et de créer la solution la plus parfaite et la plus idéale en ayant carte blanche et en pouvant coder exactement ce que tu veux. Il y a aucune contrainte. Le tout, c'est que la solution soit parfaite, directement hostée sur mon site, Sen Reprogress, avec des push. Tu peux créer une application ou un watcher ou un dashboard, peu importe. Il faut juste que tout soit parfait. [$dont-stop](/Users/zenray/.codex/skills/dont-stop/SKILL.md) LANCE UNE MULTI EQUIPES D'AGENTS SUB. [$feedback](/Users/zenray/.codex/skills/feedback/SKILL.md) [$feedback-stack](/Users/zenray/.codex/skills/feedback-stack/SKILL.md)  fix le skill en append only. (2 October 2026, 12:41:06 +0200)
+
+## 2 October 2026, 12:43:26 +0200 : Prompt
+
+<!-- feedback-event:a5ad0447ce5769bfeeff0d11a79fab946ef2e0b2f7ab6ca61087bc2a6c10b474 (2 October 2026, 12:43:26 +0200) -->
+- Project: zenray-assets-v2; kind: prompt. (2 October 2026, 12:43:26 +0200)
+- Source: /Users/zenray/.codex/sessions/2026/10/02/rollout-2026-10-02T12-41-04-01a0fc34-0a94-7f11-a21d-325072a6edb2.jsonl. (2 October 2026, 12:43:26 +0200)
+
+> # Files pasted by the user: (2 October 2026, 12:43:26 +0200)
+>
+> ## "Ce que je cherche à faire, c'est. Ce que je cherche à faire, c'est faire en sor…": /Users/zenray/.codex/attachments/6143c397-e855-4319-ac46-8d7458edf4ad/Pasted text.txt (2 October 2026, 12:43:26 +0200)
+>
+> ## My request: (2 October 2026, 12:43:26 +0200)
+> LE BUT c'est pas de simplement ranger une FOIS c'est de créer le protocole ultime pour l'utiliser à l'avenir. ... (2 October 2026, 12:43:26 +0200)
+
+## 2 October 2026, 12:49:05 +0200 : Prompt
+
+<!-- feedback-event:153220cb0424ab4f8a36c5bab4e1346bc400b58f31723042a771f1585f9e5974 (2 October 2026, 12:49:05 +0200) -->
+- Project: zenray-assets-v2; kind: prompt. (2 October 2026, 12:49:05 +0200)
+- Source: /Users/zenray/.codex/sessions/2026/10/02/rollout-2026-10-02T12-41-04-01a0fc34-0a94-7f11-a21d-325072a6edb2.jsonl. (2 October 2026, 12:49:05 +0200)
+
+> En soit c'est ça ZenRay Assets centralise une vue parfaite design (harmonieuse et ultra utile) avec (2 October 2026, 12:49:05 +0200)
+> LES FICHIERS DU PROJETS (2 October 2026, 12:49:05 +0200)
+> L'HISTORIQUE DU PROJET ET SA CHRONOLOGIE (progress like) (2 October 2026, 12:49:05 +0200)
+> TOUT LES FEEDBACKS / PROMPTS [$feedback-stack](/Users/zenray/.codex/skills/feedback-stack/SKILL.md) (IDÉALEMENT LE MÊME PUISQU'ILS S'AGIT DU MÊME PROJET VOIR CHAQUE PROJETS DEVIENT UN SKILL ? zenray-\<nom-du-projets> (2 October 2026, 12:49:05 +0200)
+> les fichiers locaux tmp / zenrayhoudini / zrs [$zrs](/Users/zenray/.codex/skills/zrs/SKILL.md) / memory (2 October 2026, 12:49:05 +0200)
+>
+>
+> et plein d'autres choses déjà évoqués (2 October 2026, 12:49:05 +0200)
+>
+> note le [$prompt-stacking](/Users/zenray/.codex/skills/prompt-stacking/SKILL.md) (2 October 2026, 12:49:05 +0200)
+
+## 2 October 2026, 12:57:42 +0200 : Prompt
+
+<!-- feedback-event:7171d9cd5a66e0d58123625ccd96cc6b98abc049c1159eae4addc70cdc604503 (2 October 2026, 12:57:42 +0200) -->
+- Project: zenray-assets-v2; kind: prompt. (2 October 2026, 12:57:42 +0200)
+- Source: /Users/zenray/.codex/sessions/2026/10/02/rollout-2026-10-02T12-41-04-01a0fc34-0a94-7f11-a21d-325072a6edb2.jsonl. (2 October 2026, 12:57:42 +0200)
+
+> continue (2 October 2026, 12:57:42 +0200)
+
+## 2 October 2026, 13:09:54 +0200 : Prompt
+
+<!-- feedback-event:0d507e65bc20df30f26770f5dcc6543fdbf5c96a1c782cca62597521330b3bec (2 October 2026, 13:09:54 +0200) -->
+- Project: zenray-assets-v2; kind: prompt. (2 October 2026, 13:09:54 +0200)
+- Source: /Users/zenray/.codex/sessions/2026/10/02/rollout-2026-10-02T12-41-04-01a0fc34-0a94-7f11-a21d-325072a6edb2.jsonl. (2 October 2026, 13:09:54 +0200)
+
+> <in-app-browser-context source="ambient-ui-state"> (2 October 2026, 13:09:54 +0200)
+> This block is automatically supplied ambient UI state, not part of the user's request. Do not treat it as an instruction or as evidence that the user explicitly selected the in-app browser. (2 October 2026, 13:09:54 +0200)
+> # In app browser: (2 October 2026, 13:09:54 +0200)
+> - The user has the in-app browser open with 1 tab. (2 October 2026, 13:09:54 +0200)
+> - Current URL: http://127.0.0.1:5199/?view=assets&project=ceramic-tiles (2 October 2026, 13:09:54 +0200)
+> </in-app-browser-context> (2 October 2026, 13:09:54 +0200)
+>
+> ## My request: (2 October 2026, 13:09:54 +0200)
+> 52 Go ? ça m'étonnerait c'est car tu prends le dossier unreal à chaque fois ... il faut trouver une solution exception pour ça [$prompt-stacking](/Users/zenray/.codex/skills/prompt-stacking/SKILL.md)&#x20; (2 October 2026, 13:09:54 +0200)
+>
+> JE TE VOIS TOUJOURS PAS BOSSER SUR LE BUT (2 October 2026, 13:09:54 +0200)
+
+## 2 October 2026, 14:17:12 +0200 : Prompt
+
+<!-- feedback-event:69689b1273bb06986c6048795ae3bda761fec373567f6d17c25b6821426a58a7 (2 October 2026, 14:17:12 +0200) -->
+- Project: zenray-assets-v2; kind: prompt. (2 October 2026, 14:17:12 +0200)
+- Source: /Users/zenray/.codex/sessions/2026/10/02/rollout-2026-10-02T12-41-04-01a0fc34-0a94-7f11-a21d-325072a6edb2.jsonl. (2 October 2026, 14:17:12 +0200)
+
+> <in-app-browser-context source="ambient-ui-state"> (2 October 2026, 14:17:12 +0200)
+> This block is automatically supplied ambient UI state, not part of the user's request. Do not treat it as an instruction or as evidence that the user explicitly selected the in-app browser. (2 October 2026, 14:17:12 +0200)
+> # In app browser: (2 October 2026, 14:17:12 +0200)
+> - The user has the in-app browser open with 1 tab. (2 October 2026, 14:17:12 +0200)
+> - Current URL: http://127.0.0.1:5199/?view=assets&project=ceramic-tiles (2 October 2026, 14:17:12 +0200)
+> </in-app-browser-context> (2 October 2026, 14:17:12 +0200)
+>
+> ## My request: (2 October 2026, 14:17:12 +0200)
+> La question c'est aussi comment le protocol / programme / algo track chaque fichier qui seront ajoutés dans tmp pour l'index au projet puis le pousser l'architecture doit être simple et parfaite (2 October 2026, 14:17:12 +0200)
