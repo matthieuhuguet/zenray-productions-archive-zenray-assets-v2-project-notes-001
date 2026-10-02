@@ -453,3 +453,41 @@
 - Project: zenray-assets-v2; kind: log. (2 October 2026, 20:16:00 +0200)
 
 > 2 October 2026 : index global TMP Memory Houdini Unreal ajoute, contexte local et cloud genere, 73 tests passes. Catalogue GitHub volumineux detecte lors de la relecture : lecture raw fraiche ajoutee avec refus decraser un contenu indisponible. Controle du skill rejette les empreintes fausses dans les deux modes. (2 October 2026, 20:16:00 +0200)
+
+## 2 October 2026, 20:21:08 +0200 : Iteration
+
+<!-- feedback-event:45ccabbed6e43cb667af349e7ae3f822644c6fdb9610c552c2c2d18035c831f2 (2 October 2026, 20:21:08 +0200) -->
+- Project: zenray-assets-v2; kind: iteration. (2 October 2026, 20:21:08 +0200)
+- Source: /Users/zenray/.codex/sessions/2026/10/02/rollout-2026-10-02T12-41-04-01a0fc34-0a94-7f11-a21d-325072a6edb2.jsonl. (2 October 2026, 20:21:08 +0200)
+
+> Le mapping global est codé, installé et poussé. Chaque projet dispose désormais d’un contexte reliant TMP, Memory, Houdini, Unreal et son feedback. (2 October 2026, 20:21:08 +0200)
+>
+> | Ce que tu veux | État | Preuve | (2 October 2026, 20:21:08 +0200)
+> |---|---|---| (2 October 2026, 20:21:08 +0200)
+> | Index automatique par projet | Fait | 5 projets indexés, aucun lien manquant | (2 October 2026, 20:21:08 +0200)
+> | Contexte accessible au cloud | Fait | 5 contextes publiés et relus | (2 October 2026, 20:21:08 +0200)
+> | Skill maintenu avec le code | Fait | Contrôle vert, empreinte périmée refusée | (2 October 2026, 20:21:08 +0200)
+> | Tout sauvegardé et rechargeable | Partiel | Ceramic Tiles conserve 1 891 fichiers à archiver ; portabilité des scènes à vérifier | (2 October 2026, 20:21:08 +0200)
+>
+> 73 tests passent. Le catalogue volumineux est aussi protégé contre les lectures vides ou périmées. (2 October 2026, 20:21:08 +0200)
+>
+> [Voir le contexte de Louisiana Bayou](</Users/zenray/Library/Application Support/ZenRayAssets/contexts/louisiana-bayou.md>). (2 October 2026, 20:21:08 +0200)
+
+## 2 October 2026, 20:21:08 +0200 : Iteration
+
+<!-- feedback-event:1f32ce067408f6e77435963907faf54d71aeb075c57874c87ed04cbd13b681a1 (2 October 2026, 20:21:08 +0200) -->
+- Project: zenray-assets-v2; kind: iteration. (2 October 2026, 20:21:08 +0200)
+- Source: /Users/zenray/.codex/sessions/2026/10/02/rollout-2026-10-02T12-41-04-01a0fc34-0a94-7f11-a21d-325072a6edb2.jsonl. (2 October 2026, 20:21:08 +0200)
+
+> Le mapping global est codé, installé et poussé. Chaque projet dispose désormais d’un contexte reliant TMP, Memory, Houdini, Unreal et son feedback. (2 October 2026, 20:21:08 +0200)
+>
+> | Ce que tu veux | État | Preuve | (2 October 2026, 20:21:08 +0200)
+> |---|---|---| (2 October 2026, 20:21:08 +0200)
+> | Index automatique par projet | Fait | 5 projets indexés, aucun lien manquant | (2 October 2026, 20:21:08 +0200)
+> | Contexte accessible au cloud | Fait | 5 contextes publiés et relus | (2 October 2026, 20:21:08 +0200)
+> | Skill maintenu avec le code | Fait | Contrôle vert, empreinte périmée refusée | (2 October 2026, 20:21:08 +0200)
+> | Tout sauvegardé et rechargeable | Partiel | Ceramic Tiles conserve 1 891 fichiers à archiver ; portabilité des scènes à vérifier | (2 October 2026, 20:21:08 +0200)
+>
+> 73 tests passent. Le catalogue volumineux est aussi protégé contre les lectures vides ou périmées. (2 October 2026, 20:21:08 +0200)
+>
+> [Voir le contexte de Louisiana Bayou](</Users/zenray/Library/Application Support/ZenRayAssets/contexts/louisiana-bayou.md>). (2 October 2026, 20:21:08 +0200)
