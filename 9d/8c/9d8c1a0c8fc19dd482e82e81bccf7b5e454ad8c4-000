@@ -446,3 +446,10 @@
 - Source: /Users/zenray/.codex/sessions/2026/10/02/rollout-2026-10-02T12-41-04-01a0fc34-0a94-7f11-a21d-325072a6edb2.jsonl. (2 October 2026, 20:05:34 +0200)
 
 > continue (2 October 2026, 20:05:34 +0200)
+
+## 2 October 2026, 20:16:00 +0200 : Log
+
+<!-- feedback-event:486d8ba7b6b39b2d79fae3fba93d0ccf8389b27f31ee14bbe1639935b9dfc56f (2 October 2026, 20:16:00 +0200) -->
+- Project: zenray-assets-v2; kind: log. (2 October 2026, 20:16:00 +0200)
+
+> 2 October 2026 : index global TMP Memory Houdini Unreal ajoute, contexte local et cloud genere, 73 tests passes. Catalogue GitHub volumineux detecte lors de la relecture : lecture raw fraiche ajoutee avec refus decraser un contenu indisponible. Controle du skill rejette les empreintes fausses dans les deux modes. (2 October 2026, 20:16:00 +0200)
