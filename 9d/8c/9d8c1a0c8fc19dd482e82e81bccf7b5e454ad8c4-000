@@ -580,3 +580,17 @@
 - Project: zenray-assets-v2; kind: log. (3 October 2026, 03:18:50 +0200)
 
 > 3 October 2026 : deuxieme cycle corrige les erreurs de surveillance par source ; le retablissement dun dossier nefface plus la panne dun autre. 33 tests service et watcher passent. Audit suivant : la projection cloud supprimait sharedProjectId declare sur une source, correction en cours. (3 October 2026, 03:18:50 +0200)
+
+## 3 October 2026, 03:30:08 +0200 : Log
+
+<!-- feedback-event:e93e63f3cc4a35cf9186ca2838ab2d0c4b77b1212b2246c49b572de4362b0ccb (3 October 2026, 03:30:08 +0200) -->
+- Project: zenray-assets-v2; kind: log. (3 October 2026, 03:30:08 +0200)
+
+> 3 October 2026 : message de reconnexion teste dans trois etats, build termine, deploye sur https://4f61ab66.zenray-progress.pages.dev et production HTTP 200. Controle navigateur non obtenu : page erreur data URL bloquee. Cycle suivant reproduit fichiers crees hors surveillance non indexes a la reconnexion, test rouge obtenu puis correction de linventaire declenche au retablissement. (3 October 2026, 03:30:08 +0200)
+
+## 3 October 2026, 03:34:25 +0200 : Log
+
+<!-- feedback-event:0f539718c586d22790359eae16bb79e90f2c6ac93fd12eb235dfd74a77b5fbc6 (3 October 2026, 03:34:25 +0200) -->
+- Project: zenray-assets-v2; kind: log. (3 October 2026, 03:34:25 +0200)
+
+> 3 October 2026 : demarrage de projets avec dossiers existants unifie avec start. Le meme protocole cree la memoire, le feedback canonique et le suivi sans modifier les scenes originales. 35 tests service passent, dont definition fournie et rejet dune identite incoherente. Build frontend termine. (3 October 2026, 03:34:25 +0200)
