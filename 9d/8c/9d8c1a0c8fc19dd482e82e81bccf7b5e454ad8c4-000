@@ -735,3 +735,10 @@
 - Project: zenray-assets-v2; kind: log. (3 October 2026, 09:06:31 +0200)
 
 > 3 October 2026 : correction de la preuve automatic-preparation-plan-20261003 : premier appel reel echoue car ready absent du JSON pour loadedCopy undefined. Le booleen est maintenant explicite ; 56 tests service/plan passes et nouvel appel reel confirme ready=false, sept HDA copies prets et scene Louisiana a charger. AutomaticPreparationPlanProof.json conserve la reponse. Contrat skill 23 fichiers vert. (3 October 2026, 09:06:31 +0200)
+
+## 3 October 2026, 09:17:17 +0200 : Log
+
+<!-- feedback-event:2bd5e619adab6216d8682cf5875ab9fa3158b60902b6a69c596b8ddbda2ab397 (3 October 2026, 09:17:17 +0200) -->
+- Project: zenray-assets-v2; kind: log. (3 October 2026, 09:17:17 +0200)
+
+> 3 October 2026 : prepare-scene branche au service et a une file HOM partagee. 74 tests passent ; preuves courantes/stale, export historique sans chemins, diagnostics stderr conserves, copies archivees apres edition admissibles. Skill synchronise, contrat 23 fichiers vert, service installe. LOAD reel Louisiana lance sur 21 fichiers precis, 55 866 549 octets ; verification du job Houdini a suivre. (3 October 2026, 09:17:17 +0200)
