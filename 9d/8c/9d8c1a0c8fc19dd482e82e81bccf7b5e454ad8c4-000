@@ -1134,3 +1134,43 @@
 >
 > ## My request: (3 October 2026, 15:43:59 +0200)
 > regarde l'UI la sidebar de gauche et le main website pannel sont désynchronisé CE NE DOIT JAMAIS ÊTRE LE CAS VISUELLEMENT CEPENDANT ILS ONT UNE SCROLLBAR CHACUN INDIVIDUELLEMENT MALGRÉ QU'IL POSSÈDE UNE UNION DES BORDS ARRONDI PARFAITES. NE CASSE JAMAIS LE RECTANGLE ARRONDI [$prompt-stacking](/Users/zenray/.codex/skills/prompt-stacking/SKILL.md) (3 October 2026, 15:43:59 +0200)
+
+## 3 October 2026, 15:52:16 +0200 : Iteration
+
+<!-- feedback-event:0813757becab2084871d0aa4fc15a3c4c90229d562275c25a012ccd2c4ea92b8 (3 October 2026, 15:52:16 +0200) -->
+- Project: zenray-assets-v2; kind: iteration. (3 October 2026, 15:52:16 +0200)
+- Source: checkpoint:codex:01a0fc34-0a94-7f11-a21d-325072a6edb2. (3 October 2026, 15:52:16 +0200)
+
+> Fixed the joined rounded frame: docked sidebar and main panel share explicit viewport bounds, inner edges meet, and their scrolling stays independent. At 1440x900 both top70/bottom858/join244; sidebar scroll340 and main450 preserve geometry. At 1000x650 both top70/bottom608. Collapsed sidebar restores all four main corners; temporary viewport reset. Isolated build passed and deployment23e1843d plus production HTTP200 have matching CSS. Skill synchronized, remaining portability/native imports stay open. (3 October 2026, 15:52:16 +0200)
+
+## 3 October 2026, 15:52:42 +0200 : Iteration
+
+<!-- feedback-event:029295cfd923aa72cdf3e264ce4adfbadd556beac92eb88995c976512a47d640 (3 October 2026, 15:52:42 +0200) -->
+- Project: zenray-assets-v2; kind: iteration. (3 October 2026, 15:52:42 +0200)
+- Source: /Users/zenray/.codex/sessions/2026/10/02/rollout-2026-10-02T12-41-04-01a0fc34-0a94-7f11-a21d-325072a6edb2.jsonl. (3 October 2026, 15:52:42 +0200)
+
+> Corrigé et publié. La sidebar et le panneau gardent désormais **le même haut, le même bas et une jonction exacte**, avec leurs défilements indépendants. (3 October 2026, 15:52:42 +0200)
+>
+> | Ce que tu voulais | État | Preuve | (3 October 2026, 15:52:42 +0200)
+> |---|---|---| (3 October 2026, 15:52:42 +0200)
+> | Un rectangle arrondi continu | Fait | Bords mesurés identiques sur deux tailles de fenêtre | (3 October 2026, 15:52:42 +0200)
+> | Deux défilements indépendants | Fait | Chaque contenu défile sans déplacer le cadre | (3 October 2026, 15:52:42 +0200)
+> | Préserver les coins au repli | Fait | Le panneau retrouve ses quatre coins arrondis | (3 October 2026, 15:52:42 +0200)
+>
+> La règle est consignée dans le skill actualisé. (3 October 2026, 15:52:42 +0200)
+
+## 3 October 2026, 15:52:42 +0200 : Iteration
+
+<!-- feedback-event:5b2299877fea206da6cd164931c26fa691a36d86268b6aeaa71df3035f056757 (3 October 2026, 15:52:42 +0200) -->
+- Project: zenray-assets-v2; kind: iteration. (3 October 2026, 15:52:42 +0200)
+- Source: /Users/zenray/.codex/sessions/2026/10/02/rollout-2026-10-02T12-41-04-01a0fc34-0a94-7f11-a21d-325072a6edb2.jsonl. (3 October 2026, 15:52:42 +0200)
+
+> Corrigé et publié. La sidebar et le panneau gardent désormais **le même haut, le même bas et une jonction exacte**, avec leurs défilements indépendants. (3 October 2026, 15:52:42 +0200)
+>
+> | Ce que tu voulais | État | Preuve | (3 October 2026, 15:52:42 +0200)
+> |---|---|---| (3 October 2026, 15:52:42 +0200)
+> | Un rectangle arrondi continu | Fait | Bords mesurés identiques sur deux tailles de fenêtre | (3 October 2026, 15:52:42 +0200)
+> | Deux défilements indépendants | Fait | Chaque contenu défile sans déplacer le cadre | (3 October 2026, 15:52:42 +0200)
+> | Préserver les coins au repli | Fait | Le panneau retrouve ses quatre coins arrondis | (3 October 2026, 15:52:42 +0200)
+>
+> La règle est consignée dans le skill actualisé. (3 October 2026, 15:52:42 +0200)
