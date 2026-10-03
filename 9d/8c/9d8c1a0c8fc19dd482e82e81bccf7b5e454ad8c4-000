@@ -491,3 +491,36 @@
 > 73 tests passent. Le catalogue volumineux est aussi protégé contre les lectures vides ou périmées. (2 October 2026, 20:21:08 +0200)
 >
 > [Voir le contexte de Louisiana Bayou](</Users/zenray/Library/Application Support/ZenRayAssets/contexts/louisiana-bayou.md>). (2 October 2026, 20:21:08 +0200)
+
+## 3 October 2026, 03:05:15 +0200 : Prompt
+
+<!-- feedback-event:0ad31f24d1c2b10314db02f545d48c4b8d488eebd8559a492b42f19e9c74d633 (3 October 2026, 03:05:15 +0200) -->
+- Project: zenray-assets-v2; kind: prompt. (3 October 2026, 03:05:15 +0200)
+- Source: /Users/zenray/.codex/sessions/2026/10/02/rollout-2026-10-02T12-41-04-01a0fc34-0a94-7f11-a21d-325072a6edb2.jsonl. (3 October 2026, 03:05:15 +0200)
+
+> [$dont-stop](/Users/zenray/.codex/skills/dont-stop/SKILL.md)&#x20; (3 October 2026, 03:05:15 +0200)
+>
+> Continue d'améliorer sans cesse (3 October 2026, 03:05:15 +0200)
+>
+> le skill est update ?&#x20; (3 October 2026, 03:05:15 +0200)
+>
+> Maintenant jusqu'à 11h59AM demain tu va simplement continuer d'améliorer ZenRayAssetsV2 de manière recursive. (3 October 2026, 03:05:15 +0200)
+>
+> Audit > proposition d'amélioration  > code puis consignation dans le skill (3 October 2026, 03:05:15 +0200)
+> et le cycle recommence (3 October 2026, 03:05:15 +0200)
+>
+> pense toujours simplicité jamais complexité mais produit complet. (3 October 2026, 03:05:15 +0200)
+
+## 3 October 2026, 03:06:35 +0200 : Prompt
+
+<!-- feedback-event:8cd20fa13f7689545c7b33e9a0c4a4662098fba0831545afca3aef1faa13a4b1 (3 October 2026, 03:06:35 +0200) -->
+- Project: zenray-assets-v2; kind: prompt. (3 October 2026, 03:06:35 +0200)
+
+> Continue dameliorer sans cesse jusquau 4 October 2026 a 11h59 Europe/Paris : audit, proposition damelioration, code, puis consignation dans le skill. Simplicite jamais complexite, produit complet. (3 October 2026, 03:06:35 +0200)
+
+## 3 October 2026, 03:07:56 +0200 : Log
+
+<!-- feedback-event:538871223a7738b53c3ac2ddcaa04bb251b29ab9f274cdf7172557714030f852 (3 October 2026, 03:07:56 +0200) -->
+- Project: zenray-assets-v2; kind: log. (3 October 2026, 03:07:56 +0200)
+
+> 3 October 2026 : premier audit corrige la fermeture du fichier dapercu sur lecture terminee ou deconnexion. 74 tests passent. Reprises programmees toutes les trente minutes jusquau 4 October 2026 a 11h59 Paris ; cycle audit code tests skill obligatoire. (3 October 2026, 03:07:56 +0200)
