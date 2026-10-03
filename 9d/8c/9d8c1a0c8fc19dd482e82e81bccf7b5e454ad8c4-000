@@ -1207,3 +1207,21 @@
 > \=> push vers le site de tout de manière harmonieuse (3 October 2026, 16:11:02 +0200)
 >
 > +PENSE A TOUT LE RESTE C'EST UN SCHÉMA ULTRA SIMPLE c'est juste faut jamais oublier de passer par [$zenray-assets-v2](/Users/zenray/.codex/skills/zenray-assets-v2/SKILL.md) mais puisqu'il sera log dans le claude global + [$skill-sync](/Users/zenray/.codex/skills/skill-sync/SKILL.md) normalement y'aura jamais aucun problème tout mes fichiers seront backup :) (3 October 2026, 16:11:02 +0200)
+
+## 3 October 2026, 16:28:13 +0200 : Prompt
+
+<!-- feedback-event:42413af8512dbfd2e1ab3ff56ccd410d6cfe04c40630598d979da9c31c07eff3 (3 October 2026, 16:28:13 +0200) -->
+- Project: zenray-assets-v2; kind: prompt. (3 October 2026, 16:28:13 +0200)
+- Source: /Users/zenray/.codex/sessions/2026/10/02/rollout-2026-10-02T12-41-04-01a0fc34-0a94-7f11-a21d-325072a6edb2.jsonl. (3 October 2026, 16:28:13 +0200)
+
+> <in-app-browser-context source="ambient-ui-state"> (3 October 2026, 16:28:13 +0200)
+> This block is automatically supplied ambient UI state, not part of the user's request. Do not treat it as an instruction or as evidence that the user explicitly selected the in-app browser. (3 October 2026, 16:28:13 +0200)
+> # In app browser: (3 October 2026, 16:28:13 +0200)
+> - The user has the in-app browser open with 1 tab. (3 October 2026, 16:28:13 +0200)
+> - Current URL: http://127.0.0.1:5199/?view=assets&project=ceramic-tiles (3 October 2026, 16:28:13 +0200)
+> </in-app-browser-context> (3 October 2026, 16:28:13 +0200)
+>
+> ## My request: (3 October 2026, 16:28:13 +0200)
+> Puis à la fin explique moi comment [$zenray-assets-v2](/Users/zenray/.codex/skills/zenray-assets-v2/SKILL.md) map les fichiers notamment texte et de context .md pour comprendre le contexte de ZenRayDictate nouvellement ajouté par exemple... (3 October 2026, 16:28:13 +0200)
+>
+> en revanche il faut que les projets les plus récent soit triés et affiché en premier comme une liste email ce n'est actuellement pas le cas ... corrige le code et deploie. Car ZenRayDictate et Ceramic Tiles sont à la fin ... (3 October 2026, 16:28:13 +0200)
