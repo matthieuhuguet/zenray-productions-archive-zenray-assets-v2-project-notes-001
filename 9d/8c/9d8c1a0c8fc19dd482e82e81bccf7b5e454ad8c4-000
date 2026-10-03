@@ -685,3 +685,10 @@
 - Project: zenray-assets-v2; kind: log. (3 October 2026, 04:48:50 +0200)
 
 > 3 October 2026 : diagnostics techniques cloud utilisent les identites de sources et retirent les racines Mac, sans changer messages locaux ni texte humain des prompts/feedbacks. 51 tests passent : code/chemin relatif preserves, sourcePath retire, dossier voisin non confondu. 25 scenes reelles analysees automatiquement. Skill/contrat synchronises et service redemarre avec publication des consommateurs. (3 October 2026, 04:48:50 +0200)
+
+## 3 October 2026, 04:54:52 +0200 : Log
+
+<!-- feedback-event:93edce7c4caeda7720ade2a350073d44aa5c417562e2a5ab83e1a3dccb1b3ee9 (3 October 2026, 04:54:52 +0200) -->
+- Project: zenray-assets-v2; kind: log. (3 October 2026, 04:54:52 +0200)
+
+> 3 October 2026 : compteur vivant des scenes en cours ou en attente visible dans Emplacements, y compris premiere analyse sans preuve. Retire a zero et deconnexion ; absent du cloud. 56 tests passent et build passe. Skill/contrat synchronises. Prochain : portabilite des chemins apres LOAD. (3 October 2026, 04:54:52 +0200)
