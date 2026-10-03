@@ -594,3 +594,10 @@
 - Project: zenray-assets-v2; kind: log. (3 October 2026, 03:34:25 +0200)
 
 > 3 October 2026 : demarrage de projets avec dossiers existants unifie avec start. Le meme protocole cree la memoire, le feedback canonique et le suivi sans modifier les scenes originales. 35 tests service passent, dont definition fournie et rejet dune identite incoherente. Build frontend termine. (3 October 2026, 03:34:25 +0200)
+
+## 3 October 2026, 03:41:08 +0200 : Log
+
+<!-- feedback-event:90a84ed4e315ff5810c566d42bf126ff60ca4cbe2ab1dadc3507ccc0ed1594aa (3 October 2026, 03:41:08 +0200) -->
+- Project: zenray-assets-v2; kind: log. (3 October 2026, 03:41:08 +0200)
+
+> 3 October 2026 : reprise LOAD corrigee, atelier actif fourni au demarrage et au contexte, sources originales conservees. 41 tests passent dont fichier cree dans atelier actif puis indexe et refus de chemin hors LOAD. Commit 4a055a58 pousse. Developpement continu sans pause programmee. (3 October 2026, 03:41:08 +0200)
