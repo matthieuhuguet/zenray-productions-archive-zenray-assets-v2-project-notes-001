@@ -699,3 +699,10 @@
 - Project: zenray-assets-v2; kind: log. (3 October 2026, 05:05:52 +0200)
 
 > 3 October 2026 : liaison exacte origine vers copie LOAD conservee comme relocation-required, distincte du chemin effectivement lu. 75 tests et build passent ; copie texture verifiee liee meme origine absente, pas de guess basename, aucun hip reecrit. Cloud Louisiana relu : 2 scenes/12 references HDA sauvegardees. Skill/contrat synchronises, service installe. Verification reelle LOAD bibliotheque en cours. (3 October 2026, 05:05:52 +0200)
+
+## 3 October 2026, 05:16:21 +0200 : Log
+
+<!-- feedback-event:a06462724b5376571521fbf4be3c68c72adf76091a1a35113fc1f41cacbaefc3 (3 October 2026, 05:16:21 +0200) -->
+- Project: zenray-assets-v2; kind: log. (3 October 2026, 05:16:21 +0200)
+
+> 3 October 2026 : LOAD partiel et recuperation preparent le TMP actif annonce par le contexte. Selection vide et ancetre symbolique refuses avant activation/creation externe. 58 tests passent. Sept HDA charges et sept originaux compares aux archives ; copies identifiees pour Louisiana mais reconnexion Houdini encore non verifiee. Skill canonique synchronise, contrat 21 fichiers vert, service installe. Prochain : preparer la reconnexion Houdini sur fixture isolee sans sauvegarde des originaux. (3 October 2026, 05:16:21 +0200)
