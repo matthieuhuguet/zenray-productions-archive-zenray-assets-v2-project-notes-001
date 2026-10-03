@@ -814,3 +814,60 @@
 - Source: /Users/zenray/.codex/sessions/2026/10/02/rollout-2026-10-02T12-41-04-01a0fc34-0a94-7f11-a21d-325072a6edb2.jsonl. (3 October 2026, 14:28:35 +0200)
 
 > Bon fini puis explique moi très simplement comment utiliser [$zenray-assets-v2](/Users/zenray/.codex/skills/zenray-assets-v2/SKILL.md) le skill doit être mis à jour [$tasks-sequence](/Users/zenray/.codex/skills/tasks-sequence/SKILL.md) (3 October 2026, 14:28:35 +0200)
+
+## 3 October 2026, 14:37:28 +0200 : Log
+
+<!-- feedback-event:1853582fba3bd3443c2a0e351cabc7f1f66e7a3061a569687d54c04bb7e97f6a (3 October 2026, 14:37:28 +0200) -->
+- Project: zenray-assets-v2; kind: log. (3 October 2026, 14:37:28 +0200)
+
+> Finalisation demandee : mode emploi references/DailyUse.md cree, skill canonique complete puis controle conforme sur 24 fichiers. 127 tests passent dans dix suites. BeginProject reprend le projet existant et lie la vraie session. Limites preservees : portabilite complete Houdini/Unreal sur autre Mac et capture universelle non terminees. La cadence continue est cloturee par la demande Bon fini. (3 October 2026, 14:37:28 +0200)
+
+## 3 October 2026, 14:38:33 +0200 : Iteration
+
+<!-- feedback-event:89e69a07f08f11fa3747274d44745cd4d28eeedbeb2d18b625200a0dc8901462 (3 October 2026, 14:38:33 +0200) -->
+- Project: zenray-assets-v2; kind: iteration. (3 October 2026, 14:38:33 +0200)
+- Source: /Users/zenray/.codex/sessions/2026/10/02/rollout-2026-10-02T12-41-04-01a0fc34-0a94-7f11-a21d-325072a6edb2.jsonl. (3 October 2026, 14:38:33 +0200)
+
+> Le [skill est à jour](/Users/zenray/.codex/skills/zenray-assets-v2/SKILL.md), avec un [mode d’emploi simple](/Users/zenray/.codex/skills/zenray-assets-v2/references/DailyUse.md). (3 October 2026, 14:38:33 +0200)
+>
+> Pour l’utiliser : (3 October 2026, 14:38:33 +0200)
+>
+> 1. Dis à l’agent : **« Utilise zenray-assets-v2 pour reprendre Louisiana Bayou. »** Il prépare le bon contexte, l’atelier et le feedback. (3 October 2026, 14:38:33 +0200)
+> 2. Dans **Assets → ton projet → Emplacements → Ouvrir l’atelier**, dépose tes nouveaux fichiers. (3 October 2026, 14:38:33 +0200)
+> 3. Laisse **Auto activée** : index et sauvegarde se font automatiquement. Attends **Sauvegardé** pour savoir que l’envoi est confirmé. (3 October 2026, 14:38:33 +0200)
+> 4. Pour récupérer des fichiers, utilise **Charger sur le Mac**. Pour libérer cette copie, utilise **Décharger la copie chargée** ; les originaux restent présents. (3 October 2026, 14:38:33 +0200)
+>
+> Les prompts des conversations liées rejoignent automatiquement le feedback du projet. (3 October 2026, 14:38:33 +0200)
+>
+> La reprise entièrement fonctionnelle d’une scène Houdini ou Unreal sur un autre ordinateur reste à terminer. (3 October 2026, 14:38:33 +0200)
+>
+> | Ce que tu voulais | État | Preuve | (3 October 2026, 14:38:33 +0200)
+> |---|---|---| (3 October 2026, 14:38:33 +0200)
+> | Finir cette passe | Fait | 127 tests passent | (3 October 2026, 14:38:33 +0200)
+> | Mettre le skill à jour | Fait | Contrôle conforme sur 24 fichiers | (3 October 2026, 14:38:33 +0200)
+> | Expliquer simplement l’usage | Fait | Guide écrit et ouvert dans Codex | (3 October 2026, 14:38:33 +0200)
+
+## 3 October 2026, 14:38:33 +0200 : Iteration
+
+<!-- feedback-event:c21727bc79893beba775d76d2c19ffd18f35abf1e9d02883de1e7518ab00d891 (3 October 2026, 14:38:33 +0200) -->
+- Project: zenray-assets-v2; kind: iteration. (3 October 2026, 14:38:33 +0200)
+- Source: /Users/zenray/.codex/sessions/2026/10/02/rollout-2026-10-02T12-41-04-01a0fc34-0a94-7f11-a21d-325072a6edb2.jsonl. (3 October 2026, 14:38:33 +0200)
+
+> Le [skill est à jour](/Users/zenray/.codex/skills/zenray-assets-v2/SKILL.md), avec un [mode d’emploi simple](/Users/zenray/.codex/skills/zenray-assets-v2/references/DailyUse.md). (3 October 2026, 14:38:33 +0200)
+>
+> Pour l’utiliser : (3 October 2026, 14:38:33 +0200)
+>
+> 1. Dis à l’agent : **« Utilise zenray-assets-v2 pour reprendre Louisiana Bayou. »** Il prépare le bon contexte, l’atelier et le feedback. (3 October 2026, 14:38:33 +0200)
+> 2. Dans **Assets → ton projet → Emplacements → Ouvrir l’atelier**, dépose tes nouveaux fichiers. (3 October 2026, 14:38:33 +0200)
+> 3. Laisse **Auto activée** : index et sauvegarde se font automatiquement. Attends **Sauvegardé** pour savoir que l’envoi est confirmé. (3 October 2026, 14:38:33 +0200)
+> 4. Pour récupérer des fichiers, utilise **Charger sur le Mac**. Pour libérer cette copie, utilise **Décharger la copie chargée** ; les originaux restent présents. (3 October 2026, 14:38:33 +0200)
+>
+> Les prompts des conversations liées rejoignent automatiquement le feedback du projet. (3 October 2026, 14:38:33 +0200)
+>
+> La reprise entièrement fonctionnelle d’une scène Houdini ou Unreal sur un autre ordinateur reste à terminer. (3 October 2026, 14:38:33 +0200)
+>
+> | Ce que tu voulais | État | Preuve | (3 October 2026, 14:38:33 +0200)
+> |---|---|---| (3 October 2026, 14:38:33 +0200)
+> | Finir cette passe | Fait | 127 tests passent | (3 October 2026, 14:38:33 +0200)
+> | Mettre le skill à jour | Fait | Contrôle conforme sur 24 fichiers | (3 October 2026, 14:38:33 +0200)
+> | Expliquer simplement l’usage | Fait | Guide écrit et ouvert dans Codex | (3 October 2026, 14:38:33 +0200)
