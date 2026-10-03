@@ -871,3 +871,71 @@
 > | Finir cette passe | Fait | 127 tests passent | (3 October 2026, 14:38:33 +0200)
 > | Mettre le skill à jour | Fait | Contrôle conforme sur 24 fichiers | (3 October 2026, 14:38:33 +0200)
 > | Expliquer simplement l’usage | Fait | Guide écrit et ouvert dans Codex | (3 October 2026, 14:38:33 +0200)
+
+## 3 October 2026, 14:49:07 +0200 : Prompt
+
+<!-- feedback-event:61572fb4e7d0ac5c0e4892e697c2c48471b406cdddbfd4d6efb53428edb4105a (3 October 2026, 14:49:07 +0200) -->
+- Project: zenray-assets-v2; kind: prompt. (3 October 2026, 14:49:07 +0200)
+- Source: /Users/zenray/.codex/sessions/2026/10/02/rollout-2026-10-02T12-41-04-01a0fc34-0a94-7f11-a21d-325072a6edb2.jsonl. (3 October 2026, 14:49:07 +0200)
+
+> Je sais juste pas comment la sauvegarde automatique se fait j'aimerai comprendre ... (3 October 2026, 14:49:07 +0200)
+
+## 3 October 2026, 14:50:07 +0200 : Iteration
+
+<!-- feedback-event:f226089a3a7acba2167e10a5fbf02b26051c0556309ba5da60a6a2de195bf982 (3 October 2026, 14:50:07 +0200) -->
+- Project: zenray-assets-v2; kind: iteration. (3 October 2026, 14:50:07 +0200)
+- Source: /Users/zenray/.codex/sessions/2026/10/02/rollout-2026-10-02T12-41-04-01a0fc34-0a94-7f11-a21d-325072a6edb2.jsonl. (3 October 2026, 14:50:07 +0200)
+
+> **Un programme tourne en arrière-plan sur ton Mac et surveille les dossiers reliés à chaque projet.** Le skill prépare ces liens ; le programme assure ensuite la sauvegarde, même si tu fermes la page Assets. (3 October 2026, 14:50:07 +0200)
+>
+> Par exemple, tu crées `texture.png` dans l’atelier de Louisiana Bayou : (3 October 2026, 14:50:07 +0200)
+>
+> 1. **Le programme détecte le fichier**, puis actualise l’index local après environ une seconde. (3 October 2026, 14:50:07 +0200)
+> 2. **Il sait que ce fichier appartient à Louisiana Bayou**, parce que cet atelier est enregistré dans ce projet. (3 October 2026, 14:50:07 +0200)
+> 3. **Il attend deux minutes sans écriture dans le dossier surveillé**, pour éviter d’envoyer un export encore en cours. Chaque nouvelle écriture relance ce délai. (3 October 2026, 14:50:07 +0200)
+> 4. **Il envoie les fichiers nouveaux ou modifiés** dans le classement cloud du projet. Il ne renvoie pas systématiquement tout le dossier Unreal. (3 October 2026, 14:50:07 +0200)
+> 5. **Il vérifie la sauvegarde**, puis actualise le catalogue cloud pour que tu puisses retrouver et télécharger le fichier. (3 October 2026, 14:50:07 +0200)
+>
+> Le délai de deux minutes déclenche l’envoi ; la durée du transfert s’ajoute ensuite. (3 October 2026, 14:50:07 +0200)
+>
+> Dans Assets : (3 October 2026, 14:50:07 +0200)
+>
+> | Ce que tu vois | Ce que cela signifie | (3 October 2026, 14:50:07 +0200)
+> |---|---| (3 October 2026, 14:50:07 +0200)
+> | **À sauvegarder** | Le fichier est détecté, mais sa sauvegarde n’est pas encore confirmée | (3 October 2026, 14:50:07 +0200)
+> | **Sauvegarde en cours** | Le programme travaille sur l’envoi | (3 October 2026, 14:50:07 +0200)
+> | **Sauvegardé** | Les octets archivés ont été vérifiés | (3 October 2026, 14:50:07 +0200)
+>
+> **Tu dois donc travailler dans l’atelier du projet ou dans ses dossiers déjà reliés.** Un fichier créé ailleurs sur le Mac n’est pas automatiquement attribué au bon projet. (3 October 2026, 14:50:07 +0200)
+>
+> Le Mac doit être éveillé, le service actif et Internet disponible pour envoyer. En cas d’échec, le programme affiche l’erreur et réessaie automatiquement. Tu peux aussi cliquer **Sauvegarder** pour lancer l’envoi sans attendre les deux minutes. (3 October 2026, 14:50:07 +0200)
+
+## 3 October 2026, 14:50:07 +0200 : Iteration
+
+<!-- feedback-event:c3187cfa944cef0a4d47d7e6ecb5a2da365384f124a51d8c8942d53dc3dc3e0b (3 October 2026, 14:50:07 +0200) -->
+- Project: zenray-assets-v2; kind: iteration. (3 October 2026, 14:50:07 +0200)
+- Source: /Users/zenray/.codex/sessions/2026/10/02/rollout-2026-10-02T12-41-04-01a0fc34-0a94-7f11-a21d-325072a6edb2.jsonl. (3 October 2026, 14:50:07 +0200)
+
+> **Un programme tourne en arrière-plan sur ton Mac et surveille les dossiers reliés à chaque projet.** Le skill prépare ces liens ; le programme assure ensuite la sauvegarde, même si tu fermes la page Assets. (3 October 2026, 14:50:07 +0200)
+>
+> Par exemple, tu crées `texture.png` dans l’atelier de Louisiana Bayou : (3 October 2026, 14:50:07 +0200)
+>
+> 1. **Le programme détecte le fichier**, puis actualise l’index local après environ une seconde. (3 October 2026, 14:50:07 +0200)
+> 2. **Il sait que ce fichier appartient à Louisiana Bayou**, parce que cet atelier est enregistré dans ce projet. (3 October 2026, 14:50:07 +0200)
+> 3. **Il attend deux minutes sans écriture dans le dossier surveillé**, pour éviter d’envoyer un export encore en cours. Chaque nouvelle écriture relance ce délai. (3 October 2026, 14:50:07 +0200)
+> 4. **Il envoie les fichiers nouveaux ou modifiés** dans le classement cloud du projet. Il ne renvoie pas systématiquement tout le dossier Unreal. (3 October 2026, 14:50:07 +0200)
+> 5. **Il vérifie la sauvegarde**, puis actualise le catalogue cloud pour que tu puisses retrouver et télécharger le fichier. (3 October 2026, 14:50:07 +0200)
+>
+> Le délai de deux minutes déclenche l’envoi ; la durée du transfert s’ajoute ensuite. (3 October 2026, 14:50:07 +0200)
+>
+> Dans Assets : (3 October 2026, 14:50:07 +0200)
+>
+> | Ce que tu vois | Ce que cela signifie | (3 October 2026, 14:50:07 +0200)
+> |---|---| (3 October 2026, 14:50:07 +0200)
+> | **À sauvegarder** | Le fichier est détecté, mais sa sauvegarde n’est pas encore confirmée | (3 October 2026, 14:50:07 +0200)
+> | **Sauvegarde en cours** | Le programme travaille sur l’envoi | (3 October 2026, 14:50:07 +0200)
+> | **Sauvegardé** | Les octets archivés ont été vérifiés | (3 October 2026, 14:50:07 +0200)
+>
+> **Tu dois donc travailler dans l’atelier du projet ou dans ses dossiers déjà reliés.** Un fichier créé ailleurs sur le Mac n’est pas automatiquement attribué au bon projet. (3 October 2026, 14:50:07 +0200)
+>
+> Le Mac doit être éveillé, le service actif et Internet disponible pour envoyer. En cas d’échec, le programme affiche l’erreur et réessaie automatiquement. Tu peux aussi cliquer **Sauvegarder** pour lancer l’envoi sans attendre les deux minutes. (3 October 2026, 14:50:07 +0200)
