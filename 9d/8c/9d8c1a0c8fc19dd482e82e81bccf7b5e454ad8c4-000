@@ -657,3 +657,10 @@
 - Project: zenray-assets-v2; kind: log. (3 October 2026, 04:29:18 +0200)
 
 > 3 October 2026 : reanalyse automatique des scenes deja auditees apres sauvegarde. Processus HOM independant, stabilisation, deduplication, timeout, annulation, erreur locale visible et retry. 56 tests et preuve HOM isolee stale vers current passent ; fichier simultane indexe. Build passe, skill synchronise et contrat 21 fichiers vert. Initialisation automatique des scenes inconnues reste a faire. (3 October 2026, 04:29:18 +0200)
+
+## 3 October 2026, 04:35:41 +0200 : Log
+
+<!-- feedback-event:d29dea404168dc623e29a322cc987cb83323458228cecd840bc6d0f8b92b6fde (3 October 2026, 04:35:41 +0200) -->
+- Project: zenray-assets-v2; kind: log. (3 October 2026, 04:35:41 +0200)
+
+> 3 October 2026 : Emplacements affiche les ressources scene dedupliquees, etats reels et references a verifier sans fausse absence. Un clic selectionne le fichier exact dans le bon projet, y compris bibliotheque. Dependances simples et objets visibles. 64 tests et build passent, deploiement 6bb524d3 HTTP 200. Skill et contrat synchronises. Verification visuelle non obtenue. (3 October 2026, 04:35:41 +0200)
