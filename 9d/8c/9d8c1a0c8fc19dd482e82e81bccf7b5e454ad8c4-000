@@ -678,3 +678,10 @@
 - Project: zenray-assets-v2; kind: log. (3 October 2026, 04:43:53 +0200)
 
 > 3 October 2026 : publication dune bibliotheque republie les contextes de ses consommateurs audites, sans recursion ni nouvelle analyse HOM. Test vrai publisher simule HTTP : ancien etat local-only devient backed-up et nouvelle empreinte dans workspace/index ; projet sans lien preserve. 50 tests passent, skill/contrat verts. Decouverte automatique reelle : Japanese2, Louisiana2, Ceramic5 audits. Restent anciens champs diagnostics avec chemins Mac. (3 October 2026, 04:43:53 +0200)
+
+## 3 October 2026, 04:48:50 +0200 : Log
+
+<!-- feedback-event:0a2e5cdde454e7a73751b15be7164d2791accd4414d837cc6addcfa2087d2dda (3 October 2026, 04:48:50 +0200) -->
+- Project: zenray-assets-v2; kind: log. (3 October 2026, 04:48:50 +0200)
+
+> 3 October 2026 : diagnostics techniques cloud utilisent les identites de sources et retirent les racines Mac, sans changer messages locaux ni texte humain des prompts/feedbacks. 51 tests passent : code/chemin relatif preserves, sourcePath retire, dossier voisin non confondu. 25 scenes reelles analysees automatiquement. Skill/contrat synchronises et service redemarre avec publication des consommateurs. (3 October 2026, 04:48:50 +0200)
