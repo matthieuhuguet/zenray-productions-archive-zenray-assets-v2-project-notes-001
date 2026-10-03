@@ -664,3 +664,10 @@
 - Project: zenray-assets-v2; kind: log. (3 October 2026, 04:35:41 +0200)
 
 > 3 October 2026 : Emplacements affiche les ressources scene dedupliquees, etats reels et references a verifier sans fausse absence. Un clic selectionne le fichier exact dans le bon projet, y compris bibliotheque. Dependances simples et objets visibles. 64 tests et build passent, deploiement 6bb524d3 HTTP 200. Skill et contrat synchronises. Verification visuelle non obtenue. (3 October 2026, 04:35:41 +0200)
+
+## 3 October 2026, 04:38:16 +0200 : Log
+
+<!-- feedback-event:82439c4aac65de7c13bdb88e0fd75a44176f2bf2259619e591a972e1fcf4ce59 (3 October 2026, 04:38:16 +0200) -->
+- Project: zenray-assets-v2; kind: log. (3 October 2026, 04:38:16 +0200)
+
+> 3 October 2026 : premiere analyse des scenes automatique dans TMP/Houdini, y compris sous-dossiers. backup/backups/snapshots restent inventories et sauvegardes mais sans analyse automatique des anciennes versions. 58 tests passent, dont premiere scene, historique conserve, erreur effacee apres retrait. Skill synchronise, contrat vert, service installe. (3 October 2026, 04:38:16 +0200)
