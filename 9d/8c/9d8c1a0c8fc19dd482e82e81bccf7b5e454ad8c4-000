@@ -601,3 +601,24 @@
 - Project: zenray-assets-v2; kind: log. (3 October 2026, 03:41:08 +0200)
 
 > 3 October 2026 : reprise LOAD corrigee, atelier actif fourni au demarrage et au contexte, sources originales conservees. 41 tests passent dont fichier cree dans atelier actif puis indexe et refus de chemin hors LOAD. Commit 4a055a58 pousse. Developpement continu sans pause programmee. (3 October 2026, 03:41:08 +0200)
+
+## 3 October 2026, 03:45:33 +0200 : Log
+
+<!-- feedback-event:e464f28b13546f7ebbd3dbf23fa8774f39f37a65949a3fc0512dc3e3e7e408f7 (3 October 2026, 03:45:33 +0200) -->
+- Project: zenray-assets-v2; kind: log. (3 October 2026, 03:45:33 +0200)
+
+> 3 October 2026 : atelier suivi visible et ouvrable depuis Emplacements pendant une archive. 44 tests passent, build termine, commit aa73431e pousse. Deploiement f2a58027 et domaine production HTTP 200. BeginProject relu en service reel : session liee, atelier LOAD actif, feedback canonique, surveillance active. Sans pause programmee. (3 October 2026, 03:45:33 +0200)
+
+## 3 October 2026, 03:48:55 +0200 : Log
+
+<!-- feedback-event:ae678d1a7d6b2e08d804118b5070acd77221932375a64b01abf4a1364273290f (3 October 2026, 03:48:55 +0200) -->
+- Project: zenray-assets-v2; kind: log. (3 October 2026, 03:48:55 +0200)
+
+> 3 October 2026 : collecte automatique isole les transcripts corrompus ou raccourcis et poursuit les autres sessions. Tests rouges avant correction puis 40 verts ; curseur fautif conserve, prompt sain une seule fois. Contrat couvre 17 modules et refuse le skill perime. Commit 5d00ed32 pousse. (3 October 2026, 03:48:55 +0200)
+
+## 3 October 2026, 03:51:31 +0200 : Log
+
+<!-- feedback-event:266fd37e53bc0ceeb70fdc3760e8a82f983405a5d496ef733e812e878509dbf1 (3 October 2026, 03:51:31 +0200) -->
+- Project: zenray-assets-v2; kind: log. (3 October 2026, 03:51:31 +0200)
+
+> 3 October 2026 : sante de collecte vivante dans le service et message de panne dans la page, efface au retour sain et exclu du cloud. 44 tests passent, build termine ; contrat 18 fichiers vert. Commit 0af5c4ef pousse ; deploiement en cours. Continuer sans pause. (3 October 2026, 03:51:31 +0200)
