@@ -643,3 +643,10 @@
 - Project: zenray-assets-v2; kind: log. (3 October 2026, 04:14:09 +0200)
 
 > 3 October 2026 : publication de catalogue une seule fois après inventaire au dernier lot automatique. Test rouge [0,1,2] puis vert [1,2] sur deux lots ; action en attente conserve sa priorite. 43 tests passent, contrat vert et commit 393b5558 pousse. Mapper pur du sous-agent recu, huit tests ; integration dans le contexte vivant en cours. (3 October 2026, 04:14:09 +0200)
+
+## 3 October 2026, 04:22:22 +0200 : Log
+
+<!-- feedback-event:53cdbb56549c0e7054b4b674b60781301d9a79e4b7c12d19994c73928c5454c8 (3 October 2026, 04:22:22 +0200) -->
+- Project: zenray-assets-v2; kind: log. (3 October 2026, 04:22:22 +0200)
+
+> 3 October 2026 : references HOM reliees par identites exactes aux fichiers du projet et de ses dependances. Scene verifiee SHA256, analyse perimee apres modification, statuts des ressources derives des inventaires courants. 55 tests JS et deux tests HOM passent, build et HTTP 200. Integration reelle Ceramic 43 liens sauvegardes, Louisiana 66. Reanalyse HOM automatique encore absente, portabilite runtime non verifiee. Skill synchronise, contrat vingt fichiers vert. (3 October 2026, 04:22:22 +0200)
