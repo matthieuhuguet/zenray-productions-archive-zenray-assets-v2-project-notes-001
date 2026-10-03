@@ -994,3 +994,11 @@
 - Source: checkpoint:codex:01a0fc34-0a94-7f11-a21d-325072a6edb2. (3 October 2026, 15:18:59 +0200)
 
 > Verified project identity and local/cloud path labels. Four file views share filtering and reversible sorting. History distinguishes captured Codex/Claude messages from explicit agent checkpoints. Remaining native Antigravity conversation decoder is not implemented. (3 October 2026, 15:18:59 +0200)
+
+## 3 October 2026, 15:36:22 +0200 : Iteration
+
+<!-- feedback-event:a402d12b5802a511a0fb67b37d47d0307640d3cd195b9c4d1284fbbacc69ee2a (3 October 2026, 15:36:22 +0200) -->
+- Project: zenray-assets-v2; kind: iteration. (3 October 2026, 15:36:22 +0200)
+- Source: checkpoint:codex:01a0fc34-0a94-7f11-a21d-325072a6edb2. (3 October 2026, 15:36:22 +0200)
+
+> Shipped project identity Markdown, local/active-copy/cloud path labels, four file views, composable filters and reversible sorting, and unified history with transcript/checkpoint provenance. Verified 159 tests and isolated production build; deployment 002ca1d5 and production respond HTTP 200 with identical published Assets bundle. Native Gemini/Antigravity transcript decoding and full executable Houdini/Unreal portability remain unfinished. Next: use the explorer on a real project and verify its archive state before unloading. (3 October 2026, 15:36:22 +0200)

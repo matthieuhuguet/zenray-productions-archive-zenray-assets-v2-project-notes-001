@@ -3,3 +3,13 @@
 - Project ID: zenray-assets-v2. (2 October 2026)
 - Canonical feedback: /Users/zenray/.claude/Memory1/Projects/zenray-assets-v2/FEEDBACK.md. (2 October 2026)
 - Append dated decisions and verified knowledge here; retain existing entries. (2 October 2026)
+
+## Explorer and readable identity (3 October 2026)
+
+- One stable project ID joins registered TMP, Memory, Houdini and scoped Unreal sources with their cloud destinations. The service emits GlobalProjectIndex.json and contexts/<project-id>.md from that registry; the visible identity panel downloads the same derived Markdown representation. (3 October 2026)
+- Project1.md records durable knowledge, FEEDBACK.md records original discussion and explicit checkpoints. Neither becomes a competing editable routing index. (3 October 2026)
+- The interface offers Icons, List, Columns and Gallery, with shared selection and composable name, extension, family, source, backup state, date/time and byte-size filters; name/type/date/size sort both ways. (3 October 2026)
+- Native bound Codex/Claude JSONL messages retain provenance. Gemini and Antigravity use labeled append-only turn checkpoints until their native conversation formats have a verified decoder. (3 October 2026)
+- Verification: 159 tests pass across thirteen suites; actual Ceramic Tiles preview bounds and three path labels are visually checked in the internal browser. Production publication remains subject to its final HTTP proof. (3 October 2026)
+
+- Release proof: https://002ca1d5.zenray-progress.pages.dev and the production domain return HTTP 200. Published AssetsView-XZmIhWmT.js matches the validated isolated build byte for byte. Private Ceramic Tiles file visuals are checked through the connected localhost, not the locked public session. (3 October 2026)
