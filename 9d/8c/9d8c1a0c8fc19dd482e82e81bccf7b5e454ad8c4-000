@@ -806,3 +806,11 @@
 > La poursuite automatique reste toutefois bloquée en `usageLimited` dans l’application ; mes outils ne permettent pas de la réactiver. (3 October 2026, 10:44:42 +0200)
 >
 > Un diagnostic a involontairement affiché un jeton GitHub dans cette conversation : il faut le révoquer. (3 October 2026, 10:44:42 +0200)
+
+## 3 October 2026, 14:28:35 +0200 : Prompt
+
+<!-- feedback-event:f58a1f45dbda15cd4b98690299808848a0e5b12cff9d88c5c379e4e78cc5f189 (3 October 2026, 14:28:35 +0200) -->
+- Project: zenray-assets-v2; kind: prompt. (3 October 2026, 14:28:35 +0200)
+- Source: /Users/zenray/.codex/sessions/2026/10/02/rollout-2026-10-02T12-41-04-01a0fc34-0a94-7f11-a21d-325072a6edb2.jsonl. (3 October 2026, 14:28:35 +0200)
+
+> Bon fini puis explique moi très simplement comment utiliser [$zenray-assets-v2](/Users/zenray/.codex/skills/zenray-assets-v2/SKILL.md) le skill doit être mis à jour [$tasks-sequence](/Users/zenray/.codex/skills/tasks-sequence/SKILL.md) (3 October 2026, 14:28:35 +0200)
