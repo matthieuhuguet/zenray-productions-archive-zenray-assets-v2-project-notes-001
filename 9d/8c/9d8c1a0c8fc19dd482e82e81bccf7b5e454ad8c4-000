@@ -558,3 +558,25 @@
 > | Améliorer dès maintenant | Fait | Fermeture des aperçus corrigée, 74 tests passent | (3 October 2026, 03:08:32 +0200)
 > | Garder le skill pertinent | Fait | Correctif consigné, contrôle vert | (3 October 2026, 03:08:32 +0200)
 > | Produit complet | En cours | Archives et portabilité des scènes restent à terminer | (3 October 2026, 03:08:32 +0200)
+
+## 3 October 2026, 03:16:26 +0200 : Prompt
+
+<!-- feedback-event:b6871bf249fa63de1966935268f1ad897713911627ab8f35ab5ebc143b8e3d2b (3 October 2026, 03:16:26 +0200) -->
+- Project: zenray-assets-v2; kind: prompt. (3 October 2026, 03:16:26 +0200)
+- Source: /Users/zenray/.codex/sessions/2026/10/02/rollout-2026-10-02T12-41-04-01a0fc34-0a94-7f11-a21d-325072a6edb2.jsonl. (3 October 2026, 03:16:26 +0200)
+
+> Non pas toutes les 30 min le developpement continue non stop (3 October 2026, 03:16:26 +0200)
+
+## 3 October 2026, 03:17:26 +0200 : Prompt
+
+<!-- feedback-event:3b2c88dd5d9603bf0742242904989b62539fbf0393e2c4efd360632edc7ee126 (3 October 2026, 03:17:26 +0200) -->
+- Project: zenray-assets-v2; kind: prompt. (3 October 2026, 03:17:26 +0200)
+
+> Non pas toutes les 30 min le developpement continue non stop. La cadence heartbeat est mise en pause ; developpement poursuivi dans la session active jusqua lecheance demandee. (3 October 2026, 03:17:26 +0200)
+
+## 3 October 2026, 03:18:50 +0200 : Log
+
+<!-- feedback-event:e22b619d7e2266812f7903cd629b2c09d84591edfe06e4cc56f84b2a6aa26a41 (3 October 2026, 03:18:50 +0200) -->
+- Project: zenray-assets-v2; kind: log. (3 October 2026, 03:18:50 +0200)
+
+> 3 October 2026 : deuxieme cycle corrige les erreurs de surveillance par source ; le retablissement dun dossier nefface plus la panne dun autre. 33 tests service et watcher passent. Audit suivant : la projection cloud supprimait sharedProjectId declare sur une source, correction en cours. (3 October 2026, 03:18:50 +0200)
