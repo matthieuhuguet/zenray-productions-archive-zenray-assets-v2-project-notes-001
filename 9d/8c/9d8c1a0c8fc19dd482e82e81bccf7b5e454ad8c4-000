@@ -650,3 +650,10 @@
 - Project: zenray-assets-v2; kind: log. (3 October 2026, 04:22:22 +0200)
 
 > 3 October 2026 : references HOM reliees par identites exactes aux fichiers du projet et de ses dependances. Scene verifiee SHA256, analyse perimee apres modification, statuts des ressources derives des inventaires courants. 55 tests JS et deux tests HOM passent, build et HTTP 200. Integration reelle Ceramic 43 liens sauvegardes, Louisiana 66. Reanalyse HOM automatique encore absente, portabilite runtime non verifiee. Skill synchronise, contrat vingt fichiers vert. (3 October 2026, 04:22:22 +0200)
+
+## 3 October 2026, 04:29:18 +0200 : Log
+
+<!-- feedback-event:15c9f3fedfa5d53eaac00c855fb292c9232c817347b06d68c711616ab5984998 (3 October 2026, 04:29:18 +0200) -->
+- Project: zenray-assets-v2; kind: log. (3 October 2026, 04:29:18 +0200)
+
+> 3 October 2026 : reanalyse automatique des scenes deja auditees apres sauvegarde. Processus HOM independant, stabilisation, deduplication, timeout, annulation, erreur locale visible et retry. 56 tests et preuve HOM isolee stale vers current passent ; fichier simultane indexe. Build passe, skill synchronise et contrat 21 fichiers vert. Initialisation automatique des scenes inconnues reste a faire. (3 October 2026, 04:29:18 +0200)
