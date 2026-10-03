@@ -1463,3 +1463,19 @@
 > | Noter et actualiser le skill | Fait | Skill synchronisé, contrat valide | (3 October 2026, 22:01:33 +0200)
 >
 > Le produit n’est pas encore au stade ultime : la capture native Gemini/Antigravity et la reprise complète des scènes sur un autre Mac restent suivies comme tâches ouvertes. (3 October 2026, 22:01:33 +0200)
+
+## 3 October 2026, 22:05:13 +0200 : Prompt
+
+<!-- feedback-event:4c0e2b803fb269ab74b9eac5f7e32a1b0dd5db9a41b99ababf0d0dfa3eabdb23 (3 October 2026, 22:05:13 +0200) -->
+- Project: zenray-assets-v2; kind: prompt. (3 October 2026, 22:05:13 +0200)
+- Source: /Users/zenray/.codex/sessions/2026/10/02/rollout-2026-10-02T12-41-04-01a0fc34-0a94-7f11-a21d-325072a6edb2.jsonl. (3 October 2026, 22:05:13 +0200)
+
+> <in-app-browser-context source="ambient-ui-state"> (3 October 2026, 22:05:13 +0200)
+> This block is automatically supplied ambient UI state, not part of the user's request. Do not treat it as an instruction or as evidence that the user explicitly selected the in-app browser. (3 October 2026, 22:05:13 +0200)
+> # In app browser: (3 October 2026, 22:05:13 +0200)
+> - The user has the in-app browser open with 1 tab. (3 October 2026, 22:05:13 +0200)
+> - Current URL: http://127.0.0.1:5199/?view=assets&project=ceramic-tiles (3 October 2026, 22:05:13 +0200)
+> </in-app-browser-context> (3 October 2026, 22:05:13 +0200)
+>
+> ## My request: (3 October 2026, 22:05:13 +0200)
+> Je t'ai pas demandé de t'arrêter ... (3 October 2026, 22:05:13 +0200)
