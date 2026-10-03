@@ -671,3 +671,10 @@
 - Project: zenray-assets-v2; kind: log. (3 October 2026, 04:38:16 +0200)
 
 > 3 October 2026 : premiere analyse des scenes automatique dans TMP/Houdini, y compris sous-dossiers. backup/backups/snapshots restent inventories et sauvegardes mais sans analyse automatique des anciennes versions. 58 tests passent, dont premiere scene, historique conserve, erreur effacee apres retrait. Skill synchronise, contrat vert, service installe. (3 October 2026, 04:38:16 +0200)
+
+## 3 October 2026, 04:43:53 +0200 : Log
+
+<!-- feedback-event:61db725cd69a5c5cafd83d07072251aeccc95f08aa85d14bbbd1e1a7d42c3f44 (3 October 2026, 04:43:53 +0200) -->
+- Project: zenray-assets-v2; kind: log. (3 October 2026, 04:43:53 +0200)
+
+> 3 October 2026 : publication dune bibliotheque republie les contextes de ses consommateurs audites, sans recursion ni nouvelle analyse HOM. Test vrai publisher simule HTTP : ancien etat local-only devient backed-up et nouvelle empreinte dans workspace/index ; projet sans lien preserve. 50 tests passent, skill/contrat verts. Decouverte automatique reelle : Japanese2, Louisiana2, Ceramic5 audits. Restent anciens champs diagnostics avec chemins Mac. (3 October 2026, 04:43:53 +0200)
