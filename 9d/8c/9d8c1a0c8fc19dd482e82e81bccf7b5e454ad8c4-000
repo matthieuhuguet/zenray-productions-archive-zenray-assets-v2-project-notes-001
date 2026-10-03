@@ -1249,3 +1249,57 @@
 >
 > ## My request: (3 October 2026, 19:34:23 +0200)
 > continue (3 October 2026, 19:34:23 +0200)
+
+## 3 October 2026, 19:40:08 +0200 : Iteration
+
+<!-- feedback-event:1292ac95fb1194040bf186627ff5f5e12a38e1718d4b225e2ff49ffa5a109527 (3 October 2026, 19:40:08 +0200) -->
+- Project: zenray-assets-v2; kind: iteration. (3 October 2026, 19:40:08 +0200)
+- Source: checkpoint:codex:01a0fc34-0a94-7f11-a21d-325072a6edb2. (3 October 2026, 19:40:08 +0200)
+
+> Doctrine globale et skill actualises : BeginConversation obligatoire, collection Conversations distincte, identites stables. Tri recent corrige et publie sur 7a2f51cf.zenray-progress.pages.dev, bundles verifies identiques au build ; 97 tests demarrage/service puis 49 tests tri/interface. ZenRayDictate en tete sur localhost ; contexte relit les sources application, TMP, Memory et documents Markdown. Prochain : completer les imports natifs Gemini/Antigravity et la couverture des conversations entre projets ; sauvegarde cloud de ce checkpoint non encore prouvee. (3 October 2026, 19:40:08 +0200)
+
+## 3 October 2026, 19:41:25 +0200 : Iteration
+
+<!-- feedback-event:d8d5a0ce164b73efabcc44bdcc8abbc96fe9447776cabe0bebd91130ebeb0ebc (3 October 2026, 19:41:25 +0200) -->
+- Project: zenray-assets-v2; kind: iteration. (3 October 2026, 19:41:25 +0200)
+- Source: /Users/zenray/.codex/sessions/2026/10/02/rollout-2026-10-02T12-41-04-01a0fc34-0a94-7f11-a21d-325072a6edb2.jsonl. (3 October 2026, 19:41:25 +0200)
+
+> Le tri est corrigé et [déployé](https://zenray-progress.pages.dev/?view=assets) : les projets récemment modifiés apparaissent en premier. ZenRayDictate est désormais en tête sur la page locale. (3 October 2026, 19:41:25 +0200)
+>
+> Pour **ZenRayDictate**, le mapping fonctionne ainsi : (3 October 2026, 19:41:25 +0200)
+>
+> - Son identifiant unique est `zenray-dictate`. (3 October 2026, 19:41:25 +0200)
+> - Chaque dossier relié possède une identité, par exemple `application` ou `project-notes`. (3 October 2026, 19:41:25 +0200)
+> - `application:README.md` correspond au README local et à `sources/tmp/application/README.md` dans son archive cloud. (3 October 2026, 19:41:25 +0200)
+> - Un nouveau `.md` placé dans une source suivie rejoint automatiquement ce projet. (3 October 2026, 19:41:25 +0200)
+>
+> La [fiche de contexte](</Users/zenray/Library/Application Support/ZenRayAssets/contexts/zenray-dictate.md>) indique où lire les documents. **FEEDBACK.md** conserve les discussions ; **Project1.md** conserve les connaissances durables ; **README.md et SPEC.md** expliquent l’application. L’index retrouve ces fichiers, puis l’agent les lit pour comprendre. (3 October 2026, 19:41:25 +0200)
+>
+> | Ce que tu voulais | État | Preuve | (3 October 2026, 19:41:25 +0200)
+> | --- | --- | --- | (3 October 2026, 19:41:25 +0200)
+> | Projets récents en premier | Fait | 49 tests passent ; publication vérifiée | (3 October 2026, 19:41:25 +0200)
+> | Workflow global et skill actualisés | Fait | Règle ajoutée ; contrat de 38 fichiers valide | (3 October 2026, 19:41:25 +0200)
+> | Toutes les conversations intégralement sauvegardées | Partiel | Import natif Gemini/Antigravity encore absent | (3 October 2026, 19:41:25 +0200)
+
+## 3 October 2026, 19:41:25 +0200 : Iteration
+
+<!-- feedback-event:8b7232fb21cf89c6f4b9e055ba3da6d624ec4a384a5326c6ab7c8189d1109fe7 (3 October 2026, 19:41:25 +0200) -->
+- Project: zenray-assets-v2; kind: iteration. (3 October 2026, 19:41:25 +0200)
+- Source: /Users/zenray/.codex/sessions/2026/10/02/rollout-2026-10-02T12-41-04-01a0fc34-0a94-7f11-a21d-325072a6edb2.jsonl. (3 October 2026, 19:41:25 +0200)
+
+> Le tri est corrigé et [déployé](https://zenray-progress.pages.dev/?view=assets) : les projets récemment modifiés apparaissent en premier. ZenRayDictate est désormais en tête sur la page locale. (3 October 2026, 19:41:25 +0200)
+>
+> Pour **ZenRayDictate**, le mapping fonctionne ainsi : (3 October 2026, 19:41:25 +0200)
+>
+> - Son identifiant unique est `zenray-dictate`. (3 October 2026, 19:41:25 +0200)
+> - Chaque dossier relié possède une identité, par exemple `application` ou `project-notes`. (3 October 2026, 19:41:25 +0200)
+> - `application:README.md` correspond au README local et à `sources/tmp/application/README.md` dans son archive cloud. (3 October 2026, 19:41:25 +0200)
+> - Un nouveau `.md` placé dans une source suivie rejoint automatiquement ce projet. (3 October 2026, 19:41:25 +0200)
+>
+> La [fiche de contexte](</Users/zenray/Library/Application Support/ZenRayAssets/contexts/zenray-dictate.md>) indique où lire les documents. **FEEDBACK.md** conserve les discussions ; **Project1.md** conserve les connaissances durables ; **README.md et SPEC.md** expliquent l’application. L’index retrouve ces fichiers, puis l’agent les lit pour comprendre. (3 October 2026, 19:41:25 +0200)
+>
+> | Ce que tu voulais | État | Preuve | (3 October 2026, 19:41:25 +0200)
+> | --- | --- | --- | (3 October 2026, 19:41:25 +0200)
+> | Projets récents en premier | Fait | 49 tests passent ; publication vérifiée | (3 October 2026, 19:41:25 +0200)
+> | Workflow global et skill actualisés | Fait | Règle ajoutée ; contrat de 38 fichiers valide | (3 October 2026, 19:41:25 +0200)
+> | Toutes les conversations intégralement sauvegardées | Partiel | Import natif Gemini/Antigravity encore absent | (3 October 2026, 19:41:25 +0200)

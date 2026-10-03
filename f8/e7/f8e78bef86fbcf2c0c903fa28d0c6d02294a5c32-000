@@ -13,3 +13,9 @@
 - Verification: 159 tests pass across thirteen suites; actual Ceramic Tiles preview bounds and three path labels are visually checked in the internal browser. Production publication remains subject to its final HTTP proof. (3 October 2026)
 
 - Release proof: https://002ca1d5.zenray-progress.pages.dev and the production domain return HTTP 200. Published AssetsView-XZmIhWmT.js matches the validated isolated build byte for byte. Private Ceramic Tiles file visuals are checked through the connected localhost, not the locked public session. (3 October 2026)
+
+## 3 October 2026 : Porte conversation et tri recent
+
+- CLAUDE.md global impose maintenant BeginConversation avant le premier travail de chaque conversation, meme sans fichier ; l identite de session reste celle de l hote, et les discussions autonomes ont une collection Conversations separee. Un hook universel natif et les imports Gemini/Antigravity restent absents. (3 October 2026)
+- La liste des projets est triee par activite reelle des fichiers et dates du projet ; polling et publication cloud ne comptent pas. Publication 7a2f51cf.zenray-progress.pages.dev verifiee par octets du bundle Assets et du build. (3 October 2026)
+- Mapping texte : source enregistree puis chemin relatif determinent l identite et le classement cloud, pas l extension .md. ZenRayDictate relie son application, TMP, memoire canonique et post historique ; context donne la carte, Project1.md le savoir durable et FEEDBACK.md la discussion. La specification se lit dans le depot, elle n est pas devinee par le mapper. (3 October 2026)
