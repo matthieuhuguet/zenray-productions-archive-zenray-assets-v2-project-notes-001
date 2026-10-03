@@ -742,3 +742,10 @@
 - Project: zenray-assets-v2; kind: log. (3 October 2026, 09:17:17 +0200)
 
 > 3 October 2026 : prepare-scene branche au service et a une file HOM partagee. 74 tests passent ; preuves courantes/stale, export historique sans chemins, diagnostics stderr conserves, copies archivees apres edition admissibles. Skill synchronise, contrat 23 fichiers vert, service installe. LOAD reel Louisiana lance sur 21 fichiers precis, 55 866 549 octets ; verification du job Houdini a suivre. (3 October 2026, 09:17:17 +0200)
+
+## 3 October 2026, 09:27:34 +0200 : Log
+
+<!-- feedback-event:bda7bd3e6f705979a1728751e0d069cc2ceb84d9f32583143e01959189c71c5d (3 October 2026, 09:27:34 +0200) -->
+- Project: zenray-assets-v2; kind: log. (3 October 2026, 09:27:34 +0200)
+
+> 3 October 2026 : preuve reelle LOAD Louisiana 21 copies et 21 originaux conformes aux archives. prepare-scene via service termine avec vingt entrees, sept bibliotheques, seize instances ; 58 references hors perimetre et six diagnostics gardes. Affichage et bouton dans Emplacements, copie non chargee ou Mac deconnecte refuses, preuve perimee visible. 79 tests service/runner/plan/React puis cinq tests contexte et onze React passes, build passe, localhost HTTP200. Skill synchronise et contrat 23 fichiers vert ; publication Pages en cours. Prochain : completer une copie partielle sans UNLOAD. (3 October 2026, 09:27:34 +0200)
