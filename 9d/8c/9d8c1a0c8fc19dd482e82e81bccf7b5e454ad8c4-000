@@ -692,3 +692,10 @@
 - Project: zenray-assets-v2; kind: log. (3 October 2026, 04:54:52 +0200)
 
 > 3 October 2026 : compteur vivant des scenes en cours ou en attente visible dans Emplacements, y compris premiere analyse sans preuve. Retire a zero et deconnexion ; absent du cloud. 56 tests passent et build passe. Skill/contrat synchronises. Prochain : portabilite des chemins apres LOAD. (3 October 2026, 04:54:52 +0200)
+
+## 3 October 2026, 05:05:52 +0200 : Log
+
+<!-- feedback-event:152baa052ce9854da455934499b21e9290fdecbff70050122a4f5a19dcf7828d (3 October 2026, 05:05:52 +0200) -->
+- Project: zenray-assets-v2; kind: log. (3 October 2026, 05:05:52 +0200)
+
+> 3 October 2026 : liaison exacte origine vers copie LOAD conservee comme relocation-required, distincte du chemin effectivement lu. 75 tests et build passent ; copie texture verifiee liee meme origine absente, pas de guess basename, aucun hip reecrit. Cloud Louisiana relu : 2 scenes/12 references HDA sauvegardees. Skill/contrat synchronises, service installe. Verification reelle LOAD bibliotheque en cours. (3 October 2026, 05:05:52 +0200)
