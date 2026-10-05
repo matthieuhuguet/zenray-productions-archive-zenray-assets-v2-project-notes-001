@@ -1666,3 +1666,137 @@
 > | Skill à jour | Fait | Protocole actualisé et poussé | (4 October 2026, 10:38:29 +0200)
 >
 > **173 tests passent.** Les transcripts manquants restent signalés ; le nouveau rendu n’a pas encore été contrôlé visuellement à l’écran. (4 October 2026, 10:38:29 +0200)
+
+## 5 October 2026, 13:12:13 +0200 : Prompt
+
+<!-- feedback-event:aee8f5c75663a517c21fa4ed4f9518ae9b00a201953c21da71a84e7414107abd (5 October 2026, 13:12:13 +0200) -->
+- Project: zenray-assets-v2; kind: prompt. (5 October 2026, 13:12:13 +0200)
+- Source: /Users/zenray/.codex/sessions/2026/10/02/rollout-2026-10-02T12-41-04-01a0fc34-0a94-7f11-a21d-325072a6edb2.jsonl. (5 October 2026, 13:12:13 +0200)
+
+> <external_codex_apps_open_page>{"page_id":null}</external_codex_apps_open_page> (5 October 2026, 13:12:13 +0200)
+
+## 5 October 2026, 13:12:13 +0200 : Prompt
+
+<!-- feedback-event:8d4352e9f94555357643ae9998598759e7752650fc1ad79f1c40cfa4ea79aded (5 October 2026, 13:12:13 +0200) -->
+- Project: zenray-assets-v2; kind: prompt. (5 October 2026, 13:12:13 +0200)
+- Source: /Users/zenray/.codex/sessions/2026/10/02/rollout-2026-10-02T12-41-04-01a0fc34-0a94-7f11-a21d-325072a6edb2.jsonl. (5 October 2026, 13:12:13 +0200)
+
+> <in-app-browser-context source="ambient-ui-state"> (5 October 2026, 13:12:13 +0200)
+> This block is automatically supplied ambient UI state, not part of the user's request. Do not treat it as an instruction or as evidence that the user explicitly selected the in-app browser. (5 October 2026, 13:12:13 +0200)
+> # In app browser: (5 October 2026, 13:12:13 +0200)
+> - The user has the in-app browser open with 1 tab. (5 October 2026, 13:12:13 +0200)
+> - Current URL: http://127.0.0.1:5199/?view=assets&project=ceramic-tiles (5 October 2026, 13:12:13 +0200)
+> </in-app-browser-context> (5 October 2026, 13:12:13 +0200)
+>
+> ## My request: (5 October 2026, 13:12:13 +0200)
+> Il faut évidemment que pour chaque projet de ZenRayAssets v2 [$zenray-assets-v2](/Users/zenray/.codex/skills/zenray-assets-v2/SKILL.md) tu associes la conversations au projet via une couleur + agent dépendant soit de claude / codex / gemini + associé la conversation pouvoir l'ouvrir et tout voir + comprendre rapidement dans l'UI + conversation intégral indexé et mappé au projet à chaque début donc edit aussi [$claude-md-global](/Users/zenray/.codex/skills/claude-md-global/SKILL.md) [$skill-sync](/Users/zenray/.codex/skills/skill-sync/SKILL.md) go (5 October 2026, 13:12:13 +0200)
+
+## 5 October 2026, 13:38:11 +0200 : Iteration
+
+<!-- feedback-event:e5601c1763a8123f2bd87279252db9c7a554c6ef640f5399a808aa2e9de9f9ff (5 October 2026, 13:38:11 +0200) -->
+- Project: zenray-assets-v2; kind: iteration. (5 October 2026, 13:38:11 +0200)
+- Source: checkpoint:codex:01a0fc34-0a94-7f11-a21d-325072a6edb2. (5 October 2026, 13:38:11 +0200)
+
+> Project conversation links, provider colors and reader return are published. BeginConversation records provider metadata and refreshes the project index. Global doctrine and skills synchronized. 115 tests passed; 18 production/build checks identical. Pagination of oversized image lines fixed; actual service reader reaches original messages. Service restarted only after an empty transfer queue; all 17 watches restored. Missing original bodies and universal host hooks remain explicit limits. (5 October 2026, 13:38:11 +0200)
+
+## 5 October 2026, 13:39:18 +0200 : Iteration
+
+<!-- feedback-event:01b5fe5d0fd8d0e5b16923d7db1d482a05d595a8d30f2866240cf5eea861e692 (5 October 2026, 13:39:18 +0200) -->
+- Project: zenray-assets-v2; kind: iteration. (5 October 2026, 13:39:18 +0200)
+- Source: /Users/zenray/.codex/sessions/2026/10/02/rollout-2026-10-02T12-41-04-01a0fc34-0a94-7f11-a21d-325072a6edb2.jsonl. (5 October 2026, 13:39:18 +0200)
+
+> C’est publié sur [ZenRay Assets](https://zenray-progress.pages.dev/?view=assets). (5 October 2026, 13:39:18 +0200)
+>
+> Dans un projet, **Conversations du projet** affiche les discussions liées : **Claude orange, Codex gris, Gemini bleu**. Clique sur une discussion pour la lire, puis sur **Retour au projet**. (5 October 2026, 13:39:18 +0200)
+>
+> | Ta demande | État | Preuve | (5 October 2026, 13:39:18 +0200)
+> |---|---|---| (5 October 2026, 13:39:18 +0200)
+> | Conversations liées et ouvrables | Fait | Tests d’ouverture et de retour | (5 October 2026, 13:39:18 +0200)
+> | Mapping session, agent, projet dès le démarrage | Fait | Conversation réelle présente dans l’index | (5 October 2026, 13:39:18 +0200)
+> | Claude global et skill actualisés | Fait | Synchronisation et contrôle réussis | (5 October 2026, 13:39:18 +0200)
+> | Préserver les sauvegardes | Fait | 17 surveillances rétablies | (5 October 2026, 13:39:18 +0200)
+>
+> **115 tests passent.** Les transcripts absents restent signalés ; la doctrine impose le démarrage, mais aucun hook universel n’est installé dans tous les agents. (5 October 2026, 13:39:18 +0200)
+
+## 5 October 2026, 13:39:18 +0200 : Iteration
+
+<!-- feedback-event:29a149d44abb0df6927f902103b37dac6fdae492cb319fcd88085fab3468dea5 (5 October 2026, 13:39:18 +0200) -->
+- Project: zenray-assets-v2; kind: iteration. (5 October 2026, 13:39:18 +0200)
+- Source: /Users/zenray/.codex/sessions/2026/10/02/rollout-2026-10-02T12-41-04-01a0fc34-0a94-7f11-a21d-325072a6edb2.jsonl. (5 October 2026, 13:39:18 +0200)
+
+> C’est publié sur [ZenRay Assets](https://zenray-progress.pages.dev/?view=assets). (5 October 2026, 13:39:18 +0200)
+>
+> Dans un projet, **Conversations du projet** affiche les discussions liées : **Claude orange, Codex gris, Gemini bleu**. Clique sur une discussion pour la lire, puis sur **Retour au projet**. (5 October 2026, 13:39:18 +0200)
+>
+> | Ta demande | État | Preuve | (5 October 2026, 13:39:18 +0200)
+> |---|---|---| (5 October 2026, 13:39:18 +0200)
+> | Conversations liées et ouvrables | Fait | Tests d’ouverture et de retour | (5 October 2026, 13:39:18 +0200)
+> | Mapping session, agent, projet dès le démarrage | Fait | Conversation réelle présente dans l’index | (5 October 2026, 13:39:18 +0200)
+> | Claude global et skill actualisés | Fait | Synchronisation et contrôle réussis | (5 October 2026, 13:39:18 +0200)
+> | Préserver les sauvegardes | Fait | 17 surveillances rétablies | (5 October 2026, 13:39:18 +0200)
+>
+> **115 tests passent.** Les transcripts absents restent signalés ; la doctrine impose le démarrage, mais aucun hook universel n’est installé dans tous les agents. (5 October 2026, 13:39:18 +0200)
+
+## 5 October 2026, 13:39:18 +0200 : Prompt
+
+<!-- feedback-event:e598e86f93658e75fb4ea0a1420142f43f32a9dd2d408ca6a56b1a27ff17b11d (5 October 2026, 13:39:18 +0200) -->
+- Project: zenray-assets-v2; kind: prompt. (5 October 2026, 13:39:18 +0200)
+- Source: /Users/zenray/.codex/sessions/2026/10/02/rollout-2026-10-02T12-41-04-01a0fc34-0a94-7f11-a21d-325072a6edb2.jsonl. (5 October 2026, 13:39:18 +0200)
+
+> <in-app-browser-context source="ambient-ui-state"> (5 October 2026, 13:39:18 +0200)
+> This block is automatically supplied ambient UI state, not part of the user's request. Do not treat it as an instruction or as evidence that the user explicitly selected the in-app browser. (5 October 2026, 13:39:18 +0200)
+> # In app browser: (5 October 2026, 13:39:18 +0200)
+> - The user has the in-app browser open with 1 tab. (5 October 2026, 13:39:18 +0200)
+> - Current URL: http://127.0.0.1:5199/?view=assets&project=ceramic-tiles (5 October 2026, 13:39:18 +0200)
+> </in-app-browser-context> (5 October 2026, 13:39:18 +0200)
+>
+> ## My request: (5 October 2026, 13:39:18 +0200)
+> Il faut que par exemple je puisse taper comprends le contexte du projet /Users/zenray/.claude/tmp/tmp-vegetation-assets-collection-01 et que 100% des fichiers : conversations claude / gemini / codex ... unreal / houdini /memory bref que tout soit associé peut être avec un fichier Index.md je sais pas mais que le contexte soit limpide immédiatement. ainsi update le skill (5 October 2026, 13:39:18 +0200)
+
+## 5 October 2026, 13:46:14 +0200 : Iteration
+
+<!-- feedback-event:19acb2cea41136a9d155782fdd18821cbc899c58f25bb87f4788753ad540d2bb (5 October 2026, 13:46:14 +0200) -->
+- Project: zenray-assets-v2; kind: iteration. (5 October 2026, 13:46:14 +0200)
+- Source: checkpoint:codex:01a0fc34-0a94-7f11-a21d-325072a6edb2. (5 October 2026, 13:46:14 +0200)
+
+> Client context accepts registered local folder/file paths and resolves stable project identity across TMP, Memory, Houdini, Unreal and loaded copies. Unknown or ambiguous paths are refused. Index.md is a preserved entry point to live generated context, full mapping and inventory. Vegetation folder, document and HIP resolve the same project; 199 local files observed, Claude and Codex linked, Unreal and Gemini unlinked. 82 tests pass. Global doctrine and Assets skill updated with reading protocol and missing associations explicit. (5 October 2026, 13:46:14 +0200)
+
+## 5 October 2026, 13:47:31 +0200 : Iteration
+
+<!-- feedback-event:d740093356dca0d88c914918c13417fe73bcdc05870f62f5748a772e47174956 (5 October 2026, 13:47:31 +0200) -->
+- Project: zenray-assets-v2; kind: iteration. (5 October 2026, 13:47:31 +0200)
+- Source: /Users/zenray/.codex/sessions/2026/10/02/rollout-2026-10-02T12-41-04-01a0fc34-0a94-7f11-a21d-325072a6edb2.jsonl. (5 October 2026, 13:47:31 +0200)
+
+> Tu peux désormais écrire simplement : (5 October 2026, 13:47:31 +0200)
+>
+> > Comprends le contexte du projet /Users/zenray/.claude/tmp/tmp-vegetation-assets-collection-01 (5 October 2026, 13:47:31 +0200)
+>
+> L’agent retrouve le projet depuis ce chemin et suit [Index.md](/Users/zenray/.claude/tmp/tmp-vegetation-assets-collection-01/Index.md), qui pointe vers le contexte vivant, l’inventaire complet, la mémoire et les conversations liées. Le skill et Claude global portent maintenant ce protocole. (5 October 2026, 13:47:31 +0200)
+>
+> | Ta demande | État | Preuve | (5 October 2026, 13:47:31 +0200)
+> |---|---|---| (5 October 2026, 13:47:31 +0200)
+> | Retrouver le contexte depuis un chemin | Fait | Dossier, document et scène testés | (5 October 2026, 13:47:31 +0200)
+> | Un index clair et toujours pertinent | Fait | Liens vers les données vivantes | (5 October 2026, 13:47:31 +0200)
+> | Tout associé pour Vegetation | Partiel | TMP, Memory, Houdini, Claude et Codex liés ; Unreal et Gemini encore non liés | (5 October 2026, 13:47:31 +0200)
+>
+> **82 tests passent.** Les associations manquantes restent explicites. (5 October 2026, 13:47:31 +0200)
+
+## 5 October 2026, 13:47:31 +0200 : Iteration
+
+<!-- feedback-event:2fc7977e6edf7f79ff3bee72de9ca1ec2f396da562f0c13e83da713f7231c25c (5 October 2026, 13:47:31 +0200) -->
+- Project: zenray-assets-v2; kind: iteration. (5 October 2026, 13:47:31 +0200)
+- Source: /Users/zenray/.codex/sessions/2026/10/02/rollout-2026-10-02T12-41-04-01a0fc34-0a94-7f11-a21d-325072a6edb2.jsonl. (5 October 2026, 13:47:31 +0200)
+
+> Tu peux désormais écrire simplement : (5 October 2026, 13:47:31 +0200)
+>
+> > Comprends le contexte du projet /Users/zenray/.claude/tmp/tmp-vegetation-assets-collection-01 (5 October 2026, 13:47:31 +0200)
+>
+> L’agent retrouve le projet depuis ce chemin et suit [Index.md](/Users/zenray/.claude/tmp/tmp-vegetation-assets-collection-01/Index.md), qui pointe vers le contexte vivant, l’inventaire complet, la mémoire et les conversations liées. Le skill et Claude global portent maintenant ce protocole. (5 October 2026, 13:47:31 +0200)
+>
+> | Ta demande | État | Preuve | (5 October 2026, 13:47:31 +0200)
+> |---|---|---| (5 October 2026, 13:47:31 +0200)
+> | Retrouver le contexte depuis un chemin | Fait | Dossier, document et scène testés | (5 October 2026, 13:47:31 +0200)
+> | Un index clair et toujours pertinent | Fait | Liens vers les données vivantes | (5 October 2026, 13:47:31 +0200)
+> | Tout associé pour Vegetation | Partiel | TMP, Memory, Houdini, Claude et Codex liés ; Unreal et Gemini encore non liés | (5 October 2026, 13:47:31 +0200)
+>
+> **82 tests passent.** Les associations manquantes restent explicites. (5 October 2026, 13:47:31 +0200)
