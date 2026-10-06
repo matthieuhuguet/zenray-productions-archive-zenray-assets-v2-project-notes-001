@@ -19,3 +19,7 @@
 - CLAUDE.md global impose maintenant BeginConversation avant le premier travail de chaque conversation, meme sans fichier ; l identite de session reste celle de l hote, et les discussions autonomes ont une collection Conversations separee. Un hook universel natif et les imports Gemini/Antigravity restent absents. (3 October 2026)
 - La liste des projets est triee par activite reelle des fichiers et dates du projet ; polling et publication cloud ne comptent pas. Publication 7a2f51cf.zenray-progress.pages.dev verifiee par octets du bundle Assets et du build. (3 October 2026)
 - Mapping texte : source enregistree puis chemin relatif determinent l identite et le classement cloud, pas l extension .md. ZenRayDictate relie son application, TMP, memoire canonique et post historique ; context donne la carte, Project1.md le savoir durable et FEEDBACK.md la discussion. La specification se lit dans le depot, elle n est pas devinee par le mapper. (3 October 2026)
+
+## 7 October 2026 : catégorie Motivation Letters associée
+
+- 7 October 2026 : nouvelle catégorie Memory `Memory1/MotivationLetters/` (index.md, dossier par candidature, première : Drama Studios, Environment Technical Artist). Associée à ce projet à la demande de Matthieu. (7 October 2026)
