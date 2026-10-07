@@ -1,0 +1,61 @@
+# Skills harmonization and resume plan (7 October 2026)
+
+## Pause and authority (7 October 2026)
+
+- Status: PAUSED at Matthieu’s explicit request, to preserve his token allowance. No further development, deletion, renaming, installation or deployment until he explicitly resumes or validates this plan. Saving this plan and the current evidence is authorized now. (7 October 2026)
+- Canonical task list: /Users/zenray/.codex/01a11653-69f5-7492-b80e-dbcc6a785d87/prompt-stacking.md. It keeps every unfinished task OPEN; a pause does not cancel or complete it. (7 October 2026)
+- Original full scope and wording: canonical FEEDBACK.md, original objective starting at line 1958, captured from the Codex rollout. Do not narrow the objective to the first milestone. (7 October 2026)
+- Latest instruction: save absolutely everything, resume later, use prompt-stacking and plan-then-execute, and integrate zenray-feedback directly into the Assets skill. That integration is planned, not yet implemented. (7 October 2026)
+- Naming remains unresolved: the original request suggests zenray-assets as the final name after retiring the old skill. A clarification was sent and has no answer yet. Keep zenray-assets-v2 during migration; settle the final name when resuming, without restoring the obsolete implementation. (7 October 2026)
+
+## Exact project and session mapping (7 October 2026)
+
+- Real host session: Codex 01a11653-69f5-7492-b80e-dbcc6a785d87, bound to zenray-assets-v2, native rollout /Users/zenray/.codex/sessions/2026/10/07/rollout-2026-10-07T14-25-27-01a11653-69f5-7492-b80e-dbcc6a785d87.jsonl. (7 October 2026)
+- Assets implementation repository: /Users/zenray/Create/Build/Productions/GithubProductions/ZenRayProgress. Existing unrelated untracked files were not included in commits. (7 October 2026)
+- Assets active workshop: /Users/zenray/Create/Build/AssetsWorkspaces/zenray-assets-v2/loads/4a1e1a3f-c1b6-4d6a-8abd-2c07a8a10fb7/sources/tmp/workshop. Registered original workshop: /Users/zenray/.claude/tmp/tmp-zenray-assets-v2. (7 October 2026)
+- Assets memory: /Users/zenray/.claude/Memory1/Projects/zenray-assets-v2; cloud: pages/ZenRayAssets/zenray-assets-v2. (7 October 2026)
+- Edit is a separate project: zenray-edit, workshop /Users/zenray/.claude/tmp/tmp-zenray-edit, memory /Users/zenray/.claude/Memory1/Projects/zenray-edit, cloud pages/ZenRayAssets/zenray-edit. It is watched; this session is NOT rebound to it. (7 October 2026)
+- BeginProject derives the session from the environment even when the argument is omitted. It refuses a second binding. Client start with explicit outer id and no sessionId initialized Edit without reassigning the current session. Retain the one-session-one-project invariant. (7 October 2026)
+
+## Verified completed milestone T1 (7 October 2026)
+
+- The old zenray-assets skill had four files. All four are archived, restored independently from cloud, compared by SHA256, then removed from Claude, Codex and Memory installed directories. Gemini reads the canonical Claude directory through its existing link. No archived project or historical catalogue was deleted. (7 October 2026)
+- Archive: SkillArchives/ZenRayAssetsLegacy-7October2026.tar.gz in the Assets active workshop; 13742 bytes; SHA256 3738bbb8dbbe7829cebee278c99374d1db38d04b41b2825075f8c9283616b8c1. Cloud manifest: pages/ZenRayAssets/zenray-assets-v2/sources/tmp/workshop/SkillArchives/ZenRayAssetsLegacy-7October2026.tar.gz.file.json. (7 October 2026)
+- Legacy archive job 429c7c4b-691c-48a1-a646-4c7d1d3f92a1 is DONE. RestoreProof/SkillArchives contains its independently restored package; ZenRayAssetsLegacyRemovalProof.json preserves all four original hashes and removed paths. (7 October 2026)
+- The V2 description and references/LegacyMigration.md now cover finished-project archives. zenray-assets-upload and zenray-collect call the same V2 service. Shared selections, keep, existing source identities and legacyProjectIds are preserved; legacy free is retired because it checks names without proving recoverable bytes. (7 October 2026)
+- FindInProject and generated FileMap are documented. CheckSkillContract covers 57 implementation files and the operational reference; both implementation corruption and reference corruption produce red, the actual contract produces green. (7 October 2026)
+- 101 tests pass in four suites: FindInProject, AssetsWorkspaceLifecycle, AssetsService and assetsProjects. Three edited skill entrypoints pass quick_validate. These checks do not prove the future native UI or the future media skill. (7 October 2026)
+- Pushed commits: Memory 3e06bbfb5, a4948989c, 540e15919, 49c0d959f; ZenRayProgress 11771517 and 11adba9b. No web deployment is claimed for these CLI/documentation changes. (7 October 2026)
+
+## Ordered work remaining, with acceptance evidence (7 October 2026)
+
+1. T2: finish and independently restore both segmented skill snapshots, compare every regular file, verify their separate project mappings and push the remaining plan/memory/index changes. A queued job does not count as a completed archive. (7 October 2026)
+2. T3: build and install the macOS upper-right menu-bar dashboard, using AnthropicSerif, a simple native panel and the existing Assets service. Display real upload, LOAD and UNLOAD states and failures. Verify live state, disconnection and recovery; measure only what the telemetry actually exposes. (7 October 2026)
+3. T4: create zenray-edit from the long media workshop, preserve all historical methods and resources, split conditional instructions into discoverable references, repair scripts and actual template paths, and integrate edit-text with grammar-only editing by default. Verify real representative outputs and conduct independent behavioral audits. (7 October 2026)
+4. T5: integrate zenray-feedback into the canonical Assets workflow and skill, including canonical writer, real session binding, native capture, deduplication, append-only checkpoints and feedback discovery from context. Remove stale feedback-stack instructions generated by AssetsService; preserve historical records and avoid a second writer. Verify concurrent writes, duplicate events, pause/resume and original prompt retrieval. (7 October 2026)
+5. T6: harmonize code contracts, documentation, template inventories and Assets source mappings; establish the final Assets skill name, update actual callers and mirrors, archive both finished skills in their own projects and push. Audit every original requirement before claiming completion. (7 October 2026)
+- plan-then-execute applies at resumption: present this saved plan briefly and wait for explicit validation or an explicit resume instruction before implementing the remaining work. (7 October 2026)
+
+## Pending operation handles and immutable snapshots (7 October 2026)
+
+- Assets V2 snapshot: SkillArchives/AssetsV2Skill-7October2026.tar.gz, 3 regular files, 55749 bytes, SHA256 4b473b00f9b52076dc0262ac398ad612a6bd85be0d2281413515bcbaefc6d681. Local round trip verified; cloud job ea516d01-0a08-42b1-844e-bae5f573a83a is QUEUED at the last observation. (7 October 2026)
+- Media snapshot: Edit workshop SkillArchives/MediaWorkshopLegacy-7October2026.tar.gz, 115 regular files, 51499326 bytes, SHA256 e5943a09d67c4547a74c53c8d6c6a82718d7e6cd278c62127bc6c263757d518f. One symlink is preserved only as a reference, never followed. Local round trip verified; cloud job 12a7f7cd-c015-4f6f-8be3-9f2bc96e98c1 is RUNNING, archive phase done, publication not yet verified. (7 October 2026)
+- Existing service uploads may finish while the development goal is paused; no new product work is scheduled. Do not restart or duplicate those jobs based on an observation timeout. (7 October 2026)
+- LinkConversations scan process 6003 / exec session 42037 is deliberately terminated with TERM on the pause request, exit 143. Its successful index regeneration is NOT claimed. Re-run or inspect the service-generated index when resuming; the true session binding already exists. (7 October 2026)
+
+## Audits and migration defects to resolve (7 October 2026)
+
+- Reports in the Assets active workshop: LegacyAssetsAudit.md, LegacyAssetsForwardTest.md, EditSkillAudit.md, EditMigrationPlan.md, NativeDashboardContract.md, SkillsMigrationProof.json and SkillReferencesContractProof.json. Edit audit and migration plan are also copied into the Edit workshop. (7 October 2026)
+- Agent tool identities: /root/audit_legacy_assets, /root/audit_edit, /root/dashboard_contract; all report files are on disk. The host exposes no transcript UUID/path for these agents, so none is invented. (7 October 2026)
+- The media entrypoint has 6279 lines / 341525 bytes. There are 13 scripts and nine registered designs, five with missing paths; do not claim a library of 1000+ available templates. The detailed split plan covers 15 blocks and 147 section boundaries. (7 October 2026)
+- index-skill.py --verify-only fails on edited fusion-source copies. The historical originaux.tar.gz preserves 26 files with correct original hashes. Repair verification around the immutable original manifest and a separate current-bundle attestation; do not overwrite historical proof or require an edited corpus to remain an identical substring. (7 October 2026)
+- zr-hda-instance.py --open launches personal Google Chrome, which is forbidden. Use the internal browser workflow. render.sh fixes export at 2160 by 2700 despite the stated 4K contract and can remove PNG before a size-compliant JPEG is proven; centralize parameters and preserve originals until success. (7 October 2026)
+- edit-text currently suggests dictation reorganization and automatic bilingual output. Preserve grammar-only behavior unless Matthieu explicitly requests a broader change. Append-only Memory history remains untouched. (7 October 2026)
+- Native dashboard contract: Swift/AppKit NSStatusItem and NSPopover with a Node adapter importing requestAssets. Client.mjs status omits workspace details. Current progress events cannot prove a reliable network speed or ETA; show phases and verified counts without invented percentages. Font family/PostScript name must be inspected through CoreText. (7 October 2026)
+
+## First commands at resumption (7 October 2026)
+
+- Read this plan, OPEN in prompt-stacking, canonical FEEDBACK and current context from Client.mjs context zenray-assets-v2 and context zenray-edit. Use the actual new host session ID if resuming in another chat. (7 October 2026)
+- Read Client.mjs status for both project IDs; match the exact job IDs above. Per-file evidence is in Project-<id>.json inventory.localFiles and backups; the CLI aggregate output is insufficient. (7 October 2026)
+- Independently restore snapshots with Cloud/scripts/restaurer.mjs, their project-specific cloud folder, relative path and recorded --sha256 into an isolated workshop subfolder. Compare package hashes and archive members before proceeding to T3. (7 October 2026)
+- Keep changes in canonical ~/.claude/skills sources, then skill-sync. Update the operational contract after documented implementation changes, test the real behavior, commit explicit paths and push. Never git add -A in ~/.claude. (7 October 2026)
