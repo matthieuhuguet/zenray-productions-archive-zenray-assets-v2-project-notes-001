@@ -29,3 +29,7 @@
 - L’ancien skill zenray-assets est retiré de Claude, Codex et du miroir Memory après restauration cloud de son archive de quatre fichiers, SHA256 3738bbb8dbbe7829cebee278c99374d1db38d04b41b2825075f8c9283616b8c1. Les archives de projets et leurs catalogues historiques restent intactes. (7 October 2026)
 - zenray-assets-upload et zenray-collect passent par le service V2. Sélections include, keep et legacyProjectIds conservent les périmètres et références ; aucune purge d’originaux par noms de manifestes. Le contrat couvre la recherche et la référence LegacyMigration ; 101 tests ciblés passent, contrôles vert et rouge vérifiés. (7 October 2026)
 - Les audits de l’atelier média trouvent un index de fusion défaillant, une ouverture de Chrome personnel et des ressources de catalogue manquantes. La migration zenray-edit et le panneau natif restent à construire. Les rapports, preuves et reprise figurent dans l’atelier actif du contexte Assets, avec le vrai identifiant Codex 01a11653-69f5-7492-b80e-dbcc6a785d87. (7 October 2026)
+
+## 7 October 2026 : Mapping des candidatures et gabarits de lettres
+
+- 7 October 2026 : Association du corpus de candidatures dans Assets V2 : `Memory1/MotivationLetters/` (lettres envoyées, offres et index) et `Memory1/Projects/zenray-freelance/` (gabarit `LetterTemplate1.md` v4 avec jeux de simulation Meerkat Studio et Noyes) constituent le contexte durable de candidature pour les agents. (7 October 2026)
