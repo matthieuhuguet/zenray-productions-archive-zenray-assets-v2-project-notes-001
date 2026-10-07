@@ -59,3 +59,25 @@
 - Read Client.mjs status for both project IDs; match the exact job IDs above. Per-file evidence is in Project-<id>.json inventory.localFiles and backups; the CLI aggregate output is insufficient. (7 October 2026)
 - Independently restore snapshots with Cloud/scripts/restaurer.mjs, their project-specific cloud folder, relative path and recorded --sha256 into an isolated workshop subfolder. Compare package hashes and archive members before proceeding to T3. (7 October 2026)
 - Keep changes in canonical ~/.claude/skills sources, then skill-sync. Update the operational contract after documented implementation changes, test the real behavior, commit explicit paths and push. Never git add -A in ~/.claude. (7 October 2026)
+
+## Resume and independently restored snapshots (7 October 2026)
+
+- Matthieu explicitly resumes the entire saved scope with dont-stop; the earlier pause is lifted. The previously authorized agents implement dashboard, Edit and feedback while the root integrates contracts. (7 October 2026)
+- Both archive jobs are DONE. Independent cloud restores match package SHA256 and all 3 Assets / 115 Edit regular-file hashes. Proof: /Users/zenray/Create/Build/AssetsWorkspaces/zenray-assets-v2/loads/4a1e1a3f-c1b6-4d6a-8abd-2c07a8a10fb7/sources/tmp/workshop/SegmentedSkillsArchiveProof.json. Identities remain separate. (7 October 2026)
+
+## Sequential final integration (7 October 2026)
+
+- Matthieu stops all subagent use to reduce compute. All three are completed and interrupted; root continues alone, sequentially. This overrides earlier delegation authorization for future work. (7 October 2026)
+- T3, T4 and T5 are verified locally: native panel and six runtime fixtures; Edit 148 attested files and representative renders; integrated feedback with concurrent append, native replay, real checkpoint deduplication and wrong-project rejection. Final cloud packages, refreshed daemon and pushes remain T6. (7 October 2026)
+
+## 8 October 2026 : Reprise à 00:19 après réinitialisation du quota
+
+- 8 October 2026 : Matthieu demande une reprise du cron à 12:19 AM et l’arrêt de ce tour après une sauvegarde propre de l’état ; aucune nouvelle délégation n’est autorisée.
+- 8 October 2026 : T6.1 est fini ; l’archive Assets restaurée du cloud correspond aux SHA256 du paquet et de ses 79 fichiers.
+- 8 October 2026 : T6.2 a aussi une preuve de restauration Edit ; l’archive de 148 787 688 octets a le SHA256 `239de92c9ec725d2e8573e3921f7d58e235650d01171676a275d6011c743c8bb` et ses 150 membres sont tous conformes au manifeste.
+- 8 October 2026 : La publication complète Edit reste en échec `Cloud registry read failed` ; le job `c7fab047-389e-4afc-aac1-c4ba8a24e88d` reste déjà en file, donc ne pas créer de doublon.
+- 8 October 2026 : Le registre partagé `pages/.zr-assets-workspaces.json` mesure 41 899 884 octets ; `gh api repos/matthieuhuguet/zenray-data/contents/pages/.zr-assets-workspaces.json?ref=main` renvoie son SHA et sa taille en 1,3 seconde, sans le corps.
+- 8 October 2026 : Un test de non-régression non encore exécuté est ajouté à `ZenRayProgress/scripts/AssetsCloudPublisher.test.js` ; à la reprise, commencer par le lancer et observer son échec sur l’ancien code, puis lire le SHA directement par l’API GitHub et implémenter le correctif minimal.
+- 8 October 2026 : Après le test vert, mettre à jour le skill canonique `zenray-assets`, synchroniser les miroirs, enregistrer et vérifier le contrat, laisser finir l’unique job déjà en file, restaurer les nouvelles preuves, vérifier mappings et sources en attente, puis committer et pousser les seuls chemins du chantier.
+- 8 October 2026 : Le tour actuel ne modifie pas encore le code du publisher ; il sauvegarde uniquement le test sentinelle et l’état de reprise. La prochaine reprise est planifiée pour 12:19 AM, heure de Paris.
+- 8 October 2026 : Le checkpoint stable `codex-01a11653-20261008-0019-assets-edit-resume` est écrit localement dans FEEDBACK ; le service rend `backupConfirmed=false`, donc cette écriture n’est pas encore une preuve cloud et doit être incluse dans la prochaine archive vérifiée.
