@@ -220,3 +220,12 @@
 - 8 October 2026, 22:20 CEST : L’objet distant d’un fichier de 3 522 575 octets est téléchargé en mémoire depuis `workshop-002-r03` ; son SHA256 et sa taille égalent le fichier local et sa fiche distante. (8 October 2026)
 - 8 October 2026, 22:20 CEST : La première route API oublie le propriétaire GitHub et répond 404 ; l’URL corrigée réussit, sans modifier l’archive ni écrire l’objet téléchargé sur le disque. (8 October 2026)
 - 8 October 2026, 22:20 CEST : Prochain : attendre la fin de l’archive, puis étendre les contrôles distants aux autres lots et vérifier la fiche Codex laissée en attente. (8 October 2026)
+
+## 8 October 2026 : Le démarrage ne dépend plus de la fin du balayage transcript
+
+- 8 October 2026 : `AssetsFeedbackCapture.drain()` garde un verrou global ; si `replay(sessionId)` levait pendant ce verrou, `bind-session` faisait échouer `start` alors que les dossiers et le feedback du projet étaient déjà créés. (8 October 2026)
+- 8 October 2026 : Le test reproduit d’abord l’ancienne erreur `Transcript capture is active; retry the session binding`, puis vérifie qu’une demande de replay pendant le balayage est mise en file et dédupliquée par événement. (8 October 2026)
+- 8 October 2026 : `AssetsService.start` finit dès que la liaison est écrite ; `setup.transcriptCapture` vaut `queued` lorsque la relecture reste à faire. La capture continue dans la passe suivante. (8 October 2026)
+- 8 October 2026 : Vérification séquentielle : `scripts/AssetsFeedbackCapture.test.js` passe avec 5 tests et `scripts/AssetsService.test.js --maxWorkers=1` passe avec 85 tests ; le lancement combiné parallèle expire deux nettoyages. (8 October 2026)
+- 8 October 2026 : Les trois bases Gemini aux motifs sensibles restent dans leur source locale mais sont exclues du registre `agent-conversations` ; aucun manifeste et aucun morceau ne sont trouvés dans les shards publics r01 à r04, 001 à 008. (8 October 2026)
+- 8 October 2026 : Prochain : attendre la fin des archives actives, recharger le daemon, puis exécuter un démarrage Assets avec un identifiant de session réel et constater `transcriptCapture: queued`. (8 October 2026)

@@ -2708,3 +2708,10 @@
 - Source: /Users/zenray/.codex/sessions/2026/10/07/rollout-2026-10-07T14-25-27-01a11653-69f5-7492-b80e-dbcc6a785d87.jsonl. (8 October 2026, 22:34:04 +0200)
 
 > HARD fix ce bug je peux plus lancer de nouveaux projets ... "Le démarrage Assets bute sur la capture du transcript" (8 October 2026, 22:34:04 +0200)
+
+## 8 October 2026, 22:50:17 +0200 : Log
+
+<!-- feedback-event:8eb255e88db55480806578426744e6156c544f5056551af77b7af4f1518619d6 (8 October 2026, 22:50:17 +0200) -->
+- Project: zenray-assets-v2; kind: log. (8 October 2026, 22:50:17 +0200)
+
+> Cause: replay failed while the transcript drain lock was busy, so Assets could fail after creating project files. Fix: queue replay and return setup.transcriptCapture=queued without waiting. Verification: red then green replay test; capture suite 5/5 and service suite 85/85 when run sequentially. Runtime daemon reload and live start check remain pending until active archive writes finish. (8 October 2026, 22:50:17 +0200)
