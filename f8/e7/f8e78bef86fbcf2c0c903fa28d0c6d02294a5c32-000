@@ -141,3 +141,82 @@
 - 8 October 2026, 20:11 CEST : Le test rouge puis vert confirme qu’un dossier facultatif absent ne s’attache pas au watcher ; un second test confirme qu’un dossier facultatif présent y reste attaché. (8 October 2026)
 - 8 October 2026, 20:11 CEST : `scripts/AssetsService.test.js` passe à 82 tests ; le contrat passe sur 74 fichiers avec le skill synchronisé dans Claude, Codex, Gemini et Memory. (8 October 2026)
 - 8 October 2026, 20:11 CEST : Le test et son contrat sont poussés dans `1ae0f21f` ; le daemon actif attend encore la fin des écritures avant rechargement. (8 October 2026)
+
+## 8 October 2026 : Route neuve après refus définitif d’une archive (8 October 2026)
+
+- 8 October 2026 : Un dépôt Conversations refusait définitivement un push ; le service réessayait sur le même dépôt parce qu’il ne gardait pas le changement de route entre deux lots. (8 October 2026)
+- 8 October 2026 : `AssetsService` conserve maintenant un suffixe de dépôt par source et le transmet à `archive-folder.mjs` ; `-r02` démarre une nouvelle route, puis chaque autre refus définitif augmente le numéro. (8 October 2026)
+- 8 October 2026 : Une erreur réseau passagère ne change pas la route ; les deux suites touchées passent avec 90 tests, et le commit `febda8fc` est poussé sur `main`. (8 October 2026)
+- 8 October 2026 : Le skill `zenray-assets` est synchronisé dans les copies Claude, Codex, Gemini et Memory ; `CheckSkillContract` confirme 74 fichiers identiques au relevé attendu. (8 October 2026)
+- 8 October 2026 : Les 19 surveillances ont été arrêtées et vérifiées une par une ; le job Conversations déjà actif doit finir avant le redémarrage du daemon. (8 October 2026)
+- 8 October 2026 : Le redémarrage reste à prouver par une nouvelle archive reçue dans le dépôt suffixé, puis une vérification de SHA et de taille dans le cloud. (8 October 2026)
+
+## 8 October 2026 : Erreur enveloppée dans le retour du processus (8 October 2026)
+
+- 8 October 2026 : Le premier détecteur cherchait `push-refus-definitif` au début du message ; en vrai, le daemon ajoute `Asset engine failed` et laisse le marqueur dans la pile du processus enfant. (8 October 2026)
+- 8 October 2026 : Le nouveau détecteur lit `Error: push-refus-definitif <dépôt>` dans le message enveloppé et vérifie que ce nom égale le `depot` de l’événement `rollover`. (8 October 2026)
+- 8 October 2026 : Le test reproduit l’erreur enveloppée, passe après avoir rougi avant correction, et les deux suites complètes passent à 90 tests ; `a3b49f73` est poussé sur `main`. (8 October 2026)
+- 8 October 2026 : Les 19 surveillances sont false et aucun job n’est actif ; 978 fichiers Conversations restent en attente, donc la preuve du dépôt `-r02` attend le nouvel essai sur le daemon redémarré. (8 October 2026)
+
+
+## 8 October 2026 : Dépôt filtré et preuve cloud
+
+- 8 October 2026 : Le scan de 878 fichiers texte en attente lit 8 744 185 107 octets et repère des motifs de jetons GitHub dans 18 conversations. Il ne conserve ni n’affiche leurs valeurs. Ces 18 chemins sont ajoutés à l’exclusion locale de la source workshop ; les originaux restent présents sur le Mac.
+- 8 October 2026 : L’inventaire Conversations compte ensuite 1 060 fichiers et 9 003 936 684 octets, 98 sauvegardés, 962 en attente et zéro conflit. Un fichier témoin de 3 321 octets est archivé sur r03, puis le téléchargement brut distant, le manifeste privé, la taille, le SHA256 et le commit main sont comparés à la source ; tout concorde. Le compteur devient 99 sauvegardés et 961 en attente.
+- 8 October 2026 : La cause des refus des dépôts -001 et r02 reste inconnue, car le diagnostic antérieur était tronqué. archive-folder.mjs classe désormais un refus permanent en catégories sûres sans conserver le texte distant ; les suites AssetsService.test.js et archive-route.test.js passent, soit 91 tests.
+- 8 October 2026 : Le LaunchAgent Assets et le daemon sont actifs ; la source native affiche le bouton Assets et le panneau est simplifié. Le Mac verrouillé empêche encore de prouver que le bouton échappe au groupe de débordement.
+- 8 October 2026 : Prochaines étapes : reprendre les sauvegardes après ces exclusions, vérifier les quatre fichiers Assets restants, terminer la rotation du jeton et le contrôle de clone, puis refaire la capture visuelle après déverrouillage.
+
+## 8 October 2026 : Scanner réutilisable des secrets candidats
+
+- 8 October 2026 : `scripts/Assets/ScanGithubTokenShapes.mjs` parcourt les fichiers texte encore en attente, compte les formes de jetons GitHub et n’écrit jamais leur valeur ; son rapport local a les droits `600`. (8 October 2026)
+- 8 October 2026 : Son option `--apply` refuse d’inscrire des exclusions si la surveillance tourne ou si un job est actif ; un test vérifie l’inscription locale et un autre le refus pendant surveillance. (8 October 2026)
+- 8 October 2026 : Le scan réel après exclusion des 18 chemins Conversations lit 859 fichiers texte et 6 505 571 543 octets ; aucun motif supplémentaire ne ressort. (8 October 2026)
+- 8 October 2026 : Les suites `ScanGithubTokenShapes`, `archive-route`, `AssetsService` et `archive-folder-credentials` passent avec 98 tests ; le skill canonique et ses trois copies ont le même SHA, et le contrat des 74 fichiers est vert. (8 October 2026)
+- 8 October 2026 : Le code et sa documentation doivent encore être commités et poussés avant de recharger le daemon et de reprendre les archives Conversations. (8 October 2026)
+
+## 8 October 2026 : Contrôle des autres projets en attente
+
+- 8 October 2026 : Le scanner trouve zéro forme de jeton dans les textes en attente de `louisiana-bayou` : deux fichiers et 59 249 octets ; aucune exclusion supplémentaire n’est appliquée. (8 October 2026)
+- 8 October 2026 : `zenray-assets-v2` compte quatre fichiers texte en attente et 72 228 octets ; zéro forme de jeton et zéro exclusion supplémentaire. (8 October 2026)
+- 8 October 2026 : `zenray-progress` compte deux fichiers texte en attente et 27 669 octets ; zéro forme de jeton et zéro exclusion supplémentaire. (8 October 2026)
+- 8 October 2026 : `vegetation-assets-collection-01` compte deux fichiers texte en attente et 9 233 octets ; zéro forme de jeton et zéro exclusion supplémentaire. (8 October 2026)
+- 8 October 2026 : `zenray-freelance` compte deux fichiers texte en attente et 25 154 octets ; zéro forme de jeton et zéro exclusion supplémentaire. (8 October 2026)
+- 8 October 2026 : Les cinq surveillances restent arrêtées ; réactiver chaque projet après la fin de l’archive Conversations, puis vérifier le nombre restant, les conflits et les SHA cloud. (8 October 2026)
+
+## 8 October 2026 : Conversation active pendant son archivage
+
+- 8 October 2026, 22:02 CEST : Le job `cd7b9277-0896-4532-9cf2-e3f5ee300ca6` archive 106 fichiers avec `verifyKo=0`, puis finit en erreur `Source changed since inventory` ; l’inventaire affiche alors 593 fichiers sauvegardés, 467 en attente et zéro conflit. (8 October 2026)
+- 8 October 2026, 22:04 CEST : L’inventaire montre que `conversations/codex/9c8c3592cc96278e/Conversation.json` change pendant cette session ; cette modification correspond au contrôle de source qui échoue, tandis que la copie cloud des 106 fichiers reste vérifiée. (8 October 2026)
+- 8 October 2026, 22:05 CEST : La surveillance du seul projet `agent-conversations` est suspendue pour arrêter les nouveaux retries ; son job déjà en file reste à contrôler, les 18 autres surveillances ne signalent pas d’erreur, et les originaux locaux ne sont pas touchés. (8 October 2026)
+- 8 October 2026, 22:05 CEST : Prochain : laisser finir les archives stables, reprendre les Conversations en excluant temporairement le fichier de la conversation active, puis réactiver sa surveillance après que la source cesse de bouger. (8 October 2026)
+
+## 8 October 2026 : Résumé natif ramené à trois lignes
+
+- 8 October 2026 : Matthieu ne voit plus la vue Assets en haut à droite et demande une UI très simple, compréhensible, dans l’esprit du code ZenRayProgress. (8 October 2026)
+- 8 October 2026 : Le panneau actif montre maintenant une ligne pour l’action et le projet, une pour l’étape, puis une pour les attentes et problèmes réunis. (8 October 2026)
+- 8 October 2026 : Les sept fixtures natives passent ; l’image `NativeDashboardFixture-busy-queue.json.png` montre les trois lignes exactes et le commit `80c2ad94` est poussé sur `main`. (8 October 2026)
+- 8 October 2026 : Le LaunchAgent relance le binaire installé sous le PID `64154` ; System Events ne retourne aucun élément Assets pendant le verrouillage, donc la place physique dans la barre reste non vérifiée. (8 October 2026)
+- 8 October 2026 : Prochain : finir l’archive Conversations sur `-r03`, vérifier ses fichiers dans GitHub par SHA et taille, puis archiver les petits projets un par un. (8 October 2026)
+- 8 October 2026, 22:09 CEST : Correction de l’attribution écrite à 22:04 : le job ne donne pas le chemin fautif. Une vérification en lecture seule de 1 060 fichiers ne trouve aucun écart de métadonnées à 22:08 ; la fiche Codex active change bien pendant la session, mais son lien causal reste à prouver. (8 October 2026)
+- 8 October 2026, 22:09 CEST : Prochain : refaire l’archive en sélectionnant les fichiers en attente sauf la fiche de la conversation active, puis contrôler si la tranche passe sans nouvelle erreur. (8 October 2026)
+
+## 8 October 2026 : Scan des textes Assets V2 et reprise Conversations
+
+- 8 October 2026, 22:10 CEST : Le scanner examine les sept fichiers texte encore en attente dans `zenray-assets-v2`, soit 365 654 octets ; aucun motif de jeton ne ressort. (8 October 2026)
+- 8 October 2026, 22:10 CEST : Le job `f38e2554-c2db-41f7-adfe-474db3b5a511` termine 16 fichiers avec `verifyKo=0`, puis laisse sept fichiers pour le job suivant `098ff886-792d-4716-ae60-bf196ea550b9`. (8 October 2026)
+- 8 October 2026, 22:14 CEST : Le job Conversations `0e6d50f1-404b-460e-913e-c53f41df8afc` avance sur `agent-conversations-workshop-002-r03` ; 93 fichiers représentent 1 018 494 902 octets et l’étape affiche 141 494 907 octets poussés, sans erreur. (8 October 2026)
+- 8 October 2026, 22:14 CEST : Prochain : laisser finir les 466 fichiers sélectionnés, vérifier leur preuve cloud, archiver les petits projets et ne reprendre la fiche Codex active qu’après stabilisation. (8 October 2026)
+
+## 8 October 2026 : Preuve distante pendant l’archive Conversations
+
+- 8 October 2026, 22:19 CEST : Le lot de 93 fichiers sur `workshop-002-r03` termine avec `verifyKo=0` ; le commit GitHub est `29f9e9972ceda98d71c7126f3d2d6854ab3ca64e`. (8 October 2026)
+- 8 October 2026, 22:19 CEST : Un fichier local de 3 522 575 octets a une fiche `.file.json` lue sur le dépôt distant `zenray-data` ; sa taille et son SHA256 sont exactement égaux à l’état local, et GitHub retourne le commit de fiche `53f1d1959390579891123f240f2eba39491fdeb7`. (8 October 2026)
+- 8 October 2026, 22:19 CEST : Cette vérification porte sur un échantillon seulement ; le manifeste confirme les octets annoncés, tandis que la vérification complète des lots et des autres dépôts reste à faire. (8 October 2026)
+- 8 October 2026, 22:19 CEST : Prochain : terminer les 466 fichiers stables, comparer les preuves restantes aux tailles et SHA locaux, puis traiter la fiche active en dernier. (8 October 2026)
+
+## 8 October 2026 : Comparaison des octets distants
+
+- 8 October 2026, 22:20 CEST : L’objet distant d’un fichier de 3 522 575 octets est téléchargé en mémoire depuis `workshop-002-r03` ; son SHA256 et sa taille égalent le fichier local et sa fiche distante. (8 October 2026)
+- 8 October 2026, 22:20 CEST : La première route API oublie le propriétaire GitHub et répond 404 ; l’URL corrigée réussit, sans modifier l’archive ni écrire l’objet téléchargé sur le disque. (8 October 2026)
+- 8 October 2026, 22:20 CEST : Prochain : attendre la fin de l’archive, puis étendre les contrôles distants aux autres lots et vérifier la fiche Codex laissée en attente. (8 October 2026)
