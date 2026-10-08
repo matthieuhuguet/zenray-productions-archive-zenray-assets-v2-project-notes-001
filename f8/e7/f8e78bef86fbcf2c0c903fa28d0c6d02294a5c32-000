@@ -38,3 +38,18 @@
 
 - The canonical skill is ~/.claude/skills/zenray-assets ; zenray-assets-v2 is a compatibility router, while this project ID stays unchanged. The full previous definition is preserved byte for byte as references/AssetsV2History.md. (7 October 2026)
 - Runtime and source code: ZenRayProgress/scripts/Assets, canonical feedback writer in zenray-feedback/scripts/feedback.py, native menu app ~/Applications/ZenRay Assets.app. The registry follows the Memory skill mirrors and the scoped writer alongside workshop and project notes. (7 October 2026)
+
+
+## 8 October 2026 : Panneau natif opaque et placement macOS
+
+- 8 October 2026 : Le panneau Assets a un fond opaque de couleur système ; les sept fixtures natives passent et `contentOpaque=true`, ce qui empêche le texte de se mélanger au bureau derrière la fenêtre. (8 October 2026)
+- 8 October 2026 : Le bouton utilise un status item de 18 points et une icône de 14 points ; macOS le présente à Accessibility mais la capture du bandeau montre toujours le chevron de débordement à sa place. (8 October 2026)
+- 8 October 2026 : L’écriture Accessibility de `AXPosition` à trois positions visibles demandées revient à la position masquée ; la vue est simplifiée, mais le placement physique reste ouvert sous T6.4b-ui9. (8 October 2026)
+
+## 8 October 2026 : Publication sécurisée et état des archives
+
+- 8 October 2026 : `archive-folder.mjs` n’inscrit plus le jeton dans les URL Git ou les arguments curl ; Git passe par `GitHubAskpass.sh` et l’en-tête REST arrive par stdin. Le commit `95fc8a72` et son contrat Skill sont poussés sur `origin/main`. (8 October 2026)
+- 8 October 2026 : GitHub relit `.workspace.json` dans les espaces Assets et Edit, SHA respectifs `2f589fc7` et `6933f129`, et les deux projets annoncent `error=null`. Le mapping conserve des racines locales et des préfixes cloud distincts. (8 October 2026)
+- 8 October 2026 : L’inventaire relevé par context compte 488 fichiers Assets, dont 474 vérifiés et 14 en attente, ainsi que 540 fichiers Edit, dont 391 vérifiés et 149 en attente ; leurs jobs restent dans la file globale séquentielle. (8 October 2026)
+- 8 October 2026 : La capture de la barre montre encore le chevron de débordement à la place d’Assets ; le panneau compact reste lisible. macOS exige Commande-glisser pour mémoriser un nouvel emplacement, geste impossible tant que la session de bureau est verrouillée. (8 October 2026)
+- 8 October 2026 : Une sortie locale de diagnostic a exposé un jeton GitHub ; sa valeur n’est consignée nulle part dans la mémoire. Prévoir sa rotation après les archives déjà en cours afin de ne pas interrompre leur authentification. (8 October 2026)

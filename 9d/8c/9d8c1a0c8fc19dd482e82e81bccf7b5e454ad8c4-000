@@ -2356,3 +2356,45 @@
 - Project: zenray-assets-v2; kind: log. (8 October 2026, 13:11:50 +0200)
 
 > Correction du suivi 12:54 : le 401 vegetation reste dans l’historique du job db88a64e, mais son retry e1a2666d est terminé et l’état actuel du projet indique error=null. Le prochain job 96564eab reste en file. Le daemon n’a pas encore été rechargé avec la nouvelle route .workspace.json ; la preuve réelle reste à faire après les archives Assets et Edit. Le premier test publisher a révélé un mock limité au registre partagé ; le test couvre maintenant les trois chemins sparse, et les huit tests passent. (8 October 2026, 13:11:50 +0200)
+
+## 8 October 2026, 13:41:48 +0200 : Prompt
+
+<!-- feedback-event:83c94e2cdc1a73fede393e2c8a2413a576daf053af1d1f1996cee9ae311ecb60 (8 October 2026, 13:41:48 +0200) -->
+- Project: zenray-assets-v2; kind: prompt. (8 October 2026, 13:41:48 +0200)
+
+> pourtant je vois plus la vue assets en haut à droite en revanche faut refaire cette UI pour qu'elle soit hyper simple et compréhensible un peu à l'img du code de zenray-progress ; puis continuer (8 October 2026, 13:41:48 +0200)
+
+## 8 October 2026, 13:43:44 +0200 : Log
+
+<!-- feedback-event:1d06d1330a92fdb85eb552d8aa47f235b74455955a14d53d319346b5c4b33c08 (8 October 2026, 13:43:44 +0200) -->
+- Project: zenray-assets-v2; kind: log. (8 October 2026, 13:43:44 +0200)
+
+> Le panneau natif gagne un fond opaque et reste lisible dans les sept états testés. Le bouton a été réduit à 18 points avec une icône de 14 points, mais une capture recadrée de la barre montre toujours le chevron de débordement à sa place. System Events le mesure à x=996, y=4, taille 20 × 24 ; une tentative d’accessibilité à x=1050 revient à x=996. La visibilité physique reste ouverte en T6.4b-ui9. (8 October 2026, 13:43:44 +0200)
+
+## 8 October 2026, 13:53:46 +0200 : Log
+
+<!-- feedback-event:1ce6a74f90a6f4c4b87ce6fb19179a82ec6409d594e4728056622e925adf04b4 (8 October 2026, 13:53:46 +0200) -->
+- Project: zenray-assets-v2; kind: log. (8 October 2026, 13:53:46 +0200)
+
+> Lecture réelle du  du projet avec le clone Git sparse : 892924 octets, SHA distant c28b78841fd0bab43b645b508b36b8d7fa07eb51, projet et schéma conformes. La sauvegarde idempotente avec ce SHA relit exactement le même contenu sans créer de commit. Le daemon de service n’a pas encore chargé cette route ; un lot d’archive est toujours actif. (8 October 2026, 13:53:46 +0200)
+
+## 8 October 2026, 13:55:34 +0200 : Log
+
+<!-- feedback-event:5475a74f6e8f9e9c01415ef06f6ff2c2b645c6ffad20001f95f332e38c766366 (8 October 2026, 13:55:34 +0200) -->
+- Project: zenray-assets-v2; kind: log. (8 October 2026, 13:55:34 +0200)
+
+> Correction de l’entrée du 8 October 2026 à 13:53:46 : la commande précédente a interprété le nom du fichier comme une commande shell ; la preuve concernait le fichier .workspace.json du projet, lu à 892 924 octets avec le SHA distant c28b78841fd0bab43b645b508b36b8d7fa07eb51. La sauvegarde idempotente a relu exactement le même contenu sans créer de commit. Le daemon n’avait pas chargé cette route. (8 October 2026, 13:55:34 +0200)
+
+## 8 October 2026, 14:16:01 +0200 : Log
+
+<!-- feedback-event:e3828061eb3feb84488fdd5dc2793bd9b5d9910bbded8f8af3b3bbea6e5e9d55 (8 October 2026, 14:16:01 +0200) -->
+- Project: zenray-assets-v2; kind: log. (8 October 2026, 14:16:01 +0200)
+
+> Incident de diagnostic : une sortie locale de processus a accidentellement affiché une URL GitHub porteuse du jeton ; sa valeur n’est pas recopiée. Le code archive-folder.mjs supprime maintenant le jeton de l’URL de clone et des arguments curl : Git utilise scripts/lib/GitHubAskpass.sh et curl reçoit son en-tête depuis stdin. Le test local confirme git credential fill et l’en-tête HTTP avec un faux jeton ; 11 tests ciblés passent. Un premier test synchrone bloquait le serveur HTTP local car spawnSync gelait sa boucle ; le test utilise maintenant spawn asynchrone. Prochain : recharger le service seulement quand aucun job d’archive n’est actif, puis finir et contrôler Assets et Edit. (8 October 2026, 14:16:01 +0200)
+
+## 8 October 2026, 14:23:13 +0200 : Log
+
+<!-- feedback-event:38f5a36e0af0e52286cdb7e914e9d9a4963b477e9dde9f4a92a56f53d71b4435 (8 October 2026, 14:23:13 +0200) -->
+- Project: zenray-assets-v2; kind: log. (8 October 2026, 14:23:13 +0200)
+
+> 8 October 2026 : Le correctif de publication 95fc8a72 pousse quatre chemins limites sur origin/main ; les 11 tests ciblés passent. Les métadonnées .workspace.json Assets et Edit sont relues sur GitHub, SHA 2f589fc7 et 6933f129, avec sync sans erreur ; leurs sources locales et préfixes cloud restent séparés. L’inventaire frais compte 488 fichiers Assets, 474 vérifiés et 14 en attente, puis 540 fichiers Edit, 391 vérifiés et 149 en attente. La file archive avance encore sur les conversations Codex. Le Mac est verrouillé : la vue du panneau est lisible, mais l’icône reste sous le chevron et le déplacement Commande-glisser attend le déverrouillage. Un diagnostic antérieur a exposé un jeton dans une sortie locale ; sa valeur n’est pas répétée et la rotation reste à faire après la file. (8 October 2026, 14:23:13 +0200)
