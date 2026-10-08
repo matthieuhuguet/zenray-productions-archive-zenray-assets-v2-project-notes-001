@@ -269,3 +269,11 @@
 ## 8 October 2026 : Mesure cloud actualisée
 
 - 8 October 2026, 23:57 CEST : Correction de la mesure précédente : `Client.mjs status` indique 5 fichiers en attente, état `queued` et aucune erreur ; leur sauvegarde cloud n’est pas encore prouvée. (8 October 2026)
+
+## 9 October 2026 : Revalidation du démarrage et du writer de fond
+
+- 9 October 2026 : Le rapport « Le démarrage Assets bute sur la capture du transcript » est vérifié contre le service live ; `BeginProject.mjs` avec l’identifiant réel déjà lié répond en 1,67 seconde avec `sessionBound=true`, `watched=true` et `transcriptCapture=queued`. (9 October 2026)
+- 9 October 2026 : La vraie création de projet reste testée dans une fixture isolée ; les tests couvrent le replay actif, en erreur et suspendu, sans ajouter de projet artificiel au registre de Matthieu. (9 October 2026)
+- 9 October 2026 : `AssetsFeedbackCapture.test.js` passe avec 5 tests et `AssetsService.test.js --maxWorkers=1` avec 89 tests ; les deux cas de file révélés par l’ancien garde passent après séparation de `background` et `requireWatched`. (9 October 2026)
+- 9 October 2026 : Le dernier contrôle direct live porte sur un projet existant ; la création neuve est prouvée en fixture, pas par une nouvelle identité écrite dans le registre réel. (9 October 2026)
+- 9 October 2026 : Prochain : publier le correctif de file `requireWatched` après synchronisation du skill, puis reprendre l’archive Conversations sans exposer les trois bases Gemini. (9 October 2026)
