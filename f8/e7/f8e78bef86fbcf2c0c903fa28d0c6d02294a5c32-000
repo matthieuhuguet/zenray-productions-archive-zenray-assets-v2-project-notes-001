@@ -256,3 +256,16 @@
 - 8 October 2026, 23:37 CEST : Le service ne fait plus `await` sur le replay ; le projet et sa session restent prêts, et le balayage périodique récupère les transcripts liés. (8 October 2026)
 - 8 October 2026, 23:37 CEST : Le test de promesse pendante passe en 3,9 secondes ; les 88 tests du service et les 5 tests du capture worker passent. (8 October 2026)
 - 8 October 2026, 23:37 CEST : Prochain : enregistrer le nouveau contrat, pousser le durcissement, attendre la file cloud, recharger le daemon puis contrôler un démarrage live. (8 October 2026)
+
+## 8 October 2026 : Démarrage indépendant du replay transcript
+
+- 8 October 2026 : Le blocage final venait d’une promesse `replay()` qui pouvait ne jamais se résoudre ; attraper les rejets ne suffisait pas, car `bind-session` attendait encore la promesse. (8 October 2026)
+- 8 October 2026 : `bind-session` écrit la liaison puis lance `replay()` sans l’attendre ; le statut `queued` signifie que la session est liée et que la capture reste éligible au balayage périodique. (8 October 2026)
+- 8 October 2026 : Le test rouge attend 12 secondes sur une promesse suspendue ; après la correction, le démarrage du test se termine en 3,9 secondes. Les suites séquentielles passent avec 88 tests AssetsService et 5 tests AssetsFeedbackCapture. (8 October 2026)
+- 8 October 2026 : Le commit `abc4503f` est poussé sur `main`; le LaunchAgent rechargé prend le PID `22957`. (8 October 2026)
+- 8 October 2026 : Le test live de `BeginProject.mjs` avec l’identité Codex réelle retourne en 2,9 secondes `sessionBound=true`, `watched=true` et `transcriptCapture=queued` pour l’identité existante. Le parcours de création neuve est couvert par le test isolé, sans créer de faux projet dans le registre réel. (8 October 2026)
+- 8 October 2026 : Le registre Assets indique encore 3 fichiers en attente, sans erreur de capture ni d’inventaire ; la publication cloud de ces notes n’est donc pas encore prouvée. (8 October 2026)
+
+## 8 October 2026 : Mesure cloud actualisée
+
+- 8 October 2026, 23:57 CEST : Correction de la mesure précédente : `Client.mjs status` indique 5 fichiers en attente, état `queued` et aucune erreur ; leur sauvegarde cloud n’est pas encore prouvée. (8 October 2026)
