@@ -91,3 +91,19 @@
 - 8 October 2026 : Le status item utilise `NSStatusItem.variableLength` et un nouvel `autosaveName` ; System Events lit « Assets » à `(940, 4)`, taille `84 × 24`, après relance du LaunchAgent. (8 October 2026)
 - 8 October 2026 : Les sept fixtures natives valident le titre, le nom accessible, la largeur et les états du panneau ; le contrat du skill est vert sur 74 fichiers. (8 October 2026)
 - 8 October 2026 : Le rendu du panneau reste simple et sans cartes ; la capture physique de la barre attend le déverrouillage, car l’écran est verrouillé. (8 October 2026)
+
+## 8 October 2026 : Index de conversations protégé pendant la synchronisation
+
+- 8 October 2026 : Le service Assets écrit les index de conversation dans `/Users/zenray/.claude/Memory1/Skills/zenray-assets`, dossier canonique déclaré par le mapping du projet. (8 October 2026)
+- 8 October 2026 : `sync-skill.sh` garde maintenant `ConversationIndex.*` dans cette copie Memory tout en continuant à supprimer les autres fichiers périmés. (8 October 2026)
+- 8 October 2026 : `LinkConversations.mjs --project zenray-assets-v2 --write-memory` régénère l’index : 32 conversations trouvées dans 485 transcripts lisibles. (8 October 2026)
+- 8 October 2026 : Une synchronisation réelle conserve sans changement les SHA des deux index ; les SHA du skill canonique et des trois copies restent identiques. (8 October 2026)
+- 8 October 2026 : Le bouton natif conserve son titre après chaque actualisation ; les sept fixtures et le contrat de 74 fichiers passent. (8 October 2026)
+- 8 October 2026 : La capture du bureau après déverrouillage reste la seule preuve manquante pour savoir si Assets est hors du chevron de débordement. (8 October 2026)
+
+## 8 October 2026 : Protection du miroir périodique des skills
+
+- 8 October 2026 : Correction de la section précédente : l’index pouvait encore disparaître, car le LaunchAgent `com.zenray.skills-sync` exécute un second miroir toutes les 60 secondes. (8 October 2026)
+- 8 October 2026 : Le script actif `claude-sync/skills-sync/skills-sync.sh` exclut maintenant `ConversationIndex.*` de `rsync --delete` tout en retirant les autres fichiers périmés. (8 October 2026)
+- 8 October 2026 : `skills-sync/TestSkillsSync.sh` échoue avec l’ancien comportement puis réussit après le correctif ; un passage réel du script conserve les SHA JSON et Markdown inchangés. (8 October 2026)
+- 8 October 2026 : Le prochain lancement automatique doit encore confirmer que l’index reste présent après une minute. (8 October 2026)

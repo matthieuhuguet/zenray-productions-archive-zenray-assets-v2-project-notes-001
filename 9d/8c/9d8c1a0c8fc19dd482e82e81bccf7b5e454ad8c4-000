@@ -2485,3 +2485,19 @@
 - Source: codex:01a11653-69f5-7492-b80e-dbcc6a785d87. (8 October 2026, 18:41:44 +0200)
 
 > Cause racine du bouton manquant : Dashboard.receive remettait son titre à vide après chaque actualisation. Le bouton externaldrive.fill + Assets est restauré à largeur variable, avec un autosaveName versionné. Après relance, System Events lit Assets à (940, 4), taille 84 × 24. Les sept fixtures natives passent et le contrat du skill est vert sur 74 fichiers. Capture physique encore nécessaire après déverrouillage. (8 October 2026, 18:41:44 +0200)
+
+## 8 October 2026, 18:49:55 +0200 : Log
+
+<!-- feedback-event:3fc4be00c0502663d18b86feedda4e682b193b2179a8a90f73474661185cdcbf (8 October 2026, 18:49:55 +0200) -->
+- Project: zenray-assets-v2; kind: log. (8 October 2026, 18:49:55 +0200)
+- Source: codex:01a11653-69f5-7492-b80e-dbcc6a785d87. (8 October 2026, 18:49:55 +0200)
+
+> Le panneau de la barre reste sans cartes, avec connexion, action, projet, étape, attente et erreur lisibles. Les sept fixtures passent après relance du testeur. J’ai corrigé sync-skill.sh pour que rsync ne supprime plus ConversationIndex.md/json dans la copie Memory ; LinkConversations a régénéré 32 conversations depuis 485 transcripts, puis la synchronisation réelle a conservé exactement les deux SHA des index. Le SHA du skill reste identique dans Claude, Codex, Gemini et Memory, et CheckSkillContract est vert sur 74 fichiers. La capture physique de la barre reste à obtenir après déverrouillage. (8 October 2026, 18:49:55 +0200)
+
+## 8 October 2026, 18:56:01 +0200 : Log
+
+<!-- feedback-event:f7b0c3ec61b97e2d4d66c326309c99064fc560eae77613b8be274a3533ac86b7 (8 October 2026, 18:56:01 +0200) -->
+- Project: zenray-assets-v2; kind: log. (8 October 2026, 18:56:01 +0200)
+- Source: codex:01a11653-69f5-7492-b80e-dbcc6a785d87. (8 October 2026, 18:56:01 +0200)
+
+> La disparition des ConversationIndex ne venait pas seulement de sync-skill.sh : le LaunchAgent com.zenray.skills-sync exécutait aussi claude-sync/skills-sync/skills-sync.sh chaque minute avec rsync --delete. Le script réellement périodique exclut maintenant ConversationIndex.*. TestSkillsSync reproduit le défaut avant correction et passe après ; un vrai passage sur Memory conserve les SHA des deux index. J’attends son prochain cycle LaunchAgent pour prouver la stabilité. (8 October 2026, 18:56:01 +0200)
