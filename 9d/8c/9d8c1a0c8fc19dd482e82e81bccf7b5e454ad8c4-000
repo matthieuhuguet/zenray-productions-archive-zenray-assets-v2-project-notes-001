@@ -2440,3 +2440,33 @@
 - Project: zenray-assets-v2; kind: log. (8 October 2026, 15:31:23 +0200)
 
 > Identifiants exacts dont la surveillance est temporairement false et à remettre true après maintenance : ceramic-tiles, louisiana-bayou, japanese-environment, zenray-shards-core, zenray-assets-v2, zenray-houdini-library, zenray-progress, zenray-postkit, agent-conversations, control-resonant-crossover, conversation-claude-dd651e1477395f9ca214f8a6, control-brutalist-fountain, control-resonant-hub-assets, conversation-codex-e37a471e98d4d9ae226a3725, vegetation-assets-collection-01, conversation-codex-30e1d83bcd3b1a59297d5d27, zenray-freelance, zenray-dictate, zenray-edit. Vérifier le retour watched=true pour chacun après redémarrage. (8 October 2026, 15:31:23 +0200)
+
+## 8 October 2026, 17:02:16 +0200 : Log
+
+<!-- feedback-event:8757f588b498af4a2aec5b34d33edb51dd1c002e0c3dd5edce5f42f8c42c282e (8 October 2026, 17:02:16 +0200) -->
+- Project: zenray-assets-v2; kind: log. (8 October 2026, 17:02:16 +0200)
+
+> Mesure et correction : 71 groupes Git détachés exécutaient l’entretien automatique dans le seul clone sparse Assets ; chaque processus et son dossier exact ont été vérifiés avant SIGTERM. Le cache a maintenance.auto=false, le writer impose aussi cette valeur à chaque commande, et aucun groupe ne revient après git status. Le résumé natif interroge maintenant dashboard sans inventaire complet ; le bouton garde seulement Assets. Vérification locale : 81 tests service/writer, 13 tests publisher/page, 4 tests du modèle, contrôle de type Swift et build Vite passent. Sur les 19 surveillances, toutes restent temporairement false pendant le drain ; 14 jobs étaient encore actifs ou en attente, dont Conversations agents en cours avec 983 fichiers restants. Le nouveau service et le panneau ne sont pas encore rechargés. Prochain geste : laisser finir toutes les archives, puis recharger le daemon et le panneau sans perdre la file. (8 October 2026, 17:02:16 +0200)
+
+## 8 October 2026, 17:18:42 +0200 : Log
+
+<!-- feedback-event:fea66a96091c3de5ec5aad35e7a4d80311b3b55e2236e3351c7eebbede57c5ac (8 October 2026, 17:18:42 +0200) -->
+- Project: zenray-assets-v2; kind: log. (8 October 2026, 17:18:42 +0200)
+- Source: codex:01a11653-69f5-7492-b80e-dbcc6a785d87. (8 October 2026, 17:18:42 +0200)
+
+> 8 October 2026 : La file automatique repartait toujours de la première source, si bien que des fichiers restaient sans archivage lorsque l’index bougeait. Le curseur persistant fait maintenant tourner les lots bornés entre sources ; le test de deux sources passe et les 80 tests du service sont verts. Commit 39068e35 poussé. Le service rechargé répond à dashboard pour 19 projets en 2308 octets, sans job actif ; les sept fixtures natives passent après installation du bouton texte Assets, mesuré à 62 points. La position physique hors du débordement macOS reste à vérifier par capture après déverrouillage. Le job Assets déjà en file a échoué sur Source changed since inventory et laisse 7 fichiers à reprendre ; les surveillances restent en pause jusqu’à leur réactivation séquentielle. (8 October 2026, 17:18:42 +0200)
+
+## 8 October 2026, 17:54:51 +0200 : Log
+
+<!-- feedback-event:161be3c3dfc68d19affe24c42cd7f1185ec46126f8eb34bb0d03db5ae8c6b1ed (8 October 2026, 17:54:51 +0200) -->
+- Project: zenray-assets-v2; kind: log. (8 October 2026, 17:54:51 +0200)
+- Source: codex:01a11653-69f5-7492-b80e-dbcc6a785d87. (8 October 2026, 17:54:51 +0200)
+
+> Le bouton de la barre utilise externaldrive.fill sur 18 points ; le panneau sans cartes affiche l’action en cours, le projet, la phase, l’attente et les erreurs. Les sept fixtures natives passent, y compris le cas qui garde une erreur visible pendant une sauvegarde. Le LaunchAgent relance le panneau après un SIGTERM et tourne maintenant avec le binaire installé. Le placement physique hors du débordement reste non vérifié, car l’écran est verrouillé. (8 October 2026, 17:54:51 +0200)
+
+## 8 October 2026, 18:01:59 +0200 : Prompt
+
+<!-- feedback-event:081146c6a92986a2faa56a803d12fc1bc3c382778a231715c8ed6800ea72fa48 (8 October 2026, 18:01:59 +0200) -->
+- Project: zenray-assets-v2; kind: prompt. (8 October 2026, 18:01:59 +0200)
+
+> [$prompt-stacking] pourtant je vois plus la vue assets en haut à droite en revanche faut refaire cette UI pour qu'elle soit hyper simple et compréhensible un peu à l'img du code de zenray-progress (8 October 2026, 18:01:59 +0200)

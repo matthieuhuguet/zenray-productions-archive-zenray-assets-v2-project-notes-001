@@ -53,3 +53,33 @@
 - 8 October 2026 : L’inventaire relevé par context compte 488 fichiers Assets, dont 474 vérifiés et 14 en attente, ainsi que 540 fichiers Edit, dont 391 vérifiés et 149 en attente ; leurs jobs restent dans la file globale séquentielle. (8 October 2026)
 - 8 October 2026 : La capture de la barre montre encore le chevron de débordement à la place d’Assets ; le panneau compact reste lisible. macOS exige Commande-glisser pour mémoriser un nouvel emplacement, geste impossible tant que la session de bureau est verrouillée. (8 October 2026)
 - 8 October 2026 : Une sortie locale de diagnostic a exposé un jeton GitHub ; sa valeur n’est consignée nulle part dans la mémoire. Prévoir sa rotation après les archives déjà en cours afin de ne pas interrompre leur authentification. (8 October 2026)
+
+
+## 8 October 2026 : Entretien Git et panneau compact
+
+- 8 October 2026 : Le clone sparse d’Assets avait accumulé 71 groupes détachés `git maintenance run --auto`, chacun avec trois processus Git dans le même cache ; les groupes ont été vérifiés par chemin puis arrêtés par SIGTERM. (8 October 2026)
+- 8 October 2026 : Le cache local garde `maintenance.auto=false` et chaque commande d’AssetsCloudGitWriter passe également `-c maintenance.auto=false`. Un `git status` ne crée plus de groupe d’entretien et le clone reste lisible. (8 October 2026)
+- 8 October 2026 : Le panneau natif utilise l’action compacte `dashboard`, qui renvoie les états utiles sans les listes de fichiers ; le test de 10 000 fichiers garde la réponse sous 5 Ko et exclut les chemins privés. (8 October 2026)
+- 8 October 2026 : Le bouton du panneau conserve le titre « Assets » et retire son image décorative pour occuper moins de place. Le code passe les tests et la compilation, mais n’est pas encore rechargé ; la position physique dans la barre reste à vérifier quand le Mac est déverrouillé. (8 October 2026)
+- 8 October 2026 : Pendant le drain, les 19 surveillances sont temporairement `false`. Au relevé, 14 jobs sont actifs ou en attente et Conversations agents traite 983 fichiers restants. Les surveillances doivent revenir à `true` après le rechargement et leur valeur doit être vérifiée séparément. (8 October 2026)
+
+## 8 October 2026 : Reprise équitable des archives et menu Assets
+
+- 8 October 2026 : Correction de l’état du drain ci-dessus : les jobs déjà engagés ont terminé ou échoué ; aucun job n’est actif après le rechargement, mais plusieurs sources gardent des fichiers en attente. (8 October 2026)
+- 8 October 2026 : `AssetsService.mjs` faisait repartir chaque lot borné de la première source ; les fichiers `ConversationIndex` souvent réécrits pouvaient donc retarder les sources suivantes. Le curseur persistant passe à la source suivante après un lot confirmé, et une erreur garde le curseur pour retenter. (8 October 2026)
+- 8 October 2026 : Le test de rotation passe, les 80 tests de `AssetsService.test.js` passent, et le commit `39068e35` est poussé sur `origin/main`. Les quatre tests du modèle natif, les 13 tests writer, publisher et page, ainsi que le build passent aussi. (8 October 2026)
+- 8 October 2026 : Le service `com.zenray.assets` est rechargé et accepte `dashboard` ; la réponse couvre 19 projets en 2308 octets, avec zéro job actif au relevé. (8 October 2026)
+- 8 October 2026 : L’application native installée affiche le seul texte « Assets » sur le bouton, garde le nom accessible « ZenRay Assets » et mesure 62 points ; ses sept fixtures passent. (8 October 2026)
+- 8 October 2026 : Le placement réel hors du débordement macOS n’est pas prouvé, car il faut une capture réelle après déverrouillage du Mac. (8 October 2026)
+- 8 October 2026 : Le job Assets déjà en file `957434fd-ee58-4389-bd1f-ffdc1de8c1fb` finit en erreur « Source changed since inventory » et le registre montre 7 fichiers à reprendre ; Edit termine le job `6f1f1234-7a30-4818-9fc7-214c4e8c83c6` avec zéro fichier restant. (8 October 2026)
+- 8 October 2026 : Prochain geste : remettre les 19 surveillances à `true` une par une ; suivre les lots tournants jusqu’à zéro en attente, contrôler Assets/Edit par SHA, puis prouver les restaurations cloud et le clone final. (8 October 2026)
+
+
+## 8 October 2026 : Vue Assets réduite et processus rétabli
+
+- 8 October 2026 : Correction de l’entrée précédente sur le bouton de 62 points : le bouton montre maintenant seulement le symbole disque `externaldrive.fill`, sur 18 points, avec le nom accessible « ZenRay Assets ». (8 October 2026)
+- 8 October 2026 : Le panneau n’a plus de cartes ; il présente la connexion, une opération avec son projet et sa phase, les opérations en attente, puis un indicateur rouge si un projet a un problème. (8 October 2026)
+- 8 October 2026 : Sept fixtures natives passent, dont la file chargée qui garde une erreur visible ; deux captures de fixture montrent la vue en chargement et les problèmes cloud. (8 October 2026)
+- 8 October 2026 : `KeepAlive.SuccessfulExit=false` relance le tableau de bord après un arrêt inattendu ; le test observe le remplacement du PID `7472` par `7573`, puis l’application est installée depuis le code courant et tourne au PID `11701`. (8 October 2026)
+- 8 October 2026 : Le skill canonique est synchronisé dans quatre environnements et son contrat passe sur 74 fichiers ; l’extracteur de règles reste sous sa limite de 65 536 octets, avec 232 octets de marge. (8 October 2026)
+- 8 October 2026 : Le placement réel hors du débordement macOS reste à vérifier après déverrouillage ; un processus vivant et une fixture ne prouvent pas la capture du bureau. (8 October 2026)
