@@ -2398,3 +2398,17 @@
 - Project: zenray-assets-v2; kind: log. (8 October 2026, 14:23:13 +0200)
 
 > 8 October 2026 : Le correctif de publication 95fc8a72 pousse quatre chemins limites sur origin/main ; les 11 tests ciblés passent. Les métadonnées .workspace.json Assets et Edit sont relues sur GitHub, SHA 2f589fc7 et 6933f129, avec sync sans erreur ; leurs sources locales et préfixes cloud restent séparés. L’inventaire frais compte 488 fichiers Assets, 474 vérifiés et 14 en attente, puis 540 fichiers Edit, 391 vérifiés et 149 en attente. La file archive avance encore sur les conversations Codex. Le Mac est verrouillé : la vue du panneau est lisible, mais l’icône reste sous le chevron et le déplacement Commande-glisser attend le déverrouillage. Un diagnostic antérieur a exposé un jeton dans une sortie locale ; sa valeur n’est pas répétée et la rotation reste à faire après la file. (8 October 2026, 14:23:13 +0200)
+
+## 8 October 2026, 14:49:23 +0200 : Log
+
+<!-- feedback-event:fd5acfc6af8c265f52cbeee63d13aa8f02073bc16b88deedf7d76c556af50233 (8 October 2026, 14:49:23 +0200) -->
+- Project: zenray-assets-v2; kind: log. (8 October 2026, 14:49:23 +0200)
+
+> Panneau natif simplifié : bouton « Assets » nommé, opérations et erreurs résumées sans compteurs répétés. Sept scénarios natifs, 76 tests AssetsService, 3 tests du modèle et le build Vite passent. Correctif ctime validé en tests : un changement de métadonnées identiques ne marque plus le fichier comme en attente, tandis que des octets différents restent en attente. Commit 14167760 poussé sur origin/main. Le daemon de production attend la fin de la file avant rechargement ; dernier relevé : un transfert actif, huit en attente. Prochaine action : laisser finir les archives puis contrôler Assets et Edit avec le code chargé. (8 October 2026, 14:49:23 +0200)
+
+## 8 October 2026, 15:09:35 +0200 : Log
+
+<!-- feedback-event:9767252fea1242064550deab3b9a3928a1107369a767ba48b70ccf94f13dc3f4 (8 October 2026, 15:09:35 +0200) -->
+- Project: zenray-assets-v2; kind: log. (8 October 2026, 15:09:35 +0200)
+
+> Les jobs Assets f2a10fac-3534-46b6-97ea-52157bf96825 et Edit bc706a8d-f30e-474f-89e3-8f23dd80165c sont terminés sans erreur : Assets archive 15 fichiers avec 10 restants ; Edit archive 148 fichiers inchangés avec 1 restant. Les jobs de continuation Assets 1ad279eb-de10-4885-9d15-0d6b7a2dba15 et Edit 5621ec20-68c6-4989-a3d8-0db1183a7dcf sont en file. Le moteur ancien n’est toujours pas rechargé ; attendre ces lots et vérifier l’inventaire complet. (8 October 2026, 15:09:35 +0200)
