@@ -2412,3 +2412,31 @@
 - Project: zenray-assets-v2; kind: log. (8 October 2026, 15:09:35 +0200)
 
 > Les jobs Assets f2a10fac-3534-46b6-97ea-52157bf96825 et Edit bc706a8d-f30e-474f-89e3-8f23dd80165c sont terminés sans erreur : Assets archive 15 fichiers avec 10 restants ; Edit archive 148 fichiers inchangés avec 1 restant. Les jobs de continuation Assets 1ad279eb-de10-4885-9d15-0d6b7a2dba15 et Edit 5621ec20-68c6-4989-a3d8-0db1183a7dcf sont en file. Le moteur ancien n’est toujours pas rechargé ; attendre ces lots et vérifier l’inventaire complet. (8 October 2026, 15:09:35 +0200)
+
+## 8 October 2026, 15:24:29 +0200 : Log
+
+<!-- feedback-event:65d206ada7e59c800cfe04986229f7e8a3f153fb4e1ba0241874b356ca11ec4e (8 October 2026, 15:24:29 +0200) -->
+- Project: zenray-assets-v2; kind: log. (8 October 2026, 15:24:29 +0200)
+
+> Mesure avant maintenance : 12 projets sont surveillés ; les projets avec plusieurs milliers de fichiers en attente ont aussi plusieurs milliers de sauvegardes existantes dont le ctime diffère alors que taille et mtime correspondent. Tous les jobs actifs sont des archives sur projets watched=true. Pause temporaire et réversible des 12 surveillances, drain des seules tâches déjà en mémoire, rechargement du code ctime, inventaire prioritaire Assets/Edit, puis réactivation vérifiée des 12 surveillances. Aucune file manuelle non surveillée n’apparaît dans le relevé. (8 October 2026, 15:24:29 +0200)
+
+## 8 October 2026, 15:25:15 +0200 : Log
+
+<!-- feedback-event:28705cc756c76382cfa770c87fa8e15f3efb1f4d42264054703c955ceeb49945 (8 October 2026, 15:25:15 +0200) -->
+- Project: zenray-assets-v2; kind: log. (8 October 2026, 15:25:15 +0200)
+
+> Correction du plan précédent : 12 projets seulement portent un job courant, mais le pont expose 19 projets watched=true. Les 19 états sont maintenant passés à false et vérifiés un par un, afin qu’aucune tâche ne reparte automatiquement pendant le rechargement ; seuls les jobs déjà en mémoire continuent. Le premier contrôle a lu result.sync au lieu de result.project.sync et s’est arrêté après Ceramic Tiles ; le contrôle corrigé a confirmé les 19 valeurs false. Prochaine étape : drainer les jobs existants, recharger le daemon, puis remettre les 19 valeurs à true et vérifier leur reprise. (8 October 2026, 15:25:15 +0200)
+
+## 8 October 2026, 15:30:58 +0200 : Log
+
+<!-- feedback-event:fffa53501426cb2774d89c8332612c02a4799d12c11ccf5ecc08a62726ddfbae (8 October 2026, 15:30:58 +0200) -->
+- Project: zenray-assets-v2; kind: log. (8 October 2026, 15:30:58 +0200)
+
+> Mesure locale non destructive sur Project-<id>.json : 34 646 fichiers sauvegardés ont un changeToken différent alors que taille et mtime correspondent. Candidats au ctime seul, non encore validés par SHA : Ceramic Tiles 3 237, Louisiana 503, ZenRayShards 917, Assets V2 2, Conversations agents 42, Control Resonant CrossOver 7 204, ToDo3D 6 299, Vegetations Collection 16 442 ; les autres projets contrôlés en ont 0. Ce sont des candidats, pas encore une preuve d’octets égaux ; le nouveau service doit les hasher avant de restaurer le statut sauvegardé. (8 October 2026, 15:30:58 +0200)
+
+## 8 October 2026, 15:31:23 +0200 : Log
+
+<!-- feedback-event:45434fbdb87955d057afd46683a98cb64b57132043f4e9e4390d378d86e5a4a3 (8 October 2026, 15:31:23 +0200) -->
+- Project: zenray-assets-v2; kind: log. (8 October 2026, 15:31:23 +0200)
+
+> Identifiants exacts dont la surveillance est temporairement false et à remettre true après maintenance : ceramic-tiles, louisiana-bayou, japanese-environment, zenray-shards-core, zenray-assets-v2, zenray-houdini-library, zenray-progress, zenray-postkit, agent-conversations, control-resonant-crossover, conversation-claude-dd651e1477395f9ca214f8a6, control-brutalist-fountain, control-resonant-hub-assets, conversation-codex-e37a471e98d4d9ae226a3725, vegetation-assets-collection-01, conversation-codex-30e1d83bcd3b1a59297d5d27, zenray-freelance, zenray-dictate, zenray-edit. Vérifier le retour watched=true pour chacun après redémarrage. (8 October 2026, 15:31:23 +0200)
