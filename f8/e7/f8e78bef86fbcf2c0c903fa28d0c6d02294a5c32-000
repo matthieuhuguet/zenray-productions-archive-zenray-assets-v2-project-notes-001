@@ -115,3 +115,9 @@
 - 8 October 2026 : `Install.mjs` compile et installe l’application ; après relance, les sept fixtures et leurs captures rendent lisibles l’action, le projet, l’attente et les erreurs. (8 October 2026)
 - 8 October 2026 : Après inventaire frais, `hashLocalFile` a contrôlé les 520 fichiers par leur jeton stable, soit 589 662 380 octets ; 515 SHA et tailles égalent leurs sauvegardes, cinq versions éditées attendent l’archive, zéro lecture instable et zéro conflit. (8 October 2026)
 - 8 October 2026 : System Events et une fixture ne prouvent pas la position physique de l’icône hors du débordement ; le bureau est encore verrouillé, donc cette capture reste ouverte. (8 October 2026)
+
+## 8 October 2026 : Versions préservées restaurées du cloud
+
+- 8 October 2026 : Les 18 versions préservées du registre Assets sont restaurées dans un dossier temporaire isolé, puis contrôlées par la taille et SHA256 ; les 15 versions de fixtures sont incluses. (8 October 2026)
+- 8 October 2026 : Les 2 664 527 octets restitués passent les contrôles, puis le dossier temporaire est supprimé ; la preuve conservée est `OriginalVersionCloudRestoreProof-20261008.json` dans l’atelier surveillé. (8 October 2026)
+- 8 October 2026 : La restauration ne modifie pas les originaux de production ni la copie LOAD active. (8 October 2026)

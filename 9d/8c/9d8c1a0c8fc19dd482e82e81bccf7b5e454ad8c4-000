@@ -2508,3 +2508,10 @@
 - Project: zenray-assets-v2; kind: log. (8 October 2026, 19:17:10 +0200)
 
 > Le popover retire le titre redondant et « Connecté » quand le service répond ; l’action commence la vue et l’étape dit « Vérification des fichiers ». Le binaire recompilé a été installé puis relancé, la capture rendue montre la file et ses erreurs clairement, et les sept fixtures passent. Sur 520 fichiers locaux, 515 SHA et tailles concordent avec la sauvegarde ; cinq versions éditées attendent leur publication, sans conflit ni source instable. La capture physique reste bloquée par l’écran verrouillé. (8 October 2026, 19:17:10 +0200)
+
+## 8 October 2026, 19:22:01 +0200 : Log
+
+<!-- feedback-event:416407856b2ae1f6331e98a17fd87006f968bfa68c3c9d69fbc0841d744eb8f6 (8 October 2026, 19:22:01 +0200) -->
+- Project: zenray-assets-v2; kind: log. (8 October 2026, 19:22:01 +0200)
+
+> La restauration cloud indépendante contrôle 18 versions préservées, dont 15 fixtures, sur 2 664 527 octets ; tous les SHA et tailles passent, le scratch temporaire est retiré et la preuve reste dans l’atelier surveillé. L’inventaire frais de zenray-edit confirme 540 fichiers et 794 348 157 octets ; chaque SHA et taille correspond à la sauvegarde, sans changement de source. Les preuves de cinq archives donnent 4, 3, 115, 79 et 150 membres, avec leurs contrôles de restauration et d’empreinte réussis. (8 October 2026, 19:22:01 +0200)
