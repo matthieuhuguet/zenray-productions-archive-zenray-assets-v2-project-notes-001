@@ -121,3 +121,10 @@
 - 8 October 2026 : Les 18 versions préservées du registre Assets sont restaurées dans un dossier temporaire isolé, puis contrôlées par la taille et SHA256 ; les 15 versions de fixtures sont incluses. (8 October 2026)
 - 8 October 2026 : Les 2 664 527 octets restitués passent les contrôles, puis le dossier temporaire est supprimé ; la preuve conservée est `OriginalVersionCloudRestoreProof-20261008.json` dans l’atelier surveillé. (8 October 2026)
 - 8 October 2026 : La restauration ne modifie pas les originaux de production ni la copie LOAD active. (8 October 2026)
+
+## 8 October 2026 : Panneau Assets raccourci
+
+- 8 October 2026 : Le bouton natif affiche seulement le texte « Assets », sans icône ; la fixture mesure 62 points et System Events lit 64 × 24 points après relance. (8 October 2026)
+- 8 October 2026 : La vue vide tient en 64 points et montre une seule phrase ; le panneau retire l’heure de contrôle habituelle et évite de répéter « Service indisponible ». (8 October 2026)
+- 8 October 2026 : Les sept fixtures natives et quatre tests du modèle passent ; `npm run build` réussit. La suite Vitest complète compte 1 962 tests réussis et une suite ignorée, mais trois fichiers échouent faute du module Electron ou parce que Vitest reçoit un test prévu pour `node:test`. (8 October 2026)
+- 8 October 2026 : L’emplacement physique du bouton reste inconnu ; le bureau est verrouillé, et Accessibility à `(960, 4)` ne prouve pas qu’il est sorti du débordement. (8 October 2026)
