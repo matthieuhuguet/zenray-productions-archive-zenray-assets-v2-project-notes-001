@@ -2515,3 +2515,10 @@
 - Project: zenray-assets-v2; kind: log. (8 October 2026, 19:22:01 +0200)
 
 > La restauration cloud indépendante contrôle 18 versions préservées, dont 15 fixtures, sur 2 664 527 octets ; tous les SHA et tailles passent, le scratch temporaire est retiré et la preuve reste dans l’atelier surveillé. L’inventaire frais de zenray-edit confirme 540 fichiers et 794 348 157 octets ; chaque SHA et taille correspond à la sauvegarde, sans changement de source. Les preuves de cinq archives donnent 4, 3, 115, 79 et 150 membres, avec leurs contrôles de restauration et d’empreinte réussis. (8 October 2026, 19:22:01 +0200)
+
+## 8 October 2026, 20:08:03 +0200 : Log
+
+<!-- feedback-event:b3835d29073c65065f959a70520f40a549f82b4e5f2de36c40b8847c709f188c (8 October 2026, 20:08:03 +0200) -->
+- Project: zenray-assets-v2; kind: log. (8 October 2026, 20:08:03 +0200)
+
+> Vue Assets réduite à l’essentiel : bouton texte de 62 points, état vide de 64 points, sept fixtures natives et quatre tests du modèle verts ; System Events place le bouton dans la zone supérieure droite (960, 4), mais la capture physique reste impossible tant que le Mac est verrouillé. Le défaut du watcher optionnel a d’abord fait échouer le test, puis 81 tests du service passent ; commit ZenRayProgress c3411184 poussé et aligné avec origin/main. Le daemon actif n’a pas encore rechargé ce code, car les archives continuent. (8 October 2026) (8 October 2026, 20:08:03 +0200)

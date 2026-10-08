@@ -128,3 +128,16 @@
 - 8 October 2026 : La vue vide tient en 64 points et montre une seule phrase ; le panneau retire l’heure de contrôle habituelle et évite de répéter « Service indisponible ». (8 October 2026)
 - 8 October 2026 : Les sept fixtures natives et quatre tests du modèle passent ; `npm run build` réussit. La suite Vitest complète compte 1 962 tests réussis et une suite ignorée, mais trois fichiers échouent faute du module Electron ou parce que Vitest reçoit un test prévu pour `node:test`. (8 October 2026)
 - 8 October 2026 : L’emplacement physique du bouton reste inconnu ; le bureau est verrouillé, et Accessibility à `(960, 4)` ne prouve pas qu’il est sorti du débordement. (8 October 2026)
+
+## 8 October 2026 : Emplacement du bouton et racine facultative
+
+- 8 October 2026, 20:06 CEST : System Events donne `(960, 4)` et `64 × 24` ; AppKit situe `x = 960` dans la zone supérieure droite commençant à `x = 956,5`, mais le Mac verrouillé empêche la capture visuelle. (8 October 2026)
+- 8 October 2026, 20:06 CEST : Le chemin Unreal facultatif `Content/ModelingJapan_01` manque réellement ; l’inventaire trouve zéro fichier et le watcher le tentait tout de même, ce qui relançait ENOENT. (8 October 2026)
+- 8 October 2026, 20:06 CEST : `setWatch` ignore maintenant une racine facultative absente ; le balayage périodique pourra la découvrir si elle apparaît. Le test a échoué avant le changement puis les 81 tests du service passent. (8 October 2026)
+- 8 October 2026, 20:06 CEST : Le correctif `c34111841be81d69eea44e7e069ae4e18e3c4d7f` est poussé et identique à `origin/main` ; le daemon déjà actif attend la fin de ses archives avant le rechargement. (8 October 2026)
+
+## 8 October 2026 : Vérifier les deux états facultatifs
+
+- 8 October 2026, 20:11 CEST : Le test rouge puis vert confirme qu’un dossier facultatif absent ne s’attache pas au watcher ; un second test confirme qu’un dossier facultatif présent y reste attaché. (8 October 2026)
+- 8 October 2026, 20:11 CEST : `scripts/AssetsService.test.js` passe à 82 tests ; le contrat passe sur 74 fichiers avec le skill synchronisé dans Claude, Codex, Gemini et Memory. (8 October 2026)
+- 8 October 2026, 20:11 CEST : Le test et son contrat sont poussés dans `1ae0f21f` ; le daemon actif attend encore la fin des écritures avant rechargement. (8 October 2026)
