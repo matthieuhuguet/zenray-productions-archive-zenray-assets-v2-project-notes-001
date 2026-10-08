@@ -2196,3 +2196,163 @@
 > | Finir la publication cloud | En attente | Le test sentinelle est ajouté, mais pas encore lancé. Le job `c7fab047-389e-4afc-aac1-c4ba8a24e88d` reste en file, sans doublon. | (8 October 2026, 00:07:27 +0200)
 >
 > Le checkpoint Assets est écrit dans FEEDBACK, mais `backupConfirmed=false` : sa copie cloud reste à prouver lors de la reprise. (8 October 2026, 00:07:27 +0200)
+
+## 8 October 2026, 09:42:36 +0200 : Prompt
+
+<!-- feedback-event:e0f5de74b3fa4cbe83d58658f4c8bf40bc1dcd7b8b852b044ba08aa55df7c4de (8 October 2026, 09:42:36 +0200) -->
+- Project: zenray-assets-v2; kind: prompt. (8 October 2026, 09:42:36 +0200)
+- Source: /Users/zenray/.codex/sessions/2026/10/07/rollout-2026-10-07T14-25-27-01a11653-69f5-7492-b80e-dbcc6a785d87.jsonl. (8 October 2026, 09:42:36 +0200)
+
+> <external_codex_apps_open_page>{"page_id":null}</external_codex_apps_open_page> (8 October 2026, 09:42:36 +0200)
+
+## 8 October 2026, 09:42:36 +0200 : Prompt
+
+<!-- feedback-event:11b1a86d960428c22aa68f478e60e1c2ca4679f612e14a2e1fa32b94a5336752 (8 October 2026, 09:42:36 +0200) -->
+- Project: zenray-assets-v2; kind: prompt. (8 October 2026, 09:42:36 +0200)
+- Source: /Users/zenray/.codex/sessions/2026/10/07/rollout-2026-10-07T14-25-27-01a11653-69f5-7492-b80e-dbcc6a785d87.jsonl. (8 October 2026, 09:42:36 +0200)
+
+> Est ce que tu as tout terminé ? (8 October 2026, 09:42:36 +0200)
+
+## 8 October 2026, 09:55:57 +0200 : Prompt
+
+<!-- feedback-event:f1fccaf93625832d30168a3f57f1c729c3a698db63e3dcc3b2e325506dd25a16 (8 October 2026, 09:55:57 +0200) -->
+- Project: zenray-assets-v2; kind: prompt. (8 October 2026, 09:55:57 +0200)
+- Source: /Users/zenray/.codex/sessions/2026/10/07/rollout-2026-10-07T14-25-27-01a11653-69f5-7492-b80e-dbcc6a785d87.jsonl. (8 October 2026, 09:55:57 +0200)
+
+> tu peux delete le cron puisque la limite a été reset et désormais finir en séquentiel [$tasks-sequence](/Users/zenray/.codex/skills/tasks-sequence/SKILL.md) (8 October 2026, 09:55:57 +0200)
+
+## 8 October 2026, 11:00:06 +0200 : Log
+
+<!-- feedback-event:4af6b364f7e69bfc3b82834f714764ee6fd7a0dec87d0376661b93ec4603b868 (8 October 2026, 11:00:06 +0200) -->
+- Project: zenray-assets-v2; kind: log. (8 October 2026, 11:00:06 +0200)
+
+> 8 October 2026 : Le registre pages/.zr-assets-workspaces.json a été mis à jour par un job d’archive réel. Le blob Git Data UTF-8 a renvoyé 201, le commit et la référence main ont renvoyé 201 et 200, puis gh api a confirmé le SHA 9a1f75b1ba9ff0836a84c27e9ff6bfcc33590eea pour 41 941 886 octets. Le POST base64 précédent avait reçu 401 avec le même jeton. (8 October 2026, 11:00:06 +0200)
+
+## 8 October 2026, 11:01:11 +0200 : Log
+
+<!-- feedback-event:fe5777dca68a3487c295b87f3eb111af06b07bce0db206734395a06b378515f1 (8 October 2026, 11:01:11 +0200) -->
+- Project: zenray-assets-v2; kind: log. (8 October 2026, 11:01:11 +0200)
+
+> 8 October 2026 : La section sur les gros registres Git Data est ajoutée au skill canonique zenray-assets. skill-sync donne le même SHA dans Claude, Codex, Gemini et Memory ; les AGENTS générés font 65 531 octets ; le contrat couvre 72 fichiers et son contrôle sans --record est vert. (8 October 2026, 11:01:11 +0200)
+
+## 8 October 2026, 11:08:56 +0200 : Log
+
+<!-- feedback-event:2901ba31b78f9c74497aba20d0377fd5cc851e481e5f5ebe71f0c1783caaaae4 (8 October 2026, 11:08:56 +0200) -->
+- Project: zenray-assets-v2; kind: log. (8 October 2026, 11:08:56 +0200)
+
+> 8 October 2026 : Le job automatique zenray-houdini-library 1d46edee-def5-4f3c-b1de-315b69399656 échoue sur la publication du registre partagé après un POST git/blobs qui reste en attente et finit par renvoyer fetch failed. Le service place le retry ce83401e-780d-4740-a971-1facb55aca2f en file. Le job zenray-progress 2e86f4ee-e82e-40f8-8f06-42c4ccd4593d reste la preuve d’un commit direct réussi ; aucun job Assets ou Edit n’est dupliqué. (8 October 2026, 11:08:56 +0200)
+
+## 8 October 2026, 11:18:20 +0200 : Log
+
+<!-- feedback-event:d22efd2fa549234457f457de22fdbe5ca0f2a2642df7eb49fb5250cd331a5f1e (8 October 2026, 11:18:20 +0200) -->
+- Project: zenray-assets-v2; kind: log. (8 October 2026, 11:18:20 +0200)
+
+> GitHub refuse désormais le gros registre par POST Git Data REST avec HTTP 422 et recommande un clone local. Le nouveau writer Git sparse passe un push réel de 2,2 Mo UTF-8 vers un dépôt de test et refuse un SHA périmé. Le publisher et le service passent 11 tests ciblés, 74 tests AssetsService et npm run build. Raccordement au daemon et archives Assets/Edit encore à vérifier. (8 October 2026, 11:18:20 +0200)
+
+## 8 October 2026, 11:18:56 +0200 : Log
+
+<!-- feedback-event:75dc99dba3a4659af59732bcfe520c89a1688676220ab55f4b8fec52979caa11 (8 October 2026, 11:18:56 +0200) -->
+- Project: zenray-assets-v2; kind: log. (8 October 2026, 11:18:56 +0200)
+
+> Le publisher et le service utilisent le writer Git sparse pour le registre volumineux. Le dépôt local de test prouve le push UTF-8 et le refus d’un SHA périmé. 11 tests ciblés, 74 tests AssetsService, le build et le contrat de 72 fichiers passent. Le skill synchronisé partage le SHA 45581d1f6cc9467620269231fe40bec5c97f2271e05c4197f7156403db401b2b. Prochain geste : redémarrer le daemon et vérifier les jobs Assets et Edit réels. (8 October 2026, 11:18:56 +0200)
+
+## 8 October 2026, 11:25:35 +0200 : Log
+
+<!-- feedback-event:f0be322a79cf547ddf23d486b706be0dba4d429b8c1f68d3eaedfafb150cdc48 (8 October 2026, 11:25:35 +0200) -->
+- Project: zenray-assets-v2; kind: log. (8 October 2026, 11:25:35 +0200)
+
+> Le test rouge a prouvé que le publisher appelait encore le blob REST complet; la correction lit désormais le registre dans le clone sparse après comparaison du SHA Contents. Les 11 tests ciblés passent, y compris lecture UTF-8 locale, push et refus d’un SHA périmé. Le skill est resynchronisé dans quatre environnements sous le SHA 867d7b611055dd2c331a0c80b131651c8825dfb5c30ebf87759abc8c02dc203c, contrat 72 fichiers vert. Le daemon utilise encore l’ancienne version pendant un job zenray-progress; prochain geste : le recharger et vérifier Assets/Edit. (8 October 2026, 11:25:35 +0200)
+
+## 8 October 2026, 11:27:03 +0200 : Log
+
+<!-- feedback-event:1442c73fa803eb4f52afc34d14147e7a68568e40c09916e8fa3c91d5bec84398 (8 October 2026, 11:27:03 +0200) -->
+- Project: zenray-assets-v2; kind: log. (8 October 2026, 11:27:03 +0200)
+
+> Preuve service réelle après rechargement LaunchAgent : le job zenray-progress d3b18d4b-a216-4823-bac3-9273d9dff0de termine deux fichiers, sans erreur. Le clone Git sparse persistant est créé et propre. Son SHA pages/.zr-assets-workspaces.json vaut 69c242cf67a123602349ff63bbd603f5c5c6fe25, identique à GitHub Contents; taille 41 983 579 octets. Les jobs Assets et Edit sont toujours en file et restent à vérifier par fichier et mapping. (8 October 2026, 11:27:03 +0200)
+
+## 8 October 2026, 11:30:16 +0200 : Log
+
+<!-- feedback-event:4b391496dd6f921150fb3aa2ea5cdde0fa92b74c6fbaaa70e42dfd4ff46c2f81 (8 October 2026, 11:30:16 +0200) -->
+- Project: zenray-assets-v2; kind: log. (8 October 2026, 11:30:16 +0200)
+
+> Ordre d’exécution corrigé après mesure : le daemon vivant sait déjà publier le gros registre par clone Git sparse et le job zenray-progress le prouve. Le code de lecture sparse est vert en tests et au build, mais n’est pas encore chargé dans le processus. Je garde le daemon vivant jusqu’aux jobs Assets f1edde6a-1744-49d9-a714-1388d5274265 et Edit de5fc0d5-b598-46bd-a227-4c54b686e1b4, car son redémarrage a remplacé les anciens jobIds par les jobs de surveillance. Un seul redémarrage viendra après les deux archives. (8 October 2026, 11:30:16 +0200)
+
+## 8 October 2026, 11:31:35 +0200 : Log
+
+<!-- feedback-event:72496438a8f709ffb648d69d436ca3b33815fc9988f0e3c4d794cd8615ef96d7 (8 October 2026, 11:31:35 +0200) -->
+- Project: zenray-assets-v2; kind: log. (8 October 2026, 11:31:35 +0200)
+
+> Service proof while the original queue advances: control-resonant-hub-assets job 607adab0-0e8c-4657-80ba-9f1afa6082c1 finishes with 62 backed-up files, zero pending and no error. Sparse clone SHA fb863c763e375429b7f4fdd58ec95c37f42c5d2a matches GitHub Contents after publishing a 41,989,482-byte registry. Assets and Edit remain queued; their own per-file proofs are still required. (8 October 2026, 11:31:35 +0200)
+
+## 8 October 2026, 11:32:00 +0200 : Prompt
+
+<!-- feedback-event:5e633f9ac145c80bdd5bf3a7b35d1ff7c7a16e88aa743e49f9ac72ce17eb9405 (8 October 2026, 11:32:00 +0200) -->
+- Project: zenray-assets-v2; kind: prompt. (8 October 2026, 11:32:00 +0200)
+- Source: /Users/zenray/.codex/sessions/2026/10/07/rollout-2026-10-07T14-25-27-01a11653-69f5-7492-b80e-dbcc6a785d87.jsonl. (8 October 2026, 11:32:00 +0200)
+
+> [$prompt-stacking](/Users/zenray/.codex/skills/prompt-stacking/SKILL.md) pourtant je vois plus la vue assets en haut à droite en revanche faut refaire cette UI pour qu'elle soit hyper simple et compréhensible un peu à l'img du code de zenray-progress&#x20; (8 October 2026, 11:32:00 +0200)
+>
+> puis continuer (8 October 2026, 11:32:00 +0200)
+
+## 8 October 2026, 11:45:44 +0200 : Log
+
+<!-- feedback-event:de097dba662d059d2ab33d3a80088cf4691a62c7d93a79a784e4aaf88b79bf12 (8 October 2026, 11:45:44 +0200) -->
+- Project: zenray-assets-v2; kind: log. (8 October 2026, 11:45:44 +0200)
+
+> Vue native Assets restaurée : le LaunchAgent était arrêté ; panneau simplifié en cartes, états français, InterVariable et titres/nombres serif. Preuve réelle : status item et popover visibles, pont connecté ; six fixtures natives et trois tests du modèle verts. Archives Assets/Edit toujours en attente, aucun doublon et aucun redémarrage du daemon. (8 October 2026, 11:45:44 +0200)
+
+## 8 October 2026, 11:48:44 +0200 : Log
+
+<!-- feedback-event:cf048b9ef9bef176f99229e6ea5d07faec002f7814841cbb6aae824ce5a1eb4d (8 October 2026, 11:48:44 +0200) -->
+- Project: zenray-assets-v2; kind: log. (8 October 2026, 11:48:44 +0200)
+
+> Nouvelle capture live du panneau avec la file active : le message du daemon « Previous service stopped before completion; backup can resume » apparaissait comme un échec générique ; il est maintenant traduit en « Sauvegarde interrompue, reprise possible ». Six fixtures natives restent vertes et la preuve réelle est enregistrée dans NativeDashboardLive-20261008-final.json.png. Les jobs Assets 064c921f-e6b4-4c0e-ad00-7e1558f2b87c et Edit cf9ed54d-5765-4b1d-835e-bbeee04bdb13 restent en file. (8 October 2026, 11:48:44 +0200)
+
+## 8 October 2026, 12:03:14 +0200 : Log
+
+<!-- feedback-event:918d32a2601a4d1662474db636d51e6137133588d3708f0e4568668a26f9f957 (8 October 2026, 12:03:14 +0200) -->
+- Project: zenray-assets-v2; kind: log. (8 October 2026, 12:03:14 +0200)
+
+> État du service vérifié : le premier lot Assets f1edde6a-1744-49d9-a714-1388d5274265 est terminé avec 188 fichiers sur 463, et le premier lot Edit de5fc0d5-b598-46bd-a227-4c54b686e1b4 avec 200 sur 540. Les lots automatiques suivants 064c921f-e6b4-4c0e-ad00-7e1558f2b87c et cf9ed54d-5765-4b1d-835e-bbeee04bdb13 restent queued ; aucun conflit de source, mais les deux inventaires affichent encore verifiedCount=0. La file FIFO finit d’abord les jobs plus anciens ; aucun doublon ni redémarrage. (8 October 2026, 12:03:14 +0200)
+
+## 8 October 2026, 12:07:25 +0200 : Log
+
+<!-- feedback-event:82e5720c9be83a8246a13752a1fd83e0434d81951ae1d88952bc2d16ddb19d16 (8 October 2026, 12:07:25 +0200) -->
+- Project: zenray-assets-v2; kind: log. (8 October 2026, 12:07:25 +0200)
+
+> 8 October 2026 : Le panneau compact Assets est relancé sous LaunchAgent ; launchctl affiche state=running et le PID 66367. L’automatisation ZenRay Assets V2 demandée est supprimée et son dossier a disparu. Le contrôle CUA du panneau a expiré, mais une preuve native précédente montre le status item et le popover visibles ; poursuivre les archives sans recréer les jobs. (8 October 2026, 12:07:25 +0200)
+
+## 8 October 2026, 12:23:37 +0200 : Log
+
+<!-- feedback-event:dd161c0c9b0c6742b6899899d3b939a842608ffe075049c559842b84eac88aa8 (8 October 2026, 12:23:37 +0200) -->
+- Project: zenray-assets-v2; kind: log. (8 October 2026, 12:23:37 +0200)
+
+> 8 October 2026 : Le job Louisiana 88b15c85-b13a-46be-aee3-cf2e3e210e6b échoue à la lecture du registre JSON, et son retry 9b8dfe63-522e-49bc-86be-769011eb8cc1 est déjà en file. Le premier lot ToDo3D avait échoué avec la même famille d’erreur ; son retry d4077223-b862-476d-98c0-7bb8004c63ad tourne. Le daemon utilise encore l’ancien lecteur ; le lecteur sparse corrigé est testé et attend le redémarrage prévu après les lots Assets/Edit, dont 17d1c49e-ebc0-40d3-a925-15ee9567356c et 75c60c11-c66c-4de5-855d-d5fcde329289. (8 October 2026, 12:23:37 +0200)
+
+## 8 October 2026, 12:25:59 +0200 : Log
+
+<!-- feedback-event:7b348acf67855af9aad79e36b22b81924d439d2179cbe7427f53460e67ec6279 (8 October 2026, 12:25:59 +0200) -->
+- Project: zenray-assets-v2; kind: log. (8 October 2026, 12:25:59 +0200)
+
+> 8 October 2026 : La file passe maintenant sur zenray-shards-core. Les publications de Control Resonant Crossover et Louisiana Bayou échouent aussi sur « Unterminated string in JSON » à environ 50 à 53 Mo, ce qui confirme le lecteur de registre ancien. Le job ToDo3D d4077223 a traversé son lot de 200 fichiers ; Assets et Edit restent dans la file, et le redémarrage du daemon attend toujours leurs jobs. (8 October 2026, 12:25:59 +0200)
+
+## 8 October 2026, 12:54:34 +0200 : Log
+
+<!-- feedback-event:bc1bce598a171aec43ded2b5c49e61692afe93d0f985ebe161fc10e652d574c9 (8 October 2026, 12:54:34 +0200) -->
+- Project: zenray-assets-v2; kind: log. (8 October 2026, 12:54:34 +0200)
+
+> 8 October 2026 : Le panneau natif regroupe la file en une carte par type d’opération et une synthèse unique des erreurs. Sept fixtures passent ; la preuve live montre 19 projets reliés, et l’accessibilité macOS expose le bouton Assets activé en haut de l’écran. Le rendu est capturé, tandis que la visibilité persistante du popover après retour du focus Codex n’est pas confirmée. L’LaunchAgent normal reste running. Le 401 Pages sur .workspace.json bloque encore certaines publications ; la suite passe par le writer Git local déjà autorisé, sans transmettre de secret. (8 October 2026, 12:54:34 +0200)
+
+## 8 October 2026, 13:09:43 +0200 : Log
+
+<!-- feedback-event:26b6bd107a9d285b730cae62e671dcf9c9f96f9b021bf5a798188a878a1feb7f (8 October 2026, 13:09:43 +0200) -->
+- Project: zenray-assets-v2; kind: log. (8 October 2026, 13:09:43 +0200)
+
+> Le bouton natif Assets est explicitement visible avec externaldrive.fill, son libellé et le nom accessible ZenRay Assets ; clic réel, position 950,4, taille 84x24, popover 386x346, sept fixtures vertes. Le test du publisher couvre maintenant .workspace.json, .context.md et le registre volumineux via writer Git sparse ; 2 tests writer, 8 publisher, 3 Pages, 74 service, build et contrat de 74 fichiers passent. Le daemon ne sera rechargé qu’après les archives en cours. (8 October 2026, 13:09:43 +0200)
+
+## 8 October 2026, 13:11:50 +0200 : Log
+
+<!-- feedback-event:3b08d75774deeaf556d01dcfe5701c02dc0a489e7b7efe6d02c3046dca33abea (8 October 2026, 13:11:50 +0200) -->
+- Project: zenray-assets-v2; kind: log. (8 October 2026, 13:11:50 +0200)
+
+> Correction du suivi 12:54 : le 401 vegetation reste dans l’historique du job db88a64e, mais son retry e1a2666d est terminé et l’état actuel du projet indique error=null. Le prochain job 96564eab reste en file. Le daemon n’a pas encore été rechargé avec la nouvelle route .workspace.json ; la preuve réelle reste à faire après les archives Assets et Edit. Le premier test publisher a révélé un mock limité au registre partagé ; le test couvre maintenant les trois chemins sparse, et les huit tests passent. (8 October 2026, 13:11:50 +0200)

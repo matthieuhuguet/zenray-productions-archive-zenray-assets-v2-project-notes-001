@@ -81,3 +81,46 @@
 - 8 October 2026 : Après le test vert, mettre à jour le skill canonique `zenray-assets`, synchroniser les miroirs, enregistrer et vérifier le contrat, laisser finir l’unique job déjà en file, restaurer les nouvelles preuves, vérifier mappings et sources en attente, puis committer et pousser les seuls chemins du chantier.
 - 8 October 2026 : Le tour actuel ne modifie pas encore le code du publisher ; il sauvegarde uniquement le test sentinelle et l’état de reprise. La prochaine reprise est planifiée pour 12:19 AM, heure de Paris.
 - 8 October 2026 : Le checkpoint stable `codex-01a11653-20261008-0019-assets-edit-resume` est écrit localement dans FEEDBACK ; le service rend `backupConfirmed=false`, donc cette écriture n’est pas encore une preuve cloud et doit être incluse dans la prochaine archive vérifiée.
+
+## 8 October 2026 : Reprise séquentielle et correction du registre Git volumineux
+
+- 8 October 2026 : Matthieu demande de supprimer le cron après la réinitialisation de la limite et de terminer le chantier séquentiellement ; le cron reste supprimé et aucun autre cron n’est créé.
+- 8 October 2026 : Le job `zenray-freelance` reçoit HTTP 422 sur le POST Git Data du registre partagé de plus de 41 Mo ; GitHub répond que l’entrée est trop grande et recommande un clone local puis `git push`.
+- 8 October 2026 : `scripts/AssetsCloudGitWriter.mjs` clone le dépôt de données en mode sparse dans le stateDir Assets, ne suit que `pages/.zr-assets-workspaces.json`, compare le SHA avant l’écriture et pousse sans force.
+- 8 October 2026 : Le publisher lit les métadonnées et le SHA par GitHub Contents, lit le corps du registre dans le clone sparse, puis écrit par Git et relit le SHA distant après le push.
+- 8 October 2026 : Le test rouge confirme l’appel Blob REST inutile ; après correction, 11 tests ciblés passent, 74 tests AssetsService passent et `npm run build` réussit.
+- 8 October 2026 : Le skill canonique `zenray-assets` est synchronisé dans Claude, Codex, Gemini et Memory sous SHA `867d7b611055dd2c331a0c80b131651c8825dfb5c30ebf87759abc8c02dc203c` ; `CheckSkillContract` couvre 72 fichiers et passe avec puis sans `--record`.
+- 8 October 2026 : Après reprise du service, le job réel `zenray-progress` `d3b18d4b-a216-4823-bac3-9273d9dff0de` termine deux fichiers ; le SHA local du clone et celui de GitHub sont égaux à `69c242cf67a123602349ff63bbd603f5c5c6fe25`, registre distant de 41 983 579 octets.
+- 8 October 2026 : Les jobs Assets `f1edde6a-1744-49d9-a714-1388d5274265` et Edit `de5fc0d5-b598-46bd-a227-4c54b686e1b4` sont encore `queued` au dernier contrôle ; aucun job manuel doublon n’est ajouté.
+- 8 October 2026 : La suite atomique reste : activer la lecture Git sparse dans le daemon, terminer et vérifier l’archive Assets, terminer et vérifier l’archive Edit, restaurer et comparer les deux paquets, confirmer leurs mappings séparés, lire `Readme.md`, puis committer et pousser les seuls chemins concernés.
+
+## 8 October 2026 : Ordre de redémarrage corrigé pour préserver la file
+
+- 8 October 2026 : Le daemon courant publie déjà le registre par Git sparse ; le job réel `zenray-progress` est terminé et son SHA local correspond au SHA Contents distant.
+- 8 October 2026 : Le nouveau lecteur local sparse passe les tests et le build, mais le processus courant n’a chargé que le writer Git ; ne pas le redémarrer avant Assets et Edit, car le démarrage remplace les anciens jobIds par les jobs automatiques de surveillance.
+- 8 October 2026 : Au dernier contrôle, la file avance sur `zenray-dictate`, tandis que les jobs cibles Assets et Edit gardent les jobIds `f1edde6a-1744-49d9-a714-1388d5274265` et `de5fc0d5-b598-46bd-a227-4c54b686e1b4` en attente.
+- 8 October 2026 : Terminer ces deux jobs avec le service vivant, prouver chaque fichier et chaque mapping, puis faire un unique redémarrage propre afin d’activer la lecture sparse testée.
+
+## 8 October 2026 : Vue Assets native rétablie et simplifiée
+
+- 8 October 2026 : Le retour utilisateur indique que la vue Assets en haut à droite n’apparaît plus et demande une UI très simple, dans l’esprit du code ZenRayProgress ; ce prompt est enregistré une fois dans FEEDBACK par son événement natif.
+- 8 October 2026 : La cause mesurée est le LaunchAgent `com.zenray.assets.dashboard` à l’état `not running`, dernier signal TERM 15 ; la vieille capture révèle aussi une liste textuelle trop longue.
+- 8 October 2026 : Le panneau devient une vue compacte avec InterVariable, titres et nombres AnthropicSerif-Regular, résumé clair, cartes par opération, états en français et détails de progression vérifiés.
+- 8 October 2026 : `Install.mjs` compile et installe le binaire ; le lancement natif redonne le bouton de barre des menus sans redémarrer le daemon ni sa file.
+- 8 October 2026 : La preuve réelle `NativeDashboardLive-20261008.json` confirme le bouton, le pont et le popover visibles ; la capture associée est `NativeDashboardLive-20261008.json.png` dans l’atelier actif.
+- 8 October 2026 : `Verify.mjs` passe six fixtures natives, et `node --test scripts/Assets/NativeDashboard/Model.test.mjs` passe 3/3 tests ; la compilation Swift et `plutil -lint` passent.
+- 8 October 2026 : Le prochain geste reste d’attendre les jobs Assets `f1edde6a-1744-49d9-a714-1388d5274265` et Edit `de5fc0d5-b598-46bd-a227-4c54b686e1b4`, sans créer de doublons ni redémarrer le service.
+
+## 8 October 2026 : Erreur de reprise expliquée dans la vue native
+
+- 8 October 2026 : La capture live montrait « L’opération a échoué » alors que le service précise « backup can resume » ; le panneau affiche désormais « Sauvegarde interrompue, reprise possible ».
+- 8 October 2026 : La fixture `current-errors` vérifie cette phrase, et `NativeDashboardLive-20261008-final.json.png` en donne la preuve dans l’application réelle.
+- 8 October 2026 : Le skill et le contrat natifs sont complétés puis resynchronisés ; les archives Assets `064c921f-e6b4-4c0e-ad00-7e1558f2b87c` et Edit `cf9ed54d-5765-4b1d-835e-bbeee04bdb13` restent seules en file.
+
+## 8 October 2026 : Premiers lots cloud confirmés
+
+- 8 October 2026 : Le premier job Assets `f1edde6a-1744-49d9-a714-1388d5274265` finit sans conflit ; il traite 188 fichiers, tandis que l’inventaire vivant en compte 463 et garde 275 en attente.
+- 8 October 2026 : Le premier job Edit `de5fc0d5-b598-46bd-a227-4c54b686e1b4` finit sans conflit ; il traite 200 fichiers, tandis que l’inventaire vivant en compte 540 et garde 340 en attente.
+- 8 October 2026 : Les jobs automatiques de suite sont Assets `064c921f-e6b4-4c0e-ad00-7e1558f2b87c` et Edit `cf9ed54d-5765-4b1d-835e-bbeee04bdb13` ; ils restent queued et ne sont pas remplacés.
+- 8 October 2026 : La file FIFO traite encore plusieurs lots automatiques plus anciens ; Shards, Vegetation, Ceramic Tiles et ZenRayDictate avancent avant les cibles. Ne pas redémarrer le daemon ni annoncer les archives complètes.
+- 8 October 2026 : Les états viennent de `Client.mjs status` ; `verifiedCount` reste à zéro et chaque fichier devra encore être attesté après la fin des lots.
