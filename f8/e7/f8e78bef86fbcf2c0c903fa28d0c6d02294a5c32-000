@@ -242,3 +242,17 @@
 - 8 October 2026 : La barre latérale affiche un total dynamique de projets et de fichiers, puis le nombre de fichiers sur chaque projet ; une mosaïque de petits blocs rend l’idée des briques visible. (8 October 2026)
 - 8 October 2026 : Le comptage utilise la liste de fichiers, `sync.count` et `inventory.count` comme mesures disponibles, et indique explicitement le chargement au lieu d’afficher zéro trop tôt. (8 October 2026)
 - 8 October 2026 : À 23:11 CEST, le service mesure 20 projets et 44 390 fichiers. La vue et son build passent ; son déploiement reste à faire avec la prochaine livraison cohérente du dépôt. (8 October 2026)
+
+## 8 October 2026 : Échec de replay sans annulation du projet
+
+- 8 October 2026, 23:31 CEST : Le correctif de file ne couvrait que le replay qui renvoie `queued` ; un verrou actif ou une panne du worker qui lève encore une erreur faisait échouer le démarrage après la création locale. (8 October 2026)
+- 8 October 2026, 23:31 CEST : `bind-session` traite maintenant le replay comme une étape récupérable ; le projet, son feedback, sa surveillance et la liaison restent en place. La capture active est `queued` ; une autre panne est `unavailable` et produit un événement local sûr. (8 October 2026)
+- 8 October 2026, 23:31 CEST : Le test rouge reproduit les deux erreurs ; les deux passent après correction, puis les 87 tests du service et les 5 tests du balayeur passent séquentiellement. (8 October 2026)
+- 8 October 2026, 23:31 CEST : Prochain : synchroniser le skill, enregistrer le contrat, attendre la file d’archives, recharger le daemon puis vérifier le nouveau chemin de démarrage. (8 October 2026)
+
+## 8 October 2026 : Le replay ne peut pas garder le démarrage suspendu
+
+- 8 October 2026, 23:37 CEST : Correction de l’essai précédent : attraper les erreurs ne suffit pas lorsqu’une promesse `replay()` reste pendante ; le test rouge attend 12 secondes puis confirme le blocage. (8 October 2026)
+- 8 October 2026, 23:37 CEST : Le service ne fait plus `await` sur le replay ; le projet et sa session restent prêts, et le balayage périodique récupère les transcripts liés. (8 October 2026)
+- 8 October 2026, 23:37 CEST : Le test de promesse pendante passe en 3,9 secondes ; les 88 tests du service et les 5 tests du capture worker passent. (8 October 2026)
+- 8 October 2026, 23:37 CEST : Prochain : enregistrer le nouveau contrat, pousser le durcissement, attendre la file cloud, recharger le daemon puis contrôler un démarrage live. (8 October 2026)

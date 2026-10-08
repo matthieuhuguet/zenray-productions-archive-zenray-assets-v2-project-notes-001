@@ -2729,3 +2729,24 @@
 - Project: zenray-assets-v2; kind: log. (8 October 2026, 23:12:05 +0200)
 
 > UI Assets : total dynamique mesuré à 20 projets et 44 390 fichiers à 23:11 CEST ; chaque brique affiche son compte. Tests ProjectWorkspace 25/25 et npx vite build passent. Le déploiement reste à faire avec la livraison cohérente du dépôt. (8 October 2026, 23:12:05 +0200)
+
+## 8 October 2026, 23:34:30 +0200 : Prompt
+
+<!-- feedback-event:c1e4eee5cb43a0cb793db636a2d09af485fc1221182cb7a4c740d9abd38f3ca9 (8 October 2026, 23:34:30 +0200) -->
+- Project: zenray-assets-v2; kind: prompt. (8 October 2026, 23:34:30 +0200)
+
+> HARD fix ce bug je peux plus lancer de nouveaux projets ... "Le démarrage Assets bute sur la capture du transcript" (8 October 2026, 23:34:30 +0200)
+
+## 8 October 2026, 23:34:30 +0200 : Log
+
+<!-- feedback-event:8041ea9768380dc2c0d1be57740655aa90c2e96188c56259c4974c56c8a4b3c2 (8 October 2026, 23:34:30 +0200) -->
+- Project: zenray-assets-v2; kind: log. (8 October 2026, 23:34:30 +0200)
+
+> Le test rouge reproduit deux exceptions de replay qui faisaient échouer start après la création du projet ; le service les traite maintenant comme capture différée, conserve la liaison et rend queued ou unavailable. Les 87 tests AssetsService et les 5 tests AssetsFeedbackCapture passent, et le commit dd740176 est poussé. Le daemon tourne encore avec les archives en file ; son rechargement et la vérification runtime du nouveau garde-fou restent à faire. (8 October 2026, 23:34:30 +0200)
+
+## 8 October 2026, 23:38:17 +0200 : Log
+
+<!-- feedback-event:564bc59d569bf97c0bd2fe9dca1c1ade655c0cf7da3a3785c88e338e8cc3e1ae (8 October 2026, 23:38:17 +0200) -->
+- Project: zenray-assets-v2; kind: log. (8 October 2026, 23:38:17 +0200)
+
+> Le test rouge avec une promesse de replay qui ne se règle jamais expire après 12 secondes ; la version corrigée rend le projet prêt en 3,9 secondes sans attendre le worker. Les rejets actifs et inattendus laissent aussi le dossier, le feedback, la surveillance et la liaison présents ; un événement local sûr signale la reprise périodique. Vérifications séquentielles : 88 tests AssetsService, 5 tests AssetsFeedbackCapture et CheckSkillContract verts. Le commit abc4503f est poussé ; le redémarrage runtime attend encore la file cloud. (8 October 2026, 23:38:17 +0200)
