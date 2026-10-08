@@ -83,3 +83,11 @@
 - 8 October 2026 : `KeepAlive.SuccessfulExit=false` relance le tableau de bord après un arrêt inattendu ; le test observe le remplacement du PID `7472` par `7573`, puis l’application est installée depuis le code courant et tourne au PID `11701`. (8 October 2026)
 - 8 October 2026 : Le skill canonique est synchronisé dans quatre environnements et son contrat passe sur 74 fichiers ; l’extracteur de règles reste sous sa limite de 65 536 octets, avec 232 octets de marge. (8 October 2026)
 - 8 October 2026 : Le placement réel hors du débordement macOS reste à vérifier après déverrouillage ; un processus vivant et une fixture ne prouvent pas la capture du bureau. (8 October 2026)
+
+
+## 8 October 2026 : Bouton Assets restauré après actualisation
+
+- 8 October 2026 : `Dashboard.receive` effaçait le titre du bouton à chaque lecture du service ; le texte « Assets » disparaissait après l’actualisation. Le code conserve maintenant le nom avec le symbole `externaldrive.fill`. (8 October 2026)
+- 8 October 2026 : Le status item utilise `NSStatusItem.variableLength` et un nouvel `autosaveName` ; System Events lit « Assets » à `(940, 4)`, taille `84 × 24`, après relance du LaunchAgent. (8 October 2026)
+- 8 October 2026 : Les sept fixtures natives valident le titre, le nom accessible, la largeur et les états du panneau ; le contrat du skill est vert sur 74 fichiers. (8 October 2026)
+- 8 October 2026 : Le rendu du panneau reste simple et sans cartes ; la capture physique de la barre attend le déverrouillage, car l’écran est verrouillé. (8 October 2026)

@@ -2477,3 +2477,11 @@
 - Project: zenray-assets-v2; kind: prompt. (8 October 2026, 18:31:11 +0200)
 
 > pourtant je vois plus la vue assets en haut à droite en revanche faut refaire cette UI pour qu'elle soit hyper simple et compréhensible un peu à l'img du code de zenray-progress puis continuer (8 October 2026, 18:31:11 +0200)
+
+## 8 October 2026, 18:41:44 +0200 : Log
+
+<!-- feedback-event:86a83d4c84fc31d08ade8bb4593988cdb60f7c29204ea2b041e5971173caefe6 (8 October 2026, 18:41:44 +0200) -->
+- Project: zenray-assets-v2; kind: log. (8 October 2026, 18:41:44 +0200)
+- Source: codex:01a11653-69f5-7492-b80e-dbcc6a785d87. (8 October 2026, 18:41:44 +0200)
+
+> Cause racine du bouton manquant : Dashboard.receive remettait son titre à vide après chaque actualisation. Le bouton externaldrive.fill + Assets est restauré à largeur variable, avec un autosaveName versionné. Après relance, System Events lit Assets à (940, 4), taille 84 × 24. Les sept fixtures natives passent et le contrat du skill est vert sur 74 fichiers. Capture physique encore nécessaire après déverrouillage. (8 October 2026, 18:41:44 +0200)
