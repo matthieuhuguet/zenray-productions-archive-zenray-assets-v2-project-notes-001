@@ -2501,3 +2501,10 @@
 - Source: codex:01a11653-69f5-7492-b80e-dbcc6a785d87. (8 October 2026, 18:56:01 +0200)
 
 > La disparition des ConversationIndex ne venait pas seulement de sync-skill.sh : le LaunchAgent com.zenray.skills-sync exécutait aussi claude-sync/skills-sync/skills-sync.sh chaque minute avec rsync --delete. Le script réellement périodique exclut maintenant ConversationIndex.*. TestSkillsSync reproduit le défaut avant correction et passe après ; un vrai passage sur Memory conserve les SHA des deux index. J’attends son prochain cycle LaunchAgent pour prouver la stabilité. (8 October 2026, 18:56:01 +0200)
+
+## 8 October 2026, 19:17:10 +0200 : Log
+
+<!-- feedback-event:cf7a4915cb9f3849fd580afcc961e8174e4420ff6ea1d89b77007b3caa603191 (8 October 2026, 19:17:10 +0200) -->
+- Project: zenray-assets-v2; kind: log. (8 October 2026, 19:17:10 +0200)
+
+> Le popover retire le titre redondant et « Connecté » quand le service répond ; l’action commence la vue et l’étape dit « Vérification des fichiers ». Le binaire recompilé a été installé puis relancé, la capture rendue montre la file et ses erreurs clairement, et les sept fixtures passent. Sur 520 fichiers locaux, 515 SHA et tailles concordent avec la sauvegarde ; cinq versions éditées attendent leur publication, sans conflit ni source instable. La capture physique reste bloquée par l’écran verrouillé. (8 October 2026, 19:17:10 +0200)

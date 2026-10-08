@@ -107,3 +107,11 @@
 - 8 October 2026 : Le script actif `claude-sync/skills-sync/skills-sync.sh` exclut maintenant `ConversationIndex.*` de `rsync --delete` tout en retirant les autres fichiers périmés. (8 October 2026)
 - 8 October 2026 : `skills-sync/TestSkillsSync.sh` échoue avec l’ancien comportement puis réussit après le correctif ; un passage réel du script conserve les SHA JSON et Markdown inchangés. (8 October 2026)
 - 8 October 2026 : Le prochain lancement automatique doit encore confirmer que l’index reste présent après une minute. (8 October 2026)
+
+## 8 October 2026 : Vue native centrée sur l’action
+
+- 8 October 2026 : Le popover retire le titre « Assets » et l’état « Connecté » quand le service répond, afin que l’action utile apparaisse dès l’ouverture. (8 October 2026)
+- 8 October 2026 : Le message de connexion reste visible seulement au démarrage ou en cas d’indisponibilité ; la phase s’appelle désormais « Vérification des fichiers ». (8 October 2026)
+- 8 October 2026 : `Install.mjs` compile et installe l’application ; après relance, les sept fixtures et leurs captures rendent lisibles l’action, le projet, l’attente et les erreurs. (8 October 2026)
+- 8 October 2026 : Après inventaire frais, `hashLocalFile` a contrôlé les 520 fichiers par leur jeton stable, soit 589 662 380 octets ; 515 SHA et tailles égalent leurs sauvegardes, cinq versions éditées attendent l’archive, zéro lecture instable et zéro conflit. (8 October 2026)
+- 8 October 2026 : System Events et une fixture ne prouvent pas la position physique de l’icône hors du débordement ; le bureau est encore verrouillé, donc cette capture reste ouverte. (8 October 2026)
