@@ -2715,3 +2715,17 @@
 - Project: zenray-assets-v2; kind: log. (8 October 2026, 22:50:17 +0200)
 
 > Cause: replay failed while the transcript drain lock was busy, so Assets could fail after creating project files. Fix: queue replay and return setup.transcriptCapture=queued without waiting. Verification: red then green replay test; capture suite 5/5 and service suite 85/85 when run sequentially. Runtime daemon reload and live start check remain pending until active archive writes finish. (8 October 2026, 22:50:17 +0200)
+
+## 8 October 2026, 23:02:32 +0200 : Log
+
+<!-- feedback-event:2e2d48844c1cd158b10afbe7ff4ca27a65903b3a5eec4372981ca2bebcdb9121 (8 October 2026, 23:02:32 +0200) -->
+- Project: zenray-assets-v2; kind: log. (8 October 2026, 23:02:32 +0200)
+
+> Live proof complete: after the active cloud writers drained, LaunchAgent com.zenray.assets restarted (PID 77016 to 54076). BeginProject on the existing zenray-assets-v2 project, using the real current Codex session, returned sessionBound=true, watched=true, transcriptCapture=queued. The user prompt is present once in canonical FEEDBACK. Five temporarily paused watchers were restored; agent-conversations remains paused for local secret protection. (8 October 2026, 23:02:32 +0200)
+
+## 8 October 2026, 23:12:05 +0200 : Log
+
+<!-- feedback-event:5742be9a73222a971f7295cb45ccbd6803400d22a0fc4e26fecb5e5808355176 (8 October 2026, 23:12:05 +0200) -->
+- Project: zenray-assets-v2; kind: log. (8 October 2026, 23:12:05 +0200)
+
+> UI Assets : total dynamique mesuré à 20 projets et 44 390 fichiers à 23:11 CEST ; chaque brique affiche son compte. Tests ProjectWorkspace 25/25 et npx vite build passent. Le déploiement reste à faire avec la livraison cohérente du dépôt. (8 October 2026, 23:12:05 +0200)

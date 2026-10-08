@@ -229,3 +229,16 @@
 - 8 October 2026 : Vérification séquentielle : `scripts/AssetsFeedbackCapture.test.js` passe avec 5 tests et `scripts/AssetsService.test.js --maxWorkers=1` passe avec 85 tests ; le lancement combiné parallèle expire deux nettoyages. (8 October 2026)
 - 8 October 2026 : Les trois bases Gemini aux motifs sensibles restent dans leur source locale mais sont exclues du registre `agent-conversations` ; aucun manifeste et aucun morceau ne sont trouvés dans les shards publics r01 à r04, 001 à 008. (8 October 2026)
 - 8 October 2026 : Prochain : attendre la fin des archives actives, recharger le daemon, puis exécuter un démarrage Assets avec un identifiant de session réel et constater `transcriptCapture: queued`. (8 October 2026)
+
+## 8 October 2026 : Démarrage du projet validé après rechargement du daemon
+
+- 8 October 2026 : Les archives actives finissent, la file du service devient vide et LaunchAgent `com.zenray.assets` redémarre ; le PID change de `77016` à `54076`. (8 October 2026)
+- 8 October 2026 : Le vrai appel `BeginProject.mjs zenray-assets-v2` avec l’identifiant de session Codex de l’hôte retourne `sessionBound: true`, `watched: true` et `transcriptCapture: queued`. Le projet conserve son identité existante et son dossier mémoire. (8 October 2026)
+- 8 October 2026 : Le prompt du correctif apparaît exactement une fois dans FEEDBACK.md ; l’état Assets ne signale aucune erreur de capture. (8 October 2026)
+- 8 October 2026 : Les surveillances de louisiana-bayou, zenray-assets-v2, zenray-progress, vegetation-assets-collection-01 et zenray-freelance sont toutes rétablies. `agent-conversations` reste suspendu pour garder les bases sensibles locales. (8 October 2026)
+
+## 8 October 2026 : Inventaire visuel Assets
+
+- 8 October 2026 : La barre latérale affiche un total dynamique de projets et de fichiers, puis le nombre de fichiers sur chaque projet ; une mosaïque de petits blocs rend l’idée des briques visible. (8 October 2026)
+- 8 October 2026 : Le comptage utilise la liste de fichiers, `sync.count` et `inventory.count` comme mesures disponibles, et indique explicitement le chargement au lieu d’afficher zéro trop tôt. (8 October 2026)
+- 8 October 2026 : À 23:11 CEST, le service mesure 20 projets et 44 390 fichiers. La vue et son build passent ; son déploiement reste à faire avec la prochaine livraison cohérente du dépôt. (8 October 2026)
