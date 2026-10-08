@@ -2529,3 +2529,11 @@
 - Project: zenray-assets-v2; kind: log. (8 October 2026, 20:11:44 +0200)
 
 > Un premier CheckSkillContract --record refuse le nouveau test car la preuve de la branche optionnelle présente n’est pas encore consignée dans le skill. J’ajoute cette preuve datée, synchronise le skill dans quatre environnements, puis record et vérification passent sur 74 fichiers. Les deux tests de racine facultative sont verts dans la suite du service, 82 tests sur 82 ; le commit 1ae0f21f est poussé après c3411184. (8 October 2026) (8 October 2026, 20:11:44 +0200)
+
+## 8 October 2026, 20:17:28 +0200 : Prompt
+
+<!-- feedback-event:751aa7377781c3ed7ba49e37143945d6d269444ef1c3511b31f854885374e2e4 (8 October 2026, 20:17:28 +0200) -->
+- Project: zenray-assets-v2; kind: prompt. (8 October 2026, 20:17:28 +0200)
+- Source: codex. (8 October 2026, 20:17:28 +0200)
+
+> Pourtant je vois plus la vue Assets en haut à droite. Il faut refaire cette UI pour qu’elle soit hyper simple et compréhensible, un peu à l’image du code de ZenRayProgress, puis continuer. (8 October 2026, 20:17:28 +0200)
