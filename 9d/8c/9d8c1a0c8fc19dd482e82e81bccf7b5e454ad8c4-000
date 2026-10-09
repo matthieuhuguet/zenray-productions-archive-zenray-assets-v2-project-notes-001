@@ -2927,3 +2927,10 @@
 >
 > ## My request: (9 October 2026, 01:48:39 +0200)
 > il faut segmenter les fichiers locaux (du coup cloud) et les projets que j'ai moi même mis sur la vue gallery sinon ça va être le bordel et il faut garder le triage actuelle avec vue des dossiers en plus stp + fil d'ariane propre (9 October 2026, 01:48:39 +0200)
+
+## 9 October 2026, 03:14:42 +0200 : Log
+
+<!-- feedback-event:a753f1f46a79a6e139860d4c18fb45971fda237042ce635143988ff26effe51c (9 October 2026, 03:14:42 +0200) -->
+- Project: zenray-assets-v2; kind: log. (9 October 2026, 03:14:42 +0200)
+
+> Le 9 October 2026, après confirmation d’une file inactive, batchBytes est remis à 268435456 et le daemon Assets est redémarré. Le pont répond sur 20 projets, 19 surveillances sont actives sans erreur ; la nouvelle file automatique descend à 13 jobs. Les seules sources affichant encore deux éléments en attente ont leur paire ConversationIndex archivée puis régénérée pendant le fil. Prochain : laisser cette file terminer, comparer les manifestes cloud, puis reprendre la capture physique du bouton lorsque le Mac sera déverrouillé. (9 October 2026, 03:14:42 +0200)
