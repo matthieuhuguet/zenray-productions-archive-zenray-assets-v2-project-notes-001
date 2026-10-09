@@ -2970,3 +2970,17 @@
 - Source: checkpoint:codex:01a11653-69f5-7492-b80e-dbcc6a785d87. (9 October 2026, 04:29:06 +0200)
 
 > Gallery distingue références manuelles et fichiers cloud, garde le tri et ajoute dossiers et fil d’Ariane ; ToDo-3D et Louisiana Bayou vérifiés sur 353 images, tests/build/contrat verts. Snapshot sparse stable ddeab390 : 50/50 reçus concordants ; rapport 36 681 octets et manifeste vérifiés sur 4364e14a. Le live a 14 fichiers plus récents que leur reçu, sans erreur ; les surveillances poursuivent. Prochain : laisser les archives dynamiques converger, révoquer et renouveler le jeton GitHub après connexion intégrée, puis capturer le bouton Assets quand macOS est déverrouillé. (9 October 2026, 04:29:06 +0200)
+
+## 9 October 2026, 04:33:40 +0200 : Prompt
+
+<!-- feedback-event:6017ff072db487c7903b19fd1e40d90ae6e935ff715daf0f77bdac3cfed2e001 (9 October 2026, 04:33:40 +0200) -->
+- Project: zenray-assets-v2; kind: prompt. (9 October 2026, 04:33:40 +0200)
+
+> il faut segmenter les fichiers locaux (du coup cloud) et les projets que j'ai moi même mis sur la vue gallery sinon ça va être le bordel et il faut garder le triage actuelle avec vue des dossiers en plus stp + fil d'ariane propre (9 October 2026, 04:33:40 +0200)
+
+## 9 October 2026, 04:36:32 +0200 : Log
+
+<!-- feedback-event:1ef09b24f1b8ac54583f05438d0fcb6034a4d4269f1404f04a68debdc26e5a8d (9 October 2026, 04:36:32 +0200) -->
+- Project: zenray-assets-v2; kind: log. (9 October 2026, 04:36:32 +0200)
+
+> Revalidation du 9 October : la Gallery sépare les références manuelles des fichiers cloud. Navigation dossier, fil d’Ariane, retour à la racine, 353 images et tri conservé vérifiés dans le navigateur local. 18 tests et build réussis ; aucun déploiement effectué. (9 October 2026, 04:36:32 +0200)
