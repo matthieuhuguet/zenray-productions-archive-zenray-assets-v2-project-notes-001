@@ -3741,3 +3741,55 @@
 - Source: checkpoint:codex:01a11653-69f5-7492-b80e-dbcc6a785d87. (9 October 2026, 13:51:34 +0200)
 
 > Mode clair et sombre confirmes dans le dashboard natif, verificateur 12/12. Tests UI 39/39, capture 6/6, service 92/92, build et contrat Assets verts. Commit 8fd2cfdf pousse et publie en Production/main; HTML, JS, CSS et chunk Assets concordent au build, index authentifie a 165603 entrees. Prochain: stabiliser puis verifier les recus cloud des ConversationIndex et FEEDBACK. Restent la rotation GitHub CLI apres action de Matthieu et la validation sur un second Mac. (9 October 2026, 13:51:34 +0200)
+
+## 9 October 2026, 14:01:53 +0200 : Iteration
+
+<!-- feedback-event:85df404a7cd3c64384f6fe035d8a6642a1b7869693c4ece2d83e107e852ce8cd (9 October 2026, 14:01:53 +0200) -->
+- Project: zenray-assets-v2; kind: iteration. (9 October 2026, 14:01:53 +0200)
+- Source: checkpoint:codex:01a11653-69f5-7492-b80e-dbcc6a785d87. (9 October 2026, 14:01:53 +0200)
+
+> Le thème clair et sombre du panneau macOS est corrigé et installé. Vérificateur natif 12/12 états. Après dix minutes, Production/main reste au commit 8fd2cfdf, HTML, JS, CSS et module Assets identiques à dist, index authentifié 165603. Tests UI 39/39, capture 6/6, service 92/92, build et contrat verts. Synchronisation encore en attente pour 13 fichiers, zéro conflit et zéro erreur. Suite : vérifier les reçus distants après arrêt de la file, révocation GitHub CLI par Matthieu, puis essai sur le second Mac. (9 October 2026, 14:01:53 +0200)
+
+## 9 October 2026, 14:02:58 +0200 : Iteration
+
+<!-- feedback-event:a0657f7924639ef972edd674dd965ed2581466364aaef7bca45a279fd040b4fd (9 October 2026, 14:02:58 +0200) -->
+- Project: zenray-assets-v2; kind: iteration. (9 October 2026, 14:02:58 +0200)
+- Source: /Users/zenray/.codex/sessions/2026/10/07/rollout-2026-10-07T14-25-27-01a11653-69f5-7492-b80e-dbcc6a785d87.jsonl. (9 October 2026, 14:02:58 +0200)
+
+> Le panneau Assets installé sur ton Mac suit maintenant le mode clair ou sombre : les tuiles et leurs textes restent lisibles dans les deux modes. Le vérificateur natif passe **12/12 états**. (9 October 2026, 14:02:58 +0200)
+>
+> ![Panneau Assets en mode clair](/Users/zenray/.claude/tmp/tmp-zenray-assets-v2/native-dashboard-light-mode/installed-verify/NativeDashboardAppearance-light.json.png) (9 October 2026, 14:02:58 +0200)
+>
+> ![Panneau Assets en mode sombre](/Users/zenray/.claude/tmp/tmp-zenray-assets-v2/native-dashboard-light-mode/installed-verify/NativeDashboardAppearance-dark.json.png) (9 October 2026, 14:02:58 +0200)
+>
+> La vue web est aussi en production au commit `8fd2cfdf`. Dix minutes après, les quatre fichiers publiés correspondent toujours exactement au build testé et l’index authentifié contient **165 603 entrées**. Tests UI : 39/39, capture : 6/6, service : 92/92, build réussi. Le déploiement Pages a été fait avec Wrangler, selon la [documentation officielle Cloudflare](https://developers.cloudflare.com/workers/wrangler/commands/pages/). (9 October 2026, 14:02:58 +0200)
+>
+> Le chantier global reste ouvert : le dernier relevé compte **14 fichiers en attente dans 7 projets**, sans conflit ni erreur. La vérification de leurs reçus cloud attend la fin de la file ; la révocation des autorisations GitHub et le test sur un second Mac restent également à faire. (9 October 2026, 14:02:58 +0200)
+>
+> | Ce que tu voulais | Fait ? | Comment je le sais | (9 October 2026, 14:02:58 +0200)
+> |---|---|---| (9 October 2026, 14:02:58 +0200)
+> | Corriger l’UI en mode clair | Oui | Panneau installé, vérifié dans 12 états ; captures ci-dessus | (9 October 2026, 14:02:58 +0200)
+> | Vérifier la mise en production | Oui | Commit `8fd2cfdf`, fichiers identiques au build après dix minutes, index à 165 603 | (9 October 2026, 14:02:58 +0200)
+> | Terminer la synchronisation et tester sur un second Mac | En cours | 14 fichiers attendent ; aucun conflit ni erreur, second Mac pas encore vérifié | (9 October 2026, 14:02:58 +0200)
+
+## 9 October 2026, 14:02:58 +0200 : Iteration
+
+<!-- feedback-event:f91b369b0cd6b2fc6d55f629a6591a4177b227b44502323d53dfd1fd052521a1 (9 October 2026, 14:02:58 +0200) -->
+- Project: zenray-assets-v2; kind: iteration. (9 October 2026, 14:02:58 +0200)
+- Source: /Users/zenray/.codex/sessions/2026/10/07/rollout-2026-10-07T14-25-27-01a11653-69f5-7492-b80e-dbcc6a785d87.jsonl. (9 October 2026, 14:02:58 +0200)
+
+> Le panneau Assets installé sur ton Mac suit maintenant le mode clair ou sombre : les tuiles et leurs textes restent lisibles dans les deux modes. Le vérificateur natif passe **12/12 états**. (9 October 2026, 14:02:58 +0200)
+>
+> ![Panneau Assets en mode clair](/Users/zenray/.claude/tmp/tmp-zenray-assets-v2/native-dashboard-light-mode/installed-verify/NativeDashboardAppearance-light.json.png) (9 October 2026, 14:02:58 +0200)
+>
+> ![Panneau Assets en mode sombre](/Users/zenray/.claude/tmp/tmp-zenray-assets-v2/native-dashboard-light-mode/installed-verify/NativeDashboardAppearance-dark.json.png) (9 October 2026, 14:02:58 +0200)
+>
+> La vue web est aussi en production au commit `8fd2cfdf`. Dix minutes après, les quatre fichiers publiés correspondent toujours exactement au build testé et l’index authentifié contient **165 603 entrées**. Tests UI : 39/39, capture : 6/6, service : 92/92, build réussi. Le déploiement Pages a été fait avec Wrangler, selon la [documentation officielle Cloudflare](https://developers.cloudflare.com/workers/wrangler/commands/pages/). (9 October 2026, 14:02:58 +0200)
+>
+> Le chantier global reste ouvert : le dernier relevé compte **14 fichiers en attente dans 7 projets**, sans conflit ni erreur. La vérification de leurs reçus cloud attend la fin de la file ; la révocation des autorisations GitHub et le test sur un second Mac restent également à faire. (9 October 2026, 14:02:58 +0200)
+>
+> | Ce que tu voulais | Fait ? | Comment je le sais | (9 October 2026, 14:02:58 +0200)
+> |---|---|---| (9 October 2026, 14:02:58 +0200)
+> | Corriger l’UI en mode clair | Oui | Panneau installé, vérifié dans 12 états ; captures ci-dessus | (9 October 2026, 14:02:58 +0200)
+> | Vérifier la mise en production | Oui | Commit `8fd2cfdf`, fichiers identiques au build après dix minutes, index à 165 603 | (9 October 2026, 14:02:58 +0200)
+> | Terminer la synchronisation et tester sur un second Mac | En cours | 14 fichiers attendent ; aucun conflit ni erreur, second Mac pas encore vérifié | (9 October 2026, 14:02:58 +0200)
