@@ -3902,3 +3902,11 @@
 - Source: checkpoint:codex:01a11653-69f5-7492-b80e-dbcc6a785d87. (9 October 2026, 23:01:07 +0200)
 
 > 9 October 2026: Correctifs de reprise pousses sous c7934123 et LaunchAgent rechargé de 70490 à 57417 sans couper l’écriture active. 20 projets, 19 surveillés, agent-conversations volontairement en pause, zéro conflit ou erreur ; la file reprend automatiquement avec 12 index en attente. Build réussi, 100 tests service et 8 tests catalogue passent, contrat Assets vert. Le FEEDBACK précédent correspond au reçu cloud par SHA et taille. Prochain : vérifier le reçu du présent checkpoint après l’archivage automatique ; limites restantes : Mac éveillé, GitHub authentifié, projet conversations suspendu et validation second Mac. (9 October 2026, 23:01:07 +0200)
+
+## 9 October 2026, 23:17:44 +0200 : Iteration
+
+<!-- feedback-event:bb180d5a7a0bcddddb911ff4490c2de0504aed371078a778d49a11dfa85becda (9 October 2026, 23:17:44 +0200) -->
+- Project: zenray-assets-v2; kind: iteration. (9 October 2026, 23:17:44 +0200)
+- Source: checkpoint:codex:01a11653-69f5-7492-b80e-dbcc6a785d87. (9 October 2026, 23:17:44 +0200)
+
+> 9 October 2026: Assets now starts a PID-bound macOS idle-sleep inhibitor only during archive, restore, or recover jobs; the helper retries and releases on completion, failure, or service close. Commit 64b70042 is pushed to ZenRayProgress/main. The LaunchAgent was safely restarted from PID 57417 to 86277, its server runs as PID 86292, all 19 previously watched projects are restored, agent-conversations remains intentionally paused, and the global status reports zero errors. During a real ceramic-tiles archive, pmset confirmed PreventUserIdleSystemSleep=1 from caffeinate -i -w 86292. The AssetsService suite passes 103/103, the build succeeds, and CheckSkillContract is green. Prior FEEDBACK cloud receipt was verified by exact SHA256 and byte count. Next: let automatic archives settle and verify this checkpoint receipt. External limits remain: sleep from lid closure or shutdown, GitHub credential expiry, the intentionally paused conversation collection, production API access, and untested second Mac. (9 October 2026, 23:17:44 +0200)
