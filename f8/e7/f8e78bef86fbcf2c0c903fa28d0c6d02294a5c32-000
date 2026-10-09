@@ -283,3 +283,10 @@
 
 - 9 October 2026, 08:29 CEST : `npx vitest run scripts/AssetsFeedbackCapture.test.js --maxWorkers=1` passe avec six tests ; `npx vitest run scripts/AssetsService.test.js --maxWorkers=1` passe avec 91 tests. (9 October 2026)
 - 9 October 2026, 08:29 CEST : Cette mesure corrige l’entrée précédente qui comptait cinq tests de capture et 89 tests de service ; elle n’efface pas l’état historique des suites à cette date. (9 October 2026)
+
+
+## 9 October 2026 : Ancrage du lecteur sur un transcript Codex très long
+
+- 9 October 2026, 16:24 CEST : La session active mesure environ 720 Mo ; le dernier prompt texte lisible est à 92 fenêtres de 2 MiB depuis la fin du transcript. (9 October 2026)
+- 9 October 2026, 16:24 CEST : Une lecture bornée à 72 fenêtres ne montre que trois réponses et manque le prompt ; 128 fenêtres retrouvent le prompt avec les réponses, `promptAnchorFound=true`, et préservent les octets originaux. (9 October 2026)
+- 9 October 2026, 16:24 CEST : La limite du lecteur passe à 128 et un test rouge/vert reproduit les deux cas ; les suites ciblées passent avec 16 tests. Le daemon ne se recharge qu’après vidage de la file cloud. (9 October 2026)
