@@ -3862,3 +3862,11 @@
 - Project: zenray-assets-v2; kind: log. (9 October 2026, 21:28:40 +0200)
 
 > Correction du diagnostic du 9 October 2026 : le premier filtre cherchait un champ status absent de inventory.localFiles et comptait donc trop de fichiers. La comparaison SHA locale contre les reçus cloud identifie les paires ConversationIndex.json et ConversationIndex.md mises à jour dans six projets. La session Codex 01a11653-69f5-7492-b80e-dbcc6a785d87 reste liée à zenray-assets-v2 ; sa présence contextuelle dans plusieurs index ne change pas cette liaison. Le prompt du 9 October 2026 à 18:22:43.282 UTC est présent dans le transcript et dans FEEDBACK. Le catalogue local frais le relit, tandis que le daemon, avec le même updatedAt et la même source, renvoie zéro message. À 19:28 UTC, 20 projets sont enregistrés, 19 surveillés, 13 éléments attendent sur six projets, un conflit protège Louisiana pendant une écriture, aucune erreur de service ou d’index. Le redémarrage du lecteur attend une frontière sans archivage actif. (9 October 2026, 21:28:40 +0200)
+
+## 9 October 2026, 21:49:58 +0200 : Iteration
+
+<!-- feedback-event:16955376392060f5aa57397b394398670f9ec70a6964bc41953bfa194cc07e5a (9 October 2026, 21:49:58 +0200) -->
+- Project: zenray-assets-v2; kind: iteration. (9 October 2026, 21:49:58 +0200)
+- Source: checkpoint:codex:01a11653-69f5-7492-b80e-dbcc6a785d87. (9 October 2026, 21:49:58 +0200)
+
+> 9 October 2026 : le daemon Assets redemarre par LaunchAgent retrouve le prompt courant dans la lecture live. Les 19 surveillances reviennent sur 20 projets ; au controle, zero conflit, zero erreur active et 12 index sont repris par la file automatique. Les tests catalogue/service passent a 102/102 et CheckSkillContract est vert. Prochain : verifier les recus SHA cloud apres stabilisation, puis reprendre les verifications externes restantes. (9 October 2026, 21:49:58 +0200)
