@@ -2955,3 +2955,10 @@
 - Project: zenray-assets-v2; kind: log. (9 October 2026, 04:16:55 +0200)
 
 > 9 October 2026, 04:16 CEST. Demande Gallery du 9 October : références manuelles séparées des fichiers cloud, tri des références conservé, navigation cloud par dossiers et fil d’Ariane. ToDo-3D relié à Louisiana Bayou affiche 353 images sans copie : Atelier 232, Houdini 101, Unreal 20. Les 20 tests Gallery, le build et le contrat Assets sont verts. Prochain : conserver cette séparation et terminer le contrôle cloud global. (9 October 2026, 04:16:55 +0200)
+
+## 9 October 2026, 04:25:19 +0200 : Log
+
+<!-- feedback-event:79943f4fe34a05bbdfffec8766bf6fddcc92f66874c68fcca9ad2b9ac917f83a (9 October 2026, 04:25:19 +0200) -->
+- Project: zenray-assets-v2; kind: log. (9 October 2026, 04:25:19 +0200)
+
+> 9 October 2026, 04:24 CEST. Snapshot sparse stable ddeab390 : les 50 reçus sélectionnés correspondent aux 50 manifestes distants, sans absent ni divergence. Le rapport de 36 681 octets a son propre reçu SHA et taille vérifié sur la tête stable 4364e14a. L’inventaire local montre 13 fichiers plus récents que leur reçu : 12 ConversationIndex et FileMap.md ; zéro erreur, surveillances actives. Prochain : laisser la file archiver les copies courantes et revérifier. (9 October 2026, 04:25:19 +0200)
