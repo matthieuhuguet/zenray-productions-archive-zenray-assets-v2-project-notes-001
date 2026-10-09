@@ -156,3 +156,13 @@
 - 9 October 2026 : Au dernier état, 29 fichiers attendent dans 6 projets, sans conflit ni erreur ; le daemon reste actif et ne doit pas redémarrer tant que la file travaille. (9 October 2026)
 - 9 October 2026 : Refaire le contrôle de production après dix minutes, puis laisser la file vide, comparer les reçus cloud, redémarrer le daemon une fois et prouver la capture et la lecture réelles avant les corrections append-only. (9 October 2026)
 - 9 October 2026 : La révocation des scopes GitHub `delete_repo` et `workflow` attend encore Matthieu dans les réglages GitHub ; la preuve de portabilité attend un second Mac. (9 October 2026)
+
+## 9 October 2026 : Mode clair confirmé et prompt ancré dans la réponse
+
+- 9 October 2026 : La capture de l’interface envoyée à 11:40 précède le correctif natif de 11:42 ; la preuve installée de 11:46 montre le popover en Aqua, toutes les tuiles en Aqua et leurs textes lisibles. (9 October 2026)
+- 9 October 2026 : Le lecteur de conversation cherche maintenant le prompt lié à la dernière réponse à travers au plus 72 fenêtres de 2 MiB ; le lecteur prévient quand cette limite ne suffit pas et garde le curseur. (9 October 2026)
+- 9 October 2026 : La conversation Codex réelle renvoie un prompt et deux réponses, avec `promptAnchorFound=true`, en 203 ms ; le transcript reste inchangé. (9 October 2026)
+- 9 October 2026 : Les tests conversations et service passent 136/136 sur 11 suites ; la suite Pages complète et `npm run build` terminent avec le code 0. (9 October 2026)
+- 9 October 2026 : Le skill `zenray-assets` et `DailyUse.md` sont mis à jour et synchronisés ; `CheckSkillContract.mjs --record` couvre 80 fichiers et la vérification sans `--record` ne trouve aucune différence. (9 October 2026)
+- 9 October 2026 : Le dernier état du service compte 13 fichiers en attente dans 6 projets, sans conflit ni erreur ; le daemon reste actif et ne doit pas être relancé avant la fin de la file. (9 October 2026)
+- 9 October 2026 : Prochain : committer et publier le lecteur, vérifier le site dix minutes après, attendre les reçus cloud, puis recharger le daemon une fois que la file est vide. (9 October 2026)
