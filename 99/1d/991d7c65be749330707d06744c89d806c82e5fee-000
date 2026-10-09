@@ -144,3 +144,5 @@
 - 9 October 2026 : Après la file vide, comparer tailles et SHA des ConversationIndex et FEEDBACK locaux avec leurs reçus distants, puis redémarrer le service et prouver une capture et une bulle par tour. (9 October 2026)
 - 9 October 2026 : Après le redémarrage, ajouter par le writer canonique une correction append-only dans les 7 FEEDBACK touchés, laisser leurs nouvelles archives finir, puis comparer leurs reçus cloud. (9 October 2026)
 - 9 October 2026 : La révocation des scopes GitHub `delete_repo` et `workflow` attend l’action de Matthieu dans les réglages GitHub; le second Mac manque encore pour le test de portabilité. (9 October 2026)
+- 9 October 2026 : Correction de la mesure précédente, l’audit des FEEDBACK actuels trouve 292 blocs Codex, dont 172 visibles et 120 masqués comme doublons; les 120 paires sont réparties sur 7 projets. (9 October 2026)
+- 9 October 2026 : La file baisse à 18 éléments dans 7 projets, dont 6 dans zenray-assets-v2, toujours sans conflit ni erreur. (9 October 2026)
