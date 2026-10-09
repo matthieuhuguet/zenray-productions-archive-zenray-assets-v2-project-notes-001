@@ -3403,3 +3403,10 @@
 > Call update_goal only after the completion or blocked audit passes, or when the user explicitly requests pausing this goal. For a requested pause, use status "paused", report the returned status, and stop goal work; never pause on your own initiative. Do not mark a goal complete merely because the budget is nearly exhausted or because you are stopping work. (9 October 2026, 07:22:35 +0200)
 >
 > </codex_internal_context> (9 October 2026, 07:22:35 +0200)
+
+## 9 October 2026, 07:26:39 +0200 : Prompt
+
+<!-- feedback-event:870207b8e44d848904df99cfc8aa52a0fe3d249ace294e806a102259a5d5ef3e (9 October 2026, 07:26:39 +0200) -->
+- Project: zenray-assets-v2; kind: prompt. (9 October 2026, 07:26:39 +0200)
+
+> il faut segmenter les fichiers locaux (du coup cloud) et les projets que j'ai moi-même mis sur la vue gallery sinon ça va être le bordel et il faut garder le triage actuel avec vue des dossiers en plus stp + fil d'ariane propre (9 October 2026, 07:26:39 +0200)
