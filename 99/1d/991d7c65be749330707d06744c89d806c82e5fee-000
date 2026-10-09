@@ -133,3 +133,14 @@
 - 9 October 2026 : L’API de recherche protégée renvoie 165603 entrées avec l’accès autorisé ; la première requête sans authentification renvoie 401, comme prévu. Aucun secret n’est recopié dans le rapport. (9 October 2026)
 - 9 October 2026 : Après le déploiement, 15 fichiers restent dans la file de 7 projets ; les 20 projets n’ont aucune erreur ni conflit. La vérification distante des index et de FEEDBACK reste T6.4c-sync. (9 October 2026)
 - 9 October 2026 : T21-prod-stability reste ouvert jusqu’au contrôle dix minutes après publication. La rotation des autorisations GitHub attend l’action de Matthieu ; le test du second Mac attend une seconde machine. (9 October 2026)
+
+## 9 October 2026 : État courant et travail restant
+
+- 9 October 2026 : Le problème d’UI du mode clair est corrigé dans le panneau natif; le vérificateur passe 12/12 états et la production reste stable dix minutes après le déploiement `8fd2cfdf`. (9 October 2026)
+- 9 October 2026 : Le correctif de capture et de lecture des réponses Codex est poussé sur `main`, commit `5cb32167`; les tours distincts restent séparés même quand leur texte est identique. (9 October 2026)
+- 9 October 2026 : Les tests ciblés passent 14/14, la suite AssetsService passe 93/93, le build réussit et `CheckSkillContract.mjs` confirme le contrat sans changement manquant. (9 October 2026)
+- 9 October 2026 : L’historique dérivé masque localement 120 blocs de réponses doublés parmi 294, répartis sur 7 projets; les blocs append-only originaux restent intacts. (9 October 2026)
+- 9 October 2026 : La file de sauvegarde contient encore 27 éléments dans 7 projets, sans conflit ni erreur; ne pas redémarrer `com.zenray.assets` avant que la file soit vide. (9 October 2026)
+- 9 October 2026 : Après la file vide, comparer tailles et SHA des ConversationIndex et FEEDBACK locaux avec leurs reçus distants, puis redémarrer le service et prouver une capture et une bulle par tour. (9 October 2026)
+- 9 October 2026 : Après le redémarrage, ajouter par le writer canonique une correction append-only dans les 7 FEEDBACK touchés, laisser leurs nouvelles archives finir, puis comparer leurs reçus cloud. (9 October 2026)
+- 9 October 2026 : La révocation des scopes GitHub `delete_repo` et `workflow` attend l’action de Matthieu dans les réglages GitHub; le second Mac manque encore pour le test de portabilité. (9 October 2026)
