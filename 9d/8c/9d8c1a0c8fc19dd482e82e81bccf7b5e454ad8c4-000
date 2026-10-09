@@ -3910,3 +3910,11 @@
 - Source: checkpoint:codex:01a11653-69f5-7492-b80e-dbcc6a785d87. (9 October 2026, 23:17:44 +0200)
 
 > 9 October 2026: Assets now starts a PID-bound macOS idle-sleep inhibitor only during archive, restore, or recover jobs; the helper retries and releases on completion, failure, or service close. Commit 64b70042 is pushed to ZenRayProgress/main. The LaunchAgent was safely restarted from PID 57417 to 86277, its server runs as PID 86292, all 19 previously watched projects are restored, agent-conversations remains intentionally paused, and the global status reports zero errors. During a real ceramic-tiles archive, pmset confirmed PreventUserIdleSystemSleep=1 from caffeinate -i -w 86292. The AssetsService suite passes 103/103, the build succeeds, and CheckSkillContract is green. Prior FEEDBACK cloud receipt was verified by exact SHA256 and byte count. Next: let automatic archives settle and verify this checkpoint receipt. External limits remain: sleep from lid closure or shutdown, GitHub credential expiry, the intentionally paused conversation collection, production API access, and untested second Mac. (9 October 2026, 23:17:44 +0200)
+
+## 9 October 2026, 23:28:15 +0200 : Iteration
+
+<!-- feedback-event:4b1a40e5de8e2eac212ee59da82ccfbabb8415fa84ce679be5a4a8b310a28458 (9 October 2026, 23:28:15 +0200) -->
+- Project: zenray-assets-v2; kind: iteration. (9 October 2026, 23:28:15 +0200)
+- Source: checkpoint:codex:01a11653-69f5-7492-b80e-dbcc6a785d87. (9 October 2026, 23:28:15 +0200)
+
+> 9 October 2026: Le 401 de l’index de production est attendu sans authentification et venait du secret local distinct ; le secret de production lu depuis Identity renvoie HTTP 200 et 165603 éléments. Le LaunchAgent reste actif avec KeepAlive et RunAtLoad ; 20 projets, 19 surveillés, 13 fichiers en attente sans erreur ni conflit, et caffeinate protège le transfert actif. 103 tests Assets passent, le build et le contrat sont verts. agent-conversations reste volontairement suspendu. (9 October 2026, 23:28:15 +0200)
