@@ -3918,3 +3918,29 @@
 - Source: checkpoint:codex:01a11653-69f5-7492-b80e-dbcc6a785d87. (9 October 2026, 23:28:15 +0200)
 
 > 9 October 2026: Le 401 de l’index de production est attendu sans authentification et venait du secret local distinct ; le secret de production lu depuis Identity renvoie HTTP 200 et 165603 éléments. Le LaunchAgent reste actif avec KeepAlive et RunAtLoad ; 20 projets, 19 surveillés, 13 fichiers en attente sans erreur ni conflit, et caffeinate protège le transfert actif. 103 tests Assets passent, le build et le contrat sont verts. agent-conversations reste volontairement suspendu. (9 October 2026, 23:28:15 +0200)
+
+## 9 October 2026, 23:35:28 +0200 : Iteration
+
+<!-- feedback-event:5507e521775a86ee67956a355fb453d7dbb7111c33db15b4d7fe0bc3a702e472 (9 October 2026, 23:35:28 +0200) -->
+- Project: zenray-assets-v2; kind: iteration. (9 October 2026, 23:35:28 +0200)
+- Source: /Users/zenray/.codex/sessions/2026/10/07/rollout-2026-10-07T14-25-27-01a11653-69f5-7492-b80e-dbcc6a785d87.jsonl. (9 October 2026, 23:35:28 +0200)
+
+> Les sauvegardes courantes de ZenRay Assets tournent seules sur ce Mac : le LaunchAgent démarre au lancement et relance le daemon après un arrêt. Pendant les transferts, `caffeinate` empêche la veille d’inactivité. La file compte encore 12 fichiers, mais elle avance sans erreur ni conflit. (9 October 2026, 23:35:28 +0200)
+>
+> **Angles de contrôle :** au sens littéral, les sauvegardes n’exigent plus de relance manuelle ; à l’envers, le 401 venait du secret local différent, car l’API de production répond 200 avec le bon secret ; autour du besoin, une collection reste volontairement en pause et deux vérifications externes subsistent ; reformulé, la routine est autonome tant que le Mac est allumé, connecté et authentifié. (9 October 2026, 23:35:28 +0200)
+>
+> | Risque restant | Preuve mesurée | Gravité × probabilité | Vérification | (9 October 2026, 23:35:28 +0200)
+> |---|---|---|---| (9 October 2026, 23:35:28 +0200)
+> | Mac éteint ou fermé | `caffeinate` protège la veille d’inactivité pendant le transfert, pas l’arrêt du Mac | Forte × moyenne, estimation | `pmset -g assertions` | (9 October 2026, 23:35:28 +0200)
+> | Authentification GitHub révoquée | `gh auth status` montre les droits actuels, dont `delete_repo` et `workflow` | Forte × faible, estimation | `gh auth status` | (9 October 2026, 23:35:28 +0200)
+> | Collection de conversations suspendue | `agent-conversations` est désactivée, avec 1 052 fichiers déjà sauvegardés | Forte si toute nouvelle conversation doit y entrer | Consulter son statut avant de la réactiver | (9 October 2026, 23:35:28 +0200)
+> | Portabilité sur un autre Mac | Aucun second Mac n’est disponible pour le test | Non évaluée | Faire un transfert test sur cette machine | (9 October 2026, 23:35:28 +0200)
+>
+> | Ce que tu voulais | C’est fait ? | Comment je le sais | (9 October 2026, 23:35:28 +0200)
+> |---|---|---| (9 October 2026, 23:35:28 +0200)
+> | Que le logiciel travaille seul | Oui, sur ce Mac | LaunchAgent actif, `KeepAlive` et `RunAtLoad` activés ; 19 projets surveillés sur 20 | (9 October 2026, 23:35:28 +0200)
+> | Que le checkpoint soit sauvegardé | Oui | Copie locale et reçu cloud : 392 234 octets, SHA-256 identiques | (9 October 2026, 23:35:28 +0200)
+> | Comprendre le 401 | Oui | Sans clé, le refus est attendu ; avec la clé de production, l’API répond 200 et renvoie 165 603 éléments | (9 October 2026, 23:35:28 +0200)
+> | Ne plus avoir à surveiller les sauvegardes courantes | Oui | 12 fichiers restent en file, avec zéro erreur ou conflit, et le transfert actif empêche la veille | (9 October 2026, 23:35:28 +0200)
+>
+> **Verdict : GO conditionnel** pour l’usage quotidien sur ce Mac. La rotation des droits GitHub et le test sur un second Mac restent à faire ; `agent-conversations` demeure en pause selon la décision précédente. Les correctifs sont sur `main` au commit `64b7004` ; 103 tests, le build et le contrat Assets sont verts. (9 October 2026, 23:35:28 +0200)
