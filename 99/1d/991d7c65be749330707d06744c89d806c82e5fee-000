@@ -146,3 +146,13 @@
 - 9 October 2026 : La révocation des scopes GitHub `delete_repo` et `workflow` attend l’action de Matthieu dans les réglages GitHub; le second Mac manque encore pour le test de portabilité. (9 October 2026)
 - 9 October 2026 : Correction de la mesure précédente, l’audit des FEEDBACK actuels trouve 292 blocs Codex, dont 172 visibles et 120 masqués comme doublons; les 120 paires sont réparties sur 7 projets. (9 October 2026)
 - 9 October 2026 : La file baisse à 18 éléments dans 7 projets, dont 6 dans zenray-assets-v2, toujours sans conflit ni erreur. (9 October 2026)
+
+## 9 October 2026 : Le lecteur saute les fenêtres techniques
+
+- 9 October 2026 : Le lecteur de conversations traverse maintenant au plus 24 fenêtres sans message à l’ouverture, puis s’arrête au premier échange lisible ; le bouton reprend le même budget au lieu de le multiplier. (9 October 2026)
+- 9 October 2026 : Le commit `d2f865b5` est poussé sur `main` ; le skill `zenray-assets` et `DailyUse.md` sont synchronisés dans Claude, Codex, Gemini et Memory, et le contrat passe sans différence. (9 October 2026)
+- 9 October 2026 : Les tests ciblés passent 22/22, AssetsService 93/93, la suite Pages passe 1 918 tests avec un test ignoré, les tests natifs 15/15, et `npm run build` réussit. (9 October 2026)
+- 9 October 2026 : Le déploiement `7e8532e1` sert en Production/main ; domaine et URL du déploiement répondent 200, et leur HTML ainsi que le bundle `AssetsView-DuaYBrQ9.js` égalent le build local par SHA-256. (9 October 2026)
+- 9 October 2026 : Au dernier état, 29 fichiers attendent dans 6 projets, sans conflit ni erreur ; le daemon reste actif et ne doit pas redémarrer tant que la file travaille. (9 October 2026)
+- 9 October 2026 : Refaire le contrôle de production après dix minutes, puis laisser la file vide, comparer les reçus cloud, redémarrer le daemon une fois et prouver la capture et la lecture réelles avant les corrections append-only. (9 October 2026)
+- 9 October 2026 : La révocation des scopes GitHub `delete_repo` et `workflow` attend encore Matthieu dans les réglages GitHub ; la preuve de portabilité attend un second Mac. (9 October 2026)
