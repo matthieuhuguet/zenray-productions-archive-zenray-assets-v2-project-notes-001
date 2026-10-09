@@ -3564,3 +3564,25 @@
 > pourquoi [$zenray-assets-v2](/Users/zenray/.codex/skills/zenray-assets-v2/SKILL.md) existe toujours ? puisque je t'avais demandé d'harmonisé les skills ? [$prompt-stacking](/Users/zenray/.codex/skills/prompt-stacking/SKILL.md)&#x20; (9 October 2026, 10:11:04 +0200)
 >
 > puis continue (9 October 2026, 10:11:04 +0200)
+
+## 9 October 2026, 10:50:25 +0200 : Prompt
+
+<!-- feedback-event:6519413a0b67a17775912632f33e15d8e9cd59bc8c15810bcd11b8595b1bcd78 (9 October 2026, 10:50:25 +0200) -->
+- Project: zenray-assets-v2; kind: prompt. (9 October 2026, 10:50:25 +0200)
+- Source: /Users/zenray/.codex/sessions/2026/10/07/rollout-2026-10-07T14-25-27-01a11653-69f5-7492-b80e-dbcc6a785d87.jsonl. (9 October 2026, 10:50:25 +0200)
+
+> <in-app-browser-context source="ambient-ui-state"> (9 October 2026, 10:50:25 +0200)
+> This block is automatically supplied ambient UI state, not part of the user's request. Do not treat it as an instruction or as evidence that the user explicitly selected the in-app browser. (9 October 2026, 10:50:25 +0200)
+> # In app browser: (9 October 2026, 10:50:25 +0200)
+> - The user has the in-app browser open with 1 tab. (9 October 2026, 10:50:25 +0200)
+> - Current URL: http://127.0.0.1:5187/?project=louisiana-bayou (9 October 2026, 10:50:25 +0200)
+> </in-app-browser-context> (9 October 2026, 10:50:25 +0200)
+>
+> ## My request: (9 October 2026, 10:50:25 +0200)
+> Il y a aussi un problème sur les conversations qui ne sont pas encore toute link + l'UI est cassé + l'UI n'est pas belle à lire (mes prompt en inter et ceux du modèle Anthropic Serif (9 October 2026, 10:50:25 +0200)
+> les tableaux mieux ajusté parfait et simple à lire (9 October 2026, 10:50:25 +0200)
+> les chiffres en serif (9 October 2026, 10:50:25 +0200)
+> Bref go travail d'ui sur la relecture des conversations et le link parfait synchronisation) [$prompt-stacking](/Users/zenray/.codex/skills/prompt-stacking/SKILL.md)&#x20; (9 October 2026, 10:50:25 +0200)
+> IL NE DOIT Y AVOIR AUCUNE ERREUR (9 October 2026, 10:50:25 +0200)
+>
+> simplifie l'UI global aussi dans Assets Il faudrait rapprocher les éléments et utiliser le design pour mieux agencer les éléments. C'est pas forcément un problème du fait qu'il y ait beaucoup trop d'informations, même s'il y en a un petit peu trop, c'est plutôt que les informations sont mal amenées en termes de logique. C'est-à-dire que par exemple, il y a en premier retrouver le projet sur le Mac alors que c'est pas le plus important. Le plus important, c'est par exemple avoir directement mes fichiers et où je peux changer sous forme d'icône, de liste, de colonne ou de galerie et savoir qu'est-ce qui prend de l'espace. En fait, le truc c'est que tu dois préciser les choses qui sont les plus proches des unes des autres en fonction de ce dont j'ai besoin. Par exemple, si je regarde mes fichiers, je vais avoir besoin de changer la vue pour pouvoir trouver un fichier plus facilement. Mais j'ai pas besoin forcément de savoir exactement qu'est-ce qui prend de l'espace en premier. Enfin, c'est utile parce que ça permet de voir le camembert qui permet de séparer tous les fichiers et tous les projets, mais est-ce que c'est vraiment utile d'avoir les icônes liste, colonne, galerie, puis qu'est-ce qui prend de l'espace, puis les fichiers ? C'est mal agencé. Donc il faut que tu agences parfaitement les choses de manière à ce que le design soit cohérent en mode UI gestalt, loi de la cohérence, loi des éléments les plus proches, etc. (9 October 2026, 10:50:25 +0200)
