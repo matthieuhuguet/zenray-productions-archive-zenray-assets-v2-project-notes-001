@@ -277,3 +277,9 @@
 - 9 October 2026 : `AssetsFeedbackCapture.test.js` passe avec 5 tests et `AssetsService.test.js --maxWorkers=1` avec 89 tests ; les deux cas de file révélés par l’ancien garde passent après séparation de `background` et `requireWatched`. (9 October 2026)
 - 9 October 2026 : Le dernier contrôle direct live porte sur un projet existant ; la création neuve est prouvée en fixture, pas par une nouvelle identité écrite dans le registre réel. (9 October 2026)
 - 9 October 2026 : Prochain : publier le correctif de file `requireWatched` après synchronisation du skill, puis reprendre l’archive Conversations sans exposer les trois bases Gemini. (9 October 2026)
+
+
+## 9 October 2026 : Comptage actuel des tests Assets
+
+- 9 October 2026, 08:29 CEST : `npx vitest run scripts/AssetsFeedbackCapture.test.js --maxWorkers=1` passe avec six tests ; `npx vitest run scripts/AssetsService.test.js --maxWorkers=1` passe avec 91 tests. (9 October 2026)
+- 9 October 2026, 08:29 CEST : Cette mesure corrige l’entrée précédente qui comptait cinq tests de capture et 89 tests de service ; elle n’efface pas l’état historique des suites à cette date. (9 October 2026)
