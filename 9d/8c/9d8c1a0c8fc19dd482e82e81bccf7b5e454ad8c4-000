@@ -3870,3 +3870,19 @@
 - Source: checkpoint:codex:01a11653-69f5-7492-b80e-dbcc6a785d87. (9 October 2026, 21:49:58 +0200)
 
 > 9 October 2026 : le daemon Assets redemarre par LaunchAgent retrouve le prompt courant dans la lecture live. Les 19 surveillances reviennent sur 20 projets ; au controle, zero conflit, zero erreur active et 12 index sont repris par la file automatique. Les tests catalogue/service passent a 102/102 et CheckSkillContract est vert. Prochain : verifier les recus SHA cloud apres stabilisation, puis reprendre les verifications externes restantes. (9 October 2026, 21:49:58 +0200)
+
+## 9 October 2026, 22:00:16 +0200 : Iteration
+
+<!-- feedback-event:8af8992902b5a0be5280f6ac5c3de18b4f118cd6b62997285d2e725ecbd67f2d (9 October 2026, 22:00:16 +0200) -->
+- Project: zenray-assets-v2; kind: iteration. (9 October 2026, 22:00:16 +0200)
+- Source: checkpoint:codex:01a11653-69f5-7492-b80e-dbcc6a785d87. (9 October 2026, 22:00:16 +0200)
+
+> 9 October 2026, 21:58 CEST : Assets reste connecte sur 20 projets, 19 surveilles, zero erreur de job ; 17 fichiers attendent et le service protege une divergence Louisiana. La version precedente 7568db49 est deja preservee dans workshop, tandis que la scene de 52 455 995 octets change encore, dernier SHA observe 2cce5388, et sa preservation est remise en file. Le FEEDBACK canonique de cette session est sauvegarde avec SHA local egal au recu cloud. Prochain : laisser le fichier Houdini se stabiliser, puis verifier le manifeste SHA de sa nouvelle version sans toucher a la scene. (9 October 2026, 22:00:16 +0200)
+
+## 9 October 2026, 22:13:54 +0200 : Iteration
+
+<!-- feedback-event:85fa3f114e082ffb14bfcf6327c00b8cebb85104331e5c764cc20b0adf7f5b18 (9 October 2026, 22:13:54 +0200) -->
+- Project: zenray-assets-v2; kind: iteration. (9 October 2026, 22:13:54 +0200)
+- Source: checkpoint:codex:01a11653-69f5-7492-b80e-dbcc6a785d87. (9 October 2026, 22:13:54 +0200)
+
+> 9 October 2026 : l’indexeur cloud est arrêté après deux minutes, ses chemins restent en attente et le test confirme le retry automatique ; 105 tests passent, le skill et son contrat sont synchronisés. Prochain : vérifier le reçu cloud du dernier FEEDBACK et laisser la file automatique poursuivre ; l’index de production, les droits GitHub et le second Mac restent des contrôles séparés. (9 October 2026, 22:13:54 +0200)
