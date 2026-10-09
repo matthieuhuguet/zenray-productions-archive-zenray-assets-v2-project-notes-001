@@ -3793,3 +3793,10 @@
 > | Corriger l’UI en mode clair | Oui | Panneau installé, vérifié dans 12 états ; captures ci-dessus | (9 October 2026, 14:02:58 +0200)
 > | Vérifier la mise en production | Oui | Commit `8fd2cfdf`, fichiers identiques au build après dix minutes, index à 165 603 | (9 October 2026, 14:02:58 +0200)
 > | Terminer la synchronisation et tester sur un second Mac | En cours | 14 fichiers attendent ; aucun conflit ni erreur, second Mac pas encore vérifié | (9 October 2026, 14:02:58 +0200)
+
+## 9 October 2026, 15:24:13 +0200 : Prompt
+
+<!-- feedback-event:12bb2fabb7576b5187b0848dbf7accdcbd6ca1e494b93b5599b5fe9a299c5026 (9 October 2026, 15:24:13 +0200) -->
+- Project: zenray-assets-v2; kind: prompt. (9 October 2026, 15:24:13 +0200)
+
+> problème sur l'UI et le light mode (9 October 2026, 15:24:13 +0200)
