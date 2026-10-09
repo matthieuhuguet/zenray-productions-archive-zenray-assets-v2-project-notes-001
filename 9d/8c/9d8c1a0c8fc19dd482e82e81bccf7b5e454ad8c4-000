@@ -3410,3 +3410,10 @@
 - Project: zenray-assets-v2; kind: prompt. (9 October 2026, 07:26:39 +0200)
 
 > il faut segmenter les fichiers locaux (du coup cloud) et les projets que j'ai moi-même mis sur la vue gallery sinon ça va être le bordel et il faut garder le triage actuel avec vue des dossiers en plus stp + fil d'ariane propre (9 October 2026, 07:26:39 +0200)
+
+## 9 October 2026, 07:35:00 +0200 : Log
+
+<!-- feedback-event:99b188b2c8ac90a94d5601dbb333847a324f1d695698536681855b830178beb3 (9 October 2026, 07:35:00 +0200) -->
+- Project: zenray-assets-v2; kind: log. (9 October 2026, 07:35:00 +0200)
+
+> 9 October 2026 : Gallery distingue « Ma sélection » des images locales sauvegardées dans le cloud ; les chemins de dossiers et les petits libellés restent lisibles à 12 px. Tests : Gallery 14/14, navigation cloud 1/1, build vert. Premier test rouge causé par un sélecteur resté sur l’ancien nom « Mes références » ; sélecteur actualisé, relance verte. Interface locale : Louisiana Bayou 353 images, Atelier 232, Houdini 101, Unreal 20. Commit 82b2cd67 poussé sur main ; déploiement Cloudflare d11ef1f2. Bundle main et chunk Gallery de production vérifiés, les deux libellés y sont présents. Tableau de bord live synchronisé sous a3e62d5f. (9 October 2026, 07:35:00 +0200)
