@@ -2934,3 +2934,10 @@
 - Project: zenray-assets-v2; kind: log. (9 October 2026, 03:14:42 +0200)
 
 > Le 9 October 2026, après confirmation d’une file inactive, batchBytes est remis à 268435456 et le daemon Assets est redémarré. Le pont répond sur 20 projets, 19 surveillances sont actives sans erreur ; la nouvelle file automatique descend à 13 jobs. Les seules sources affichant encore deux éléments en attente ont leur paire ConversationIndex archivée puis régénérée pendant le fil. Prochain : laisser cette file terminer, comparer les manifestes cloud, puis reprendre la capture physique du bouton lorsque le Mac sera déverrouillé. (9 October 2026, 03:14:42 +0200)
+
+## 9 October 2026, 03:48:58 +0200 : Log
+
+<!-- feedback-event:d7535ca8cfcd4b7b8c69dd4ba185d013791b1a954218a58181ec323386acf381 (9 October 2026, 03:48:58 +0200) -->
+- Project: zenray-assets-v2; kind: log. (9 October 2026, 03:48:58 +0200)
+
+> 9 October 2026, 03:48 CEST. Snapshot sparse stable au commit 8f4417f7 : 45 reçus vérifiés, 45 manifestes distants correspondants, aucun manifeste absent, aucune divergence, aucun mouvement de main pendant le contrôle. Les 2 fichiers stables de l’outil d’audit ont ensuite été archivés avec SHA et tailles identiques ; les index ConversationIndex et FileMap encore modifiés sont régénérés pendant la conversation et restent sous surveillance automatique. Rapport : /Users/zenray/.claude/tmp/tmp-zenray-assets-v2/Audit/CloudManifestSnapshot-2026-10-09T01-48-32-287Z.json. (9 October 2026, 03:48:58 +0200)
