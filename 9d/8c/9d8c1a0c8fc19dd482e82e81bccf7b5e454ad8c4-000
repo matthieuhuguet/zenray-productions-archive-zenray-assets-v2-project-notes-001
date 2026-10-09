@@ -2948,3 +2948,10 @@
 - Project: zenray-assets-v2; kind: log. (9 October 2026, 03:58:27 +0200)
 
 > 9 October 2026, 03:58 CEST. Snapshot sparse stable au commit d2d6df78 : 48 reçus comparés, 48 manifestes distants identiques, aucun absent, aucune divergence ; main n’a pas bougé pendant l’audit. Les 12 fichiers locaux plus récents sont tous des ConversationIndex réécrits pendant le fil ; leurs reçus archivés concordent avec le cloud. Le rapport du snapshot est archivé séparément et son SHA local égale son reçu. Rapport : /Users/zenray/.claude/tmp/tmp-zenray-assets-v2/Audit/CloudManifestSnapshot-2026-10-09T01-57-54-755Z.json. (9 October 2026, 03:58:27 +0200)
+
+## 9 October 2026, 04:16:55 +0200 : Log
+
+<!-- feedback-event:0d5246bcab3678b8fafb1aa94c02fba08bc34d524db79e36e42eaeba70fa92a3 (9 October 2026, 04:16:55 +0200) -->
+- Project: zenray-assets-v2; kind: log. (9 October 2026, 04:16:55 +0200)
+
+> 9 October 2026, 04:16 CEST. Demande Gallery du 9 October : références manuelles séparées des fichiers cloud, tri des références conservé, navigation cloud par dossiers et fil d’Ariane. ToDo-3D relié à Louisiana Bayou affiche 353 images sans copie : Atelier 232, Houdini 101, Unreal 20. Les 20 tests Gallery, le build et le contrat Assets sont verts. Prochain : conserver cette séparation et terminer le contrôle cloud global. (9 October 2026, 04:16:55 +0200)
