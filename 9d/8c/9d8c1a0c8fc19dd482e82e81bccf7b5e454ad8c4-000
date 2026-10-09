@@ -2984,3 +2984,11 @@
 - Project: zenray-assets-v2; kind: log. (9 October 2026, 04:36:32 +0200)
 
 > Revalidation du 9 October : la Gallery sépare les références manuelles des fichiers cloud. Navigation dossier, fil d’Ariane, retour à la racine, 353 images et tri conservé vérifiés dans le navigateur local. 18 tests et build réussis ; aucun déploiement effectué. (9 October 2026, 04:36:32 +0200)
+
+## 9 October 2026, 05:01:38 +0200 : Iteration
+
+<!-- feedback-event:f88ea13e5912ce0468b81fe09bc42f04deb8ed1a71367b97eec4302f7c2f6afa (9 October 2026, 05:01:38 +0200) -->
+- Project: zenray-assets-v2; kind: iteration. (9 October 2026, 05:01:38 +0200)
+- Source: checkpoint:codex:01a11653-69f5-7492-b80e-dbcc6a785d87. (9 October 2026, 05:01:38 +0200)
+
+> Gallery distinguishes manually curated references from already backed-up cloud images, preserves manual sorting, and adds folder navigation with breadcrumbs. Louisiana Bayou shows 353 images across Atelier 232, Houdini 101, Unreal 20. Eighteen Gallery tests and the Vite build pass. Stable zenray-data snapshot 7d8ad8d verifies 54 of 54 remote manifests with no branch movement or divergence. Twelve local ConversationIndex files changed after their receipts; ZenRay Assets currently has four pending files, including its two live indexes, the new audit report, and generated FileMap. Next: let the watcher archive after sources stay quiet, then resume OAuth rotation and native menu-bar proof after Mac unlock and GitHub sign-in. (9 October 2026, 05:01:38 +0200)
