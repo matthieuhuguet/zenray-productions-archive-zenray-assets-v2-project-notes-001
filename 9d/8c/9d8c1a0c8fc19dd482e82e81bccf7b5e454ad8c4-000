@@ -3894,3 +3894,11 @@
 - Source: checkpoint:codex:01a11653-69f5-7492-b80e-dbcc6a785d87. (9 October 2026, 22:18:44 +0200)
 
 > 9 October 2026 : reçu cloud du checkpoint précédent vérifié, 387997 octets et SHA local égal à f0a194f1c684942c67e583c6e093b1233df2c2b83cab393470c8cba45e6ee78e. L’indexeur bloqué est limité à 120 s, 105 tests et le contrat Assets passent. À 22:18 CEST, la file automatique traite Poisson : 20 projets, 19 surveillés, 21 fichiers en attente, un conflit Louisiana protégé. Prochain : confirmer le reçu de ce checkpoint après sa sauvegarde automatique et séparer les blocages de production, d’autorisations GitHub et de machine distante. (9 October 2026, 22:18:44 +0200)
+
+## 9 October 2026, 23:01:07 +0200 : Iteration
+
+<!-- feedback-event:0d89b5e71ea84ecfc8dc06a7191f9fca7e1f20e2b8c6e59eb7cda8fee19dc92d (9 October 2026, 23:01:07 +0200) -->
+- Project: zenray-assets-v2; kind: iteration. (9 October 2026, 23:01:07 +0200)
+- Source: checkpoint:codex:01a11653-69f5-7492-b80e-dbcc6a785d87. (9 October 2026, 23:01:07 +0200)
+
+> 9 October 2026: Correctifs de reprise pousses sous c7934123 et LaunchAgent rechargé de 70490 à 57417 sans couper l’écriture active. 20 projets, 19 surveillés, agent-conversations volontairement en pause, zéro conflit ou erreur ; la file reprend automatiquement avec 12 index en attente. Build réussi, 100 tests service et 8 tests catalogue passent, contrat Assets vert. Le FEEDBACK précédent correspond au reçu cloud par SHA et taille. Prochain : vérifier le reçu du présent checkpoint après l’archivage automatique ; limites restantes : Mac éveillé, GitHub authentifié, projet conversations suspendu et validation second Mac. (9 October 2026, 23:01:07 +0200)
