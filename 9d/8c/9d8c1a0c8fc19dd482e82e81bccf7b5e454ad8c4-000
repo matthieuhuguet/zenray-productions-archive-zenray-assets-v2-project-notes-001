@@ -3087,3 +3087,17 @@
 > Call update_goal only after the completion or blocked audit passes, or when the user explicitly requests pausing this goal. For a requested pause, use status "paused", report the returned status, and stop goal work; never pause on your own initiative. Do not mark a goal complete merely because the budget is nearly exhausted or because you are stopping work. (9 October 2026, 05:08:30 +0200)
 >
 > </codex_internal_context> (9 October 2026, 05:08:30 +0200)
+
+## 9 October 2026, 05:13:10 +0200 : Prompt
+
+<!-- feedback-event:88c0152fd9548b609c75d9fd6d1f88bdb159e6138ada7f76e92a679b65ea0804 (9 October 2026, 05:13:10 +0200) -->
+- Project: zenray-assets-v2; kind: prompt. (9 October 2026, 05:13:10 +0200)
+
+> 9 October 2026 : « il faut segmenter les fichiers locaux (du coup cloud) et les projets que j'ai moi même mis sur la vue gallery sinon ça va être le bordel et il faut garder le triage actuelle avec vue des dossiers en plus stp + fil d'ariane propre ». Vérifier la séparation entre références ajoutées à la main et fichiers locaux sauvegardés dans Assets, préserver le tri existant, ajouter ou confirmer les dossiers et un fil d’Ariane cohérent. (9 October 2026, 05:13:10 +0200)
+
+## 9 October 2026, 05:14:44 +0200 : Log
+
+<!-- feedback-event:700f9da10440fed67d5e0d3b47bfa5e5174b1f93523c474a392228e23924d366 (9 October 2026, 05:14:44 +0200) -->
+- Project: zenray-assets-v2; kind: log. (9 October 2026, 05:14:44 +0200)
+
+> 9 October 2026 : Gallery ToDo-3D vérifiée sur 127.0.0.1:5187. Le panneau affiche Mes références et Fichiers cloud ; 353 images apparaissent dans Louisiana Bayou, réparties en Atelier 232, Houdini 101 et Unreal 20. Le dossier Atelier expose son fil Louisiana Bayou > Atelier > workshop > 03_work et ses sous-dossiers ; retour visuel par les segments du fil. Mes références conserve Groupes, En cours, Done, Grille · grouper et Alignées. Tests séquentiels : 3 tests index, 1 test dossiers, 14 tests Gallery, build Vite réussi. (9 October 2026, 05:14:44 +0200)
