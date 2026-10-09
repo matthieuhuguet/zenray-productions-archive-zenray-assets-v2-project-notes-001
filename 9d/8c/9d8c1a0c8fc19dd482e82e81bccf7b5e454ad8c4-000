@@ -3101,3 +3101,10 @@
 - Project: zenray-assets-v2; kind: log. (9 October 2026, 05:14:44 +0200)
 
 > 9 October 2026 : Gallery ToDo-3D vérifiée sur 127.0.0.1:5187. Le panneau affiche Mes références et Fichiers cloud ; 353 images apparaissent dans Louisiana Bayou, réparties en Atelier 232, Houdini 101 et Unreal 20. Le dossier Atelier expose son fil Louisiana Bayou > Atelier > workshop > 03_work et ses sous-dossiers ; retour visuel par les segments du fil. Mes références conserve Groupes, En cours, Done, Grille · grouper et Alignées. Tests séquentiels : 3 tests index, 1 test dossiers, 14 tests Gallery, build Vite réussi. (9 October 2026, 05:14:44 +0200)
+
+## 9 October 2026, 05:20:43 +0200 : Log
+
+<!-- feedback-event:8ba6328ce4367581a82d2436ce66fad3762dc66162582aa1f42e17dcf190b370 (9 October 2026, 05:20:43 +0200) -->
+- Project: zenray-assets-v2; kind: log. (9 October 2026, 05:20:43 +0200)
+
+> 9 October 2026 : Le skill Assets canonique documente la limite batchBytes de 268435456 octets et la vérification du daemon avant ou après redémarrage. skill-sync donne la même empreinte a46f31a250ec926e52bcfcddd127ace266e79863509e704e66e9a3de39562240 dans les copies ; CheckSkillContract enregistre 78 fichiers puis retourne ok=true. Mémoire : commit bec9ef38b poussé sur main. (9 October 2026, 05:20:43 +0200)
