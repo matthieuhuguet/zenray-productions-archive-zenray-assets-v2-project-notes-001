@@ -124,3 +124,12 @@
 - 8 October 2026 : Les jobs automatiques de suite sont Assets `064c921f-e6b4-4c0e-ad00-7e1558f2b87c` et Edit `cf9ed54d-5765-4b1d-835e-bbeee04bdb13` ; ils restent queued et ne sont pas remplacés.
 - 8 October 2026 : La file FIFO traite encore plusieurs lots automatiques plus anciens ; Shards, Vegetation, Ceramic Tiles et ZenRayDictate avancent avant les cibles. Ne pas redémarrer le daemon ni annoncer les archives complètes.
 - 8 October 2026 : Les états viennent de `Client.mjs status` ; `verifiedCount` reste à zéro et chaque fichier devra encore être attesté après la fin des lots.
+
+## 9 October 2026 : Correctif du mode clair, publication et état de reprise
+
+- 9 October 2026 : Le panneau natif résout maintenant les couleurs des briques selon Aqua ou Dark Aqua, y compris après un changement d’apparence. (9 October 2026)
+- 9 October 2026 : `Verify.mjs` passe 12 états, dont les deux apparences ; les suites séquentielles passent avec 39 tests UI, 6 tests de capture et 92 tests du service. Le build et le contrat Assets sont verts. (9 October 2026)
+- 9 October 2026 : Le commit `8fd2cfdf` est sur `main` et publié sur Cloudflare Pages en Production/main, déploiement `6ac35f9e`. Le HTML, l’entrée JavaScript, le CSS et le chunk Assets servis ont les mêmes tailles et SHA-256 que `dist`. (9 October 2026)
+- 9 October 2026 : L’API de recherche protégée renvoie 165603 entrées avec l’accès autorisé ; la première requête sans authentification renvoie 401, comme prévu. Aucun secret n’est recopié dans le rapport. (9 October 2026)
+- 9 October 2026 : Après le déploiement, 15 fichiers restent dans la file de 7 projets ; les 20 projets n’ont aucune erreur ni conflit. La vérification distante des index et de FEEDBACK reste T6.4c-sync. (9 October 2026)
+- 9 October 2026 : T21-prod-stability reste ouvert jusqu’au contrôle dix minutes après publication. La rotation des autorisations GitHub attend l’action de Matthieu ; le test du second Mac attend une seconde machine. (9 October 2026)
