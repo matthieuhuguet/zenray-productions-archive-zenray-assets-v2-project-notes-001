@@ -3960,3 +3960,18 @@
 - Source: /Users/zenray/.codex/sessions/2026/10/07/rollout-2026-10-07T14-25-27-01a11653-69f5-7492-b80e-dbcc6a785d87.jsonl. (10 October 2026, 01:16:25 +0200)
 
 > donc hormis ça tout es fini ? (10 October 2026, 01:16:25 +0200)
+
+## 10 October 2026, 01:22:12 +0200 : Iteration
+
+<!-- feedback-event:8640fd421c90c18ad81d4624b7907f56a6a7a984af606b62de56c27a1702c672 (10 October 2026, 01:22:12 +0200) -->
+- Project: zenray-assets-v2; kind: iteration. (10 October 2026, 01:22:12 +0200)
+- Source: /Users/zenray/.codex/sessions/2026/10/07/rollout-2026-10-07T14-25-27-01a11653-69f5-7492-b80e-dbcc6a785d87.jsonl. (10 October 2026, 01:22:12 +0200)
+
+> Non. Je corrige ma réponse précédente : les correctifs, tests et déploiements sont terminés, mais il reste aussi la fin de la sauvegarde cloud. Au dernier contrôle, deux fichiers `ConversationIndex` sont encore en attente ; le job tourne, sans erreur ni conflit. (10 October 2026, 01:22:12 +0200)
+>
+> | Ce que tu voulais | C’est fait ? | Comment je le sais | (10 October 2026, 01:22:12 +0200)
+> |---|---|---| (10 October 2026, 01:22:12 +0200)
+> | Finir les correctifs et l’interface | Oui | Le suivi marque ces tâches terminées, avec tests et déploiements vérifiés. | (10 October 2026, 01:22:12 +0200)
+> | Sauvegarder tout le projet Assets | En cours | 684 fichiers sur 686 sont sauvegardés ; le job traite les deux index restants. | (10 October 2026, 01:22:12 +0200)
+> | Réduire les droits GitHub et tester un second Mac | Non | Les droits `delete_repo` et `workflow` sont encore présents ; le test sur un autre Mac reste à faire. | (10 October 2026, 01:22:12 +0200)
+> | Inclure toutes les conversations | Partiellement | `agent-conversations` reste en pause, comme décidé précédemment. | (10 October 2026, 01:22:12 +0200)
