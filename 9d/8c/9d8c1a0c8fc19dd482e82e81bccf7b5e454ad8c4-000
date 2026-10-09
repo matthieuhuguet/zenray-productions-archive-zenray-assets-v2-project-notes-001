@@ -3417,3 +3417,17 @@
 - Project: zenray-assets-v2; kind: log. (9 October 2026, 07:35:00 +0200)
 
 > 9 October 2026 : Gallery distingue « Ma sélection » des images locales sauvegardées dans le cloud ; les chemins de dossiers et les petits libellés restent lisibles à 12 px. Tests : Gallery 14/14, navigation cloud 1/1, build vert. Premier test rouge causé par un sélecteur resté sur l’ancien nom « Mes références » ; sélecteur actualisé, relance verte. Interface locale : Louisiana Bayou 353 images, Atelier 232, Houdini 101, Unreal 20. Commit 82b2cd67 poussé sur main ; déploiement Cloudflare d11ef1f2. Bundle main et chunk Gallery de production vérifiés, les deux libellés y sont présents. Tableau de bord live synchronisé sous a3e62d5f. (9 October 2026, 07:35:00 +0200)
+
+## 9 October 2026, 07:46:18 +0200 : Prompt
+
+<!-- feedback-event:0ccb3ef87e60010cc5379dc65ac8508281b03c25ef7cc1685d1c916158d3ead0 (9 October 2026, 07:46:18 +0200) -->
+- Project: zenray-assets-v2; kind: prompt. (9 October 2026, 07:46:18 +0200)
+
+> Vérification différée dix minutes après le déploiement 82b2cd67 : la production canonique répond HTTP 200, le bundle d’entrée et le chunk Gallery répondent HTTP 200, et l’interface réelle affiche les onglets « Ma sélection » et « Fichiers cloud ». Le clic sur l’espace cloud affiche Louisiana Bayou et son fil d’Ariane ; l’index cloud reste en lecture pendant que le Drive est verrouillé, donc les médias de production ne sont pas déclarés vérifiés. L’archive 0fc58506 est terminée sans erreur ; le contexte Assets garde ConversationIndex.md du skill canonique en attente, avec deux fichiers pending au total. (9 October 2026, 07:46:18 +0200)
+
+## 9 October 2026, 07:46:29 +0200 : Log
+
+<!-- feedback-event:2bc97b8aa61de9db5a089250c5331b9ef7f13c092f8169c00488c3d7056ceda8 (9 October 2026, 07:46:29 +0200) -->
+- Project: zenray-assets-v2; kind: log. (9 October 2026, 07:46:29 +0200)
+
+> Correction de l’entrée du 9 October 2026, 07:46:18 +0200 : il s’agit d’un résultat de vérification Codex, pas d’un prompt utilisateur. Le fait à conserver est que la production sert les deux espaces Gallery après dix minutes, tandis que l’index cloud reste verrouillé et non vérifié. Archive 0fc58506 terminée ; deux fichiers sont toujours pending. (9 October 2026, 07:46:29 +0200)
