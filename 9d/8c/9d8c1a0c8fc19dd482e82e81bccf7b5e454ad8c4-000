@@ -3983,3 +3983,11 @@
 - Source: /Users/zenray/.codex/sessions/2026/10/07/rollout-2026-10-07T14-25-27-01a11653-69f5-7492-b80e-dbcc6a785d87.jsonl. (10 October 2026, 12:01:42 +0200)
 
 > pourquoi v2 existe toujours puisque je t'ai dit de le delete ... [$zenray-assets-v2](/Users/zenray/.codex/skills/zenray-assets-v2/SKILL.md) mais de vérifier que tout est consigné dans le nouveau skill [$zenray-assets](/Users/zenray/.codex/skills/zenray-assets/SKILL.md) (10 October 2026, 12:01:42 +0200)
+
+## 10 October 2026, 12:08:13 +0200 : Iteration
+
+<!-- feedback-event:c645a9f15a3f1717cb07ac3a48af51c8cc42dc39c034adc0528fac961cfede2e (10 October 2026, 12:08:13 +0200) -->
+- Project: zenray-assets-v2; kind: iteration. (10 October 2026, 12:08:13 +0200)
+- Source: checkpoint:codex:01a11653-69f5-7492-b80e-dbcc6a785d87. (10 October 2026, 12:08:13 +0200)
+
+> Suppression du skill alias zenray-assets-v2 dans les racines Claude, Codex et Memory ; miroir Memory synchronisé, skill zenray-assets synchronisé dans Claude/Codex/Gemini/Memory. Les références historiques et l’identifiant des données du projet restent conservés. Contrat CheckSkillContract enregistré puis vérifié, extract-rules --verify passe. Prochain : reprendre les tâches ouvertes sans restaurer l’alias. (10 October 2026, 12:08:13 +0200)
