@@ -3975,3 +3975,11 @@
 > | Sauvegarder tout le projet Assets | En cours | 684 fichiers sur 686 sont sauvegardés ; le job traite les deux index restants. | (10 October 2026, 01:22:12 +0200)
 > | Réduire les droits GitHub et tester un second Mac | Non | Les droits `delete_repo` et `workflow` sont encore présents ; le test sur un autre Mac reste à faire. | (10 October 2026, 01:22:12 +0200)
 > | Inclure toutes les conversations | Partiellement | `agent-conversations` reste en pause, comme décidé précédemment. | (10 October 2026, 01:22:12 +0200)
+
+## 10 October 2026, 12:01:42 +0200 : Prompt
+
+<!-- feedback-event:fd575cfa0521bded850c5d5601c4d378410a62ae8315289b6224f4cce3ef7653 (10 October 2026, 12:01:42 +0200) -->
+- Project: zenray-assets-v2; kind: prompt. (10 October 2026, 12:01:42 +0200)
+- Source: /Users/zenray/.codex/sessions/2026/10/07/rollout-2026-10-07T14-25-27-01a11653-69f5-7492-b80e-dbcc6a785d87.jsonl. (10 October 2026, 12:01:42 +0200)
+
+> pourquoi v2 existe toujours puisque je t'ai dit de le delete ... [$zenray-assets-v2](/Users/zenray/.codex/skills/zenray-assets-v2/SKILL.md) mais de vérifier que tout est consigné dans le nouveau skill [$zenray-assets](/Users/zenray/.codex/skills/zenray-assets/SKILL.md) (10 October 2026, 12:01:42 +0200)
