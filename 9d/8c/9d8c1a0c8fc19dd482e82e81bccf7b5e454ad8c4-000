@@ -4082,3 +4082,102 @@
 > | House of the Dragon, S03E08 | 7,62 Gio | (10 October 2026, 13:25:19 +0200)
 >
 > **Je n’ai rien supprimé dans ce dossier**, puisque sa sauvegarde et sa récupération complète ne sont pas vérifiées. (10 October 2026, 13:25:19 +0200)
+
+## 10 October 2026, 13:38:19 +0200 : Prompt
+
+<!-- feedback-event:56b69b2f30a78d11a0015d15b0d20ae7031a61f8f0a41c5cc0f6bb5b55564881 (10 October 2026, 13:38:19 +0200) -->
+- Project: zenray-assets-v2; kind: prompt. (10 October 2026, 13:38:19 +0200)
+
+> 10 October 2026 : Upload all films from tmp-films-series to Create Movies_Series, reuse House of the Dragon, preserve all audio and only French English Japanese subtitles; retain Dark Knight Rises 8.54 GiB; inspect subtitle storyboard; no local deletion before user confirmation. (10 October 2026, 13:38:19 +0200)
+
+## 10 October 2026, 13:38:57 +0200 : Iteration
+
+<!-- feedback-event:ee05625e70d987f0b1acb606a8c28063e0b2dfb45054b5e1c13d419539cf9001 (10 October 2026, 13:38:57 +0200) -->
+- Project: zenray-assets-v2; kind: iteration. (10 October 2026, 13:38:57 +0200)
+- Source: /Users/zenray/.codex/sessions/2026/10/07/rollout-2026-10-07T14-25-27-01a11653-69f5-7492-b80e-dbcc6a785d87.jsonl. (10 October 2026, 13:38:57 +0200)
+
+> L’envoi est lancé vers **Create → Movies_Series**, avec publication progressive de chaque vidéo. Le premier lot contient **183 vidéos** ; les autres nécessitent le tri des sous-titres ou une vérification des doublons. (10 October 2026, 13:38:57 +0200)
+>
+> Toutes les pistes audio sont conservées. **Aucun fichier local n’est supprimé.** (10 October 2026, 13:38:57 +0200)
+
+## 10 October 2026, 13:45:27 +0200 : Iteration
+
+<!-- feedback-event:77f30f88df85a5e796c6644feb9b27d34ceaa55f0acc27ef71d6f04d5fe2aa19 (10 October 2026, 13:45:27 +0200) -->
+- Project: zenray-assets-v2; kind: iteration. (10 October 2026, 13:45:27 +0200)
+- Source: /Users/zenray/.codex/sessions/2026/10/07/rollout-2026-10-07T14-25-27-01a11653-69f5-7492-b80e-dbcc6a785d87.jsonl. (10 October 2026, 13:45:27 +0200)
+
+> L’upload continue. La version retenue de **The Dark Knight Rises** conserve ses six pistes audio, vérifiées par empreintes identiques, et ses sous-titres français et anglais, contrôlés sur une [planche de huit images](/Users/zenray/.claude/tmp/tmp-movies-series-upload/Storyboard/SubtitleStoryboard.png). (10 October 2026, 13:45:27 +0200)
+>
+> | Ta demande | État | Preuve | (10 October 2026, 13:45:27 +0200)
+> |---|---|---| (10 October 2026, 13:45:27 +0200)
+> | Tout uploader | En cours | 3 vidéos publiées, transfert actif | (10 October 2026, 13:45:27 +0200)
+> | Garder toutes les pistes audio | Vérifié | Sept flux audio/vidéo identiques pour le film préparé | (10 October 2026, 13:45:27 +0200)
+> | Supprimer après contrôle | En attente | Aucun original supprimé | (10 October 2026, 13:45:27 +0200)
+
+## 10 October 2026, 13:57:01 +0200 : Iteration
+
+<!-- feedback-event:46525900239152e1c3464c807c4751b96a9214df4b35886b9d2e4e4893bf9333 (10 October 2026, 13:57:01 +0200) -->
+- Project: zenray-assets-v2; kind: iteration. (10 October 2026, 13:57:01 +0200)
+- Source: /Users/zenray/.codex/sessions/2026/10/07/rollout-2026-10-07T14-25-27-01a11653-69f5-7492-b80e-dbcc6a785d87.jsonl. (10 October 2026, 13:57:01 +0200)
+
+> L’envoi continue, avec **5 vidéos publiées**. Le choix de piste audio fonctionne dans le test navigateur, et la première vidéo récupérée intégralement depuis le cloud correspond exactement à l’original. (10 October 2026, 13:57:01 +0200)
+>
+> | Demande | État | Preuve | (10 October 2026, 13:57:01 +0200)
+> |---|---|---| (10 October 2026, 13:57:01 +0200)
+> | Tout uploader | En cours | Transfert actif | (10 October 2026, 13:57:01 +0200)
+> | Changer de piste audio | Vérifié | Son réellement changé dans le navigateur | (10 October 2026, 13:57:01 +0200)
+> | Ne perdre aucun fichier | En cours | Première récupération identique ; aucun original supprimé | (10 October 2026, 13:57:01 +0200)
+
+## 10 October 2026, 14:08:43 +0200 : Prompt
+
+<!-- feedback-event:7df0a53218bb0020a01fad9653da4f741b5790a4a9ca191f6faac3cc042167c2 (10 October 2026, 14:08:43 +0200) -->
+- Project: zenray-assets-v2; kind: prompt. (10 October 2026, 14:08:43 +0200)
+- Source: /Users/zenray/.codex/sessions/2026/10/07/rollout-2026-10-07T14-25-27-01a11653-69f5-7492-b80e-dbcc6a785d87.jsonl. (10 October 2026, 14:08:43 +0200)
+
+> continue l'objectif (10 October 2026, 14:08:43 +0200)
+
+## 10 October 2026, 14:40:40 +0200 : Iteration
+
+<!-- feedback-event:3ac41650e301ad2dc81042f007aa488757aa5f703a2c30a43994f13bd5d753a7 (10 October 2026, 14:40:40 +0200) -->
+- Project: zenray-assets-v2; kind: iteration. (10 October 2026, 14:40:40 +0200)
+- Source: checkpoint:codex:01a11653-69f5-7492-b80e-dbcc6a785d87. (10 October 2026, 14:40:40 +0200)
+
+> 233 source paths and 271095288642 bytes accounted for, with every source still present. Ready queue has 183 videos and 8 manifests published; 25 filtered videos remain. Twenty-two byte-identical pairs are deduplicated to one cloud copy each. The 8.54 GiB Dark Knight Rises copy retains six audio tracks and French and English subtitles. Akane S01E09 has a cloud manifest but recovery verification timed out, so it has no positive receipt. A detached one-shot supervisor waits for the current uploader, retries the main queues in order, then resumes filtered files. Originals are never removed. Next: finish each queue and prove full cloud restoration for every admitted video before asking about local removal. (10 October 2026, 14:40:40 +0200)
+
+## 10 October 2026, 15:00:47 +0200 : Iteration
+
+<!-- feedback-event:21baf26a520ca0fbe13246f8fbaf24075ce0d767b5e37cc443402edcc4052954 (10 October 2026, 15:00:47 +0200) -->
+- Project: zenray-assets-v2; kind: iteration. (10 October 2026, 15:00:47 +0200)
+- Source: checkpoint:codex:01a11653-69f5-7492-b80e-dbcc6a785d87. (10 October 2026, 15:00:47 +0200)
+
+> Upload résumée en séquence. Le plan Ready compte 183 entrées, dont 13 déjà en ligne; le nouveau processus a publié 1 des 170 manifests restants après un push privé confirmé. La récupération complète de ce nouveau média reste à vérifier. 233 originaux existent toujours, total 271095288642 octets, aucune suppression. Prochain geste: laisser le superviseur finir les uploads puis vérifier chaque restauration exacte. (10 October 2026, 15:00:47 +0200)
+
+## 10 October 2026, 15:01:05 +0200 : Prompt
+
+<!-- feedback-event:5223b0f0ae3218b023d91b25934965284165b6554bd591203fb80518676b6e6c (10 October 2026, 15:01:05 +0200) -->
+- Project: zenray-assets-v2; kind: prompt. (10 October 2026, 15:01:05 +0200)
+
+> continue l'objectif (10 October 2026, 15:01:05 +0200)
+
+## 10 October 2026, 15:04:00 +0200 : Iteration
+
+<!-- feedback-event:7788d9009310e8f12a012a7a5eda5e153a808a8a35a1419ff782d06c5b67ed74 (10 October 2026, 15:04:00 +0200) -->
+- Project: zenray-assets-v2; kind: iteration. (10 October 2026, 15:04:00 +0200)
+- Source: checkpoint:codex:01a11653-69f5-7492-b80e-dbcc6a785d87. (10 October 2026, 15:04:00 +0200)
+
+> Le GitHub tree confirme 4 parts vidéo dans le premier shard privé, total 301004134 octets. Le plan Ready a publié 3 des 170 manifestes encore à envoyer. Le guide d’upload documente maintenant la préservation brute des pistes, les lots ajustables et la preuve de restauration complète. Aucun original n’est supprimé; aucun reçu SHA complet n’existe encore pour le nouveau média. Prochain geste: poursuivre les files en séquence puis restaurer chaque média et comparer son SHA-256 entier. (10 October 2026, 15:04:00 +0200)
+
+## 10 October 2026, 15:10:58 +0200 : Prompt
+
+<!-- feedback-event:5544b88a2e743e5d723b945078c925c39acd929d27e89796c3194e60a2bd81a7 (10 October 2026, 15:10:58 +0200) -->
+- Project: zenray-assets-v2; kind: prompt. (10 October 2026, 15:10:58 +0200)
+
+> continue l'objectif (10 October 2026, 15:10:58 +0200)
+
+## 10 October 2026, 15:11:14 +0200 : Iteration
+
+<!-- feedback-event:e71280b2b2721e8446e36fa44667b2c5fc15493899fbf12b68ebb61f07075e24 (10 October 2026, 15:11:14 +0200) -->
+- Project: zenray-assets-v2; kind: iteration. (10 October 2026, 15:11:14 +0200)
+- Source: checkpoint:codex:01a11653-69f5-7492-b80e-dbcc6a785d87. (10 October 2026, 15:11:14 +0200)
+
+> The Films figure is 252.78 GiB allocated and 252.63 GiB logical across 2,722 files, including 233 videos totaling 252.48 GiB. The one serialized upload supervisor remains active; the latest Ready queue log shows 6/170 new manifests. Free disk is 38.14 GiB; localSourcesRemoved=False. No current full-recovery receipt is implied by manifest publication. Next: finish the main, prepared, and filtered queues, then restore and SHA-256 verify every admitted object before reviewing any local unload. The disk audit still lists Bleach and archive work folders as unverified and preserved. (10 October 2026, 15:11:14 +0200)
