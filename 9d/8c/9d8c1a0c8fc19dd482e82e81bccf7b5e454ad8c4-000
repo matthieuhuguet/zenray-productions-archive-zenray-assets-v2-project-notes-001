@@ -4021,3 +4021,36 @@
 >
 > TU PEUX AUSSI FAIRE UN SCAN COMPLET DE TOUT LES FICHIERS POUR VOIR CE QUI PRENDS DE LA PLACE / IGNORE EN REVANCHE CROSSOVER ET GAMES J'AI DÉJÀ CLEAN LES JEUX AUXQUELS JE NE JOUE PLUS. (10 October 2026, 12:20:45 +0200)
 > [$dont-stop](/Users/zenray/.codex/skills/dont-stop/SKILL.md)&#x20; (10 October 2026, 12:20:45 +0200)
+
+## 10 October 2026, 12:49:21 +0200 : Iteration
+
+<!-- feedback-event:fc260914a50e0dabc68857527920b0405171ccbf0fe2ddc2ba52cb0b731b0f9f (10 October 2026, 12:49:21 +0200) -->
+- Project: zenray-assets-v2; kind: iteration. (10 October 2026, 12:49:21 +0200)
+- Source: checkpoint:codex:01a11653-69f5-7492-b80e-dbcc6a785d87. (10 October 2026, 12:49:21 +0200)
+
+> Scan disque de 3 millions de fichiers hors jeux et CrossOver. UNLOAD réparé et code ba9110ac poussé : 114 tests et 3 tests panneau passent ; témoin réel LOAD UNLOAD RECOVER identique. Houdini 9 fichiers et Ceramic 2 fichiers déchargés, originaux conservés. Louisiana job b39e0972-3f8a-48f5-8d3c-aee1dfe8954b restaure 101 fichiers avant suppression, watch Louisiana temporairement off puis remettre on. Gros dossiers films 253 Gio, Bleach 72 Gio et scratch archives environ 208 Gio conservés faute de preuve. Rapport /Users/zenray/.claude/tmp/tmp-zenray-disk-audit/DiskAudit.md. (10 October 2026, 12:49:21 +0200)
+
+## 10 October 2026, 13:05:06 +0200 : Iteration
+
+<!-- feedback-event:d6a872115797c565163db50684b0e5cb2652e353e947351c56e09efa318df688 (10 October 2026, 13:05:06 +0200) -->
+- Project: zenray-assets-v2; kind: iteration. (10 October 2026, 13:05:06 +0200)
+- Source: checkpoint:codex:01a11653-69f5-7492-b80e-dbcc6a785d87. (10 October 2026, 13:05:06 +0200)
+
+> UNLOAD terminé et vérifié : Houdini 9 fichiers, Ceramic 2, Louisiana 101. 2 201 235 456 octets alloués de copies retirés après restauration cloud SHA-256 ; gain net disque mesuré 1 623 900 160 octets. 14 904 fichiers des sources originales toujours présents, zéro manquant ; un .DS_Store conservé et récupérable. 17 surveillances restaurées, chantier Assets chargé. 115 tests et 3 tests macOS passent, cycle cloud réel LOAD UNLOAD RECOVER identique. Code main b1c49b0d poussé, service redémarré avec récupération des métadonnées après interruption. Source historique v2-alias facultative, watchError null, aucune recréation du skill. Rapport et preuves dans /Users/zenray/.claude/tmp/tmp-zenray-disk-audit et copie suivie DiskAudit10October2026 du LOAD Assets. Les gros dossiers média et intermédiaires restent conservés faute de restauration prouvée. (10 October 2026, 13:05:06 +0200)
+
+## 10 October 2026, 13:05:39 +0200 : Iteration
+
+<!-- feedback-event:6c54a5553ebbe7171d686934043a4a492619047097f4b19ba7f2ef27e5a770e2 (10 October 2026, 13:05:39 +0200) -->
+- Project: zenray-assets-v2; kind: iteration. (10 October 2026, 13:05:39 +0200)
+- Source: /Users/zenray/.codex/sessions/2026/10/07/rollout-2026-10-07T14-25-27-01a11653-69f5-7492-b80e-dbcc6a785d87.jsonl. (10 October 2026, 13:05:39 +0200)
+
+> Trois copies LOAD sont déchargées : **2,05 Gio retirés**, avec un **gain net mesuré de 1,51 Gio** sur le disque. UNLOAD est renforcé et validé par 118 tests. (10 October 2026, 13:05:39 +0200)
+>
+> Les gros volumes restent conservés : films **253 Gio**, Bleach **72 Gio**, intermédiaires d’archives **208 Gio**, car leur récupération complète n’est pas encore prouvée. [Rapport détaillé](/Users/zenray/.claude/tmp/tmp-zenray-disk-audit/DiskAudit.md). (10 October 2026, 13:05:39 +0200)
+>
+> | Ce que tu voulais | État | Preuve | (10 October 2026, 13:05:39 +0200)
+> | :--- | :--- | :--- | (10 October 2026, 13:05:39 +0200)
+> | Alléger le disque | Fait | Louisiana, Ceramic et bibliothèque Houdini : 112 copies déchargées | (10 October 2026, 13:05:39 +0200)
+> | Ne perdre aucun fichier | Vérifié | Restauration cloud avant suppression ; 14 904 originaux contrôlés toujours présents ; métadonnées conservées | (10 October 2026, 13:05:39 +0200)
+> | Scanner hors jeux et CrossOver | Fait | Environ 3 millions de fichiers recensés ; 211 accès refusés signalés | (10 October 2026, 13:05:39 +0200)
+> | Garder la sauvegarde autonome | Fait | Les 17 surveillances sont réactivées | (10 October 2026, 13:05:39 +0200)
