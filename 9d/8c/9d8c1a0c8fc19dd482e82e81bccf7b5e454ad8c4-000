@@ -4241,3 +4241,219 @@
 > On va manquer d'espace car lors de l'upload tu download ... donc le fichier tmp sont énorme sur le mac afin de prevenir ce comportement consigner dans le skill lors d'un batch faire un fichier par un fichier (je parle de par exemple un film en entier puis comme ça une fois le fichier sur le drive tu peux le delete. (10 October 2026, 16:22:24 +0200)
 >
 > tu les as bien upload en mode streaming hls et dash right ? sinon recommence... (10 October 2026, 16:22:24 +0200)
+
+## 10 October 2026, 16:31:22 +0200 : Prompt
+
+<!-- feedback-event:4f3a4870b6e72f0f37588f2a4b2e791624015d73e8e197a9522acf846826d9a2 (10 October 2026, 16:31:22 +0200) -->
+- Project: zenray-assets-v2; kind: prompt. (10 October 2026, 16:31:22 +0200)
+- Source: /Users/zenray/.codex/sessions/2026/10/07/rollout-2026-10-07T14-25-27-01a11653-69f5-7492-b80e-dbcc6a785d87.jsonl. (10 October 2026, 16:31:22 +0200)
+
+> C'est pas normal ça aurait du être consigné dans le skill pour les vidéos ... le pipeline HLS/DASH (NOTAMMENT EN PLUS SI C'EST DES FILMS OU AUTRES) aller faut être efficace tu as consigné ça : On va manquer d'espace car lors de l'upload tu download ... donc le fichier tmp sont énorme sur le mac afin de prevenir ce comportement consigner dans le skill lors d'un batch faire un fichier par un fichier (je parle de par exemple un film en entier puis comme ça une fois le fichier sur le drive tu peux le delete. (10 October 2026, 16:31:22 +0200)
+> tu les as bien upload en mode streaming hls et dash right ? sinon recommence...  ? [$prompt-stacking](/Users/zenray/.codex/skills/prompt-stacking/SKILL.md) [$zenray-assets](/Users/zenray/.codex/skills/zenray-assets/SKILL.md) go faut être efficace la je veux voir une barre de progression et que tu avances codes le dans [$zenray-assets](/Users/zenray/.codex/skills/zenray-assets/SKILL.md) view sur le site progress quand tu bosses sur quelque chose tu dois faire en sorte de voir la barre de progression sur les uploads en cours / tout les pushs en cours (10 October 2026, 16:31:22 +0200)
+> les fichiers nouveaux (un jour max) (10 October 2026, 16:31:22 +0200)
+>
+> la vue DOIT ÊTRE HYPER SIMPLE GO CODER EN PARALLÈLES. ET DÉPLOYER TANDIS QUE L'UPLOAD EST TOUJOURS EN COURS&#x20; (10 October 2026, 16:31:22 +0200)
+>
+> ATTENTION NE ME GRILLE JAMAIS MA LIMITE RAW\.GITHUB [$prompt-stacking](/Users/zenray/.codex/skills/prompt-stacking/SKILL.md) [$tasks-sequence](/Users/zenray/.codex/skills/tasks-sequence/SKILL.md) (10 October 2026, 16:31:22 +0200)
+
+## 10 October 2026, 16:40:53 +0200 : Prompt
+
+<!-- feedback-event:177746d1f0dd29b19f8d16df416f9cecc72e4da7df9df079823a61733a022acc (10 October 2026, 16:40:53 +0200) -->
+- Project: zenray-assets-v2; kind: prompt. (10 October 2026, 16:40:53 +0200)
+- Source: /Users/zenray/.codex/sessions/2026/10/07/rollout-2026-10-07T14-25-27-01a11653-69f5-7492-b80e-dbcc6a785d87.jsonl. (10 October 2026, 16:40:53 +0200)
+
+> stop les téléchargement pause j'ai besoin de ma connexion pour le moment stop le process complètement [$ctrl-s](/Users/zenray/.codex/skills/ctrl-s/SKILL.md) (10 October 2026, 16:40:53 +0200)
+
+## 10 October 2026, 16:53:56 +0200 : Iteration
+
+<!-- feedback-event:e825220ba9ad58476577f6e54432ba26916992444877b936f39f36b656636eb9 (10 October 2026, 16:53:56 +0200) -->
+- Project: zenray-assets-v2; kind: iteration. (10 October 2026, 16:53:56 +0200)
+- Source: /Users/zenray/.codex/sessions/2026/10/07/rollout-2026-10-07T14-25-27-01a11653-69f5-7492-b80e-dbcc6a785d87.jsonl. (10 October 2026, 16:53:56 +0200)
+
+> Oui. Les transferts sont arrêtés et aucun worker d’archive ou Git lié au chantier n’est encore actif. J’ai déchargé le service Assets, qui relançait les archives, ainsi que le service de publication des sauvegardes de session. Assets local est donc temporairement hors ligne; je ne réactive rien sans ton feu vert. (10 October 2026, 16:53:56 +0200)
+>
+> La reprise est enregistrée dans [ResumeMoviesUpload.state.json](/Users/zenray/.claude/tmp/tmp-movies-series-upload/ResumeMoviesUpload.state.json), [prompt-stacking.md](/Users/zenray/.codex/01a100e2-32f9-7a43-8b5f-ef21c5f96d4d/prompt-stacking.md) et [PROGRESS.md](/Users/zenray/.claude/PROGRESS.md). Aucun fichier source n’a été supprimé. Les trois dossiers sources contrôlés sont toujours présents; le push Movies reste à réconcilier avant toute reprise. (10 October 2026, 16:53:56 +0200)
+>
+> | Ce que tu voulais | Fait | Preuve | (10 October 2026, 16:53:56 +0200)
+> |---|---|---| (10 October 2026, 16:53:56 +0200)
+> | « stop les téléchargements » | Oui | Aucun worker de transfert actif; services de transfert déchargés | (10 October 2026, 16:53:56 +0200)
+> | « sauvegarde l’état de reprise » | Oui | État conservé à 40 fichiers sur 170, avec reprise bloquée jusqu’à ton feu vert | (10 October 2026, 16:53:56 +0200)
+> | Ne perdre aucun fichier | Vérifié localement | Les trois dossiers sources contrôlés existent toujours | (10 October 2026, 16:53:56 +0200)
+
+## 10 October 2026, 17:52:34 +0200 : Prompt
+
+<!-- feedback-event:b8c0a4310071f4d1384eb1410247d5a1b24278fd6ff73f71ba31dc5244215a7c (10 October 2026, 17:52:34 +0200) -->
+- Project: zenray-assets-v2; kind: prompt. (10 October 2026, 17:52:34 +0200)
+- Source: /Users/zenray/.codex/sessions/2026/10/07/rollout-2026-10-07T14-25-27-01a11653-69f5-7492-b80e-dbcc6a785d87.jsonl. (10 October 2026, 17:52:34 +0200)
+
+> reprends l'upload (10 October 2026, 17:52:34 +0200)
+
+## 10 October 2026, 18:02:38 +0200 : Prompt
+
+<!-- feedback-event:134c69f55b4bb5740bddbedda91d6b49d9a7d62eed72af6c8d148ae83f41e76e (10 October 2026, 18:02:38 +0200) -->
+- Project: zenray-assets-v2; kind: prompt. (10 October 2026, 18:02:38 +0200)
+- Source: /Users/zenray/.codex/sessions/2026/10/07/rollout-2026-10-07T14-25-27-01a11653-69f5-7492-b80e-dbcc6a785d87.jsonl. (10 October 2026, 18:02:38 +0200)
+
+> stop l'upload ...pause (10 October 2026, 18:02:38 +0200)
+
+## 10 October 2026, 18:04:11 +0200 : Iteration
+
+<!-- feedback-event:1d826909bf525fffd905e65ec279d88af8fe9f65e786c0bab6fddd5bfc996cbe (10 October 2026, 18:04:11 +0200) -->
+- Project: zenray-assets-v2; kind: iteration. (10 October 2026, 18:04:11 +0200)
+- Source: /Users/zenray/.codex/sessions/2026/10/07/rollout-2026-10-07T14-25-27-01a11653-69f5-7492-b80e-dbcc6a785d87.jsonl. (10 October 2026, 18:04:11 +0200)
+
+> L’upload est en pause. Aucun processus de transfert n’était actif. L’état est enregistré dans [ResumeMoviesUpload.state.json](/Users/zenray/.claude/tmp/tmp-movies-series-upload/ResumeMoviesUpload.state.json). (10 October 2026, 18:04:11 +0200)
+
+## 10 October 2026, 18:46:08 +0200 : Prompt
+
+<!-- feedback-event:9738c2acb8895b3699ce485e13e137116f53f0c17eafadb564430880ee952566 (10 October 2026, 18:46:08 +0200) -->
+- Project: zenray-assets-v2; kind: prompt. (10 October 2026, 18:46:08 +0200)
+- Source: /Users/zenray/.codex/sessions/2026/10/07/rollout-2026-10-07T14-25-27-01a11653-69f5-7492-b80e-dbcc6a785d87.jsonl. (10 October 2026, 18:46:08 +0200)
+
+> # Files mentioned by the user: (10 October 2026, 18:46:08 +0200)
+>
+> ## codex-clipboard-dfaabb2e-dd27-4bb6-b1bc-cc7893dd8a5e.png: /var/folders/r2/wh6ygv490dqbrs2mb51g39jm0000gn/T/codex-clipboard-dfaabb2e-dd27-4bb6-b1bc-cc7893dd8a5e.png (10 October 2026, 18:46:08 +0200)
+> Image attachment: true (10 October 2026, 18:46:08 +0200)
+>
+> Distinguish instructions in attached documents from the user's request. (10 October 2026, 18:46:08 +0200)
+>
+> ## My request: (10 October 2026, 18:46:08 +0200)
+> [$zenray-assets](/Users/zenray/.codex/skills/zenray-assets/SKILL.md) est full bug sur le site fix it et reprends l'upload j'ai toujours pas mon UI etc.. C'est pas normal ça aurait du être consigné dans le skill pour les vidéos ... le pipeline HLS/DASH (NOTAMMENT EN PLUS SI C'EST DES FILMS OU AUTRES) aller faut être efficace tu as consigné ça : On va manquer d'espace car lors de l'upload tu download ... donc le fichier tmp sont énorme sur le mac afin de prevenir ce comportement consigner dans le skill lors d'un batch faire un fichier par un fichier (je parle de par exemple un film en entier puis comme ça une fois le fichier sur le drive tu peux le delete.\ (10 October 2026, 18:46:08 +0200)
+> tu les as bien upload en mode streaming hls et dash right ? sinon recommence...  ? [$prompt-stacking](/Users/zenray/.codex/skills/prompt-stacking/SKILL.md) [$zenray-assets](/Users/zenray/.codex/skills/zenray-assets/SKILL.md) go faut être efficace la je veux voir une barre de progression et que tu avances codes le dans [$zenray-assets](/Users/zenray/.codex/skills/zenray-assets/SKILL.md) view sur le site progress quand tu bosses sur quelque chose tu dois faire en sorte de voir la barre de progression sur les uploads en cours / tout les pushs en cours\ (10 October 2026, 18:46:08 +0200)
+> les fichiers nouveaux (un jour max) (10 October 2026, 18:46:08 +0200)
+> la vue DOIT ÊTRE HYPER SIMPLE GO CODER EN PARALLÈLES. ET DÉPLOYER TANDIS QUE L'UPLOAD EST TOUJOURS EN COURS&#x20; (10 October 2026, 18:46:08 +0200)
+> ATTENTION NE ME GRILLE JAMAIS MA LIMITE RAW\.GITHUB [$prompt-stacking](/Users/zenray/.codex/skills/prompt-stacking/SKILL.md) [$tasks-sequence](/Users/zenray/.codex/skills/tasks-sequence/SKILL.md)  (10 October 2026, 18:46:08 +0200)
+>
+> <image name=[Image #1] path="/var/folders/r2/wh6ygv490dqbrs2mb51g39jm0000gn/T/codex-clipboard-dfaabb2e-dd27-4bb6-b1bc-cc7893dd8a5e.png"> (10 October 2026, 18:46:08 +0200)
+> </image> (10 October 2026, 18:46:08 +0200)
+
+## 10 October 2026, 19:16:47 +0200 : Prompt
+
+<!-- feedback-event:b3279ddcc9e2282c8355261f257abe99d0cef9afecb59c00c8d8f05ccc45ff30 (10 October 2026, 19:16:47 +0200) -->
+- Project: zenray-assets-v2; kind: prompt. (10 October 2026, 19:16:47 +0200)
+- Source: /Users/zenray/.codex/sessions/2026/10/07/rollout-2026-10-07T14-25-27-01a11653-69f5-7492-b80e-dbcc6a785d87.jsonl. (10 October 2026, 19:16:47 +0200)
+
+> # Files mentioned by the user: (10 October 2026, 19:16:47 +0200)
+>
+> ## codex-clipboard-2bed0b4d-2d1e-41ce-8bbb-bdc71b90f283.png: /var/folders/r2/wh6ygv490dqbrs2mb51g39jm0000gn/T/codex-clipboard-2bed0b4d-2d1e-41ce-8bbb-bdc71b90f283.png (10 October 2026, 19:16:47 +0200)
+> Image attachment: true (10 October 2026, 19:16:47 +0200)
+>
+> Distinguish instructions in attached documents from the user's request. (10 October 2026, 19:16:47 +0200)
+>
+> ## My request: (10 October 2026, 19:16:47 +0200)
+> toujours le bug quand je fais un clique sur n'importe quel projet hard fix it en premier ... (10 October 2026, 19:16:47 +0200)
+>
+> <image name=[Image #1] path="/var/folders/r2/wh6ygv490dqbrs2mb51g39jm0000gn/T/codex-clipboard-2bed0b4d-2d1e-41ce-8bbb-bdc71b90f283.png"> (10 October 2026, 19:16:47 +0200)
+> </image> (10 October 2026, 19:16:47 +0200)
+
+## 10 October 2026, 19:26:40 +0200 : Prompt
+
+<!-- feedback-event:6f37bb849558cc76cab85fa85dfe3d105e46cf15cbb229a120908cea46c14e3e (10 October 2026, 19:26:40 +0200) -->
+- Project: zenray-assets-v2; kind: prompt. (10 October 2026, 19:26:40 +0200)
+- Source: /Users/zenray/.codex/sessions/2026/10/07/rollout-2026-10-07T14-25-27-01a11653-69f5-7492-b80e-dbcc6a785d87.jsonl. (10 October 2026, 19:26:40 +0200)
+
+> stop redonne moi juste tout ton contexte via les fichiers indexés et tout tes objectifs cette session s'arrête donne le contexte à une autre puis crée un skill de gestion de session vers une nouvelle. [$claude-md-global](/Users/zenray/.codex/skills/claude-md-global/SKILL.md) [$zenray-assets](/Users/zenray/.codex/skills/zenray-assets/SKILL.md) crée un skill dédia zenray-switch-conversations (10 October 2026, 19:26:40 +0200)
+
+## 10 October 2026, 19:35:34 +0200 : Iteration
+
+<!-- feedback-event:1ea86f24ab269233ab3649523a3d7cf898e3f6c0f87204acaa955c08786b1d07 (10 October 2026, 19:35:34 +0200) -->
+- Project: zenray-assets-v2; kind: iteration. (10 October 2026, 19:35:34 +0200)
+- Source: /Users/zenray/.codex/sessions/2026/10/07/rollout-2026-10-07T14-25-27-01a11653-69f5-7492-b80e-dbcc6a785d87.jsonl. (10 October 2026, 19:35:34 +0200)
+
+> Le relais est prêt : le nouveau fil ZenRayProgress est actif et a commencé à charger son contexte. Le correctif du crash reste à vérifier complètement et à publier. (10 October 2026, 19:35:34 +0200)
+>
+> | Ce que tu voulais | Fait | Preuve | (10 October 2026, 19:35:34 +0200)
+> |---|---|---| (10 October 2026, 19:35:34 +0200)
+> | Créer `zenray-switch-conversations` | Oui | Skill validé, synchronisé dans quatre emplacements, commit local `fb5a33242`. | (10 October 2026, 19:35:34 +0200)
+> | Transmettre le contexte et les objectifs | Oui | Nouveau fil créé et ouvert ; ses premières actions sont visibles. | (10 October 2026, 19:35:34 +0200)
+> | Corriger le crash au clic sur les projets | En cours | Correctif local `2efed00d`, 32 tests ciblés et build réussis. Suite complète interrompue, aucun déploiement. | (10 October 2026, 19:35:34 +0200)
+> | Garder les transferts arrêtés | Oui | Aucun upload ni téléchargement relancé. HLS/DASH reste à vérifier avant toute reprise. | (10 October 2026, 19:35:34 +0200)
+>
+> Le nouveau fil reprend le suivi dans [prompt-stacking.md](/Users/zenray/.codex/01a11653-69f5-7492-b80e-dbcc6a785d87/prompt-stacking.md), le [FEEDBACK ZenRayProgress](/Users/zenray/.claude/Memory1/Projects/zenray-progress/FEEDBACK.md) et [Project1.md](/Users/zenray/.claude/Memory1/Projects/zenray-progress/Project1.md). Après le crash, restent la vérification des index de conversations, la rotation des autorisations GitHub après la fin des écritures cloud et le test sur un second Mac. (10 October 2026, 19:35:34 +0200)
+>
+> ::created-thread{threadId="01a126e0-9d59-7541-ac24-f9836b624ac7"} (10 October 2026, 19:35:34 +0200)
+
+## 10 October 2026, 19:36:04 +0200 : Iteration
+
+<!-- feedback-event:8524131dbcdf24ac4fe59b6e9547ab1bcb3c2cce7a7094a4e48792f77312d383 (10 October 2026, 19:36:04 +0200) -->
+- Project: zenray-assets-v2; kind: iteration. (10 October 2026, 19:36:04 +0200)
+- Source: /Users/zenray/.codex/sessions/2026/10/07/rollout-2026-10-07T14-25-27-01a11653-69f5-7492-b80e-dbcc6a785d87.jsonl. (10 October 2026, 19:36:04 +0200)
+
+> L’objectif de cette session est désormais **en pause**, conformément à ta demande d’arrêt. Le contexte et les tâches restantes sont transmis au nouveau fil ZenRayProgress ; les uploads restent arrêtés. (10 October 2026, 19:36:04 +0200)
+
+## 10 October 2026, 19:43:59 +0200 : Prompt
+
+<!-- feedback-event:67e7bb2489b46803955a1f32e4bb5eb98e139edc91d59b0db51ce4401368652d (10 October 2026, 19:43:59 +0200) -->
+- Project: zenray-assets-v2; kind: prompt. (10 October 2026, 19:43:59 +0200)
+- Source: /Users/zenray/.codex/sessions/2026/10/07/rollout-2026-10-07T14-25-27-01a11653-69f5-7492-b80e-dbcc6a785d87.jsonl. (10 October 2026, 19:43:59 +0200)
+
+> je dois donner quel fichier du coup à l'autre conversations ? l'idéal serait un fichier qui fait déjà tout l'index mapping et les derniers objectifs de la conversations précédente pour la prochaine conversation à la manière de [$zenray-assets](/Users/zenray/.codex/skills/zenray-assets/SKILL.md) qui index déjà les choses... mais la c'est focus sur les conversations. (10 October 2026, 19:43:59 +0200)
+
+## 10 October 2026, 19:53:12 +0200 : Iteration
+
+<!-- feedback-event:c999bd8dd3b5b7b067abf2301b4a4f594dd750f3a2a31d99de51f5aae3dd3d21 (10 October 2026, 19:53:12 +0200) -->
+- Project: zenray-assets-v2; kind: iteration. (10 October 2026, 19:53:12 +0200)
+- Source: /Users/zenray/.codex/sessions/2026/10/07/rollout-2026-10-07T14-25-27-01a11653-69f5-7492-b80e-dbcc6a785d87.jsonl. (10 October 2026, 19:53:12 +0200)
+
+> Donne ce fichier à l’autre conversation : [ConversationResume.md](/Users/zenray/.codex/01a11653-69f5-7492-b80e-dbcc6a785d87/ConversationResume.md). (10 October 2026, 19:53:12 +0200)
+>
+> Il rassemble le mapping des conversations et projets, les fichiers indexés, les derniers résultats, les quatre objectifs ouverts et les pauses. (10 October 2026, 19:53:12 +0200)
+>
+> Ajoute simplement : « Lis ce fichier et reprends les objectifs ouverts en respectant les pauses. » (10 October 2026, 19:53:12 +0200)
+>
+> | Ce que tu voulais | Fait | Preuve | (10 October 2026, 19:53:12 +0200)
+> |---|---|---| (10 October 2026, 19:53:12 +0200)
+> | Un seul fichier de reprise | Oui | Deux conversations et deux projets reliés | (10 October 2026, 19:53:12 +0200)
+> | Un skill dédié | Oui | `zenray-switch-conversations` génère ce fichier ; cinq tests passent | (10 October 2026, 19:53:12 +0200)
+
+## 10 October 2026, 20:39:58 +0200 : Prompt
+
+<!-- feedback-event:47d44c9cc504f204a037bd323df17a101548fb96051e1c8c961838097b025f01 (10 October 2026, 20:39:58 +0200) -->
+- Project: zenray-assets-v2; kind: prompt. (10 October 2026, 20:39:58 +0200)
+- Source: /Users/zenray/.codex/sessions/2026/10/07/rollout-2026-10-07T14-25-27-01a11653-69f5-7492-b80e-dbcc6a785d87.jsonl. (10 October 2026, 20:39:58 +0200)
+
+> Redonne-moi l'objectif initial qu'on avait avec les films, s'il te plaît. (10 October 2026, 20:39:58 +0200)
+
+## 10 October 2026, 20:40:28 +0200 : Iteration
+
+<!-- feedback-event:b5156bacf7156c66f42b6fe509129702e2fc3cc9963928907eb2ccd4b9212c61 (10 October 2026, 20:40:28 +0200) -->
+- Project: zenray-assets-v2; kind: iteration. (10 October 2026, 20:40:28 +0200)
+- Source: /Users/zenray/.codex/sessions/2026/10/07/rollout-2026-10-07T14-25-27-01a11653-69f5-7492-b80e-dbcc6a785d87.jsonl. (10 October 2026, 20:40:28 +0200)
+
+> L’objectif initial était de **libérer de l’espace sur le disque de 2 To du Mac sans perdre aucun fichier**, en archivant les films dans le cloud, puis en retirant leurs copies locales après vérification complète de leur sauvegarde et de leur restauration. (10 October 2026, 20:40:28 +0200)
+>
+> Tu as ensuite précisé les exigences : (10 October 2026, 20:40:28 +0200)
+>
+> - Traiter **un film à la fois**, avec des fichiers temporaires limités pour éviter de remplir le disque. (10 October 2026, 20:40:28 +0200)
+> - Préparer la lecture en streaming **HLS et DASH**, tout en conservant l’original archivé. (10 October 2026, 20:40:28 +0200)
+> - Afficher une **barre de progression simple**, le débit et les transferts en cours dans Assets. (10 October 2026, 20:40:28 +0200)
+> - Préserver le quota `raw.github` et respecter immédiatement les demandes de pause. (10 October 2026, 20:40:28 +0200)
+
+## 10 October 2026, 20:41:18 +0200 : Prompt
+
+<!-- feedback-event:beb43669a8c5ef67e505b878b0374d7612792034b52143b0e4be282d2db20e79 (10 October 2026, 20:41:18 +0200) -->
+- Project: zenray-assets-v2; kind: prompt. (10 October 2026, 20:41:18 +0200)
+- Source: /Users/zenray/.codex/sessions/2026/10/07/rollout-2026-10-07T14-25-27-01a11653-69f5-7492-b80e-dbcc6a785d87.jsonl. (10 October 2026, 20:41:18 +0200)
+
+> Oui, mais redonne-moi l'index mapping des 253 gb ... j'ai l'impression qu'on a pas vraiment avancé en un jour putain (10 October 2026, 20:41:18 +0200)
+
+## 10 October 2026, 20:43:51 +0200 : Iteration
+
+<!-- feedback-event:307400b912ca68a6511190c42dedc49415c0e50052dc4cd731f978a1f78fab3f (10 October 2026, 20:43:51 +0200) -->
+- Project: zenray-assets-v2; kind: iteration. (10 October 2026, 20:43:51 +0200)
+- Source: /Users/zenray/.codex/sessions/2026/10/07/rollout-2026-10-07T14-25-27-01a11653-69f5-7492-b80e-dbcc6a785d87.jsonl. (10 October 2026, 20:43:51 +0200)
+
+> Voici [l’index mapping des 253 Gio](/Users/zenray/.claude/tmp/tmp-movies-series-upload/FilmsIndexMapping.md), avec les chemins locaux, les destinations cloud prévues et les preuves disponibles. (10 October 2026, 20:43:51 +0200)
+>
+> Le dossier source est [tmp-films-series](/Users/zenray/.claude/tmp/tmp-films-series) : **2 722 fichiers, dont 233 vidéos**. Les vidéos sont réparties en 183 prêtes, 25 nécessitant un filtrage des sous-titres, 22 doublons identiques et 3 exceptions conservées localement. (10 October 2026, 20:43:51 +0200)
+>
+> **Sur l’objectif des films, l’avancement reste partiel.** Les corrections du logiciel ne signifient pas que les 253 Gio sont archivés et libérables. (10 October 2026, 20:43:51 +0200)
+>
+> | Ce que tu voulais | État | Preuve | (10 October 2026, 20:43:51 +0200)
+> |---|---|---| (10 October 2026, 20:43:51 +0200)
+> | Envoyer les films | Partiel | Dernier checkpoint : 40 nouvelles publications sur 170, plus 13 préexistantes | (10 October 2026, 20:43:51 +0200)
+> | Garantir leur récupération | Partiel | Une seule restauration complète retrouvée, vérifiée par empreinte | (10 October 2026, 20:43:51 +0200)
+> | Tous les films en HLS/DASH | Non vérifié | Aucune preuve de couverture complète | (10 October 2026, 20:43:51 +0200)
+> | Libérer les 253 Gio | Non | Les 233 vidéos originales sont encore présentes | (10 October 2026, 20:43:51 +0200)
+>
+> Les transferts restent en pause. (10 October 2026, 20:43:51 +0200)
