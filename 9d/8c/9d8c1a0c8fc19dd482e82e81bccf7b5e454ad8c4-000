@@ -4181,3 +4181,63 @@
 - Source: checkpoint:codex:01a11653-69f5-7492-b80e-dbcc6a785d87. (10 October 2026, 15:11:14 +0200)
 
 > The Films figure is 252.78 GiB allocated and 252.63 GiB logical across 2,722 files, including 233 videos totaling 252.48 GiB. The one serialized upload supervisor remains active; the latest Ready queue log shows 6/170 new manifests. Free disk is 38.14 GiB; localSourcesRemoved=False. No current full-recovery receipt is implied by manifest publication. Next: finish the main, prepared, and filtered queues, then restore and SHA-256 verify every admitted object before reviewing any local unload. The disk audit still lists Bleach and archive work folders as unverified and preserved. (10 October 2026, 15:11:14 +0200)
+
+## 10 October 2026, 15:13:58 +0200 : Iteration
+
+<!-- feedback-event:d44a4ee15be5418b2b414a532c6152e8f7b165d679b0c97e17ac66e788a0986a (10 October 2026, 15:13:58 +0200) -->
+- Project: zenray-assets-v2; kind: iteration. (10 October 2026, 15:13:58 +0200)
+- Source: checkpoint:codex:01a11653-69f5-7492-b80e-dbcc6a785d87. (10 October 2026, 15:13:58 +0200)
+
+> At 2026-10-10 15:13 CEST, the serialized film uploader is active and ResumeMoviesUpload.log records 7/170 new ready manifests. `nettop` confirmed HTTPS bytes are still moving in a short sample; free disk is 42.07 GiB, with pause threshold 12 GiB. localSourcesRemoved=False. No source removal or full restore proof is reported. Next: finish the selected queues and verify complete cloud restoration by SHA-256 before any local unload review. (10 October 2026, 15:13:58 +0200)
+
+## 10 October 2026, 15:14:43 +0200 : Iteration
+
+<!-- feedback-event:d4ea4845e4a446d930404803079c62dd5c02719d9d2c2dbc3878468350c25144 (10 October 2026, 15:14:43 +0200) -->
+- Project: zenray-assets-v2; kind: iteration. (10 October 2026, 15:14:43 +0200)
+- Source: checkpoint:codex:01a11653-69f5-7492-b80e-dbcc6a785d87. (10 October 2026, 15:14:43 +0200)
+
+> Correction to the preceding live transfer checkpoint: its time is 15:13 CEST on 10 October 2026. At that check, the serialized queue was active at 6 of 170 new Ready manifests, 38.51 GiB remained available, and no local source had been removed. The next action remains completing the queues and verifying every admitted cloud restore with full SHA-256 before any unload review. (10 October 2026, 15:14:43 +0200)
+
+## 10 October 2026, 15:15:12 +0200 : Iteration
+
+<!-- feedback-event:03d9c8568d6db30cea05a6d3f3fa976a3b1cfa1a265e083e3cd6dcfc172eaf03 (10 October 2026, 15:15:12 +0200) -->
+- Project: zenray-assets-v2; kind: iteration. (10 October 2026, 15:15:12 +0200)
+- Source: checkpoint:codex:01a11653-69f5-7492-b80e-dbcc6a785d87. (10 October 2026, 15:15:12 +0200)
+
+> The single detached uploader remains active and the ready queue has advanced to 7/170 new manifests. Free disk recovered to 42.12 GiB; macOS sleep prevention is active; localSourcesRemoved=False. The 253 GiB Films total is confirmed by allocated-block measurement; no full recovery proof is inferred from upload manifests. Next: finish the serialized main, prepared, and filtered queues, then restore each admitted cloud object and verify full SHA-256 before any unload review. (10 October 2026, 15:15:12 +0200)
+
+## 10 October 2026, 15:15:46 +0200 : Iteration
+
+<!-- feedback-event:3771367747b7765eb3145fc617d44bda1411a6e1efb7d26d3fc1b239d2480924 (10 October 2026, 15:15:46 +0200) -->
+- Project: zenray-assets-v2; kind: iteration. (10 October 2026, 15:15:46 +0200)
+- Source: /Users/zenray/.codex/sessions/2026/10/07/rollout-2026-10-07T14-25-27-01a11653-69f5-7492-b80e-dbcc6a785d87.jsonl. (10 October 2026, 15:15:46 +0200)
+
+> Les **253 Gio** sont le dossier Films, qui contient **233 vidéos** de films, séries et anime. Sa taille allouée est de **252,78 Gio**; le contenu réel pèse **252,63 Gio**, dont **252,47 Gio de vidéos**. Les 2 489 autres fichiers sont surtout des images PNG, des sous-titres et des fichiers annexes. (10 October 2026, 15:15:46 +0200)
+>
+> Le transfert continue en arrière-plan: **7 des 170 nouveaux fichiers** de la première file sont publiés. Le superviseur est actif, le Mac est maintenu éveillé et il reste **42,12 Gio** libres. Les publications ne prouvent pas encore que les fichiers sont récupérables: la restauration complète avec comparaison SHA-256 vient ensuite. Aucun original n’a été supprimé. (10 October 2026, 15:15:46 +0200)
+>
+> Les projets déjà vérifiés ont libéré **1,51 Gio nets**. Après les Films, l’audit indique encore Bleach (**72,2 Gio**) et plusieurs dossiers de travail d’archives, tous conservés tant que leur récupération n’est pas prouvée. Le suivi est dans [ /Users/zenray/.claude/tmp/tmp-zenray-disk-audit/DiskAudit.md](/Users/zenray/.claude/tmp/tmp-zenray-disk-audit/DiskAudit.md) et le plan d’envoi dans [/Users/zenray/.claude/tmp/tmp-movies-series-upload/UploadPlan.md](/Users/zenray/.claude/tmp/tmp-movies-series-upload/UploadPlan.md). (10 October 2026, 15:15:46 +0200)
+>
+> | Ce que tu voulais | Fait ? | Preuve | (10 October 2026, 15:15:46 +0200)
+> |---|---|---| (10 October 2026, 15:15:46 +0200)
+> | Comprendre les 253 Gio | Oui | 2 722 fichiers au total, dont 233 vidéos; mesures du dossier vérifiées. | (10 October 2026, 15:15:46 +0200)
+> | Continuer la sauvegarde | En cours | 7/170 nouveaux fichiers publiés; superviseur actif, 42,12 Gio libres. | (10 October 2026, 15:15:46 +0200)
+> | Alléger le disque sans perdre de fichier | En cours | 1,51 Gio déjà libérés sur des copies vérifiées; les Films et autres gros dossiers restent intacts en attente de récupération complète. | (10 October 2026, 15:15:46 +0200)
+
+## 10 October 2026, 15:49:50 +0200 : Prompt
+
+<!-- feedback-event:e771928fd7cd5f6da9c7f443d88f858f2800d4796cde0ce5b662034bec0d8b3b (10 October 2026, 15:49:50 +0200) -->
+- Project: zenray-assets-v2; kind: prompt. (10 October 2026, 15:49:50 +0200)
+- Source: /Users/zenray/.codex/sessions/2026/10/07/rollout-2026-10-07T14-25-27-01a11653-69f5-7492-b80e-dbcc6a785d87.jsonl. (10 October 2026, 15:49:50 +0200)
+
+> du coup t'en es ou si un fichier est archivé tu peux commencer à unload (10 October 2026, 15:49:50 +0200)
+
+## 10 October 2026, 16:22:24 +0200 : Prompt
+
+<!-- feedback-event:6aada0e32f96857e1ffa64cd66a7f705304197201895eb4b08ab3222314c5668 (10 October 2026, 16:22:24 +0200) -->
+- Project: zenray-assets-v2; kind: prompt. (10 October 2026, 16:22:24 +0200)
+- Source: /Users/zenray/.codex/sessions/2026/10/07/rollout-2026-10-07T14-25-27-01a11653-69f5-7492-b80e-dbcc6a785d87.jsonl. (10 October 2026, 16:22:24 +0200)
+
+> On va manquer d'espace car lors de l'upload tu download ... donc le fichier tmp sont énorme sur le mac afin de prevenir ce comportement consigner dans le skill lors d'un batch faire un fichier par un fichier (je parle de par exemple un film en entier puis comme ça une fois le fichier sur le drive tu peux le delete. (10 October 2026, 16:22:24 +0200)
+>
+> tu les as bien upload en mode streaming hls et dash right ? sinon recommence... (10 October 2026, 16:22:24 +0200)
