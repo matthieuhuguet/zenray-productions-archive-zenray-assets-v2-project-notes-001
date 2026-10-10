@@ -3991,3 +3991,20 @@
 - Source: checkpoint:codex:01a11653-69f5-7492-b80e-dbcc6a785d87. (10 October 2026, 12:08:13 +0200)
 
 > Suppression du skill alias zenray-assets-v2 dans les racines Claude, Codex et Memory ; miroir Memory synchronisé, skill zenray-assets synchronisé dans Claude/Codex/Gemini/Memory. Les références historiques et l’identifiant des données du projet restent conservés. Contrat CheckSkillContract enregistré puis vérifié, extract-rules --verify passe. Prochain : reprendre les tâches ouvertes sans restaurer l’alias. (10 October 2026, 12:08:13 +0200)
+
+## 10 October 2026, 12:17:08 +0200 : Iteration
+
+<!-- feedback-event:cd5f1c0e59a59abeb6942c11c45771ac837ae2a4fb1243c7f2f34d3e80e05ac7 (10 October 2026, 12:17:08 +0200) -->
+- Project: zenray-assets-v2; kind: iteration. (10 October 2026, 12:17:08 +0200)
+- Source: /Users/zenray/.codex/sessions/2026/10/07/rollout-2026-10-07T14-25-27-01a11653-69f5-7492-b80e-dbcc6a785d87.jsonl. (10 October 2026, 12:17:08 +0200)
+
+> Je l’avais conservé pour que les anciennes commandes soient redirigées, alors que tu avais déjà demandé sa suppression. C’était une erreur. (10 October 2026, 12:17:08 +0200)
+>
+> | Ce que tu voulais | C’est fait ? | Comment je le sais | (10 October 2026, 12:17:08 +0200)
+> |---|---|---| (10 October 2026, 12:17:08 +0200)
+> | Supprimer `zenray-assets-v2` comme skill | Oui | Son dossier a disparu des quatre emplacements de skills, et l’index a été régénéré. | (10 October 2026, 12:17:08 +0200)
+> | Garder son contenu utile dans `zenray-assets` | Oui | Le guide de migration est identique ; le guide quotidien et l’historique sont dans le skill canonique. | (10 October 2026, 12:17:08 +0200)
+> | Synchroniser et vérifier | Oui | Les copies Claude, Codex, Gemini et Memory ont la même empreinte. Le skill, son guide et le Feedback ont aussi la même empreinte locale et cloud. Le contrat Assets et `extract-rules --verify` passent. | (10 October 2026, 12:17:08 +0200)
+> | Terminer l’index de conversation | En cours | Le watcher est actif, sans erreur ni conflit ; deux index restent à synchroniser après la capture finale de ce fil. | (10 October 2026, 12:17:08 +0200)
+>
+> L’identifiant de projet `zenray-assets-v2` reste en place pour ses archives, mappings et conversations ; seul le skill est supprimé. Le catalogue affiché dans ce fil a pu être chargé avant la suppression et peut garder l’ancien nom jusqu’à son prochain rafraîchissement. (10 October 2026, 12:17:08 +0200)
