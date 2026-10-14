@@ -4457,3 +4457,53 @@
 > | Libérer les 253 Gio | Non | Les 233 vidéos originales sont encore présentes | (10 October 2026, 20:43:51 +0200)
 >
 > Les transferts restent en pause. (10 October 2026, 20:43:51 +0200)
+
+## 12 October 2026, 23:24:38 +0200 : Standing rule
+
+<!-- feedback-event:2b233b090f4e7bacb65fd8ff5d8a425ac89f0ad78416ad523576698fda14859b (12 October 2026, 23:24:38 +0200) -->
+- Project: zenray-assets-v2; kind: rule. (12 October 2026, 23:24:38 +0200)
+
+> 12 October 2026 : un push GitHub de données envoie jusqu'à 1 900 Mio (20 parts de 95 Mio, 7,2 % sous la limite appliquée de 2 Gio), lots remplis au maximum, montée par paliers 2, 4, 8, 12, 16, 20 parts depuis 8 ; échecs comptés PAR LOT : un seul est retenté à l'identique, au troisième retour à 190 Mio (2 parts) puis remontée après 3 réussites ; jamais deux pushes simultanés vers le même dépôt, le lot suivant se prépare pendant l'envoi ; on maximise le débit réel moyen. Vaut pour le service Assets comme pour les scripts Progress : un seul module, scripts/lib/push-batch-policy.mjs. (12 October 2026, 23:24:38 +0200)
+
+## 12 October 2026, 23:24:38 +0200 : Standing rule
+
+<!-- feedback-event:9163e6f1941744167760ca81cf00cb3e4ff165820341f4ea4a777e3c61d63607 (12 October 2026, 23:24:38 +0200) -->
+- Project: zenray-assets-v2; kind: rule. (12 October 2026, 23:24:38 +0200)
+
+> 12 October 2026 : dépôts d'archive plafonnés à 4 096 Mio (43 parts), films NOUVEAUX seulement ; un refus définitif passe sur un nouveau dépôt sans perte. (12 October 2026, 23:24:38 +0200)
+
+## 12 October 2026, 23:24:38 +0200 : Standing rule
+
+<!-- feedback-event:00f081ddde545e36e7c7c23ceb4151ecb6d5d01da8bd7cf1d808e25cf8b689f0 (12 October 2026, 23:24:38 +0200) -->
+- Project: zenray-assets-v2; kind: rule. (12 October 2026, 23:24:38 +0200)
+
+> 12 October 2026 : l'autorité de déchargement d'un original, y compris dans le service Assets, est la preuve par identité d'objets (manifeste en ligne, une vraie part relue, 1 film sur 8 relu en entier) ; une relecture SHA-256 complète systématique n'est plus requise ; tests verts sur un bon cas et rouges sur un cas corrompu. (12 October 2026, 23:24:38 +0200)
+
+## 13 October 2026, 13:36:18 +0200 : Prompt
+
+<!-- feedback-event:1bf4594c7cc3958b33e07ed9964244e3ece34cc24fe7edf8f815749f9c9e7d28 (13 October 2026, 13:36:18 +0200) -->
+- Project: zenray-assets-v2; kind: prompt. (13 October 2026, 13:36:18 +0200)
+- Source: antigravity:d497c75f-8809-407e-a21e-238432d044d7. (13 October 2026, 13:36:18 +0200)
+
+> J'aimerais vérifier un truc, c'est que ZenRay Assets doit lier toutes les conversations d'un projet et lier aussi la dernière conversation d'un projet pour aller reprendre les dernières instructions. [...] être agnostique en fonction du LLM utilisé, c'est-à-dire Claude, ChatGPT ou Gemini [...] vérifies que c'est déjà bien dans le skill et bien dans le code de ZenRay Assets. Et si c'est pas le cas [...] tu peux aussi améliorer le produit. (13 October 2026, 13:36:18 +0200)
+
+## 13 October 2026, 13:36:18 +0200 : Log
+
+<!-- feedback-event:c9a95fbe32c16783a7443622bdee731d933682211f9304d19a08164c58ec6334 (13 October 2026, 13:36:18 +0200) -->
+- Project: zenray-assets-v2; kind: log. (13 October 2026, 13:36:18 +0200)
+
+> Antigravity d497c75f : RESUME.md ajouté (Resume.mjs, ResumeBrief.mjs, 4 tests), BeginConversation renvoie le brief et l'imprime même service déchargé ; memoryFolder corrigé (index Louisiana écrit dans un dossier de post social) ; 21 tests verts, contrat vert, commit aaf7fa4e. Service com.zenray.assets déchargé volontairement : capture et balayage d'index à l'arrêt jusqu'à demande de Matthieu. (13 October 2026, 13:36:18 +0200)
+
+## 14 October 2026, 00:49:33 +0200 : Standing rule
+
+<!-- feedback-event:e310a5ea055636d04a7c6aaef16db9d0fdee024991e49b4bdc7e209c1db54f65 (14 October 2026, 00:49:33 +0200) -->
+- Project: zenray-assets-v2; kind: rule. (14 October 2026, 00:49:33 +0200)
+
+> 14 October 2026, POLITIQUE GITHUB EN LANGAGE NATUREL (décidée par Matthieu, mesurée sur Bleach S17E25 et E26). Pourquoi : la ligne montante de Matthieu fait environ 11 Mo/s et GitHub n'est pas ce qui limite, c'est le temps mort entre deux envois ; on cherche donc le débit réel moyen, jamais la taille d'un push pour elle-même. (1) Taille d'un envoi : un push porte 1 900 Mio, soit 20 parts chiffrées de 95 Mio, car GitHub refuse un push au-delà de 2 048 Mio (limite appliquée) et 1 900 laisse 7,2 % de marge ; le lot suivant est préparé pendant l'envoi du précédent et part dès la confirmation, mais jamais deux pushes en même temps vers le même dépôt. Mesuré : 2 pushes de 1 900 Mio à 11,1 et 11,3 Mo/s, 0 échec, contre 6,2 Mo/s avant. (2) Échecs : un échec isolé est accidentel (réseau, délai, serveur GitHub), on réessaie le même lot sans rien changer ; au troisième échec du même lot, on revient à l'ancienne règle de 190 Mio (2 parts) et on remonte par paliers 2, 4, 8, 12, 16, 20 après 3 réussites de lots pleins ; les échecs se comptent par lot, pas par fichier, parce que Git transmet un ensemble. Un push refusé pour sa taille réduit le lot et réessaie sans rien perdre. Le délai d'un push (30 min minimum) n'est qu'un garde-fou contre un envoi figé ; il s'allonge avec la taille du lot. (3) Cadence : GitHub recommande 6 pushes par minute et par dépôt au maximum ; avec des lots de 1 900 Mio on en fait un toutes les 3 minutes, très loin de cette limite. (4) Dépôts : un dépôt d'archive reçoit jusqu'à 4 096 Mio, soit 43 parts, pour deux fois moins de créations de dépôts, car ce sont les créations qui déclenchent les blocages 403 « secondary rate limit » ; uniquement pour les films nouveaux, les anciens manifestes restent lisibles tels quels. Une création bloquée attend la fin du blocage (jusqu'à 60 min) au lieu de faire échouer le film. (5) Vérification avant de décharger un original : on ne relit PAS tout le film depuis GitHub, ce serait un téléchargement massif et un ralentissement contraire au but ; la preuve par identité d'objets suffit (le manifeste est en ligne, les noms et identifiants de chaque part correspondent, une vraie part est relue et déchiffrée), et seul un échec de cette preuve déclenche une relecture complète. Aucun échantillon « 1 film sur 8 » : il vaut 0 par défaut, réglable. (6) CMAF (la copie pour le streaming) : copie directe d'abord, sinon transcodage à 16 puis 8, 4, 2 Mbit/s pour une source 4K, et 8, 4, 2 pour les autres, chaque segment restant sous 19 Mio (limite jsDelivr). (7) Où régler : un seul fichier de paramètres, scripts/lib/push-batch-policy.mjs, avec des variables d'environnement ZR_PUSH_*, et un test de garde qui échoue si un script pousse hors de cette politique. ZR_SHARD_PUSH_BATCH_MB, s'il est défini, désactive la politique (lot fixe) : ne jamais l'épingler dans un script. (14 October 2026, 00:49:33 +0200)
+
+## 14 October 2026, 00:49:33 +0200 : Standing rule
+
+<!-- feedback-event:d605bcbb6db9362b01b528a4af233a3eac3bc1fbb49d9e5095ca886a47a3eb20 (14 October 2026, 00:49:33 +0200) -->
+- Project: zenray-assets-v2; kind: rule. (14 October 2026, 00:49:33 +0200)
+
+> 14 October 2026 : correction, plus d'échantillon de relecture complète « 1 film sur 8 » (0 par défaut), preuve par identité seule ; décision de Matthieu. (14 October 2026, 00:49:33 +0200)
