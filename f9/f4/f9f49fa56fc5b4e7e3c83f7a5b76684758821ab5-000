@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "projectId": "zenray-assets-v2",
- "scannedAt": "2026-10-15T11:43:48.815Z",
+ "scannedAt": "2026-10-15T11:51:48.936Z",
  "conversations": [
   {
    "projectId": "zenray-assets-v2",
@@ -431,8 +431,8 @@
    "provider": "claude",
    "sessionId": "d2f26016-25dd-4bcc-a6d8-122d50d3f383",
    "title": "Motion Design Vector and Music",
-   "updatedAt": "2026-10-15T11:43:43.873Z",
-   "bytes": 46228453,
+   "updatedAt": "2026-10-15T11:51:39.752Z",
+   "bytes": 50808564,
    "boundProject": null
   },
   {
@@ -1039,8 +1039,8 @@
    "provider": "claude",
    "sessionId": "fa37c224-b0f7-4ffe-b1d9-73121293ef45",
    "title": "Shelf miniatures loading performance",
-   "updatedAt": "2026-10-15T11:43:08.355Z",
-   "bytes": 34485,
+   "updatedAt": "2026-10-15T11:50:19.900Z",
+   "bytes": 1941704,
    "boundProject": null
   },
   {
