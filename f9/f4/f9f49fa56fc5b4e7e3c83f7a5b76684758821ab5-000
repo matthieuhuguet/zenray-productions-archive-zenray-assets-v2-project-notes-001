@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "projectId": "zenray-assets-v2",
- "scannedAt": "2026-10-15T00:18:45.843Z",
+ "scannedAt": "2026-10-15T00:25:35.621Z",
  "conversations": [
   {
    "projectId": "zenray-assets-v2",
@@ -991,8 +991,8 @@
    "provider": "claude",
    "sessionId": "5bd15db6-f2d9-4010-bcb3-0d609a42bc5e",
    "title": "performance assets and drive",
-   "updatedAt": "2026-10-15T00:07:14.309Z",
-   "bytes": 34526,
+   "updatedAt": "2026-10-15T00:25:33.440Z",
+   "bytes": 7011628,
    "boundProject": "zenray-progress"
   },
   {
