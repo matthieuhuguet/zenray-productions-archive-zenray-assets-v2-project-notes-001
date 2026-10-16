@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "projectId": "zenray-assets-v2",
- "scannedAt": "2026-10-16T13:22:09.275Z",
+ "scannedAt": "2026-10-16T13:31:08.978Z",
  "conversations": [
   {
    "projectId": "zenray-assets-v2",
@@ -431,8 +431,8 @@
    "provider": "claude",
    "sessionId": "d2f26016-25dd-4bcc-a6d8-122d50d3f383",
    "title": "3 motion design and editing video",
-   "updatedAt": "2026-10-16T13:10:15.314Z",
-   "bytes": 22321,
+   "updatedAt": "2026-10-16T13:30:57.271Z",
+   "bytes": 209154445,
    "boundProject": null
   },
   {
@@ -1055,8 +1055,8 @@
    "provider": "claude",
    "sessionId": "d3327e82-5a7e-46d8-b6f6-bc0447663c2b",
    "title": "4 sport section",
-   "updatedAt": "2026-10-16T13:20:29.677Z",
-   "bytes": 16331725,
+   "updatedAt": "2026-10-16T13:30:33.682Z",
+   "bytes": 36626,
    "boundProject": "zenray-progress"
   },
   {
