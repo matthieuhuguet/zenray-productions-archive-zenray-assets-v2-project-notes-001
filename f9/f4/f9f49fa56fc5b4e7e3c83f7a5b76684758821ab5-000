@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "projectId": "zenray-assets-v2",
- "scannedAt": "2026-10-17T16:27:34.656Z",
+ "scannedAt": "2026-10-17T16:28:34.571Z",
  "conversations": [
   {
    "projectId": "zenray-assets-v2",
@@ -991,8 +991,8 @@
    "provider": "claude",
    "sessionId": "dc58fe08-d3b3-4c2a-a4af-b00e77409ca3",
    "title": "Plan to Google Calendar",
-   "updatedAt": "2026-10-17T16:27:09.146Z",
-   "bytes": 4612567,
+   "updatedAt": "2026-10-17T16:28:31.211Z",
+   "bytes": 39683,
    "boundProject": null
   },
   {
