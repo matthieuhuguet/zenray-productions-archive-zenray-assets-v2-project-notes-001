@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "projectId": "zenray-assets-v2",
- "scannedAt": "2026-10-18T21:01:57.442Z",
+ "scannedAt": "2026-10-18T21:25:58.427Z",
  "conversations": [
   {
    "projectId": "zenray-assets-v2",
@@ -288,7 +288,7 @@
    "sessionId": "d2f26016-25dd-4bcc-a6d8-122d50d3f383",
    "title": "3 motion design and editing video",
    "updatedAt": "2026-10-18T21:00:53.656Z",
-   "bytes": 22312,
+   "bytes": 22313,
    "boundProject": null
   },
   {
@@ -401,6 +401,22 @@
    "title": "ZENRAY ASSETS",
    "updatedAt": "2026-10-11T22:51:54.267Z",
    "bytes": 20971,
+   "boundProject": null
+  },
+  {
+   "projectId": "zenray-assets-v2",
+   "lines": 3,
+   "work": 0,
+   "prompts": 0,
+   "first": "2026-10-16T11:43:19.042Z",
+   "last": "2026-10-18T21:19:04.005Z",
+   "strength": "weak",
+   "conversationId": "claude:a3f20b1d-27ed-48e1-a0d1-5fe182c0e423",
+   "provider": "claude",
+   "sessionId": "a3f20b1d-27ed-48e1-a0d1-5fe182c0e423",
+   "title": "2 louisiana bayou video",
+   "updatedAt": "2026-10-18T21:25:57.007Z",
+   "bytes": 53937024,
    "boundProject": null
   },
   {
@@ -913,22 +929,6 @@
    "title": "Photos Project",
    "updatedAt": "2026-10-04T09:10:38.483Z",
    "bytes": 22652,
-   "boundProject": null
-  },
-  {
-   "projectId": "zenray-assets-v2",
-   "lines": 1,
-   "work": 0,
-   "prompts": 0,
-   "first": "2026-10-16T11:43:19.042Z",
-   "last": "2026-10-16T11:43:19.042Z",
-   "strength": "weak",
-   "conversationId": "claude:a3f20b1d-27ed-48e1-a0d1-5fe182c0e423",
-   "provider": "claude",
-   "sessionId": "a3f20b1d-27ed-48e1-a0d1-5fe182c0e423",
-   "title": "2 louisiana bayou video",
-   "updatedAt": "2026-10-18T21:01:51.209Z",
-   "bytes": 37492769,
    "boundProject": null
   },
   {
