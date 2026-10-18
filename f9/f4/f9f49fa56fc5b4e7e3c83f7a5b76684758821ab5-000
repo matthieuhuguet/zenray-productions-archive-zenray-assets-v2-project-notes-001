@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "projectId": "zenray-assets-v2",
- "scannedAt": "2026-10-18T18:55:54.768Z",
+ "scannedAt": "2026-10-18T19:14:54.789Z",
  "conversations": [
   {
    "projectId": "zenray-assets-v2",
@@ -319,8 +319,8 @@
    "provider": "claude",
    "sessionId": "d2f26016-25dd-4bcc-a6d8-122d50d3f383",
    "title": "3 motion design and editing video",
-   "updatedAt": "2026-10-18T18:55:54.428Z",
-   "bytes": 368497304,
+   "updatedAt": "2026-10-18T19:14:04.040Z",
+   "bytes": 22439,
    "boundProject": null
   },
   {
@@ -402,6 +402,22 @@
    "updatedAt": "2026-10-11T22:51:54.267Z",
    "bytes": 20971,
    "boundProject": null
+  },
+  {
+   "projectId": "zenray-assets-v2",
+   "lines": 2,
+   "work": 0,
+   "prompts": 0,
+   "first": "2026-10-17T14:21:27.442Z",
+   "last": "2026-10-18T19:00:34.400Z",
+   "strength": "weak",
+   "conversationId": "claude:2ce02bbc-dad5-488e-9ffc-51313c488339",
+   "provider": "claude",
+   "sessionId": "2ce02bbc-dad5-488e-9ffc-51313c488339",
+   "title": "StudioPhoto",
+   "updatedAt": "2026-10-18T19:12:52.572Z",
+   "bytes": 16613367,
+   "boundProject": "studiophoto-matthieu-17-october-2026"
   },
   {
    "projectId": "zenray-assets-v2",
@@ -978,22 +994,6 @@
    "updatedAt": "2026-10-17T20:32:28.352Z",
    "bytes": 36549,
    "boundProject": null
-  },
-  {
-   "projectId": "zenray-assets-v2",
-   "lines": 1,
-   "work": 0,
-   "prompts": 0,
-   "first": "2026-10-17T14:21:27.442Z",
-   "last": "2026-10-17T14:21:27.442Z",
-   "strength": "weak",
-   "conversationId": "claude:2ce02bbc-dad5-488e-9ffc-51313c488339",
-   "provider": "claude",
-   "sessionId": "2ce02bbc-dad5-488e-9ffc-51313c488339",
-   "title": "StudioPhoto",
-   "updatedAt": "2026-10-17T16:07:12.377Z",
-   "bytes": 36743,
-   "boundProject": "studiophoto-matthieu-17-october-2026"
   },
   {
    "projectId": "zenray-assets-v2",
