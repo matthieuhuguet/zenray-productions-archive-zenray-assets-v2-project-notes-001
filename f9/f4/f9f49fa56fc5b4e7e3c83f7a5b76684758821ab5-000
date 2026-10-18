@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "projectId": "zenray-assets-v2",
- "scannedAt": "2026-10-18T08:38:56.826Z",
+ "scannedAt": "2026-10-18T08:51:56.844Z",
  "conversations": [
   {
    "projectId": "zenray-assets-v2",
@@ -319,8 +319,8 @@
    "provider": "claude",
    "sessionId": "d2f26016-25dd-4bcc-a6d8-122d50d3f383",
    "title": "3 motion design and editing video",
-   "updatedAt": "2026-10-18T08:38:50.094Z",
-   "bytes": 282925571,
+   "updatedAt": "2026-10-18T08:51:55.884Z",
+   "bytes": 22057,
    "boundProject": null
   },
   {
