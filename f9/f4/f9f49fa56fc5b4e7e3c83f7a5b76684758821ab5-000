@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "projectId": "zenray-assets-v2",
- "scannedAt": "2026-10-20T09:36:31.739Z",
+ "scannedAt": "2026-10-20T09:57:31.775Z",
  "conversations": [
   {
    "projectId": "zenray-assets-v2",
@@ -303,8 +303,8 @@
    "provider": "claude",
    "sessionId": "a3f20b1d-27ed-48e1-a0d1-5fe182c0e423",
    "title": "UV Methodology",
-   "updatedAt": "2026-10-20T09:36:29.506Z",
-   "bytes": 224332499,
+   "updatedAt": "2026-10-20T09:57:21.125Z",
+   "bytes": 226489651,
    "boundProject": null
   },
   {
