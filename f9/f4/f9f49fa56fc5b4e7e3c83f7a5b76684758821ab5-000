@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "projectId": "zenray-assets-v2",
- "scannedAt": "2026-10-20T09:57:31.775Z",
+ "scannedAt": "2026-10-20T10:27:32.167Z",
  "conversations": [
   {
    "projectId": "zenray-assets-v2",
@@ -271,8 +271,8 @@
    "provider": "gemini",
    "sessionId": "f3054ac7-8f2b-4b39-8ca3-541e9a4c3012",
    "title": "grep zenrayfreelance context j'apply faut que je réponde quoi la ? get le context via + LE PROJET zenray-freelance et toute la data base fre",
-   "updatedAt": "2026-10-08T23:46:56.976361+00:00",
-   "bytes": 3915776,
+   "updatedAt": "2026-10-20T10:25:56.722325+00:00",
+   "bytes": 4202496,
    "boundProject": "zenray-freelance"
   },
   {
@@ -293,18 +293,18 @@
   },
   {
    "projectId": "zenray-assets-v2",
-   "lines": 21,
+   "lines": 22,
    "work": 0,
    "prompts": 0,
    "first": "2026-10-16T11:43:19.042Z",
-   "last": "2026-10-20T08:58:33.252Z",
+   "last": "2026-10-20T10:18:32.293Z",
    "strength": "weak",
    "conversationId": "claude:a3f20b1d-27ed-48e1-a0d1-5fe182c0e423",
    "provider": "claude",
    "sessionId": "a3f20b1d-27ed-48e1-a0d1-5fe182c0e423",
    "title": "UV Methodology",
-   "updatedAt": "2026-10-20T09:57:21.125Z",
-   "bytes": 226489651,
+   "updatedAt": "2026-10-20T10:26:00.599Z",
+   "bytes": 228809225,
    "boundProject": null
   },
   {
