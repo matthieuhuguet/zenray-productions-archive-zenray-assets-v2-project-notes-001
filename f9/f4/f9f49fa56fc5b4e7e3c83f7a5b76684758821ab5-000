@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "projectId": "zenray-assets-v2",
- "scannedAt": "2026-10-20T11:31:33.331Z",
+ "scannedAt": "2026-10-20T11:48:33.820Z",
  "conversations": [
   {
    "projectId": "zenray-assets-v2",
@@ -207,8 +207,8 @@
    "provider": "claude",
    "sessionId": "a3f20b1d-27ed-48e1-a0d1-5fe182c0e423",
    "title": "UV Methodology",
-   "updatedAt": "2026-10-20T11:31:21.704Z",
-   "bytes": 234054687,
+   "updatedAt": "2026-10-20T11:47:51.325Z",
+   "bytes": 40867,
    "boundProject": null
   },
   {
@@ -833,6 +833,22 @@
    "title": "Photos Project",
    "updatedAt": "2026-10-04T09:10:38.483Z",
    "bytes": 22652,
+   "boundProject": null
+  },
+  {
+   "projectId": "zenray-assets-v2",
+   "lines": 1,
+   "work": 0,
+   "prompts": 0,
+   "first": "2026-10-20T11:46:59.545Z",
+   "last": "2026-10-20T11:46:59.545Z",
+   "strength": "weak",
+   "conversationId": "claude:e404b8fe-5771-41e1-b7bb-5f6111652bf6",
+   "provider": "claude",
+   "sessionId": "e404b8fe-5771-41e1-b7bb-5f6111652bf6",
+   "title": "Consigner le sharingan",
+   "updatedAt": "2026-10-20T11:47:52.091Z",
+   "bytes": 1735474,
    "boundProject": null
   },
   {
