@@ -4507,3 +4507,10 @@
 - Project: zenray-assets-v2; kind: rule. (14 October 2026, 00:49:33 +0200)
 
 > 14 October 2026 : correction, plus d'échantillon de relecture complète « 1 film sur 8 » (0 par défaut), preuve par identité seule ; décision de Matthieu. (14 October 2026, 00:49:33 +0200)
+
+## 20 October 2026, 13:24:03 +0200 : Iteration
+
+<!-- feedback-event:cf0c70c1c58a2e7cca3c8f90c9408562396950e751ef88ec19fa94b1030779d0 (20 October 2026, 13:24:03 +0200) -->
+- Project: zenray-assets-v2; kind: iteration. (20 October 2026, 13:24:03 +0200)
+
+> Vue « Liens projets » ajoutée dans ZenRay Assets (chip à côté de Projets / Conversations) : une ligne par projet avec ses conversations liées, dépliable. Code : src/lib/assetsBindings.js, AssetsTube.jsx/css. 5 tests verts, build OK, pas encore déployé. (20 October 2026, 13:24:03 +0200)
