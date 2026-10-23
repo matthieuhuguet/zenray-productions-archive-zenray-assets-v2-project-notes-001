@@ -1,4 +1,5 @@
-# zenray-assets-v2 : rules, append only (12 October 2026)
+# zenray-assets-v2 : rules, append only (23 October 2026)
 
-Standing rules of this project, one line each, loaded automatically at session start. Full history and context: FEEDBACK.md in this folder. A rule that changes gets a new line citing the old one. (12 October 2026)
+Standing rules of this project, one line each, loaded automatically at session start. Full history and context: FEEDBACK.md in this folder. A rule that changes gets a new line citing the old one. (23 October 2026)
 
+- 23 October 2026 : un lecteur de transcripts JSONL ne coupe QUE sur le saut de ligne nu (0x0A) : jamais node:readline, qui scinde aussi sur U+2028 et sur un CR isolé alors que les transcripts portent des U+2028 bruts dans des chaînes JSON valides ; le curseur en octets avance de la largeur exacte lue (scripts/lib/jsonl-lines.mjs), jamais de byteLength(ligne)+1, et une fin sans saut de ligne reste non lue. (23 October 2026) (23 October 2026) <!-- rule:7d91df89a120 -->
