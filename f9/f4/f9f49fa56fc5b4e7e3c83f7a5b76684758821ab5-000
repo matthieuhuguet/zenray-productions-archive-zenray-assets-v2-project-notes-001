@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "projectId": "zenray-assets-v2",
- "scannedAt": "2026-10-23T19:07:26.718Z",
+ "scannedAt": "2026-10-23T19:22:28.478Z",
  "conversations": [
   {
    "projectId": "zenray-assets-v2",
@@ -158,8 +158,8 @@
    "conversationId": "gemini:f3054ac7-8f2b-4b39-8ca3-541e9a4c3012",
    "provider": "gemini",
    "sessionId": "f3054ac7-8f2b-4b39-8ca3-541e9a4c3012",
-   "title": "Conversation Gemini f3054ac7",
-   "updatedAt": "2026-10-20T13:13:15.692Z",
+   "title": "grep zenrayfreelance context j'apply faut que je réponde quoi la ? get le context via + LE PROJET zenray-freelance et toute la data base fre",
+   "updatedAt": "2026-10-20T13:12:33.459110+00:00",
    "bytes": 9568256,
    "boundProject": "zenray-freelance"
   },
@@ -207,8 +207,8 @@
    "provider": "claude",
    "sessionId": "d2f26016-25dd-4bcc-a6d8-122d50d3f383",
    "title": "zenray motion design",
-   "updatedAt": "2026-10-23T19:07:26.175Z",
-   "bytes": 493618317,
+   "updatedAt": "2026-10-23T19:21:37.994Z",
+   "bytes": 22405,
    "boundProject": null
   },
   {
@@ -399,8 +399,8 @@
    "provider": "claude",
    "sessionId": "7e127e64-f68b-4058-b7bb-62c6b86d72ba",
    "title": "zenray sales",
-   "updatedAt": "2026-10-23T19:00:05.944Z",
-   "bytes": 40359,
+   "updatedAt": "2026-10-23T19:08:40.874Z",
+   "bytes": 40322,
    "boundProject": "zenray-plan"
   },
   {
@@ -447,9 +447,9 @@
    "provider": "claude",
    "sessionId": "11264bd4-8a19-4e76-b9be-dc012304e419",
    "title": "zenray knowledge",
-   "updatedAt": "2026-10-23T19:02:32.453Z",
-   "bytes": 38458,
-   "boundProject": null
+   "updatedAt": "2026-10-23T19:13:34.107Z",
+   "bytes": 38265,
+   "boundProject": "zenray-knowledge-23-october-2026"
   },
   {
    "projectId": "zenray-assets-v2",
