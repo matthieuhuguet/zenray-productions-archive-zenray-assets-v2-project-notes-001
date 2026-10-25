@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "projectId": "zenray-assets-v2",
- "scannedAt": "2026-10-25T17:09:49.478Z",
+ "scannedAt": "2026-10-25T17:12:49.474Z",
  "conversations": [
   {
    "projectId": "zenray-assets-v2",
@@ -344,6 +344,22 @@
    "lines": 7,
    "work": 0,
    "prompts": 0,
+   "first": "2026-10-25T14:43:32.510Z",
+   "last": "2026-10-25T17:11:51.311Z",
+   "strength": "weak",
+   "conversationId": "claude:09d15ec8-88ad-4965-a2f0-80b68515e880",
+   "provider": "claude",
+   "sessionId": "09d15ec8-88ad-4965-a2f0-80b68515e880",
+   "title": "zenray meshes",
+   "updatedAt": "2026-10-25T17:12:44.592Z",
+   "bytes": 10268066,
+   "boundProject": "zenray-meshes"
+  },
+  {
+   "projectId": "zenray-assets-v2",
+   "lines": 7,
+   "work": 0,
+   "prompts": 0,
    "first": "2026-10-22T10:36:25.328Z",
    "last": "2026-10-22T17:55:52.346Z",
    "strength": "weak",
@@ -370,22 +386,6 @@
    "updatedAt": "2026-10-15T18:45:10.638Z",
    "bytes": 30696,
    "boundProject": null
-  },
-  {
-   "projectId": "zenray-assets-v2",
-   "lines": 5,
-   "work": 0,
-   "prompts": 0,
-   "first": "2026-10-25T14:43:32.510Z",
-   "last": "2026-10-25T16:39:40.710Z",
-   "strength": "weak",
-   "conversationId": "claude:09d15ec8-88ad-4965-a2f0-80b68515e880",
-   "provider": "claude",
-   "sessionId": "09d15ec8-88ad-4965-a2f0-80b68515e880",
-   "title": "zenray meshes",
-   "updatedAt": "2026-10-25T17:09:23.124Z",
-   "bytes": 10016406,
-   "boundProject": "zenray-meshes"
   },
   {
    "projectId": "zenray-assets-v2",
