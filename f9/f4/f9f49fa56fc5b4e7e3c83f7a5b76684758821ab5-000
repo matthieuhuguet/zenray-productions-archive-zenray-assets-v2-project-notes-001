@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "projectId": "zenray-assets-v2",
- "scannedAt": "2026-10-26T12:15:47.577Z",
+ "scannedAt": "2026-10-26T12:43:14.779Z",
  "conversations": [
   {
    "projectId": "zenray-assets-v2",
@@ -127,8 +127,8 @@
    "provider": "codex",
    "sessionId": "01a1779c-e438-78e2-a3df-a723e47de83f",
    "title": "Conversation codex 01a1779c",
-   "updatedAt": "2026-10-26T12:02:56.083Z",
-   "bytes": 10553887,
+   "updatedAt": "2026-10-26T12:13:31.426Z",
+   "bytes": 10616109,
    "boundProject": "zenray-calendar-plan-23-october-2026"
   },
   {
@@ -158,8 +158,8 @@
    "conversationId": "gemini:f3054ac7-8f2b-4b39-8ca3-541e9a4c3012",
    "provider": "gemini",
    "sessionId": "f3054ac7-8f2b-4b39-8ca3-541e9a4c3012",
-   "title": "grep zenrayfreelance context j'apply faut que je réponde quoi la ? get le context via + LE PROJET zenray-freelance et toute la data base fre",
-   "updatedAt": "2026-10-20T13:12:33.459110+00:00",
+   "title": "Conversation Gemini f3054ac7",
+   "updatedAt": "2026-10-20T13:13:15.692Z",
    "bytes": 9568256,
    "boundProject": "zenray-freelance"
   },
@@ -181,18 +181,18 @@
   },
   {
    "projectId": "zenray-assets-v2",
-   "lines": 76,
+   "lines": 79,
    "work": 0,
    "prompts": 0,
    "first": "2026-10-25T14:43:32.510Z",
-   "last": "2026-10-26T11:51:38.092Z",
+   "last": "2026-10-26T12:36:21.704Z",
    "strength": "weak",
    "conversationId": "claude:09d15ec8-88ad-4965-a2f0-80b68515e880",
    "provider": "claude",
    "sessionId": "09d15ec8-88ad-4965-a2f0-80b68515e880",
    "title": "zenray meshes",
-   "updatedAt": "2026-10-26T12:12:15.175Z",
-   "bytes": 386405896,
+   "updatedAt": "2026-10-26T12:38:45.112Z",
+   "bytes": 390495713,
    "boundProject": "zenray-meshes"
   },
   {
@@ -392,6 +392,22 @@
    "lines": 6,
    "work": 0,
    "prompts": 0,
+   "first": "2026-10-26T08:47:05.520Z",
+   "last": "2026-10-26T12:12:41.158Z",
+   "strength": "weak",
+   "conversationId": "claude:38575095-b716-47ed-af1d-bf22b8ff30eb",
+   "provider": "claude",
+   "sessionId": "38575095-b716-47ed-af1d-bf22b8ff30eb",
+   "title": "zenray freelance",
+   "updatedAt": "2026-10-26T12:38:51.479Z",
+   "bytes": 15262404,
+   "boundProject": "zenray-calendar-plan-23-october-2026"
+  },
+  {
+   "projectId": "zenray-assets-v2",
+   "lines": 6,
+   "work": 0,
+   "prompts": 0,
    "first": "2026-10-14T11:34:59.327Z",
    "last": "2026-10-15T13:12:56.448Z",
    "strength": "weak",
@@ -449,22 +465,6 @@
    "title": "ZENRAY ASSETS",
    "updatedAt": "2026-10-11T22:51:54.267Z",
    "bytes": 20972,
-   "boundProject": null
-  },
-  {
-   "projectId": "zenray-assets-v2",
-   "lines": 4,
-   "work": 0,
-   "prompts": 0,
-   "first": "2026-10-26T08:47:05.520Z",
-   "last": "2026-10-26T10:18:29.109Z",
-   "strength": "weak",
-   "conversationId": "claude:38575095-b716-47ed-af1d-bf22b8ff30eb",
-   "provider": "claude",
-   "sessionId": "38575095-b716-47ed-af1d-bf22b8ff30eb",
-   "title": "zenray freelance",
-   "updatedAt": "2026-10-26T10:44:43.512Z",
-   "bytes": 38454,
    "boundProject": null
   },
   {
