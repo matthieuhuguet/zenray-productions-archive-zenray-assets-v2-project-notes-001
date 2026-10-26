@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "projectId": "zenray-assets-v2",
- "scannedAt": "2026-10-26T12:43:14.779Z",
+ "scannedAt": "2026-10-26T12:48:48.040Z",
  "conversations": [
   {
    "projectId": "zenray-assets-v2",
@@ -158,8 +158,8 @@
    "conversationId": "gemini:f3054ac7-8f2b-4b39-8ca3-541e9a4c3012",
    "provider": "gemini",
    "sessionId": "f3054ac7-8f2b-4b39-8ca3-541e9a4c3012",
-   "title": "Conversation Gemini f3054ac7",
-   "updatedAt": "2026-10-20T13:13:15.692Z",
+   "title": "grep zenrayfreelance context j'apply faut que je réponde quoi la ? get le context via + LE PROJET zenray-freelance et toute la data base fre",
+   "updatedAt": "2026-10-20T13:12:33.459110+00:00",
    "bytes": 9568256,
    "boundProject": "zenray-freelance"
   },
@@ -191,8 +191,8 @@
    "provider": "claude",
    "sessionId": "09d15ec8-88ad-4965-a2f0-80b68515e880",
    "title": "zenray meshes",
-   "updatedAt": "2026-10-26T12:38:45.112Z",
-   "bytes": 390495713,
+   "updatedAt": "2026-10-26T12:43:56.632Z",
+   "bytes": 391635860,
    "boundProject": "zenray-meshes"
   },
   {
@@ -399,8 +399,8 @@
    "provider": "claude",
    "sessionId": "38575095-b716-47ed-af1d-bf22b8ff30eb",
    "title": "zenray freelance",
-   "updatedAt": "2026-10-26T12:38:51.479Z",
-   "bytes": 15262404,
+   "updatedAt": "2026-10-26T12:40:51.629Z",
+   "bytes": 38632,
    "boundProject": "zenray-calendar-plan-23-october-2026"
   },
   {
