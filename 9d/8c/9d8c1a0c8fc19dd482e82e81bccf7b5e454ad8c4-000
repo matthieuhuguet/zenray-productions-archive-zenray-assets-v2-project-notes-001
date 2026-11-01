@@ -4521,3 +4521,32 @@
 - Project: zenray-assets-v2; kind: rule. (23 October 2026, 19:55:37 +0200)
 
 > 23 October 2026 : un lecteur de transcripts JSONL ne coupe QUE sur le saut de ligne nu (0x0A) : jamais node:readline, qui scinde aussi sur U+2028 et sur un CR isolé alors que les transcripts portent des U+2028 bruts dans des chaînes JSON valides ; le curseur en octets avance de la largeur exacte lue (scripts/lib/jsonl-lines.mjs), jamais de byteLength(ligne)+1, et une fin sans saut de ligne reste non lue. (23 October 2026) (23 October 2026, 19:55:37 +0200)
+
+## 1 November 2026, 16:13:38 +0100 : Standing rule
+
+<!-- feedback-event:650683b3d5baabd14df545b605c8c2110b4993dd83036dcc23c83f697371479a (1 November 2026, 16:13:38 +0100) -->
+- Project: zenray-assets-v2; kind: rule. (1 November 2026, 16:13:38 +0100)
+
+> 1 November 2026 : chaque projet ou TMP possède une synthèse HTML illustrée et horodatée ; inventaire compact issu d Assets, résumé neutre, SVG/HTML et diagrammes utiles, date et heure de chaque entrée, historique conservé et actualisation à chaque modification. Contrat : /Users/zenray/.claude/skills/zenray-edit/references/ProjectSynthesis.md. FEEDBACK garde les demandes, Rules les consignes ; éviter la redite dans Project1.md, conserver ses dépendances tant que la migration est non vérifiée. Consignation de méthode, automatisation universelle non implémentée par cette intervention. (1 November 2026, 16:13:38 +0100)
+
+## 1 November 2026, 16:14:34 +0100 : Log
+
+<!-- feedback-event:e790a838f9b61323d8ad504073eaf681dae8da5f38204aab7bc2484dae45cb14 (1 November 2026, 16:14:34 +0100) -->
+- Project: zenray-assets-v2; kind: log. (1 November 2026, 16:14:34 +0100)
+
+> 1 November 2026 : consignation vérifiée dans CLAUDE.md, les règles mémoire et projets, zenray-assets et zenray-edit. ProjectSynthesis.md contient 8 sections. Copies Codex et Memory identiques. BeginConversation a expiré : liaison de session et sauvegarde cloud non confirmées. CheckSkillContract signale avant intervention src/fonts.css modifié ; aucune nouvelle empreinte de logiciel non vérifié enregistrée. (1 November 2026, 16:14:34 +0100)
+
+## 1 November 2026, 19:59:33 +0100 : Log
+
+<!-- feedback-event:3a7d88dd2f78dd343be3fe3f082f0207ce3f1adb0db8738b408f26eb166ae109 (1 November 2026, 19:59:33 +0100) -->
+- Project: zenray-assets-v2; kind: log. (1 November 2026, 19:59:33 +0100)
+
+> 1 November 2026 : correctifs vérifiés par 156 tests et build : verrou PID réutilisé sans tuer le processus système, clones superficiels indépendants, index des références partagé par projet et plafond V8 configurable. Dashboard réel 191 ms. Premier transfert complet 50,7 s, aucune erreur de vérification. Les envois restants continuent dans la file, ils ne sont pas encore déclarés terminés. (1 November 2026, 19:59:33 +0100)
+
+## 1 November 2026, 20:05:32 +0100 : Iteration
+
+<!-- feedback-event:3e7a3a579807f4077076742f4dd8e4d0bffc299503130ff50c28c4a815719a86 (1 November 2026, 20:05:32 +0100) -->
+- Project: zenray-assets-v2; kind: iteration. (1 November 2026, 20:05:32 +0100)
+- Source: checkpoint:codex:01a1977d-1eef-7101-ab27-b8d1bd35afcf. (1 November 2026, 20:05:32 +0100)
+
+> Mounty retiré. Bright fonctionne selon Matthieu ; synthèse HTML et mapping isolés dans Create/Build/ZenRayBright, article déclaré et rafraîchi automatiquement. Correctifs Assets : PID réutilisé, clones superficiels, index scènes mutualisé, plafond V8 et secours API pour vignettes. 156 + 11 tests verts, build et contrat concordants. Prochain : finir contrôle des reçus cloud Bright et des trois projets en erreur, sans déclarer la totalité du retard envoyée. (1 November 2026, 20:05:32 +0100)
