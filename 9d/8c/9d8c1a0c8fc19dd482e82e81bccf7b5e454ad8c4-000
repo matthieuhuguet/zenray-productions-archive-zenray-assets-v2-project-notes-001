@@ -4550,3 +4550,17 @@
 - Source: checkpoint:codex:01a1977d-1eef-7101-ab27-b8d1bd35afcf. (1 November 2026, 20:05:32 +0100)
 
 > Mounty retiré. Bright fonctionne selon Matthieu ; synthèse HTML et mapping isolés dans Create/Build/ZenRayBright, article déclaré et rafraîchi automatiquement. Correctifs Assets : PID réutilisé, clones superficiels, index scènes mutualisé, plafond V8 et secours API pour vignettes. 156 + 11 tests verts, build et contrat concordants. Prochain : finir contrôle des reçus cloud Bright et des trois projets en erreur, sans déclarer la totalité du retard envoyée. (1 November 2026, 20:05:32 +0100)
+
+## 1 November 2026, 22:00:30 +0100 : Prompt
+
+<!-- feedback-event:b913eed0854a70b19c93fb822ac8f607c4fe6cfca020b0b52cf9da51fa9b91b5 (1 November 2026, 22:00:30 +0100) -->
+- Project: zenray-assets-v2; kind: prompt. (1 November 2026, 22:00:30 +0100)
+
+> est que tu peux quitter assets ? Actuellement, j’ai un problème sur Zenrea 7, c’est que j’ai pas de bouton pour quitter le service et j’aimerais rajouter cette option. Et je le vois même pas dans Activity Monitor. Et du coup, j’aimerais rajouter le fait que ce soit une vraie application, sans doute un .app, pour pouvoir justement le quitter et éviter d’avoir des variations et des fluctuations au niveau du réseau, parce que quand il push, ça me détruit mes millisecondes en termes de réaction par rapport à ma connexion Wi-Fi. Donc si tu peux changer ça, ce serait parfait. (1 November 2026, 22:00:30 +0100)
+
+## 1 November 2026, 22:00:30 +0100 : Log
+
+<!-- feedback-event:39ffd7b69d40559d23b9e56f80a9cc2b67f825c6dbab18db759b70cf3f7f7f99 (1 November 2026, 22:00:30 +0100) -->
+- Project: zenray-assets-v2; kind: log. (1 November 2026, 22:00:30 +0100)
+
+> 1 November 2026 : Assets arrêté à la demande ; application native installée avec bouton Quitter, Dock et ⌘Q. Quitter arrête le service et ses transferts ; la fermeture forcée est surveillée. Démarrage manuel, aucun retour à la connexion. 12 tests et 14 fixtures natives passent ; cycle natif start/stop avec service fictif finit en code 0. Les envois restent arrêtés. (1 November 2026, 22:00:30 +0100)
