@@ -4987,3 +4987,14 @@
 > Vérifie si la réparation du service Assets et la publication de la synthèse 007 First Light de cette conversation sont achevées avec preuves. Si une exécution est en cours, laisse-la continuer sans doublon. Sinon reprends le dernier état vérifié et poursuis correction, tests de reprise et publication cloud. Reste silencieux tant que rien ne change ; signale seulement achèvement, échec ou action requise. Arrête ce surveillant à la fin. (3 November 2026, 17:38:25 +0100)
 >   </instructions> (3 November 2026, 17:38:25 +0100)
 > </heartbeat> (3 November 2026, 17:38:25 +0100)
+
+
+## 3 November 2026, 19:03:51 +0100 : Prompt
+
+- Project: zenray-assets-v2; kind: prompt. (3 November 2026, 19:03:51 +0100)
+
+> +dans assets je vois pas le fallback cloud scindé en github / googledrive donc code le dans le widgets et les notifs avec la speed sinon c'est flou et sur progress il faut aussi m'indiquer ce qui est fallback depuis github ou gdrive + couleurs associé go violet pour github bleu #3286ffpour gdrive go Ce que je veux dire dans ma tête, c'est qu'on ne comprend pas forcément la différence entre tout ce qui existe, en fait. Donc il faut faire en sorte que ce soit clair. notamment sur Progress en termes d'UI. (3 November 2026, 19:03:51 +0100)
+- Règles extraites :
+  1. Scinder explicitement le Cloud / Fallback en deux canaux distincts partout (Widget macOS `ZenRay Assets.app`, Notifications macOS, et `ZenRayProgress` Web UI dans `Assets` et `Create`) : **GitHub** d'un côté, **Google Drive** de l'autre, avec leur vitesse (`speed`) et leurs compteurs respectifs.
+  2. Code couleur obligatoire et unifié : **Violet (`#8B5CF6` / `#7C3AED`) pour GitHub**, **Bleu `#3286ff` pour Google Drive**, et Vert Émeraude (`#10B981`) pour le Mac local (Source 1re de vérité).
+  3. Rendre la différence entre tout ce qui existe immédiatement lisible sur `ZenRayProgress` (`Mac · Vérité locale` vs `GitHub · Cloud / Fallback` en violet vs `Google Drive · Fallback 5 To` en `#3286ff`). (3 November 2026, 19:03:51 +0100)
