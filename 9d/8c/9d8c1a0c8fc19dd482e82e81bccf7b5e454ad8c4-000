@@ -4998,3 +4998,13 @@
   1. Scinder explicitement le Cloud / Fallback en deux canaux distincts partout (Widget macOS `ZenRay Assets.app`, Notifications macOS, et `ZenRayProgress` Web UI dans `Assets` et `Create`) : **GitHub** d'un côté, **Google Drive** de l'autre, avec leur vitesse (`speed`) et leurs compteurs respectifs.
   2. Code couleur obligatoire et unifié : **Violet (`#8B5CF6` / `#7C3AED`) pour GitHub**, **Bleu `#3286ff` pour Google Drive**, et Vert Émeraude (`#10B981`) pour le Mac local (Source 1re de vérité).
   3. Rendre la différence entre tout ce qui existe immédiatement lisible sur `ZenRayProgress` (`Mac · Vérité locale` vs `GitHub · Cloud / Fallback` en violet vs `Google Drive · Fallback 5 To` en `#3286ff`). (3 November 2026, 19:03:51 +0100)
+
+## 3 November 2026, 19:32:24 +0100 : Prompt
+
+- Project: zenray-assets-v2; kind: prompt. (3 November 2026, 19:32:24 +0100)
+
+> Oui, sauf qu'il n'y a toujours pas la distinction entre Gdrive et GitHub sur l'UI. Est-ce que tu peux te dépêcher, s'il te plaît? On voit toujours pas la différence en fait entre les fichiers qui sont sur le cloud GitHub et les fichiers qui sont sur le cloud Gdrive. Et d'ailleurs, j'ai l'impression que t'as pas fait la sauvegarde sur le drive sur Gdrive en fait. dans l'UI ni dans les notifications ... (3 November 2026, 19:32:24 +0100)
+- Règles et causes prouvées :
+  1. Le processus `ZenRayAssets` en mémoire (PID `42463`, lancé à `16:27:15`) n'avait pas été relancé après la recompilation de `main.swift` par `Install.mjs` (`Verify.mjs` ne lance qu'une instance éphémère `--verify-live`). Il faut toujours tuer et relancer l'application `ZenRay Assets.app` active en barre de menus après `Install.mjs`.
+  2. La barre d'onglets du widget doit afficher explicitement `Tout | Mac | GitHub | GDrive` (et non `Cloud`), avec 3 briques par projet (`Mac` vert `#10B981`, `GitHub` violet `#8B5CF6`, `GDrive` bleu `#3286ff`) et les vitesses/compteurs en direct dans le widget ET les notifications macOS.
+  3. Le daemon `FallbackRunner.mjs` doit traiter les projets par taille croissante et sauvegarder l'état tous les 20 fichiers pour que les compteurs `GDrive` et la vitesse d'upload Google Drive progressent en temps réel sur tous les projets visibles en tête du widget. (3 November 2026, 19:32:24 +0100)
