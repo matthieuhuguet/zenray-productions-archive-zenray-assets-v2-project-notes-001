@@ -6318,3 +6318,19 @@
 - Source: checkpoint:codex:01a1a1b0-2ed1-7783-8103-99285b9b3355. (5 November 2026, 00:22:15 +0100)
 
 > Synthèse 007 publiée : workshop:Articles/index.html, SHA256 20713a0d4968aab0b64cd6f7d5a1b2b4d5a625eb0c0c41ffaec271523fd2a3c5. Quatre manifestes cloud relus et comparés : deux HTML, IndexMapping et ProjectInfo. Neuf tests de reprise, fixtures natives et rendus 1440/390 vérifiés le 4 November. Correctif intégré origin/main ccde3223. Le contrat courant indique trois modifications natives ultérieures hors de cette validation. Partie jouable 007 non vérifiée. Prochain : publication terminée. (5 November 2026, 00:22:15 +0100)
+
+## 5 November 2026, 00:22:33 +0100 : Iteration
+
+<!-- feedback-event:ed777aa2bfb0c158d0c845491af8f6016eab5ea0e75882fb0f18866f3c24e8fe (5 November 2026, 00:22:33 +0100) -->
+- Project: zenray-assets-v2; kind: iteration. (5 November 2026, 00:22:33 +0100)
+- Source: /Users/zenray/.codex/sessions/2026/11/03/rollout-2026-11-03T14-54-00-01a1a1b0-2ed1-7783-8103-99285b9b3355.jsonl. (5 November 2026, 00:22:33 +0100)
+
+> La [synthèse de 007 First Light est publiée dans Assets](https://zenray-progress.pages.dev/?project=007-first-light-crossover-3-november-2026). Le surveillant est arrêté. (5 November 2026, 00:22:33 +0100)
+>
+> | Ce que tu voulais | Fait | Comment je le sais | (5 November 2026, 00:22:33 +0100)
+> |---|---|---| (5 November 2026, 00:22:33 +0100)
+> | Corriger le service indisponible | Fait | 9 tests réussis, vraie relance après crash, service accessible | (5 November 2026, 00:22:33 +0100)
+> | Publier la synthèse | Fait | Article lié, 2 schémas 1080p, affichage mobile vérifié | (5 November 2026, 00:22:33 +0100)
+> | Sauvegarder les documents | Fait | 4 empreintes locales identiques aux manifestes cloud | (5 November 2026, 00:22:33 +0100)
+>
+> L’arrivée dans une partie jouable de 007 reste non vérifiée. (5 November 2026, 00:22:33 +0100)
