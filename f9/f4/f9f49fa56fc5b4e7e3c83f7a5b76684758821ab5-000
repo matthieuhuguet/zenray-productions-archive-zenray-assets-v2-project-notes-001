@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "projectId": "zenray-assets-v2",
- "scannedAt": "2026-11-04T10:17:23.935Z",
+ "scannedAt": "2026-11-04T12:48:35.788Z",
  "conversations": [
   {
    "projectId": "zenray-assets-v2",
@@ -21,18 +21,18 @@
   },
   {
    "projectId": "zenray-assets-v2",
-   "lines": 12,
-   "work": 6,
+   "lines": 34,
+   "work": 16,
    "prompts": 1,
    "first": "2026-11-03T13:54:15.198Z",
-   "last": "2026-11-03T14:24:58.262Z",
+   "last": "2026-11-04T12:43:50.958Z",
    "strength": "strong",
    "conversationId": "codex:01a1a1b0-2ed1-7783-8103-99285b9b3355",
    "provider": "codex",
    "sessionId": "01a1a1b0-2ed1-7783-8103-99285b9b3355",
    "title": "Conversation codex 01a1a1b0",
-   "updatedAt": "2026-11-03T22:15:21.628Z",
-   "bytes": 3524009,
+   "updatedAt": "2026-11-04T12:46:01.707Z",
+   "bytes": 4613376,
    "boundProject": "zenray-assets-v2"
   },
   {
@@ -136,6 +136,22 @@
    "lines": 2,
    "work": 1,
    "prompts": 0,
+   "first": "2026-11-04T12:38:42.044Z",
+   "last": "2026-11-04T12:38:52.346Z",
+   "strength": "weak",
+   "conversationId": "codex:01a1a691-55c4-73a3-a025-e5c27cecd60f",
+   "provider": "codex",
+   "sessionId": "01a1a691-55c4-73a3-a025-e5c27cecd60f",
+   "title": "Conversation codex 01a1a691",
+   "updatedAt": "2026-11-04T12:44:00.866Z",
+   "bytes": 1096243,
+   "boundProject": "conversation-codex-6d94c3fb52595cbb57e02bf5"
+  },
+  {
+   "projectId": "zenray-assets-v2",
+   "lines": 2,
+   "work": 1,
+   "prompts": 0,
    "first": "2026-10-28T19:52:42.731Z",
    "last": "2026-10-28T19:52:42.732Z",
    "strength": "weak",
@@ -158,8 +174,8 @@
    "conversationId": "gemini:f3054ac7-8f2b-4b39-8ca3-541e9a4c3012",
    "provider": "gemini",
    "sessionId": "f3054ac7-8f2b-4b39-8ca3-541e9a4c3012",
-   "title": "Conversation Gemini f3054ac7",
-   "updatedAt": "2026-10-20T13:13:15.692Z",
+   "title": "grep zenrayfreelance context j'apply faut que je réponde quoi la ? get le context via + LE PROJET zenray-freelance et toute la data base fre",
+   "updatedAt": "2026-10-20T13:12:33.459110+00:00",
    "bytes": 9568256,
    "boundProject": "zenray-freelance"
   },
@@ -224,7 +240,7 @@
    "sessionId": "d2f26016-25dd-4bcc-a6d8-122d50d3f383",
    "title": "zenray motion design",
    "updatedAt": "2026-10-26T18:52:22.994Z",
-   "bytes": 22509,
+   "bytes": 22576,
    "boundProject": null
   },
   {
@@ -641,6 +657,38 @@
    "title": "Assets : capture bloquée par U+2028 dans un transcript",
    "updatedAt": "2026-10-23T18:04:43.904Z",
    "bytes": 41814,
+   "boundProject": null
+  },
+  {
+   "projectId": "zenray-assets-v2",
+   "lines": 2,
+   "work": 0,
+   "prompts": 0,
+   "first": "2026-11-04T12:10:30.695Z",
+   "last": "2026-11-04T12:10:30.695Z",
+   "strength": "weak",
+   "conversationId": "claude:a1fda4e5-399d-437b-9e9e-c21bc6b9973f",
+   "provider": "claude",
+   "sessionId": "a1fda4e5-399d-437b-9e9e-c21bc6b9973f",
+   "title": "Skill ZenRay Build Nintendo Games",
+   "updatedAt": "2026-11-04T12:47:24.360Z",
+   "bytes": 37998,
+   "boundProject": null
+  },
+  {
+   "projectId": "zenray-assets-v2",
+   "lines": 2,
+   "work": 0,
+   "prompts": 0,
+   "first": "2026-11-04T12:37:31.310Z",
+   "last": "2026-11-04T12:37:31.310Z",
+   "strength": "weak",
+   "conversationId": "claude:c0e93d26-8268-4475-97b4-0c4c7af585f8",
+   "provider": "claude",
+   "sessionId": "c0e93d26-8268-4475-97b4-0c4c7af585f8",
+   "title": "Zelda Twilight Princess ROM parts renaming",
+   "updatedAt": "2026-11-04T12:37:58.069Z",
+   "bytes": 37896,
    "boundProject": null
   },
   {
